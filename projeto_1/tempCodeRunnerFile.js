@@ -1,0 +1,13 @@
+ arquivosSrt => fn.lerArquivos(arquivosSrt),
+    fn.mesclarElementos,
+    linhas => fn.separarPor('\n', linhas),
+    linhas => fn.removerElementosSeVazio(linhas),
+    linhas => fn.removerElementosSeIncluir('-->', linhas),
+    linhas => fn.removerElementosSeApenasNumero(linhas),
+    linhas => fn.removerSimbolos(simbolos, linhas),
+    fn.mesclarElementos,
+    linhas => fn.separarPor(' ', linhas),
+    linhas => fn.removerElementosSeVazio(linhas),
+    linhas => fn.removerElementosSeApenasNumero(linhas),
+    fn.agruparElementosParaArray,
+    arrayDeElementos => fn.ordenarPorAtributoNumerico('qtde', arrayDeElementos, 'desc')
