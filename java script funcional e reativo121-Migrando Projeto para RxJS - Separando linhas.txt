@@ -1,0 +1,110 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Separando Linhas
+
+
+O próximo passo que nós vamos fazer segundo o que está descrito aqui na sequência é mesclar os elementos
+
+ou seja pegar todos os conteúdos e transformar isso num grande texto.
+
+Eu acho que eu vou mudar a estratégia aqui para o seguinte como a gente está lidando com os termos de
+
+dados e não mais com apenas um único dado que é resolvido de um mês para a outra eu vou pular essa parte
+
+de mesclar os elementos e vou tratar.
+
+Agora a gente tem cada arquivo como sendo um elemento gerado a partir desse chorume de dados contém
+
+por exemplo 18 arquivos são 18 dados que são gerados cada dado contendo o arquivo inteiro.
+
+Eu vou agora transformar na verdade cada arquivo.
+
+Hoje time de linhas que no final das contas a gente vai transformar todos esses 18 arquivos em um estrume
+
+de linhas para que a gente possa fazer todos os processamentos como remover os elementos básicos ou
+
+remover elementos inclui alguma coisa.
+
+Então em vez de mesclar eu vou pular para o outro passo que vai se separar o texto por aí.
+
+Aí no caso a gente vai conseguir por exemplo gerar um string de linhas e não mais um texto INI e arquivos
+
+inteiros então essa vai ser minha próxima estratégia então vou selecionar aqui ao separar texto porque
+
+vou procurar dentro do arquivo que ele eu vou criar uma nova função aqui ou então para depois a gente
+
+substitui faltando e eu chamei de separar né.
+
+Valter alterar no original aqui soluções separar em separado texto Pô vou substituir que eu vou precisar
+
+substituí dentro alterando a rede que eu vou precisar alterar aqui dentro.
+
+Separada em dois locais o substitui aqui no Ibex também tem dois locais próprios na Gau corrigir aí
+
+e nós vamos voltar aqui para o nosso projeto.
+
+Então nós temos que separar a questão.
+
+Vou passar aqui o símbolo VOU CONTINUAR PASSANDO E sigo.
+
+E nós vamos usar aquilo que a gente já fez anteriormente que ao criticar o que vou colocar aqui.
+
+Nesse caso a gente vai receber aqui um subscreveu o marketing que vai ser o Questão que acabou fazendo
+
+esse texto.
+
+Eu vou chamar aqui ao texto outro explica usando o símbolo Falei exatamente isso e com isso nós vamos
+
+ter agora vários elementos e eu vou chamar um táxi várias vezes para cada elemento ou fazer aqui um
+
+fora.
+
+Mas vamos ter aqui potencialmente um ou algo chamar de parte e nós vamos chamar aqui subscrever aqui
+
+chamado cada um às partes e no final como chegar aqui onde nós teremos concluído e chamar o subsecretário
+
+contou.
+
+Cúmplices como essa função é paga HBO pelo jeito ele já entrega para mim o tratamento VIP então eu não
+
+preciso me preocupar eu vou pagar isso ao separar texto o separatista por símbolo vou apagar esse aqui
+
+se saberá que não tem nada e vou substitui lo aqui ao separatista por símbolo.
+
+Então voltando aqui para o nosso ainda expondo DS eu vou chamar aqui novamente uma função f e fim de
+
+torcer para texto vou colocar aqui um baiano e agora o resultado que é pra gente ter como resposta são
+
+as minhas mãos estendidas para que a gente possa começar a trabalhar então o texto parece exatamente
+
+o mesmo até porque a gente tá jogando um console o blog cada um das linhas se eu pegar por exemplo aqui
+
+um operador Foste tão pragmático constante foste insinuado antes de Aécio reitores X XIII e XIV Congresso
+
+Barra reitores e eu.
+
+Nesse caso se eu o fosse você vai ver aqui e agora ele vai pagar apenas a primeira ministra isso cabe
+
+aqui não vir aqui para salvá la ao pegou apenas a primeira linha.
+
+Se eu não colocar isso o primeiro primeiramente gerar como tal não anteriormente é o arquivo inteiro.
+
+Ou então nesse ponto ele estava gerando extremo arquivos de cada um dos arquivos como são 18 arquivos
+
+eram 18 dados gerados a partir dos sonho como eu separei agora nós temos isto em linhas certo então
+
+vou deixar que eu fosse só para a gente já mentalmente entender o que está acontecendo pode ser que
+
+a gente precisa usar em algum momento fizemos mais um passo para não ficar muito grande os vídeos não
+
+acabaram.
+
+O vídeo mesmo fica mais fácil.
+
+Então fizemos mais um passo no próximo passo que nós vamos fazer aqui já que a gente se separou por
+
+linhas agora a gente vai começar a filtrar os elementos e mover mente Brasil e novela mente os cinco
+
+e alguns cogitam fazer uma série de filtros pra realmente as linhas que a gente precisa.

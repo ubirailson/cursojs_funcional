@@ -1,0 +1,497 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Paradigmas de programação
+
+Agora nós vamos começar a falar um pouquinho sobre onde vamos até porque o nosso uso ele é focado em
+
+um dos principais paradigmas da atualidade então nada mais justo que começar falando pouquinho sobre
+
+paradigmas que é algo extremamente relevante até porque se você pensa como um programador construir
+
+uma base sólida para que você possa construir muitos andares de conhecimento e fazendo um paralelo com
+
+um prédio essas bases sólidas sem dúvida terá um percentual gigantesco de conhecimentos e paradigmas.
+
+Até porque o paradigma é o início é exatamente o arcabouço a estrutura que vai te ajudar a saber como
+
+pegar um problema do mundo real e transformar isso em software.
+
+Então não dá para você simplesmente pegar um problema do mundo real e transformar em software sem antes
+
+você entender que tipo de paradigma você vai usar e não necessariamente você precisa usar apenas um
+
+único paradigma.
+
+No mais você pode combinar aspectos de mais um paradigma para que você possa criar uma solução bastante
+
+interessante ou ligar aqui para a tela do meu computador.
+
+E vou mostrar para vocês aqui algumas apresentações que eu considero extremamente importante se eu voltar
+
+aqui a primeira coisa que vou falar é exatamente o que é o paradigma o paradigma.
+
+Ele é o modelo mental que você vai usar para a arte guiar digamos assim ou dar uma estrutura para você
+
+transformar um problema do mundo real em software.
+
+Imagine o que você quer resolver um problema de um escritório de contabilidade você tem toda uma lógica
+
+interna de como a empresa atende os clientes você tem os principais principais regras relacionadas à
+
+contabilidade.
+
+Você tem por exemplo que atender determinadas legislações do governo e tudo isso precisa ser modelado
+
+em software.
+
+Por exemplo você vai querer criar um sistema para a universidade.
+
+Você vai querer definir matrícula de aluno.
+
+Você vai querer criar um sistema que vai ajudar na alocação dos espaços físicos e nas salas dos auditórios.
+
+Como é que você vai alocar isso.
+
+Qual é a relação que existe entre aluno e disciplina.
+
+Existe pré requisitos todas essas regras em relação a cálculo de notas cálculo e frequência salão e
+
+provou se ele passou e se ele pode ir para outra disciplina ou não.
+
+Tudo isso precisa ser modelado a partir de um problema real.
+
+E como você vai modelar isso você precisa decidir.
+
+Qual o paradigma você vai usar ou quais paradigmas você vai usar para modelar o seu software e entender
+
+os paradigmas e entender os princípios por trás dos paradigmas é fundamental para que você consiga executar
+
+de uma forma coerentes com aquele paradigma respeitando os princípios para daí você ter um maior chance
+
+disto no seu projeto.
+
+Então um paradigma ele é exatamente esse modelo a estrutura que você vai usar para definir o seu software.
+
+Então você pode por exemplo segundo a ótica de um paradigma analisar o mundo como objetos e suas relações
+
+e os objetos têm atributos.
+
+Os objetos têm responsabilidade e a relação entre esses objetos vão por exemplo estabelecer todas essas
+
+comunicações e você vai tentar pegar essa abstração e pegar o mundo administrar isso para software.
+
+Já quando você enxerga um problema do ponto de vista funcional você vai enxergar o problema como a série
+
+de funções.
+
+Trabalhando em cima dos dados você tem uma série de regras em relação à programação funcional que vão
+
+te ajudar a fazer um código da melhor forma possível.
+
+Uma observação que vale muito a pena dita nesse momento é o seguinte.
+
+Nos últimos anos está havendo uma aproximação mesmo de linguagens que são ditas orientadas a objeto.
+
+Você percebe uma aproximação ou mesmo um acréscimo de funcionalidades relacionadas ao mundo na programação
+
+funcional e isso tem um motivo.
+
+Por quê.
+
+Porque a programação funcional traz uma série de benefícios nem tudo benefícios obviamente na programação
+
+funcional.
+
+Você tem alguns problemas e eu vou comentar também sobre esses problemas mas a programação funcional
+
+ela consegue entregar códigos com a qualidade muito boa consegue entregar códigos com a quantidade de
+
+uso você consegue realizar de uma forma muito fácil.
+
+Isso traz uma série de vantagens não é à toa que por exemplo Java como um das linguagens mais populares
+
+do mundo como a linguagem que é nativamente orientada a objeto ela nasceu orientada a objeto e se desenvolveu
+
+dessa forma nos últimos anos teve um acréscimo de funcionalidades relacionadas ao mundo da programação
+
+funcional e isso tem motivos claros exatamente por conta dos benefícios que você consegue ter.
+
+Usando o paradigma de programação funcional vamos falar um pouco mais sobre isso.
+
+Outra questão importante assim como no seu software você não vai necessariamente definir que você vai
+
+usar esse.
+
+O único paradigma.
+
+Você pode por exemplo criar um software que extrai o melhor de mais de um paradigma.
+
+As linguagens de programação também têm essa filosofia.
+
+Existem algumas linguagens que são nativamente por exemplo funcionais como é o caso do Raskin mas outras
+
+linguagens como o JavaScript que quem vai trabalhar no curso ele é a linguagem dita de multi paradigma
+
+ou seja você consegue em JavaScript escrever código procedural.
+
+Você consegue em JavaScript escrever código orientado a objeto e você consegue em JavaScript escrever
+
+código funcional.
+
+Então muitas vezes as dificuldades que as pessoas entendem de por exemplo compreender muito bem o JavaScript
+
+que é exatamente um dos objetivos do curso o fato de estar passando toda essa bagagem em programação
+
+funcional também vai te transformar num programador JavaScript melhor exatamente porque entender a função
+
+e entender todos os recursos relacionados à função.
+
+Entender essa abordagem mais funcional vai fazer com que você também tem uma formação de uma mente e
+
+um programador JavaScript e boa parte da dificuldade dos alunos em compreender certas linguagens é exatamente
+
+a falta de base nos paradigmas.
+
+Daí a importância de você entender quais são os paradigmas que a linguagem que eu vou aprender e implementar
+
+essa linguagem implementa o paradigma funcional.
+
+Esta linguagem implementa o paradigma.
+
+Existem algumas linguagens que não necessariamente vão ter essa definição tão clara.
+
+Então por exemplo se você pegar a linguagem REST e você vai ver que ela não é uma linguagem orientada
+
+a objeto e nem é uma linguagem puramente funcional embora você tem recursos da programação funcional
+
+presente em algumas linguagens não tem essa clareza muito grande de que tipo de paradigma implementa.
+
+Você tem que entender os paradigmas porque mesmo que aquela linguagem não implemente puramente um determinado
+
+paradigma você vai encontrar elementos do paradigma vai ver por exemplo a mistura de elementos de mais
+
+um paradigma.
+
+Vai conseguir compreender melhor a linguagem e mesmo para aquelas linguagens que não implementam puramente
+
+o paradigma compreender os paradigma sem dúvida vai te ajudar muito na criação de linguagem de uma forma
+
+geral.
+
+Existe uma máxima que eu gosto muito de falar que é o seguinte depois de o tempo obviamente não estou
+
+falando com quem vai aprender a primeira linguagem de programação mas depois de um tempo aprender novas
+
+linguagens é muito mais fácil do que você aprender novos paradigmas ou novos paradigmas pressupõem que
+
+você vai ter toda uma nova estrutura uma nova lógica de como você vai pensar as coisas.
+
+Já quando você aprende uma nova linguagem é muito um detalhe de sintaxe.
+
+Você vai precisar aprender a como é que define uma função.
+
+Você define uma função usando a palavra fantoche.
+
+A não ser não define a função que usa na palavra fantoche.
+
+Na verdade a palavra funk Film por exemplo não aqui você não coloca nenhuma palavra mas se você coloca
+
+um nome e define dessa forma a marca define um bloco de código define um bloco de código com um par
+
+de chaves como é na maioria das linguagens não.
+
+Já em Python define um código de bloco usando a ideia estação o espaçamento.
+
+é preciso colocar ponto e vírgula no final de uma linha de corte ou sentença de qual ele não não precisa.
+
+Aqui nessa linguagem é obrigatório na outro não e então você percebe que são problemas estruturais que
+
+facilmente você vai aprender quando você já conhece um determinado paradigma.
+
+Se por exemplo você já era um programador experiente em Java e você quer aprender a linguagem Sharp
+
+você vai ver que a curva de aprendizado vai ser muito mais rápida exatamente porque você está dentro
+
+de um paradigma que já é conhecido.
+
+Possui Shape também assim como Java implementam o paradigma de orientação a objeto além de ter outros
+
+usos e tal.
+
+Mais Você por conta do paradigma.
+
+Por conta desse conhecimento você vai conseguir migrar de uma forma muito fácil.
+
+Obviamente se você está começando tudo é muito desafiador.
+
+Mas depois de um tempo vocês vão perceber que vai ser muito fácil transitar de uma linguagem para a
+
+outra e da mesma forma como você aprende muito fácil.
+
+A sintaxe de uma nova linguagem.
+
+Você também vai esquecer muito facilmente se você não usar aquela linguagem no dia a dia.
+
+Então por exemplo no meu caso se eu uso muito frequentemente a linguagem Python eu vou lembrar como
+
+escrever um código Python muito tranquilamente.
+
+Mas eu passo vários meses ou vários anos sem programar por exemplo em PHP.
+
+Muitas coisas vão acabar esquecendo mesmo coisas bem simples eu vou esquecer.
+
+Mas isto não é um problema porque os paradigmas que são os princípios eles são mais difíceis de serem
+
+aprendidos mas ao mesmo tempo vai ser muito mais difícil você esquecer o princípio da orientação objetos.
+
+O que é algo mais mas é lá você consegue levar um tiro pra qualquer linguagem que o cérebro para aprender
+
+legal.
+
+Existe aqui uma determinada sequência das coisas né.
+
+Por exemplo você entender o paradigma é um pré requisito para você mentalmente estudar padrões de projeto.
+
+A gente sabe que o Christopher Aleksander que era arquiteto criou a definição de padrões dentro da área
+
+de desenvolvimento de software mas na área de arquitetura de empreendimentos começar bem a uma determinada
+
+coluna combina com esse tipo de acabamento.
+
+Isso aqui combina com essa cor começou a catalogar uma série de padrões estéticos de arquitetura e criou
+
+um livro chamado A linguagem dos padrões na Pattern patrono Language a linguagem dos padrões.
+
+é fato que depois que viram esse livro e outras áreas começaram a definir padrões e padrões de culinária.
+
+Você tem padrões de etiqueta você tem padrões de software que foi lá dos quatro lançou um livro clássico
+
+com os 23 padrões do golfe.
+
+E aí a partir desses padrões a gente começou a criar um série de padrões extremamente importantes mas
+
+esses padrões eles precisam estar alinhados.
+
+Preste atenção eles precisam estar alinhados com o paradigma.
+
+Se você cria um padrão já aconteceu isso várias vezes na história você cria um padrão dito que é um
+
+padrão orientado a objeto ou seja ele está dentro do guarda chuva do paradigma de orientação a objeto
+
+e você cria um padrão que fere os princípios basilares do paradigma.
+
+Na verdade você tem um monte padrão em vez de ter um padrão leve e porque é que alguém criaria um monte
+
+padrão por exemplo.
+
+Já aconteceu casos de empresas criarem padrões sobre restrições ou por limitações ou problemas das tecnologias.
+
+No caso bem clássico é o caso da Sammy que criadora do Java.
+
+Na época tinha um tecnologia chamado JB tem uma turbina na JB versão 2.
+
+Essa tecnologia tem uma série de problemas e Hassan começou a propor uma série de padrões de projetos
+
+para que você conseguisse usar tecnologia que tinha muitas deficiências da melhor forma possível.
+
+Então na verdade o que você tinha era um empresa vendendo um padrão que na verdade era um padrão.
+
+Se você confrontar se aquele padrão com orientação objeto de encontro com os princípios da orientação
+
+objeto mais naquele momento dado as limitações da tecnologia a melhor alternativa que tinha era exatamente
+
+criar aqueles padrões para tentar corrigir um pouco as deficiências da tecnologia problemas de desempenho.
+
+Coisas do tipo.
+
+Então é muito importante a base do paradigma exatamente porque a partir dela você vai perceber esse
+
+padrão que foi criado.
+
+A ideia do padrão.
+
+Resolver um problema comum a você tem um problema comum de como organizar sua aplicação.
+
+Eu não quero misturar as regras da minha aplicação com a interface gráfica.
+
+Eu não quero misturar as regras a minha aplicação com o acesso a banco de dados que é uma coisa mais
+
+de infra estrutura.
+
+E aí você tem um padrão por exemplo que vai te ajudar nisso que é o padrão leigas.
+
+Você pode criar camadas e essas camadas são independentes e há uma comunicação entre as camadas e então
+
+a esse padrão.
+
+Ele está conflitante com um paradigma e não conflita com o paradigma legal então deixar aprender como
+
+esse padrão funciona.
+
+Que tipo de problema ele quer resolver.
+
+Aqui no curso eu posso dizer pra vocês que o principal padrão que a gente vai trabalhar é o padrão observo
+
+lá na frente eu vou mostrar pra vocês o nome recebe e vou mostrar a implementação do padrão este vai
+
+usar muito o padrão observe durante todo o curso.
+
+é um padrão de projeto e está completamente aderente ao paradigma.
+
+Ele tanto pode ser usado como um padrão dentro do mundo funcional que a gente vai aplicar aqui como
+
+também você consegue usar ele no mundo ou então passando aqui para a frente.
+
+Nós temos os três principais paradigmas e o paradigma funcional o paradigma procedural e o paradigma
+
+de orientação a objeto.
+
+Antes da década de 50 lá na década de 30 o cara chamado Alonzo Church ele começou a definir o que seria
+
+a base da programação funcional que é o lambda cálculo.
+
+Lá no final do curso eu vou mostrar para vocês um capítulo opcional mostrando pra vocês alguns experimentos
+
+usando o lambda cálculo.
+
+é muito legal super divertido vocês vão achar.
+
+Acredito que a maioria das pessoas vão achar bastante interessantes como você consegue resolver problemas
+
+básicos e problemas complexos a partir apenas das funções.
+
+Lá na década de 30 acho que foi 32 o Alonzo Church.
+
+Ele criou a base da programação funcional que é exatamente o lambda cálculo.
+
+Muitos consideram o lambda cálculos com a primeira linguagem funcional da história embora ela não tenha
+
+tido nenhuma pretensão de ser um linguagem computacional até porque a década de 30 não tinha nem computador
+
+ainda então a parte.
+
+Foi que surgiu toda a ideia da programação funcional inclusive o paradigma funcional para o paradigma
+
+mais antigo dos três que foi criado na década de 50 e a primeira linguagem que foi criada foi a linguagem
+
+Lisp.
+
+A linguagem mistura linguagem funcional e aí daí criaram outras linguagens.
+
+é uma das mais importantes nessa linguagem rasca a linguagem puramente funcional mas você percebe o
+
+grau de importância da programação funcional.
+
+Exatamente o fato de que nos últimos anos da última década talvez um pouco mais do que isso há um movimento
+
+muito forte das linguagens absorverem princípios da programação funcional.
+
+Você pega no que leu se foi criado lá atrás e se foi criado na década de 50.
+
+Por quê.
+
+Que houve uma adoção tardia porque é que só agora isso está se tornando algo mais popular.
+
+Tem a ver com o fato dos problemas e das desvantagens da programação funcional a programação funcional
+
+diferente de um código procedural ou de um código orientado a objeto.
+
+Ela tem um cuidado maior com relação a essa questão de trabalhar com dados mutáveis você acaba trabalhando
+
+com dados que são constantes e isso gera um certo impacto no consumo de memória.
+
+Ou seja um código funcional ele tende a consumir um pouco mais de memória e ele tende a consumir um
+
+pouco mais processamento mais do ponto de vista de qualidade de código do ponto de vista de uso.
+
+O código funcional lhe traz muitas vantagens daí o fato que é interessante você saber os paradigmas
+
+consegui mesclar os paradigmas para que você consiga realmente usar o melhor de todos os mundos.
+
+Por exemplo um código funcional ele se comporta de uma forma melhor e mais fácil você implementar código
+
+paralelo já que a gente tem hoje uma série de processadores com 12 núcleos 20 núcleos tem celular com
+
+vários núcleos no processador então você tem uma capacidade de processar algo paralelo.
+
+Programação funcional o paradigma funcional ele consegue lidar melhor com um código paralelo do que
+
+por exemplo o procedural ou então onde as questões da liga se também pensar a questão de código funcional
+
+exatamente para que você consiga para analisar mais o seu código e aí ganhar desempenho de um determinado
+
+lado você pede pelo fato de não trabalhar tanto com variáveis como era o caso da orientação objeto que
+
+você está sempre gerando cópias de valores sempre que você quer alterar alguma coisa e gerar mais uma
+
+cópia.
+
+Uma coisa é você ter uma estrutura que tem 10 nomes você quer alterar o oitavo nome e você mexe nele
+
+diretamente a estrutura continua a mesma.
+
+Outra coisa quando você quer alterar o oitavo nome você tem que copiar a estrutura inteira.
+
+7 para alterar só o oitavo não quer alterar de novo agora o quinto nome você tem que copiar a estrutura
+
+inteira porque você trabalha com dados imutáveis você não fica alterando num dado que já existe e sim
+
+criando novos dados que são evoluções dos dados anteriores.
+
+Eu vou falar sobre isso durante todo o custo não pode ficar tranquilo que a gente vai entrar muito nesse
+
+detalhe.
+
+Eu quero ficar aqui nessa aula a gente vai falar na próxima aula sobre a diferença entre o que é um
+
+estilo de código declarativa e o estilo de código imperativo pra não ficar muito longa aula mas na verdade
+
+é uma sequência disso.
+
+Não falei um pouquinho dos paradigmas.
+
+Esses são os três principais paradigmas recentemente.
+
+Só pra concluir a aula que eu vi até colocar aqui na minha tela chegou aqui para câmera pronto.
+
+Recentemente eu vi um aluno no canal fazer um comentário que eu achei que realmente procede quando você
+
+programa no USA no paradigma procedural é como se você não tivesse tanto tantos pilares tantos princípios
+
+por trás e você simplesmente como você está programando você acaba programando de forma procedural sem
+
+na verdade precisar se preocupar muito com princípios e tal.
+
+Quando você escolhe programar de forma orientada a objeto aí você precisa ter um cuidado maior exatamente
+
+para entender bem os princípios o paradigma acaba aí você consegue realmente aplicar esses princípios
+
+no seu colo como por exemplo encapsulamento como herança como polimorfismo como composição e priorizar
+
+a composição em vez de herança.
+
+Então você começa a ter uma série de preocupações porque você tem que conhecer o paradigma para daí
+
+saber aplicar o paradigma na prática.
+
+Isso também acontece com programação funcional você tem que saber o que é Raia Order Fantin saber o
+
+que é força de classe e não saber o que é querer saber o conceito de imutabilidade composição de funções.
+
+Se tem uma série de conceitos que precisam ser aplicados não é uma série de princípios que precisam
+
+ser aplicados no seu código para que o código seja realmente um código funcional.
+
+Quando você trabalha no procedural você acaba tendo tantos princípios assim basicamente o que você está
+
+quantificado já é um código procedural e é óbvio que isso gera impacto na qualidade do seu código.
+
+Só para falar um pouco na observação desse aluno que realmente possui.
+
+O mundo procedural praticamente você só faz codificar sem precisar muito dos princípios de quando você
+
+escolhe o funcional e você tem que ter uma série de conceitos para te ajudar.
+
+Princípios que vão te ajudar a escrever código com maior qualidade.

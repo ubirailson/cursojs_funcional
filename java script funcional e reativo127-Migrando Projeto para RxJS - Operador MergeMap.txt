@@ -1,0 +1,124 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Operador MergeMap
+
+
+Pessoal se a gente entrar propriamente no próximo exercício desse capítulo que a faz de mãos pequenas
+
+alterações com relação ao grupo lamento que essa parte final que eu vou já duplicar aqui.
+
+O desconto de s para criar uma cópia dele que eu vou chamar aqui de índex até lá a ele que tem de alternativo
+
+poderia se ainda que os dois sem problema mas eu vou querer criar um exercício antes nessa aula que
+
+é um exercício que vou falar sobre o Merge MAP.
+
+Então vou criar aqui só pra gente entender um pouco sobre ele antes de usar la proximal pra não ficar
+
+muito confuso muita informação ao mesmo tempo.
+
+Então eu vou importar aqui fora de lanche assim como troca aqui eu vou duplicar isso pega aqui os operadores
+
+e vou usar aqui o Merge map e nós vamos começar bem simples onde vai evoluir dessas pra você entender
+
+exatamente o que ele faz.
+
+Então vou criar aqui um observou Bo usando o meu operador de criação eu vou passá la a rede quatro elementos
+
+1 2 3 4 vou duplicar isso vou criar aqui no Observador 2.
+
+Só que os elementos vai ser 5 6 7 8 elementos diferentes e vou começar bem simples com uma cama que
+
+bom e vou logo Marshmallow só escravo e não console fotolog.
+
+Nesse caso a gente sabe exortando a gente vai ter os quatro elementos serem exibidos no console ele
+
+vai pegar isso aqui transformamos terminados e ele simplesmente joga todo mundo no console.
+
+Mesmo que eu coloque aqui e não coloque nada por exemplo o comportamento continuará sendo o mesmo estando
+
+aqui um dois três quatro e agora vou querer usar o Merge médio para que serve ele.
+
+Como o nome diz ele.
+
+O objetivo dele é fazer um merge juntar juntar o juntar dois observa o boss certo.
+
+Ao mesmo tempo que você junta dois observou você tem a capacidade de eventualmente mesclar esses dados
+
+então eu vou usar o Merge MAP.
+
+Então eu recebo como parâmetro esses elementos aqui já que eu estou trabalhando em cima desse observa.
+
+Ou seja eu vou gerar um extreme de dados a partir da opção robô o que esses valores 1 2 3 e 4.
+
+E aqui dentro já que não Map eu vou receber o valor de game que é o número ou seja número 2 eu vou chamar
+
+aqui de n1 já que observo o gol legal eu posso retornar por exemplo.
+
+Outra opção robô então nesse caso estou sabendo o número não estou fazendo nada com ele.
+
+Estou retornando observou.
+
+2 O que é que vai acontecer aqui agora o que vai acontecer e que a gente vai jogar aqui.
+
+Os valores do observou.
+
+2.
+
+Só que eu vou jogar esses valores aqui quatro vezes por.
+
+Por que eles tinham essa função paraum igual ou igual a 2 em 1 igual a 3 ou igual a 4.
+
+E aí no final como está tornado o outro absorve o bolso ou o outro time de dados ele gerou aqueles 5
+
+6 7 8 9 6 5 6 7 8 12 vezes 5 6 7 8 3 vezes e finalmente 5 6 7 8 4 vezes.
+
+Basicamente foi isso que ele fez aqui dentro como tenho observado eu posso muito bem chamar o pai e
+
+a gente não faz isso até então não é mas eu posso chamar um pai aqui dentro e dentro desse papel pode
+
+me chamar por exemplo Map que agora eu tenho acesso ao valor desse observa bonitão chamado de mestre.
+
+Eu votei em E2 que é exatamente o número 2 novo passar uma função oposta e acesso a Interpol aqui eu
+
+vou criar um template string pra não somar esses números mais pra eu mostrar tanto uma lojinha certinha
+
+e o valor de n 2.
+
+Então agora eu consigo a partir do Merge Map tem acesso não apenas ao alinhamento atual que eu estou
+
+fazendo aqui.
+
+Esse pai que fora que a observou é a partir do observou.
+
+Hoje consigo fazer aqui outro pai pra pegar por exemplo o MAP aí pra concatenar esses dois valores de
+
+tal forma que estando aqui ou você vai ter 5 6 7 ou 8.
+
+Agora passou para o número 2 2 5 2 6 2 7 2 8.
+
+Mesmo coisa de 3 5 6 7 8 e finalmente 4 5 4 6 4 7.
+
+Dessa forma a gente com média a gente consegue juntar dois observa o Boss e parte esses caras pra frente.
+
+De tal forma que no próximo é lamentável mentalmente eu posso continuar fazendo operações em cima desses
+
+elementos aqui que é a junção de dois observa Augusto certo.
+
+Então esse é o objetivo do Merge.
+
+A gente vai acabar precisando usar ele se a gente for usar por exemplo o grupo vai uma vez que a gente
+
+pode usar.
+
+O grupo vai pra agrupar todas as palavras a gente vai precisar do Mac porque ele vai acabar gerando
+
+outros observa.
+
+A gente precisa usar ele pra fazer exatamente essa completar a lógica do agrupamento usamos operadores
+
+10 x 10 na próxima aula mostrar para vocês como é que vai ser feito isso.
+
+Até lá.

@@ -1,0 +1,125 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Agrupando palavras2
+
+Vou continuar mexendo aqui nessa função agrupar palavras e beijinho e tornar um objeto objeto fica um
+
+pouco mais complicado a gente trabalhar ele assim como chave falou.
+
+Eu vou fazer o seguinte ao em vez de ter o valor ou apenas o valor numérico eu vou querer colocar o
+
+valor como sendo um objeto e aí eu vou fazer a seguinte situação eu vou verificar aqui para ele contar
+
+um determinado valor se existe.
+
+Ele vai criar aqui uma quantidade quantidade certo que teve e recebe o seguinte se isso aqui tivesse
+
+acertado eu vou pegar a quantidade atual e somar mais um.
+
+Caso contrário vai tornar.
+
+Então vou substitui isso aqui por essa quantidade e eu vou querer fazer o seguinte com o agrupamento
+
+em cima da variável p vai receber o objeto a receber um objeto e esse objeto vai ter como Xavi por exemplo.
+
+Chamei aqui de elemento que poderia ser de forma genérica a gente pode colocar isso que até parece uma
+
+função genérica ao elemento e o elemento vai ser exatamente a palavra que é o agrupamento.
+
+Ponto P então vamos chamar de agrupamento que poderia esse agrupamento mas eu vou chamar de acumulado
+
+até porque o menor está acumulado em cima da palavra ou seja B esse vai ser o elemento e aqui vai ter
+
+um atributo vírgula que vai ser a quantidade de td massa exatamente o valor dessa quantidade aqui de
+
+cima.
+
+Então se eu tenho quantidade 2 pontos quantidade eu posso simplesmente suprimir isso aqui deixar apenas
+
+quantidade de tal forma que agora o resultado vai ser um pouquinho diferente eu vou ter a chave como
+
+será a palavra mas o valor vai ser a palavra e a quantidade vai ser um objeto completo com as duas informações
+
+então posso limpar isso aqui ou executando algum problema não conseguiu acessar a quantidade de quantidade.
+
+Ele usa a própria quantidade na então na verdade tem que pegar o objeto.
+
+Ponto quantidade se tiver e aí sim eu sou mais um.
+
+Caso contrário retorna retorno na quantidade legal então só um bonequinho 20 corrigiu.
+
+Ele acabou colocando meu um elemento dentro do outro mas na verdade o que eu quero aqui do elemento
+
+é só a palavra né.
+
+Na verdade tal alinhamento seria aqui a minha palavra que eu posso até chamar aqui diz ele.
+
+Então ele seria o elemento ou qualquer elemento elemento de quantidade claramente vai receber o próprio.
+
+Aqui seria o aqui no caso o que a palavra quantidade aqui sim que eu calculei tal.
+
+Está mais uma vez executado.
+
+Nós temos agora sim o elemento é exatamente o valor que estava na lei e que a quantidade de vezes que
+
+ele apareceu dessa forma que a gente pode tratar isso de uma forma um pouco mais genérica e em vez de
+
+retornar um objeto que vai se achar o valor a gente pode retornar.
+
+A partir desse Bidu se retornassem aos objetos velhos os valores eu vou querer retornar apenas os valores
+
+desse objeto de tal forma que ele vai receber um array de palavras e vai retornar à raiz com os elementos
+
+agrupados.
+
+Então ao colocar aqui você vai ter elemento foi exatamente isso aqui.
+
+Quantidade de vezes que ele apareceu sem que uma vez deu um nome elemento de bolha até colocar outro
+
+nome aqui.
+
+Certo mas claramente fica mais genérico e poderia ser palavra mais pra um pouco mais genérico e variadamente
+
+de tal forma que o resultado aqui dessa função que eu poderia chamar de agrupar elementos então está
+
+aqui como bem como de agrupar elementos pra outro pode ser um função genérica uma função um pouco mais
+
+complicada mas ela faz algo bem simples né cara pega todos os elementos de um array e dá um grupo mais
+
+digamos assim a partir do elemento contando quantas vezes ela aparece.
+
+Então vou promover essa função também para a função genérica.
+
+Então eu vou colocar aqui pra si mais uma função genérica.
+
+Finalmente acabou tendo todas as funções seno funções que habitualmente podem ser realizadas depois
+
+implementem uma única vez e posso usar isso depois da agrupar elementos e aquilo precisar só fazer um
+
+ajuste pra chamar.
+
+Enfim conto agrupar elementos está faltando só mais um coisa que é a gente agora bem na área para ordenar.
+
+A partir dessa propriedade quantidade a gente também pode criar uma função que vai ordenar a partir
+
+de um determinado atributo do objeto e aí esse espaço para o atributo a gente vai usar esse atributo
+
+pra fazer uma ordenação.
+
+Então nesse caso gente quer fazer uma ordenação sorte em cima de um valor numérico não vai ser tão complicado
+
+fazer esse tipo de ordenação.
+
+Então vou ficar por aqui na sala na próxima aula a gente vai fazer.
+
+São e aí sim a gente chega no final do nosso desafio mostrando todas as palavras que foram usadas naquele
+
+seriado.
+
+Pena que todas essas legendas a gente consegue saber quais são as principais palavras ditas em determinado
+
+seriado americano o que é muito legal e também pode ajudar no inglês terá isso na próxima aula gente
+
+continuou pra fazer alteração e até lá.

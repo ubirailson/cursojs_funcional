@@ -1,0 +1,153 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Closure
+
+Nós vamos agora falar de um conceito importante também relacionado à função que é o conceito de ecologia.
+
+é um conceito que gera muita confusão muita gente.
+
+Esse conceito é importante ser conhecido para alguns exemplos relacionados à programação funcional ecologia
+
+está envolvido nos exemplos.
+
+Então é importante você entender também isso poderia até ter falado isso antes anteriormente a esse
+
+capítulo mais eu vou falar agora porque é um conceito que é importante ser conhecido como um lago ou
+
+criar aqui um arquivo chamado Claudio.
+
+E assim vou colocar aqui a definição de ecologia que é o seguinte ecologia e quando uma função lembra
+
+do seu escopo léxico mesmo quando a função é executada fora desse escopo léxico e outras palavras na
+
+verdade o que é que significa escopo léxico escopo léxico e o escopo no qual a função foi definida fisicamente
+
+dentro do código.
+
+Então se a função foi definida dentro desse arquivo ecologia o escopo é esse arquivo se a função foi
+
+definida por exemplo no arquivo First Class function significa que a função foi definida nesse arquivo.
+
+Se a função foi definida por exemplo dentro de outra função o escopo léxico dessa função aqui é exatamente
+
+a função a executar.
+
+Por que essa função foi definida dentro de outra função.
+
+Eu vou mostrar para vocês um pouco desse conhecimento na prática.
+
+Vou voltar aqui para a ecologia.
+
+Vou criar aqui um novo arquivo que eu vou chamar aqui de ecologia.
+
+André Marini isso cortou ponto de S.
+
+Vou definir aqui uma variável vai ser uma constante também constante em X igual a três.
+
+Eu vou criar uma função chamada somar x mais três.
+
+Essa função vai fazer exatamente o que eu estou dizendo x mais formal 3.
+
+Legal e aqui eu vou chamar de modo heliponto esportes e vou retornar essa função aqui somar x +3 4 a
+
+torná lo diretamente na função e não um objeto com função dentro mas tanto faz aqui você poderia usar
+
+duas estratégias ligar o módulo e contar respostas retornou na função.
+
+Lá no Cluj eu vou importar então colocar aqui somar x mais três e vou chamar aqui em cima de ecologia
+
+escopo Gauteng essa função será executar essa função.
+
+Agora você vai ver eu vou colocar aqui dentro de um console em outro blog.
+
+Quando você vai ver o resultado atrás a gente tinha lá fui eu coloquei na X mais 3 x 3 aqui também e
+
+3 no final deu 6 legal e se eu vim aqui colocar por exemplo uma constante x x é igual a mil.
+
+Será que já que essa função vai usar o valor de x ela vai procurar o valor de x ela vai procurar esse
+
+valor X aqui ou ele vai procurar esse valor de x aqui nesse caso a função somar mais três ela olha a
+
+definição que calcula o.
+
+E quando a função lembra do seu escopo léxico ou seja onde ela foi definida.
+
+Mesmo quando a função é executada fora de onde ela foi definida eu estou a executar na função somar
+
+a X Mostra isso fora onde a função foi definida.
+
+Só que mesmo assim ela não lembra apenas aquilo que foi definido dentro da função.
+
+Mas ela tem o Cristiano de alterar o escopo o escopo de fora ou seja toda função em JavaScript.
+
+Ela lembra de onde ela foi definida uma função pode ter sido definida dentro de outra função como a
+
+função pode ter sido definida dentro de uma classe e como ela pode ter sido definida dentro de um módulo
+
+Donald e ela vai lembrar de onde ela foi definida.
+
+Nesse caso se você tentar executar esse código novamente você vai ver que ele continua apontando para
+
+seis ou mais que esse método seja somar x +3 e por mais que eu o que um X dentro do arquivo esse X não
+
+será levado em consideração exatamente porque ecologia é a função lembra do seu escopo léxico ou seja
+
+o escopo no qual a função foi escrita.
+
+O escopo da palavra então nesse caso o escopo da palavra é exatamente esse ponto aqui.
+
+Esse é o escopo no qual a função foi escrita.
+
+Fisicamente no código.
+
+Esse é o escopo léxico da função.
+
+Por exemplo se você colocasse essa função que somar mais três ao eu poderia fazer algo do tipo em função
+
+colocar aqui fora.
+
+Não vai retornar essa função aqui.
+
+Certo então posso simplesmente chamar aqui Thammy.
+
+Só machismo mostra isso.
+
+Eu posso colocar aqui dentro.
+
+Uma constante é o valor de x será por exemplo eu tenho três né.
+
+Vou colocar aqui noventa e sete.
+
+O valor de x e eu vou chamar essa função fora e vou retornar a resposta na função fora vou chamar ela.
+
+Ou seja essa função será executada.
+
+Essa função foi criada e vai tornar se uma amostra isso legal.
+
+Agora a função de somar x mais três ela também tem consciência do local que ela foi escrita ela tem
+
+consciência do escopo léxico no qual ela foi criada.
+
+Uma vez ela tem essa consciência você vai ver que ela vai lembrar de onde ela foi criada e isso fará
+
+com que essa função gere o valor correto e executando novamente.
+
+Não será mais reajustado sem não será mais 6 o resultado não está do Ceará sem exatamente qualquer função
+
+lembra do escopo no qual ela foi criada.
+
+Esse é um conceito importante que muitos dos princípios da programação funcional vão se basear nesse
+
+conceito também usam esse conceito para que você consiga por exemplo ter a avaliação tardia nele Luis
+
+Evaluation.
+
+Ele vai acabar por exemplo usando um pouco dessa ideia de Claudia para conseguir ter essa avaliação
+
+tardia.
+
+Certo que algo extremamente interessante tal como já é algo importante de ser conhecido espero que tenha
+
+ficado claro a partir desse exemplo simples e até para os mal.

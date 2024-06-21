@@ -1,0 +1,89 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 1 - Resposta
+
+Uma marchar para vocês a resolução do exercício para a gente agora transformar o nosso operador é o
+
+último para realmente apagar o último elemento.
+
+Então como é que a gente vai descobrir que o desmatamento foi gerado e vai descobrir isso no momento
+
+que a fonte de dados que é exatamente o nosso observou o gol que eu chamei aqui de Foz.
+
+Ele chamou o método completo.
+
+Então quando o método cúmplice do nosso observou Bob foi chamado.
+
+Deixe aqui sós eu estarei apto para gerar o último elemento então eu vou remover aqui esse subscrever
+
+ponto Nati para a Metro cúmplice.
+
+Eu tenho de alguma forma aqui saber qual foi o último elemento gerado automaticamente que eu vou fazer
+
+criar aqui uma variável chamada de último.
+
+Eu não vou inicializar variáveis começa como Amber Fares.
+
+é o momento que o Nat foi chamado eu vou fazer.
+
+A variável último recebeu o valor de B de tal forma que aqui eu vou chamar o último.
+
+Logo na sequência chamam sobre os quais conto compelidos pra avisar que eu completei um processamento
+
+por isso o que foi criado aqui.
+
+Então nessa forma você vai aqui você vai ver que o resultado final foi 5 exatamente o último elemento
+
+que foi gerado a partir daí.
+
+Aqui você eventualmente sim por exemplo.
+
+Se esse valor continua assim não definido você pode fazer um teste não.
+
+Se o último for estritamente diferente de Anna Faris aí sim eu vou chamar o Macchi como político sempre
+
+será chamado mas se por algum motivo o meio ambiente foi gerado você simplesmente não chamou NET.
+
+Eu posso até criar aqui algum outro operador.
+
+Posso duplicar que o primeiro exemplo e cria um operador chamado Homem.
+
+Basicamente o que me leva a fazer a mal com o cliente na net ou seja o primeiro que chegar ele já disse
+
+que completou Já passo o próximo.
+
+Então nesse caso para a gente ver funcionando é que já vai ter esse tratamento eu sei que eu não vou
+
+chamar por exemplo de Farias vou colocar tudo como pai Sócrates fica mais interessante tão útil chamar
+
+aqui antes e vou colocar o primeiro pra cá já comentado primeiro o comentário que o primeiro.
+
+Pronto.
+
+Então nesse caso César tá com nenhum homem humanamente foi gerado mas também não gerou nenhum problema.
+
+Se eu comentar isso aí está novamente.
+
+Ultimamente fui pego aqui do 5 ano cinco elementos aqui 1 2 3 4 5.
+
+Outra coisa que você pode observar aqui é que existe uma certa estrutura básica pra defini aqui o nosso
+
+pai acabou do meio você comparar por exemplo com o primeiro que basicamente está mudando o método Max.
+
+Esse método Macchi ele é diferente tem sim mais estrutura basicamente a mesma.
+
+Aqui a oportunidade de você usar usando composição de funções você cria a função que vai facilitar a
+
+criação dos operadores mais na frente.
+
+Vou fazer o projeto na versão da JS vocês vão ver que eu vou usar essa técnica vocal função que vai
+
+facilitar a criação dos meus operadores mas ainda vai ter mais exemplos de operadores onde o quinto
+
+exemplo na próxima aula e aí eu vou fazer uma parada um pouquinho mais complicada para que a gente possa
+
+testá la ainda mais conhecimentos.
+
+Até lá.

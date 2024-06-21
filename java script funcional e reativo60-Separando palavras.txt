@@ -1,0 +1,285 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Separando palavras
+
+Agora nós vamos fazer o seguinte eu vou querer transformar as minhas palavras.
+
+Outra oração que a gente pode fazer para deixar nosso código ainda mais claro é o seguinte só eu posso
+
+transformar isso aqui em uma função.
+
+Concordo.
+
+Então posso querer aqui por exemplo uma função colocar aqui antes por exemplo o que é que escolhe estar
+
+fazendo em outras palavras evitar criar confusão e inclusive constante já que é uma função na verdade
+
+né.
+
+Então esse código está juntando os conteúdos então posso colocar aqui ou juntar conteúdos e ou mesclar
+
+certo talvez mesclar seja mais interessante mesclar conteúdos eu posso simplesmente passar essa função
+
+pra cá.
+
+Ou seja pegue leio o diretório tenho os elementos como pontuais e leia arquivos mesclar conteúdos.
+
+é aqui que eu vou fazer.
+
+Eu vou separar minhas e eu posso pagar esse conteúdo aqui que é um corte mais específico e não tem porquê
+
+talvez eu gerar uma função para isso.
+
+Mas também poderia gerar.
+
+Então posso chamar aqui de separar separar separar linhas ou separar por linhas.
+
+Então posso colocar aqui e colocar assim e separar por linhas.
+
+Depois a gente muda se for o caso.
+
+Então nós temos aqui elementos terminados com e ler arquivos mesclar conteúdo separar linhas e mover
+
+elementos Sybase e remover elementos cinco e remover elementos.
+
+Não se for apenas número remover símbolos.
+
+E agora que nós vamos fazer é gerar e separar as palavras.
+
+Aqui eu fiz separar por linhas agora posso separar por palavras.
+
+Então eu teria que novamente mesclar os conteúdos ou seja juntar os conteúdos.
+
+Nessa próxima posso cubana tal mesclar os conteúdos novamente.
+
+Depois eu vou mesclar todas as linhas e agora vou separar por palavras então pra separar por palavras
+
+eu posso publicar aqui ao separar as palavras.
+
+E aqui eu posso fazer um explica em cima de um espaço em branco.
+
+Então vou passar aqui separar por palavras.
+
+E nós teremos agora as palavras e não apenas as linhas.
+
+Se você parar todas as palavras já tem no ponto de começar a querer fazer todo esse agrupamento das
+
+palavras então executado aqui nós estaremos.
+
+Ele está colocando aqui três linhas da mais outras palavras ele pegou cada uma das palavras e separou.
+
+Aqui deu um baile.
+
+Por algum motivo tem alguns barris que eu coloquei nesse mais claro né.
+
+Quando me exclui acabou usando bem.
+
+Nesse caso mesclar conteúdo talvez fosse interessante que ele recebesse um parâmetro antes antes do
+
+próprio rei que está sendo feito aqui.
+
+Então aqui eu posso colocar de forma mais genérica.
+
+Chamado Rei eu posso criar a função que antes era saber qual o símbolo que eu quero passar e aqui provavelmente
+
+vai confundir vocês né mas eu colocar aquilo como é que eu poderia criar essa função deixa eu fazer
+
+aqui e aproveitar aqui para falar um pouco da Caixa na função.
+
+Eu posso criar aqui uma função que chamo chamado mesclar conteúdo que vai receber como parâmetro.
+
+Rei o concordam e no final das contas eu vou retornar aqui.
+
+Isso aqui.
+
+Então colocando aqui ele vai pegá la Rei vai simplesmente dar um joguinho mesclado a partir do pai.
+
+Então já que apareceram os bailes são indesejáveis.
+
+é nesse caso que mesclar conteúdo não teria problema eu mesclar conteúdo com por exemplo um espaço vazio
+
+que eu vou usar para mesclar os conteúdos com o espaço branco que não vai ter problema aqui nesse primeiro
+
+caso e não vai ter problema nesse segundo caso então consigo fazer a função funcionar para os dois casos.
+
+Então aqui eu passei a ter todas as palavras separadas algumas palavras estão vazias e eu preciso limpar
+
+isso e a gente pode limpar isso a partir do momento que a gente tem essa função aqui ao remover elementos
+
+desse vazio que eu uso já tardam ou limpar novamente.
+
+Agora a gente não vai ter mais nenhuma palavra vazia exatamente porque compondo essas funções de forma
+
+correta a gente consegue fazer esse processamento aqui a única coisa que eu fiz foi tirar aqui as funções
+
+que estavam literais e coloquei um nome para elas até porque é importante ter nomes quando você dá o
+
+nome você tem como ser mais claro ainda.
+
+Ou seja você não precisa explicar um determinado trecho que você colocou literal porque você colocou
+
+um rótulo com esse rótulo fica claro que você quer fazer e mesclar os conteúdos mais claro os elementos
+
+talvez fosse até mais genérico aqui já que está trabalhando com removê la editá la.
+
+Eu estou mais.
+
+Sabendo a Rei estou mais com todos os amigos do rei estão aqui para ficar mais genérico já que nem sempre
+
+vai ser os conteúdos dos arquivos após trocar mesclar BANDIDOS E aqui separar por linhas separar por
+
+palavras legal.
+
+E aqui eu separei por linhas comecei a processar as minhas.
+
+Me exclui novamente os elementos que baixam mesclar elementos separei por palavras e vou remover todos
+
+os alarmes que estão vazias que agora são palavras que Cabo acabaram ficando vazias.
+
+BT dois espaços entre uma palavra e outra acabou que ficou o elemento vazio da Galp cheguei aqui com
+
+todas as palavras o próximo passo que a gente vai fazer agora como é que eu vou agrupar essas palavras
+
+de uma forma que eu consigo contar quantas vezes ou determinada palavra apareceu nesse seriado.
+
+E pra isso a gente vai usar o ritual significou a dica se você quiser tentar fazer a função eu vou criar
+
+a função que faz esse agrupamento dentro desse próprio arquivo aqui.
+
+Por entender que essa função é uma função mais específica desse problema que eu estou querendo resolver.
+
+Até porque as funções mais genéricas.
+
+Eu estou colocando aqui dentro.
+
+Lá eu posso colocar essas funções lá.
+
+Acredito que pode por exemplo mesclar elementos é algo extremamente irrecusável.
+
+Você pode sim querer mesclar os elementos sem necessariamente precisar escrever isso mais uma vez então
+
+posso negar isso aqui por exemplo e colocar aqui nas funções inclusive com a função R e retornar aqui
+
+ao Magal mesclar elementos e fazer referência aqui ao ponto.
+
+Mesclar elementos.
+
+Pra finalizar a gente tem aqui uma função que faz basicamente a mesma coisa só que eu criei duas funções
+
+pra isso né.
+
+Que quebra as linhas e que quebra por palavra e eu poderia criar uma função chamada separar por que
+
+poderia ser mais genérica e usar a mesma função nos dois casos aqui no entanto a parte de cima como
+
+na parte de baixo e aqui só para lembrar que mesclar elementos passou a ser chamado a partir lá.
+
+Tá faltando só essas duas funções nela separar linhas e separar por palavras.
+
+Então eu também poderia criar a função aqui ou funções chamada por exemplo a função vou colocar aqui
+
+uma função para manter um padrão de tudo.
+
+Depois se quiser eventualmente trocar não tem problema.
+
+Então colocar aqui um rei.
+
+Vou tirar isso vou colocar aqui na minha versão.
+
+E vou retornar isso agora.
+
+Vou criar outra função chamada separar povo que vai receber aqui o símbolo legal e ela vai retornar
+
+uma função que vai receber aqui por exemplo o valor textual.
+
+Nesse caso eu estou trabalhando com sim meu texto não sigo nenhuma Rei.
+
+E aí dependendo da nomenclatura que você usa você pode até deixar isso mais claro né.
+
+Por exemplo separar texto por símbolo e aí eu garanto que eu vou receber um texto aqui.
+
+Se fosse separá elemento por alguma coisa aí eu imaginaria que estaria recebendo rei.
+
+Nesse caso ao separar texto por símbolo recebo um texto e aqui eu vou simplesmente pegar aquele texto
+
+e Split passando um símbolo legal a pagar esse valor aqui e criar mais uma função.
+
+E a gente colhe aqui dentro.
+
+Chamar a Fiemg é filho ponto separar texto pô.
+
+Esse caso quebra de linha vai ser um bar aí e a gente vai querer.
+
+Caso de baixo usar a mesma função.
+
+Só que eu quero quebrar essa cara o texto por espaço em branco aqui onde eu posso tirar essas duas funções
+
+que eram as últimas duas funções tinham equilíbrio o arquivo agora todas as funções são genéricas lembrando
+
+que como aqui ele vai retornar à função que realmente vai receber o texto e a gente pode chamar a função.
+
+A resposta é uma função que é essa no texto e aí sim ele faz a quebra de linha.
+
+Então vou salvar aqui essa palavra está funcionando.
+
+E agora sim nós estamos prontos pra na próxima aula a gente fazer a lógica de agrupar tudo isso já a
+
+lógica de agrupar.
+
+Eu não considero como sendo uma lógica muito razoável até porque ela é muito específico para esse problema
+
+nas palavras.
+
+Então por isso eu não vou colocar essa lógica de agrupar as palavras dentro do arquivo de funções.
+
+Vou colocar essa lógica aqui então vou criar uma função com uma função chamada agrupar palavras acredito
+
+que vai ser essa função.
+
+E aí você pode tentar implementar essa função aqui.
+
+Provavelmente vou usar o Windows pra fazer o agrupamento em filosofia o que já usamos mac já passamos
+
+na função como parâmetro para outra função.
+
+Já fizemos uma função retorna outra função é exatamente usar nessas ferramentas que você vai começar
+
+a escrever um código mais funcional Isso é objetivo do curso.
+
+Eu espero que esteja sendo bem esclarecedor pra você todo esse exemplo mais digamos assim mais sofisticado
+
+pra que você veja como você pode organizar sua lógica de forma funcional.
+
+Eu acredito que boa parte de vocês já devem consegui imaginar como seria um código não funcional ou
+
+seja você criar uma função bem grande que faz vários laços que faz testes não é uma função que tem provavelmente
+
+uma quantidade grande coisa difícil de uso.
+
+Não é uma função muito específica que faz todo esse processamento quase que de uma única vez ou de poucos
+
+passos.
+
+E aqui no caso a está usando funções muito pequenas muito específicas que faz apenas uma única coisa
+
+que te entregam um resultado bem poderoso.
+
+Depois de uma sequência uma composição de funções isso aqui é uma técnica muito conhecida na programação
+
+funcional que é a composição de funções ou seja você culpou várias funções de uma certa ordem e que
+
+o Estado de uma função vai passar para outro estado.
+
+Outra função passa para a terceira que está da terceira passa para a quarta função e você vai fazer
+
+todo um processamento em cima dos dados gerando novas versões dos dados até que você chega no resultado
+
+final.
+
+Isso aqui é programação funcional é muito interessante ver tanto a parte teórica como agora a gente
+
+deu um exemplo um pouco mais de buscado na gaveta na proximal mas não faz essa função que vai agrupar
+
+as palavras e espero lá.

@@ -1,0 +1,283 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Imutabilidade1
+
+Vamos agora ver um dos princípios mais importantes da programação funcional que é a imutabilidade e
+
+esses princípios que a gente.
+
+Nesse capítulo a gente vai ver no curso na verdade uma forma geral são princípios que podem te ajudar
+
+inclusive em outros paradigmas.
+
+Quando você for por exemplo desenvolvi código orientado a objeto você pode pagar por exemplo aquela
+
+ideia de função pura.
+
+Você pode pegar a ideia de imutabilidade e aplicar no seu código e se tornar um código mais fácil de
+
+ser mantido o código mais seguro.
+
+O código consegue trabalhar por exemplo em ambiente de múltiplas trades porque quando você trabalha
+
+com dados imutáveis é muito mais fácil você trabalhar em ambientes de múltiplas trades exatamente como
+
+o dado não vai mudar.
+
+Você terá uma facilidade muito maior para lidar com esse tipo de situação sem ter por exemplo problemas
+
+de concorrência ou até nada trabalhar ser sondado mexeu de uma forma que você não esperava no outro
+
+gerou um problema logo que coisas do tipo.
+
+Há então um princípio extremamente importante essa questão da imutabilidade é um dos motivos pelo qual
+
+grava esse capítulo depois do primeiro projeto a gente fez um primeiro projétil serve para mostrar um
+
+exemplo maior para a gente ter uma ideia de como a programação funcional é aplicada na prática.
+
+Foi o fato de que no momento que eu fosse mostrar esses conceitos como por exemplo imutabilidade funções
+
+puras a gente já teve a experiência de um código que usa esses princípios para fazer por exemplo a execução
+
+de um algoritmo bem interessante que é o caso aquela de pegar as palavras nas legendas de um seriado.
+
+Então se a gente olhar aqui em nenhum momento foi criado por exemplo variáveis.
+
+A gente criou constantes nós criamos constantes aqui para definir os caminhos definiu símbolos.
+
+A execução do nosso código todo baseado em funções puras que faz apenas uma única responsabilidade.
+
+Certo é se você entrar aqui por exemplo na parte de funções lá em cima lembro que tinha aqui uma constante
+
+em arquivos que recebe aqui.
+
+Logo depois eu criei uma outra versão.
+
+Ou seja crio outra constante na verdade que eu até poderia fazer assim eu não precisaria dessa constante
+
+que é o resultado de ID de 5 que é o nome dos arquivos de forma relativa.
+
+Eu já posso passar esse array para Alepo e fazer uma transformação e apagar os caminhos absolutos então
+
+aqui nem precisaria ter essa outra constante.
+
+Poderia ter apenas um.
+
+Existe algumas questões que eu usei o software em algum local por exemplo.
+
+O sorte nesse caso ele gera uma alteração nesse Harry que foi exatamente o Harry que foi passado.
+
+Aqui sim há um problema de uma função impura que recebeu isso como sorte.
+
+Ele realmente gera impacto só pra testar aqui ou criar algum arquivo que a gente vai fazer um teste
+
+eu vou já corrigir esse problema e multá by Dadi lá.
+
+Ponto de S.
+
+Então eu vou pegar alguns exemplos.
+
+Nós vamos fazer mais um exemplo da imutabilidade eu vou colocar aqui por exemplo constante nãos e eu
+
+vou colocar por exemplo 3 1 7 9 4 e 6.
+
+Pronto tem um conjunto de números esses números não estão ordenados eu vou chamar aqui números ponto
+
+sorte e no final eu vou querer mostrar o console contou logo o valor de números então executado.
+
+Nesse caso você percebe que o sorte causou uma alteração nos números.
+
+Exatamente só depois dessa execução aqui da Linha 2 Os números foram alterados ou seja eu mexi na rede
+
+de forma destrutiva.
+
+Então nesse caso nós temos aqui uma função que não é uma função pura.
+
+Especificamente essa aqui foi retornada.
+
+Então como é que a gente poderia pegar por exemplo e não mexer no arranjo original que foi passado.
+
+Nesse caso eu teria que fazer um clone do Rei pra fazer um clone é supersimples não coloquei.
+
+Não foi de propósito que fiz é certo mas eu lembrei que tinha mexido aqui no sorte.
+
+Isso vai gerar um problema.
+
+Então nesse caso o motivo que está querendo completar aqui mais se você usar os três pontinhos ele vai
+
+fazer o quê.
+
+Vai fazer um espresso e vai pegar todos os do rei e vai espalhar e vai criar um novo rei literal de
+
+tal forma que nesse caso você vai ver que o Harry não será impactado.
+
+Deixa eu fazer esse mesmo exemplo para a gente Becca acha mesmo que a habilidade de congelar eu quero
+
+fazer aqui ou então vou passar uma função que eu vou chamar aqui de ordem na Barra CB Não tenho nada
+
+e qualquer aqui dentro eu vou chamar o rei rei pouco sorte e no final das contas o cara ver se realmente
+
+foi mudado alguma coisa então vou colocar os números aqui pra baixo vou chamar a função ordenar passei
+
+aqui os meus números e no final quero ver o resultado.
+
+Ou seja.
+
+é uma função que gerou efeito colateral.
+
+Apesar de que eu vou querer também retornar aqui o resultado desse ordenado estão fazendo aqui.
+
+Nós temos um código que nesse sentido não respeita os princípios da programação funcional porque o que
+
+não é uma função pura ela gera efeito colateral para fora da função que mais um exemplo é uma função
+
+impura legal.
+
+Nesse caso eu posso por exemplo clonar aqui ou colocar isso na.
+
+Isso aqui ficariam em uma rede em que outro rei sabe que eu preciso usar por exemplo aqui ou os três
+
+pontinhos para aquele os operadores do prédio.
+
+E vai pegar todos os elementos e colocar dentro de um novo rei.
+
+De tal forma que agora acertando mais não iremos causar um efeito colateral.
+
+Ou seja o Harry original continua exatamente do mesmo jeito.
+
+Agora eu quero pegar o Harry ordenado colocar constante nos ordenados e serve isso.
+
+E agora tenho os números eu posso colocar na mesma linha e os números ordenados.
+
+Agora tenho 2 reais e não mexer no primeiro exatamente para não gerar nenhum efeito colateral.
+
+Agora o que nós temos é uma função pura ou seja o retorno da função.
+
+Ele só se baseia a partir dos dados de entrada e essa função não gera efeito colateral.
+
+Ou seja eu não vou mexer nos dados que foram passados originalmente.
+
+Uma das formas que você tem de proteger esses dados se você quiser por exemplo usá lo foi objeto de
+
+ponto fiz Object contou isso.
+
+Se você fizer isso você não vai conseguir alterar esses dados por mais que eu tente fazer por exemplo
+
+o índice zero recebe o valor mil.
+
+Se você tentar fazer isso ele não vai gerar nenhum impacto porque você congelou esse objeto.
+
+Se você tentar fazer nos ponto sorte e acertar assim você não vai conseguir mexer nele exatamente porque
+
+é um dado imutável.
+
+Esse código vai funcionar perfeitamente e se você tirar aquele fariseu se você tirar o fiz as taxas
+
+lá alguém aqui acertar mais uma vez você vai ver que oramento mil 4 aqui ele estava drenando baseado
+
+na primeira lei e não pelo valor numérico está usando a tabela acho que para ordenar se você quiser
+
+por exemplo na questão de números você pode colocar aqui a e b e passar a função de ordenação a menos
+
+B que tinha anteriormente então acertado o enorme impacto novamente.
+
+Agora sim ele vai colocar o volume correto nesse caso aqui dessa função interna se eu quiser ordenar
+
+de forma crescente eu posso colocar essa mesma função aqui.
+
+Então quando você usa o Frizzo você está congelando o objeto não vai permitir nenhuma alteração.
+
+Então aqui ou eu transformei uma função que antes era impura agora uma função pura gerando um clone
+
+do Harry.
+
+Não vou modificar o Harry original porque a maioria das funções do Harry são funções puras que não geram
+
+efeitos colaterais.
+
+Já a função sorte não mexe na é original.
+
+Então nesse caso para a gente transformar essa função numa função puro a gente precisa gerar esse clone
+
+aqui legal.
+
+Então fizemos mais uma melhoria no nosso objetivo mas é muito legal ter feito o projeto antes para a
+
+gente ter uma noção de como o código funcional opera e como é trabalhar com código imutável não só com
+
+dados imutáveis.
+
+Seria trabalhar com híbridos que geram outro valor ou trabalhar com o Mac gera um outro valor.
+
+Trabalhar com um idioma que vai gerar um outro valor e não vai mexer no original.
+
+Por exemplo ao achar que o outro exemplo de muita habilidade para o próximo exemplo se você quiser geral
+
+console em Fotolog eu vou querer pegar aqui os números bons.
+
+Ponto.
+
+Isolar esse quero pegar um pedaço do Harry eu vou começar a partir do segundo eu vou colocar isso aqui
+
+daqui uma constante por exemplo.
+
+O restante partido partido ou parte dos números juntos.
+
+Nesse caso eu vou amostral.
+
+Partindo dos números que vão mostrar os números originais e quando você vai ver que nesse caso ele tirou
+
+primeiramente o segundo mas ele tem que ir ao 7 9 4 e 6.
+
+Se eu colocar lá se ele vai pegar.
+
+Remover apenas o primeiro elemento mas isso é o outro arrepio ai original continua exatamente da mesma
+
+forma.
+
+Então da forma como está aqui esse aí pode ser modificado o que não pode acontecer é você tentar atribuir
+
+a variável números.
+
+Outro valor por exemplo Larry vazio não vai permitir fazer isso exatamente porque você tem um valor
+
+constante.
+
+Números é uma constante você não pode atribuir algo para uma constante mas nesse caso não há nada que
+
+impeça por exemplo de você colocar o valor mil associado ao primeiro elemento do Harry Potter vai continuar
+
+funcionando porque os dados internos são mutáveis.
+
+Se você quer garantir que os dados também sejam imutáveis dentro do Harry você pode usar aqui o.
+
+Conto feliz.
+
+Esse caso não vai fazer nenhuma diferença para o nosso exemplo porque em meu momento é Alter e Harry
+
+quando chamei a função na região um cone aí eu ordenei.
+
+Aí sim funcionou corretamente.
+
+E aqui também o slide não alterou.
+
+Assim como o mapa não altera o Harry original o Filter também não altera o reduz também não serve.
+
+Então suas funções são funções puras que não geram efeitos colaterais externos à função como Harry foi
+
+passado externamente.
+
+Ou se alterar o la de forma destrutiva isso é gerar efeitos colaterais para fora da função e tornar
+
+a sua função impura também.
+
+Certo percebam que esses conceitos estão entrelaçados também em relação às questão da imutabilidade.
+
+Então nesse caso a gente conseguiu ver algumas coisas interessantes que fazem mais um exemplo de imutabilidade
+
+na próxima aula.
+
+Eu espero lá.

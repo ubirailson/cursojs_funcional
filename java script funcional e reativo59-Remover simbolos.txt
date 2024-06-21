@@ -1,0 +1,189 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Remover simbolos
+
+Agora nós vamos continuar aqui a execução do nosso algoritmo limpando alguns símbolos e eu vou declarar
+
+aqui.
+
+Arranjo de símbolos que vão fazer o seguinte ao fim uma constante chamada singles e eu vou definiu a
+
+rede símbolos que não serão removidos dentro do nosso texto.
+
+Eu já separei aqui alguns símbolos por exemplo single de ponta onde será removido o outro símbolo que
+
+vai ser uma interrogação vou colocar o símbolo de hífen ou colocar o símbolo que representa uma vírgula
+
+também vou tirar os doutores acredite irá.
+
+Vou tirar um símbolo aqui que é um símbolo de concurso de música Tá e você vai encontrar ele na legenda
+
+01 na 32 você vai ter esse número de música eu não sei qual a tecla dele.
+
+Eu simplesmente não contra o Z Ultra over aqui vou colocar a vírgula ou tirar mais o símbolo do Vanderlei
+
+e se tiver vou tirar.
+
+Tem algumas tags do tipo e eu vou tirar até aqui.
+
+Como vou também tirar até aqui de fechamento do site.
+
+Então vou tirar essas duas vou tirar também o barra é certo que a gente tem visto vários aqui ao.
+
+Dependendo do tipo de carro de linha abaixo.
+
+Imagine mais barra e eu vou tirar ele também vou tirá los de colchetes que eventualmente podem aparecer.
+
+Vou colocar mais um vírgula aqui e vou tirar o símbolo e parênteses se eventualmente aparecer um outro
+
+símbolo a gente vai te chamando aqui mais esse foram símbolos que eu adiciona aqui.
+
+Legal já precisar criar uma função que vai receber o arranjo de símbolos e eu vou precisar remover esse
+
+símbolo de dentro da estrela.
+
+Tá então colocando aqui eu vou criar a função que o objetivo dela não será remover os elementos em si
+
+mas vai remover os caracteres né.
+
+Vai remover algumas alguns substituindo alguns caracteres de dentro das estribos.
+
+Então na verdade não vou fazer um filtro nesse caso ou fazer um API para ter a mesma quantidade de linhas
+
+só que mal vendo esses caracteres estranhos.
+
+Se eventualmente tiver uma linha vazia no final depois a gente remove qualquer coisa que ficou ali de
+
+termos de minhas vazias.
+
+Outra coisa que a gente eventualmente vai querer remover também essa questão de fonte.
+
+Tá mais como aqui é muito específico na fonte com determinada coisa e tal eu vou deixar pra imoveis
+
+de outra forma não usando os símbolos então vou criar aqui uma função que eu vou chamar aqui remover
+
+caracteres e eu vou passar aqui quais são os caracteres que eu quero remover ou os símbolos chamados
+
+símbolos aqui.
+
+O chão aqui remover símbolos remover símbolos fica melhor e eu vou colocar aqui símbolos na verdade
+
+vários né que eu vou passar você e eu vou querer também usar aquela mesma estratégia aqui eu vou retornar
+
+uma função que aí sim vai receber elementos só então que eu vou processar aqui dentro.
+
+Nesse caso eu não quero fazer o filtro eu quero fazer um Mac.
+
+Vou chamar aqui britânico Rei Photo Map vou receber que o alinhamento é basicamente o que eu vou fazer
+
+dentro desse método aqui percorri cada um dos símbolos coloquei isso aqui também será lá Rei.
+
+Da mesma forma que eu define aqui algo como a rede símios eu vou querer tirar todos esses símbolos de
+
+todas as estrias.
+
+Então eu vou fazer aqui eu vou fazer vou colocar aqui lat.
+
+Novo vale um novo texto sei lá para ficar genérico mas necessariamente seriam a linha né.
+
+Novo texto recebe o valor de R imaginando que eu tenho textos aqui.
+
+Essas funções têm um certo nível de especialização aqui para o meu cenário certo então se o remover
+
+os símbolos e elementos textuais eu teria que testar quando recebesse AQUI UM REI SE REALMENTE exatamente
+
+são valores textuais se não simplesmente iria ignorar não fazer nada e simplesmente a tornar o que já
+
+tem a mais nesse caso eu estou assumindo que esses valores são valores textuais então peguei aqui o
+
+elemento que é um novo texto e vou percorrer cada um dos símbolos ou símbolos se o ponto for it.
+
+Receber aqui um símbolo e eu vou remover os elementos do texto.
+
+Como fazer que ao novo texto vai receber o novo texto.
+
+O primeiro vou dar um exploit usando esse símbolo certo então apagar o símbolo pra não exploit.
+
+Depois eu faço um jovem porque eu consigo remover o símbolo como é que eu poderia faze.
+
+Pra vocês aqui é a forma mais prática.
+
+Então por que eu tenho aqui um texto Olá vírgula.
+
+Eu tentei colocar aqui um símbolo e uma interrogação vou colocar aqui a exclamação e fui.
+
+Ponto.
+
+Ponto ponto.
+
+E aqui eu vou salvar isso dentro de uma variável Flash a recebe esse valor aqui legal.
+
+Se eu pagar o ar e fizer isso Split em cima disso aqui do valor de um Atari cai que vai acontecer.
+
+Ele vai gerar.
+
+Olá.
+
+Tem a segunda parte aqui.
+
+Se eu fizer na verdade isso aqui o ex-político já fizer um jovem e outras palavras vejam só mostrar
+
+como é que o valor da variável só pra gente lembrar o valor da variável essa.
+
+Se eu fizer isso nunca vai acontecer ele vai me devolver a mesma histria e sei isso aqui porque ele
+
+quebrou em duas partes irão a rei e depois eu juntei e ele tirou essa histria se eu fizer por exemplo
+
+de novo o outro Split esses clientes usando por exemplo ponto a que tenho vários pontos de interesse
+
+no final e depois eu fizer um jovem online você vai ver que ele vai remover também os pontos para tirar
+
+isso aqui pra acertar.
+
+Agora a gente tirou isso.
+
+Se eu fizer de novo colocando uma interrogação eu posso pagar isso aqui e colocar pra ele tirar uma
+
+interrogação.
+
+Então sempre que eu fizer isso ele vai tirando os elementos e vai deixando somente o que eu quero.
+
+Tá então essa estratégia que eu vou usar aqui nesse caso então fiz isso pra cada novo símbolo eu peguei
+
+o texto atual fiz um exploit em cima desse S5 juntei com um espaço em branco e no final até um novo
+
+texto sendo acertado que de tal forma que no final desse IMAP eu quero transformar o elemento pra um
+
+novo texto ou o mesmo só pode ser aqui fica até mais claro um texto sem símbolos estão no final vai
+
+retornar o texto sem símbolos.
+
+Legal então é esse método que eu quero fazer.
+
+Vou chamar aqui removesse Us no meu índex lembrando que essa função ela vai retornar.
+
+Eu tenho aqui que cortar essa função e então colocar aqui não se pode remover símbolos.
+
+E aqui eu vou chamar a função remover símbolos.
+
+Vou passar aqui o meu Rei de símbolos e essa função vai retornar uma função que será passar por dentro
+
+da mesma forma que anteriormente.
+
+Então ao cheio de símbolos aqui contou que a alegação barra é limpa agora é atacar novamente nós não
+
+usam nenhum símbolo mais chover que isso tem realmente joga mas temos o hífen que eu quero que mantém
+
+a nós temos.
+
+Acredito que não tem mais nenhum símbolo não.
+
+Se tiver gente pode encontrar no final e tentar excluir mas a ideia mais importante é isso não é mais
+
+um processamento foi feito a gente pode mudar a ordem inclusive o cara removeu o símbolo antes vai lá
+
+remove se fazem os outros processamentos mas muito legal mais um passo foi dado aqui na solução do nosso
+
+problema eu te vejo na próxima aula.

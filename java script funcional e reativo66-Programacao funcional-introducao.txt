@@ -1,0 +1,101 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Introdução
+
+Muito bem vindo a mais um capítulo do nosso curso de programação funcional.
+
+Nesse capítulo nós vamos falar de vários princípios da programação funcional como funções puras imutabilidade.
+
+Vamos falar sobre.
+
+Mas vamos falar sobre o que chama vamos falar sobre First Class chame ou first class Citizen que são
+
+conceitos importantíssimos inclusive alguns desses conceitos a gente já viu anteriormente na prática
+
+e agora gente vai ligar o nome ao conceito para que quando você for eventualmente ler um livro de programação
+
+funcional ler um artigo conversar com alguém.
+
+Você sabe essas nomenclaturas porque isso é extremamente importante na comunicação.
+
+Outro aspecto importante é o fato de que esses princípios vão te ajudar muito não apenas a programação
+
+funcional mas também de tornar programadores melhores seja um programador de orientação objeto que precisa
+
+aplicar princípios da programação funcional e algum algoritmo.
+
+Sem dúvida esse capítulo não só isso né mas isso pode ajudar de uma forma muito interessante.
+
+Mais pra frente eu estou pensando seriamente em colocar um capítulo que eu vou falar um pouco da história
+
+da programação funcional depois década 30 na verdade antes disso mais vale focar especificamente na
+
+Luz o que é o cara que criou o lambda cálculos que é a base da programação funcional no lambda cálculo.
+
+Embora ele assuste porque tem não nome cálculo no meio da matemática é muito simples de entender na
+
+verdade ele é um framework uma estrutura muito básica para a definição de funções e como você resolve
+
+problemas a partir do uso de funções e a programação funcional tem tudo a ver com isso e como você resolve
+
+problemas abaixo de funções da função.
+
+é o que há de mais importante da programação funcional composição de funções e todas essas técnicas
+
+que a gente tem ensinado nessa função e tornando a função uma função.
+
+Essa nova função comparando composição de funções juntamente com a questão da imutabilidade la no lambda
+
+cálculos que é supersimples.
+
+Basicamente ele define variáveis uma forma de definir função e tem toda uma simbologia que também é
+
+fácil de ser explicada e basicamente você cria variáveis cria funções e aplica as funções e com esses
+
+três elementos basicamente você consegue fazer coisas poderosíssimo.
+
+Também tem um parênteses para poder eventualmente definir uma ordem diferente.
+
+Tá muito legal dá para a gente mostrar o lambda cálculos e aplicar na prática em JavaScript alguns dos
+
+conceitos.
+
+O que é muito interessante.
+
+Vou deixar mais pro final porque isso seria um capitulo um pouco mais falando da história do Alonzo
+
+Church.
+
+O cara que criou ele é mais ou menos na mesma época do Alan Turing na mesma época praticamente poucos
+
+meses antes o Alonzo Church criou o lambda cálculos e logo na sequência Turing criou a laço a máquina
+
+de Turing resolvendo problemas clássicos e tal e eles são sistemas equivalentes.
+
+Tá muito legal falar um pouco dessa questão da história e também me achar pra você um pouco dessa base
+
+do cálculo lambda cálculos e mostrando como isso se aplica diretamente à programação funcional é muito
+
+legal ter essa base teórica e provavelmente vou colocar isso mais pro final do curso por enquanto mas
+
+vamos focar nos princípios muito mais pé no chão princípios que você vai conseguir aplicar diretamente
+
+no dia a dia de um programador sem um programador que vai usar JavaScript de forma mais funcional ou
+
+mesmo um programador que acharmos críticos e misturado com óleo ou outras questões outros frame occipital
+
+certo.
+
+Então curso sem dúvida vai te ajudar bastante nesse aspecto e eventualmente quem foi introduzido um
+
+novo conceito a gente pode voltar pro projeto que a gente fez no capítulo anterior.
+
+Fazer uma verificação pra saber se está tudo ok.
+
+Se eventualmente precisar fazer alguma melhoria a gente faz em cima de um determinado conceito que foi
+
+visto.
+
+Eu acho que era isso que eu tinha pra falar e eu disse Bernal.

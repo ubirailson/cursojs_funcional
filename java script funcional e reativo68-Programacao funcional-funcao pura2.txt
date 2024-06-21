@@ -1,0 +1,167 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Função Pura 2
+
+Agora vou fazer aqui um outro exemplo.
+
+Vocês o chamam aqui.
+
+Função pura andar mais dois.
+
+Assim que ele está falando do conceito de função pura.
+
+Não necessariamente dentro desses arquivos.
+
+Esse exercício só terão funções puras.
+
+Então amanhã eu vou criar uma função que eu chamo essa função que será numerosa Estoril vai receber
+
+um número mínimo e o número máximo.
+
+E eu vou colocar aqui por exemplo Constant ou criar aqui um fator que vai ser o máximo menos o mínimo.
+
+Eu tenho que somar.
+
+Se eu quiser que o número máximo caminhem entrem na escolha de tanto pra entrar no Morumbi como pra
+
+entrar no número máximo.
+
+Eu tenho que colocar aqui mais um fator nessa semana para ter um intervalo igual aqui embaixo eu vou
+
+retornar para si o couvert converter pra inteiro.
+
+Fazendo a multiplicação de matrizes aleatórias que chamam com uma função multiplicando por esse fator.
+
+No final que eu vou somar pelo valor mínimo.
+
+Pronto.
+
+Essa é a função que vai gerar o número aleatório.
+
+Então vou chamar aqui console Fotolog para gerar um número entre 5 e 6.
+
+Vou duplicar aqui cinco vezes executando gente vai ter 6 5 6 6 6 e aí dependendo de cada execução e
+
+tem mais 5 mais seis apenas deu sorte não sei 5 6 6 6.
+
+E agora deu 5 5 5 6 5 na gala também vai gerar de forma aleatória os dois lados.
+
+A pergunta é o seguinte essa é uma função ou uma função pura e pura.
+
+Então essa é a questão que eu quero levantar com vocês aqui.
+
+O que é que vocês acham.
+
+Vou parar aqui três segundos.
+
+Essa é uma função impura.
+
+Porquê.
+
+Porque na verdade a dependência externa não tem problema a partir de uma função pura você depender de
+
+outras funções puras.
+
+Certo mas sempre que você mexe com dados aleatórios não tem como se garantir à partida as entradas tem
+
+um valor por exemplo determinístico sempre que a função não é determinística então você não tem uma
+
+função pública vou só alterar aqui para deixá lo ou para alterar aqui para deixar um pouco maior.
+
+Então esquece que aqui é 10 mil.
+
+O resultado vai ser que valores entre 10 mil h e tal.
+
+Na verdade a dependência que existe a partir de uma função gerar números aleatórios.
+
+Nesse caso até copiar aqui a definição sempre boa definição por perto.
+
+Esse exemplo também viola o primeiro aspecto de uma função pura que é exatamente o valor de retorno
+
+não é determinado apenas pelos seus valores de entrada você desleal ou simplesmente colocando mil e
+
+o máximo.
+
+Qual é o outro valor que está sendo usado para determinar por exemplo o número aleatório.
+
+Nesse caso provavelmente não.
+
+Com isso a implementação interna do valor aleatório do JavaScript mas ele deve usar algum tipo de temporizador.
+
+Por exemplo eu vou pegar a quantidade de milissegundos no momento que a função foi executada ou a quantidade
+
+de micro segundos ou alguma coisa que seja ainda mais aleatório seja até a função no valor de milissegundos
+
+era 943 e aí nesse valor ele usa como entrada como sendo o fator de aleatoriedade usado pelo algoritmo.
+
+Claro que é mais complexo que isso ele não vai usar simplesmente a quantidade de milissegundos mais
+
+vai algo bem mais complexo como por exemplo a quantidade de milissegundos desde uma data muito remota
+
+e aí a partir do zero dia Primeiro de Janeiro 1970 que é um número muito maior e a partir desse valor.
+
+Mesmo que seja do ou usei por exemplo o valor 30 e valor 31 para gerar um número aleatório dentro do
+
+algoritmo isso vai ser extrapolado de tal forma que os números são completamente diferentes.
+
+Então no final das contas o que tem de aleatoriedade sem entrar no mérito do algoritmo de março.
+
+Ainda é algum tipo de relógio que vai entrar como algo aleatório e como sendo o fator aleatório do algoritmo
+
+para daí ele gerar um número entre 0 e 1.
+
+Então sempre que você tiver uma função aleatória algo que não é determinístico o resultado é que você
+
+vai ter uma função impura ou seja você não consegue determinar qual é a saída.
+
+Precisamente a partir dos parâmetros de entrada ou seja nesse caso você continuará invertendo uma função
+
+pura já que ele depende por exemplo do relógio que vão achar para vocês na próxima aula.
+
+Essa segunda parte da definição que é exatamente os efeitos colaterais observados já falou por exemplo
+
+dois cenários.
+
+O primeiro foi a gente acessando um valor externo à função mesmo que o valor seja extremamente estável
+
+ainda assim causou.
+
+A função virá por pouco contra essa dependência externa.
+
+E fizemos aqui um exemplo de uma função que é genuinamente por na sua natureza mais um fato de ser impura
+
+isso não vai inviabilizar os usos legítimos de funções por exemplo que geram valores aleatórios mas
+
+pouco na sua aplicação você vai tê la um a um a funcionalidade de gerar um sorteio para os funcionários
+
+todo mês é feito um sorteio pra dar um bônus por exemplo o funcionário você pode sim usar uma função
+
+dessa mesmo que seja uma função impura porque que faz parte.
+
+Nesse caso a natureza da função sem cura e não tem nenhum problema em você usar por exemplo o componente
+
+nesse sentido mas como falei pra vocês esse é um caso mais de exceção assim como nesse caso aqui se
+
+você não tiver cuidado você pode até tornar isso como uma regra a depender de algo externo da função.
+
+Mas como falei o ideal é que você sempre priorize do fundo do seu coração funções puras e na próxima
+
+elas falam um pouquinho sobre essa ideia dos efeitos colaterais observáveis e como é difícil fugir desses
+
+caras depois da aplicação real não é difícil você pegar por exemplo a maioria das funções fugi de efeitos
+
+colaterais observáveis você vai conseguir fazer isso mas é difícil definir a sua aplicação inteira você
+
+fugir em alguns pontos e ter que fazer esse tipo de coisa exatamente porque você precisa interagir com
+
+o mundo externo e muitas funções.
+
+Então a ideia é o máximo possível segui o conselho mas isso não significa que funções impuras sejam
+
+funções que não devem ser usadas nunca porque muitos momentos você terá que usar elas na próxima aula
+
+vai focar nessa segunda parte do conceito de função pura.
+
+Lá.

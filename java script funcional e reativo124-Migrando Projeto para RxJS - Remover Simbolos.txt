@@ -1,0 +1,130 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Remover Símbolos
+
+
+O próximo passo agora vai ser remover os símbolos e para isso a gente vai usar como base o nosso a nossa
+
+função que já faz isso aquilo é baixo mas temos a função de remover elementos remover símbolos como
+
+a b a procurar ela a outra baixa é mover se inclui talvez eu nem precise mais dela.
+
+Acho que não vai ter mais nenhum ponto que eu vou precisar dessa função então vou embora daqui.
+
+Vou procurar pela empresária também nos outros exemplos exatamente por conta do que eu expliquei.
+
+Ela passa então a remover símbolos eu vou duplicar por enquanto a função vou pegar aqui a estrutura
+
+básica do nosso operador lá pra cá.
+
+Nesse caso eu vou precisar realmente ter os parâmetros que são símbolos né.
+
+Então eu posso usar aqui pra fazer isso.
+
+Então em cima do rolo ou textual vou percorrer todos os símbolos.
+
+O valor inicial vai ser que o texto ele vai fazer todo o processamento no final.
+
+Esse valor aqui vai ser o novo texto.
+
+Então está aqui o resultado como sendo o texto sem símbolos e saber isso porque coloca aqui a função
+
+que dentro de tentar formatar aqui fica mais interessante.
+
+Exatamente como eu queria.
+
+Mas tudo bem tal que a função que faz o Windows se vai retornar no final pelo texto sem os símbolos.
+
+é exatamente esse texto seus símbolos que eu vou passar pra frente.
+
+Chamando o escriba pontuou Martim alçando o texto continuando mesmo a mesma pegada nas funções pequenas
+
+com única responsabilidade tal então aqui vou chamar alguém morrer símbolos vou escolhi era superior
+
+aqui.
+
+Para outro nós vamos agora chamar mais uma função que define o ponto remover símbolos eu já tenho recibos
+
+aqui em cima adaptado mais uma vez a gente não vai ter mais o símbolo.
+
+Esse aqui ficou por algum motivo a gente não colocou ali não tínhamos colocado ele nem da vez passada
+
+pagamos aí mais um detalhe em relação à nossa casa então mais uma vez.
+
+E aí vale dar uma conferida na prova.
+
+Está faltando o sim letal mas hoje foi o único time que vai acabar ficando exatamente como você tem
+
+essa contração das palavras.
+
+No mais parece que está cem por cento agora inclusive com alguns blogs da versão passada.
+
+O que é legal na qual a gente continua fazendo.
+
+O próximo passo já é mover os símbolos esse mais claro que não será necessário deixar que por enquanto
+
+que pedir vai mesclar mas exclui os elementos normalmente não será mais necessário vou continuar com
+
+esse time de dados vou separar linhas por espaço e a gente já tem na verdade esse cara ao separar isso
+
+aqui por espaço.
+
+Então a gente pode reutilizar isso aqui.
+
+Não preciso nem gravar um outro vídeo pra isso.
+
+Nesse caso eu vou substitui o Barry pelo espaço.
+
+Ele acabou fazendo isso só para um anônimo destruir o que é que está acontecendo.
+
+Provavelmente eu o chamei na função.
+
+O conflito de forma errada que moveu lamentos e Brasil terminados com a função lamento apenas número
+
+para função de algum problema separar pouco procurar aqui tão separar pó nesse caso não é pra chamar
+
+o cúmplice nem vai fazer apenas uma única vez deixar o cúmplice pra ser feito quando realmente esse
+
+time de cima terminar senão ele acaba fazendo isso apenas uma única vez.
+
+Então volta aqui para o nosso índex e acertando.
+
+Agora sim a gente tem as palavras obviamente temos alguns vazios a gente pode aproveitar aqui e duplicar
+
+isso jogar aqui pra baixo estão limpando mais uma vez que a gente está bem aqui agora todas as palavras
+
+já tá bem perto de fazer a parte final naquele agrupamento então separar palavra já fiz e mover lamentos
+
+esse vazio já fiz tenho os números eu acho também que a gente acabou precisando remover porque são números
+
+que ficam internos se pode aplicar ou deixar pra aplicar no final e tem um outro processamento aqui
+
+que é pra remover os elementos se for o numero 500 mil que ficam alguns números depois de procurar aqui.
+
+Provavelmente vai ter linhas que apresentou números e números não faz tanta diferença pra gente com
+
+49 86 por cento foram falados 11 vezes no seriado.
+
+Então aqui a gente pode desenvolver a mente apenas numero duplicar e no final a gente vai ter.
+
+Nesse ponto apenas as palavras estão mais um passo foi utilizado.
+
+Está faltando agora a gente fazer o agrupamento e fazer a ordenação a partir dos atributos chegar no
+
+final é a questão de mesclar os dados.
+
+Provavelmente vai precisar fazer agora exatamente para fazer o agrupamento.
+
+Mas de qualquer forma só para estar aqui onde a gente está nesse momento ou com todas as palavras de
+
+todos os episódios agora o que a gente fez acabou com a reação do público e dentro do nosso esse que
+
+possa separar o texto por eu preciso só completar com realmente o estranho pai for finalizada aí sim
+
+eu sei que todos os dados do pai foi completado e eu posso também completar isso aí vai gerando uma
+
+cadeia na política até chegar no final.
+
+Então é isso na próxima aula a gente continua mais o processamento agora fazendo um agrupamento e até.

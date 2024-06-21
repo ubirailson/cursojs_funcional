@@ -1,0 +1,277 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Função Pura 1
+
+O primeiro princípio que eu quero falar para você nesse capítulo é o princípio é função pura a programação
+
+funcional tem tudo a ver com função função e o que há de mais importante na programação funcionar é
+
+se você tem uma função pura.
+
+Com certeza você vai conseguir ter uma facilidade maior na hora de aplicar essas funções de usar essas
+
+funções na prática.
+
+Uma coisa que eu quero desmistificar antes mesmo de falar o que é uma função pura e também é automaticamente
+
+comentar sobre o que é uma função impura e o fato de que você não vai conseguir fazer um programa cem
+
+por cento com funções puras é praticamente impossível você conseguir fazer isso a não ser que seja um
+
+programa muito pequeno.
+
+E na prática não vai acontecer isso você vai sim usar funções impuras inclusive para explicar para vocês
+
+o conceito de função pura e pura.
+
+Você vai entender que você vai precisar usar funções impuras mais é mais uma questão que estou aqui
+
+em tela cheia.
+
+Não acha que por enquanto colhe mais é mais uma questão de você priorizar ao máximo o uso das funções
+
+puras exatamente o cara vai trazer uma série de benefícios que o comentador deixá lo então achando que
+
+a tela do meu computador tem uma vez que eu gravei a aula todo dia e esqueci a chave aqui.
+
+A tela do computador tive que gravar de novo.
+
+Então eu vou criar aqui uma pasta que eu vou chamar de funcional já que a gente vai falar de princípios
+
+da programação funcional.
+
+Nesse capítulo é o primeiro princípio eu vou comentar com vocês vai ser.
+
+O princípio não é o conceito de função pura.
+
+Então eu vou criar aqui um arquivo chamado função pura andar lá em ponto de sim e eu vou copiar aqui.
+
+O conceito do que é uma função por lá uma função pura é uma função em que o valor de retorno é determinado
+
+apenas por seus valores de entrada.
+
+Essa é a primeira parte da definição.
+
+Ou seja o retorno da função é determinado apenas posso colocar aqui ou apenas pelos seus valores de
+
+entrada e por seus valores de entrada.
+
+E a segunda parte da definição é que essa função não deve causar efeitos colaterais observáveis.
+
+Então vou começar com um exemplo simples e a gente vai tentar analisar se essa função é uma função pura
+
+ou será uma função impura porque ela é uma função por ou porque aquela função impura e depois a gente
+
+vai evoluindo para mais exemplos desse conceito.
+
+Então lá eu vou criar aqui uma função vou capoeira que é um constante que eu vou chamar de ti e vou
+
+colocar o valor 3 como 14 vou criar aqui uma de Chan
+
+Eu vou chamar de área circos e vou passar por exemplo comparando o raio da circunferência o cálculo
+
+é supersimples.
+
+Aí eu vejo esses aí eu poderia usar até o Paulo Fernando Melo mas eu vou colocar diretamente aqui em
+
+Israel e vou multiplicar pelo valor de pi então vou colocar aqui um só ali coloque a área circunferência
+
+passar aqui o raio 10 que é mais fascinante que ele vai gerar 10 ao quadrado vai dar 100 vezes o valor
+
+de bi vai lá 314.
+
+Então posso chamar aqui quantas vezes eu quiser o resultado vai ser exatamente o mesmo.
+
+Não vai ter nenhum tipo de dado aleatório nem sempre vai gerar exatamente o mesmo valor exatamente porque
+
+a função nesse caso determinística é legal essa função.
+
+à primeira pergunta é uma função pura ou uma função impura.
+
+Quem é que vocês acham dado aqui.
+
+O conceito é sempre importante voltar ao conceito olhar prática e ter essa maturidade ou a tranquilidade
+
+de olhar o que está sendo desenvolvido o código foi escrito e confrontar escolhe um conceito.
+
+é uma coisa que eu sempre gosto de fazer.
+
+Então lá tem dois princípios importantes para classificar a função como pura existe o princípio que
+
+é esse último aquele sem efeitos colaterais observáveis.
+
+Isso tem a ver com a questão de você modificar alguma coisa fora da função.
+
+Ou seja eu terei algo fora da função se você alterou isso é um efeito colateral observável ou seja qualquer
+
+coisa que foi alterada fora da função.
+
+Isso é um efeito colateral observado e outro princípio que é o valor de retorno é determinado apenas
+
+pelos valores de entrada da função.
+
+Ou seja eu passei o raio e cálculo da circunferência é uma função pura ou não.
+
+Nesse caso essa é uma função impura certo.
+
+Foquei que essa função impura porque o BPI está externa à função.
+
+Então o PSI é algo externo.
+
+Ou seja a função.
+
+Ela depende de algo que está fora dela e não apenas.
+
+Valores que foram passados via parâmetro para a função.
+
+Então eu passei aqui apenas um único parâmetro um raio mais pra calcular.
+
+Eu precisei de algo que está fora da função.
+
+Se eventualmente você vai lá e coloca 14 15 9 2 por exemplo acho que isso acontece aqui.
+
+Se você executar você vai ver que a resposta será diferente da resposta que a gente tinha anteriormente.
+
+Mesmo eu tendo passado exatamente o mesmo parâmetro de entrada eu passei comparando de entrada aluguéis
+
+mais volúvel diferente porquê.
+
+Porque houve uma alteração externa dessa informação está aí você pode fazer um pergunta legal é porque
+
+eu não quero usar aqui o meu e eu quero usar agora.
+
+Mas muito legal agora tem uma função pura certo errado.
+
+Você continua tendo uma função impura.
+
+Mais uma coisa eu voltar aqui para a tela cheia só para deixar claro para vocês o seguinte existem níveis
+
+de impureza.
+
+Então você pode por exemplo mentalmente ter uma função que depende do valor de pi e você sabe assim
+
+como eu sei que o valor de Pi é um valor extremamente bem estabelecido há muitos e muitos anos há muitas
+
+e muitas décadas a chance de haver mudança no valor de pidgin da linguagem JavaScript como qualquer
+
+outra linguagem é muito baixa.
+
+Então esse é o tipo de impureza que seriam a impureza boazinha ou você está simplesmente dependendo
+
+do valor externo torna a função impura isso é um fato a gente está classificando quiseram é pura ou
+
+não mas é um tipo de impureza que é bem tranquilo de você trabalhar exatamente porque há chance de isso
+
+gerar efeitos colaterais é muito baixa porque você depender do valor de pi que é o valor extremamente
+
+estável não vai mudar nem a chance de mudar é baixíssima.
+
+Certo é muito tranquilo porque você não vai ter nenhum tipo de instabilidade na sua função por conta
+
+do pior a chance de isso acontecer é praticamente zero.
+
+Por outro lado o que está sendo mostrado aqui no conceito é exatamente o princípio que deve ser seguido
+
+ao máximo que é o fato de você não ter uma dependência externa sempre que você depende de algo externo.
+
+é como se você tivesse perdido um contra olhar para a sua vida.
+
+Se você depende de um fator externo você não tem mais controle sobre aquilo que você eventualmente vai
+
+fazer.
+
+Por exemplo eu só vou sair de casa se não levar aqui em Fortaleza por exemplo.
+
+Talvez lá que eu vou sair de casa ou seja eu dependo de um fator externo mas nesse caso depender de
+
+um fator externo como é o caso do BPI é algo tão estável e tão difícil.
+
+Já aconteceu uma mudança nesse sentido que praticamente só depende de mim mesmo.
+
+Mas se eu depender por exemplo eu só vou sair de casa se estiver chovendo por exemplo.
+
+Então nesse caso a chance de você ter um problema não é o fator externo atrapalhar aquele que você quer
+
+fazer é muito grande.
+
+E quando você passa por exemplo já voltando aqui Procópio quando você passa a usar por exemplo uma variável
+
+global na sua aplicação.
+
+Aí essa variável é modificada por outros códigos.
+
+Você vai ter uma instabilidade muito grande na função exatamente porque você depende de algo externo.
+
+Nesse caso aqui nós dependemos de algo externo.
+
+A função é sim uma função impura mas você não tem digamos assim.
+
+Eu estou colocando essa classificação aqui né.
+
+Você não tem uma impureza muito grande.
+
+Exatamente porque você está dependente de algo estável.
+
+Então se você depende de algo estável e estável então o problema é menor do que você realmente dependente
+
+de algo digamos assim que tem o nível de instabilidade muito grande até porque também é uma constante.
+
+Se é uma constante não vai mudar se mudar vai são coisas da linguagem.
+
+O que é muito difícil de acontecer.
+
+Está mais quando você depende de algo externo automaticamente sua função ficará por lá.
+
+Como é que eu posso transformar a área da circunferência próxima versão pura dela.
+
+A gente pode fazer assim.
+
+A gente pode colocar a circunferência pura.
+
+Vou agora transformá la na versão pura e eu vou precisar passar como parâmetro o valor de Pi de tal
+
+forma que agora eu não dependo de mais nada que é externo ou porque tirei demais.
+
+Ele já está loucamente nada fora da função no passeio.
+
+Eu passei o pior na hora de testar essa função.
+
+Não existe nada que eventualmente possa gerar problemas na hora do teste ou seja a função ela tem controle
+
+absoluto na resposta exatamente o que não depende de nenhum fator externo.
+
+Então nesse caso a área da circunferência ao golo 10 é um ponto 14.
+
+Por exemplo aqui eu posso usar um ponto 14 e 15 em.
+
+9.2 eu posso colocar aqui por exemplo um ponto B e obviamente eu preciso chamar a função de área circunferência
+
+por cima nesse caso executando o código.
+
+Você vai ver que nós agora precisamos passar o valor de pi exatamente ter o nível de precisão que a
+
+gente quer e não existe nada externo que essa função depende.
+
+Então esse é o princípio básico relacionado à função pura.
+
+A gente trabalhou nessa área especificamente essa primeira parte que não o valor de retorno é determinado
+
+apenas pelo valor de entrada.
+
+Eu estou falando bem tranquilo aqui embora seja um conceito simples e que a função pura é algo extremamente
+
+central de programação funcional certo você deve priorizar ao máximo com todas as forças do seu coração.
+
+O uso de funções puras é deixar essas habituais impurezas para pontos muito específicos na sua aplicação.
+
+Para a Sony esses pontos que você realmente tem que ter contato com o mundo exterior.
+
+Aí sim você encapsular isso em algumas funções a parte mais a grande maioria das lógicas a grande maioria
+
+do tempo que você vai trabalhar com funções puras.
+
+Isso é extremamente importante e relevante dentro da programação funcional na próxima aulas vamos fazer
+
+um segundo exemplo para a gente tem um pouco mais quando uma função passa a ser impura e até lá.

@@ -1,0 +1,117 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Remover Linhas com tempos
+
+Agora nós vamos implementar a regra que vai excluir as linhas que representam o intervalo da legenda
+
+e se você prestar atenção ao todos as linhas que apresentam esse intervalo da legenda tem esse single
+
+aqui o hífen duas vezes e os times de maior que essa tinha pra dizer que é o tempo inicial da legenda
+
+e o tempo final.
+
+Em outras palavras eu posso excluir todas as linhas que tiver um determinado trecho de la.
+
+Então vou fazer mais ou menos nessa linha vou criar aqui uma função que também vai receber um padrão
+
+inclusive esse nome padrão muito genérico a gente pode colocar aqui pra ser um padrão textual mas fica
+
+um pouco mais claro do que se trata.
+
+Estavam lá o craque onde uma função vou chamar de remover remover esse título e aí você pode remover
+
+esse inclui texto ou se contiver texto então você pode colocar o nome que mais te agrada aqui eu vou
+
+passar o primeiro parâmetro para manter o mesmo jeitão aqui das outras.
+
+O primeiro parâmetro será o rei e o segundo será um padrão textual e aqui basicamente eu vou retornar
+
+o rei do filtro que eu vou passar uma função que vai receber o elemento e basicamente vou fazer.
+
+Lamento ponto incluídos ícones o padrão textual nesse caso sim inclui o padrão textual esse que vai
+
+tornar verdadeiro ele vai manter esse elemento no final.
+
+Só que eu não quero que ele mantenha um quero que ele remova.
+
+Se incluir então nesse caso tem que inverter a lógica colocando uma negação.
+
+Então se não inclui o padrão textual mantenha o elemento na final caso contrário remova ele.
+
+é exatamente isso que eu quero nessa função.
+
+Eu estou tratando a função de uma forma genérica se ele vai excluir o trecho imagina se ele vai excluir
+
+qualquer outra coisa.
+
+Não me importa o fato é que eu quero que ele exclua o elemento que contiver um determinado padrão textual
+
+dentro da string original.
+
+Então eu vou colocar aqui o outro elemento mais uma função remover se inclui e lembrando que a gente
+
+tem que fazer algumas verificações e pra ter certeza que se trata de onde string ter certeza que o rei
+
+foi passado corretamente tal onde pode depois eventualmente colocar algumas validações aqui mais checando
+
+e o mais importante nesse momento é mostrar para vocês essas funções pequenas que fazem apenas uma única
+
+responsabilidade e que juntando nelas na composição de funções chamada uma função depois da outra de
+
+função passam para a outra gente consegue ter todo o nosso algoritmo implementado sem laços sem suturas
+
+de controle se elas forem acabar usando algumas vezes isso mais você percebe que por conta da programação
+
+funcional boa parte dessa responsabilidade fica dentro das funções que a linguagem provê tal que é bastante
+
+interessante então vou colocar aqui algo der vou.
+
+Nesse caso eu tenho continuou tem lá as minhas né.
+
+Ou seja eu apenas filtra as minhas vazias mas continuo tendo as minhas então.
+
+Ponto remover se inclui e eu vou querer colocar exatamente essa sátira ou seja remove 5 é isso e a gente
+
+vai ter que no final outras linhas só caso minhas sem essa parte do intervalo das legendas então eu
+
+vou limpar aqui a execução.
+
+Vou novamente para a gente ver o resultado.
+
+Ele gerou algum problema aqui.
+
+Olá Rei ponto o filtro na função exatamente porque eu não passei as minhas como será o primeiro parágrafo.
+
+Então eu volto aqui porque a tecla de atalho de mais tal colocar linhas lá então primeiro e segundo
+
+o padrão textual que eu quero usar mais uma vez.
+
+Agora a gente vai ter as linhas sem a questão dos intervalos das legendas.
+
+O próximo passo vai ser tirar as linhas que contêm apenas valores numéricos.
+
+Eu tenho apenas dois tem um bairro aqui mas eu tenho apenas o número 2 o numero 3 o número 4 Se a gente
+
+olhar lá na legenda Você vai ver o que ele tem.
+
+1ª 2ª lá gera a 3ª legenda Eu não quero ter essas linhas que contém apenas valor numérico aqui o próximo
+
+passo essa gente exclui as linhas que contém apenas valores numéricos então isso na próxima vão mostrar
+
+mais essa função então você pode criar aqui ou até colocar o nome da função e quais aqui onde Franco
+
+chama de remover esse numero por exemplo se removesse apenas numero você vai passar aqui.
+
+Ai você vai passar.
+
+Na verdade não precisa passar um segundo parâmetro exatamente o que eu já sei que o padrão é apenas
+
+numero então quero remover qualquer conteúdo desse aí que seja apenas numero.
+
+Assim como remover qualquer conteúdo que inclui um determinado padrão textual assim como exclui todos
+
+os conteúdos que são vazios então mais uma função pra você fazer na próxima aula.
+
+E até lá.

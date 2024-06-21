@@ -1,0 +1,61 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Subscription
+
+Sempre que você chama a função sabes quais seja não sabe.
+
+Ou mais comumente nomes robô você vai registrar uma função interessada e a resposta sobre os quais ele
+
+te dá uma subscrição uma subscrição.
+
+A gente já fez um exemplo disso mais atrás eu acredito que em relação a esse trio de dados para o qual
+
+chamei o Sóbis Klein nós já sabemos sobre os clubes.
+
+Eu mostrei inclusive que você é capaz de chamá lo os quais ponto eu vou fechar esse arquivo aqui.
+
+O que eu quero dizer vou fechar todos os arquivos e está quase no final do capítulo com os olhos.
+
+Eu vou querer criar aqui um arquivo chamado subscrevo gente só para falar um pequeno detalhe sobre isso.
+
+Santos puxando de si eu quero que vocês façam o que eu vou falar agora como desafio na próxima aula.
+
+Eu lamento e a gente fala esse pequeno detalhe a mais sobre a subscrição eu quero que vocês procurem
+
+um operador de criação que vai ser capaz de esperar por exemplo três mil milissegundos ou seja mais
+
+para três segundos.
+
+A partir daí ele vai começar a gerar por exemplo gerar números de por exemplo 500 e 500 milissegundos
+
+vai gerar 0 1 2 3 mais ou menos como a gente fez lá no intervalo.
+
+Mas ele recebe o tempo de início da lei inicial para só então começar a fazer essas operações.
+
+Eu quero que vocês gerem esses valores numéricos de 500 e 500 milissegundos com um delay inicial de
+
+três segundos e no final depois de 10 segundos certo.
+
+Depois depois de 10 segundos vai chamar o ano sob os quais vai se inscrever eu quero que você gere duas
+
+vezes isso então pode criar a função para gerar toda essa lógica ele retornar e você chamar que o subscrevo
+
+moveis sobre escraviza.
+
+A segunda vez que depois de dez segundos eu quero que você pare de receber todas as notificações.
+
+Então pra esse exemplo eu quero que vocês façam isso sem olhar para os anteriores tentar fazer sem custar
+
+absolutamente nada na próxima aula vou implementar isso vou mostrar mais um pequeno detalhe com relação
+
+a essa parte específica do site escolhido especificamente quando você quer.
+
+Ele dá para você chamar e parar várias subscrições de uma única vez eu quero mostrar isso e aproximá
+
+lo antes.
+
+Eu quero que vocês implementem isso.
+
+E até lá.

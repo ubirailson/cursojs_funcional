@@ -1,0 +1,91 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional First-class function
+
+Outro conceito que você também já sabe é o conceito de First Class Function e eu vou criar aqui um arquivo
+
+vou usar os nomes inglês nesses dois casos já que são nomes bem emblemáticos.
+
+Mas você pode chamar de First Class ou de primeira classe e cidadão de primeira classe e que fosse clássico
+
+sendo também referenciado vou colocar colocar aqui Frost First Class function Cake e nós vamos colocar
+
+aqui a definição disse que a linguagem de programação possuem função de primeira classe quando a função
+
+nessa linguagem são tratadas como qualquer outra variável.
+
+Ou seja quando você tem o franchise Class não significa que a linguagem trata a função como uma variável
+
+também.
+
+Em outras palavras você consegue armazenar funções e variáveis.
+
+Então o fato de eu conseguir fazer constantes X recebe três é constante e só recebe uma função por exemplo
+
+que recebe o texto certo faz com que você consiga tratar a função assim como você trata qualquer tipo
+
+de valor da linguagem você consegue atribuir a variável y por exemplo a constante.
+
+Alguma coisa está colocando o console em outro blog.
+
+Esse texto em dois pontos e está colado ao texto legal.
+
+Então eu consigo tanto chamar aqui console em outro blog.
+
+O valor de X como eu consigo também o restante foi criada e passa aqui mas terminado o valor é chamar
+
+a função.
+
+São Paulo três textos já que ele está fazendo o console o blog original seria aqui apagá lo executando
+
+mais uma vez neste caso James Script é uma linguagem que trabalha função como cidadãos de primeira linha
+
+ou First Class Foundation ou forças de classe Citizen.
+
+Significa que ele trata dentro da linguagem função como variar você pode armazenar a função como variável.
+
+Esse é o conceito de força classe flamejante assim como a gente viu na aula passada o conceito de obra
+
+que é o fato que você consegue passar em função comparando o para a outra função e retornar à função
+
+a partir de uma função.
+
+Então são dois conceitos essenciais para a programação funcional a linguagem só consegue ser funcional
+
+se tiver esses dois conceitos implementados na linguagem.
+
+Não são todas as linguagens que têm isso mas já escrevi é uma delas e por isso a gente consegue fazer
+
+vários códigos funcionais exatamente por conta dessas duas características.
+
+Escrever funções puro já tem uma relação maior com essa questão de você aplicar o princípio na prática
+
+não necessariamente isso tem a ver com o recurso da linguagem é uma boa prática que o programador vai
+
+lá e faz no dia a dia que é você pensar em relação às suas funções e não ter opiniões externas ou seja
+
+funções pura ele jamais mais pelo lado de um princípio que é uma boa prática.
+
+Já o foco é o de classe Connection são recursos que a linguagem precisa disponibilizar para você para
+
+que você consiga implementar códigos funcionais legal então são dois conceitos que a gente já tinha
+
+usado anteriormente muitas vezes para falar a verdade e armazenar função seja um afluxo fraco Expresso
+
+como é o caso aqui que é uma função anônima está colocando a variável y como também se você quiser criar
+
+por exemplo uma constante Z que vai receber uma função.
+
+Então aqui você também pode receber uma função.
+
+Console em um blog Z legal.
+
+Então aqui também nós temos uma constante atribuindo a ela também tem essa relação fato que JavaScript
+
+suporta estar de primeira linha na função como estado ou de primeira linha é retratado também como o
+
+valor assim como consigo atribuir três ou consiga atribuir uma função a variável ou constante.
+
+Isso até para os mal.

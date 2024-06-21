@@ -1,0 +1,167 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Operadores 3
+
+Só nessa aula nós vamos criar um operador e na próxima aula juntos criar um outro operador só que na
+
+sala vou criar operador de criação que é um operador mais tranquilo e nos jogos da próxima aula.
+
+Criar um operador e um pai robô um operador que vai ficar sem usar dentro do pai já um pouco mais complexo
+
+mas eu vou fazer com muita calma para que você possa entender os dois.
+
+A gente já criou anteriormente algum operador de criação de mais faz sentido realizar aqui a partir
+
+do nosso exercício que esse operador extremista ou craque operadores da linha 3.
+
+Ponto.
+
+Assim e eu vou importar aqui o UOL a parte que é pra criar um operador de criação é muito simples criar
+
+aqui uma função já colocar o nome dela aqui ABC e eu vou retornar observo algum ponto coerente e eu
+
+vou fazer o seguinte Aqui tem que ter um operador off vou gerar a minha versão do operador então aqui
+
+eu vou usar um operador plástico e apagar todos os parâmetros e jogar tanto o leste como esse prédio
+
+é o mesmo operador.
+
+Nessa aqui a ideia é pegar um conjunto de parâmetros e jogar dentro de um array certo que você colocar
+
+no Rio o prédio você pega lá por exemplo espalhar todos os dados para gerar um parâmetro de uma função
+
+pra você jogar bem outro aí ou qualquer coisa que você queira fazer.
+
+Então aqui eu vou colocar ele chamar de elementos e basicamente eu faço aqui meus sogros na função e
+
+nós vamos aqui dentro eu vou ter na verdade aí você aperta está né se não tiver lá Rei ou então aí Brasil
+
+eu vou chamar aqui.
+
+Sabendo o alinhamento e a partir desse elemento eu posso chamar um ponto México caçando até nada.
+
+Então a gente pode inclusive expor o caso por exemplo off FB lei.
+
+Só estou pensando que meu nome é português legal mais sei lá elementos Deley.
+
+Você passa aqui um determinado tempo.
+
+Você vai usar.
+
+E aí a gente vai fazer alguma coisa do tipo que a gente recebe.
+
+Ele recebe o índice.
+
+Eu posso pagar aqui por exemplo.
+
+Ele só vai usar aqui o sétimo malte então toca aquele 7 em Malt chamado Modo função só pra fazer um
+
+pouquinho diferente não chamar o subsecretário Bacchi e vou multiplicar o tempo multiplicado pelo sim
+
+mais um.
+
+Então a primeira vez ele vai demorar e eu vou colocar isso aqui dentro de um ano.
+
+Um cálculo que fica mais fácil.
+
+Basicamente ele vai chamar o latim na primeira vez como se equivale a zero.
+
+Vai explicá lo pelo tempo um sifão da lei de um segundo.
+
+O segundo depois de dois segundos e aí depois ele vai me explicar por três três segundos quatro segundos
+
+e assim eu vou passando os outros elementos.
+
+Então nesse caso ok um operador de criação apaixonado retornando observa Goal.com ponto você vai criar
+
+ele você vai gerar os dados chamados sobre quais ponto Macchi pode depois de terminar aqui a última
+
+execução.
+
+Então como é que você que é a última opção provavelmente eu vou saber fazendo algum teste aqui.
+
+Então sim elementos.
+
+Ponto leve.
+
+Ou seja o tamanho do armamento não vai ser estritamente igual ao algo e mais um pouco pelo tamanho é
+
+sempre maior do que o último.
+
+Se isso aqui for Varadero significa que esse foi o último elemento chamado.
+
+Você acha que o subscreve.
+
+Ponto.
+
+Eu não posso simplesmente colocar aqui no final já que aqui vai ter um sincronismo por conta do site
+
+Tai Matt Seagal.
+
+Então com isso vou chamar aqui alguns elementos da lei.
+
+Vou colocar aqui era minha segunda lei.
+
+Vou passar por exemplo número 1 2 3 4 5 6.
+
+Vou eu vou passar aqui os elementos e o último vai ser o tempo.
+
+Será que vai dar certo isso aqui vou fazer o contrário vou passar o tempo depois exatamente só pra não
+
+ter problema de não conseguir essa informação.
+
+Com o passar dos minutos assim eu poderia passar pela raiz sem problema.
+
+Então o tempo vai se mil e a partir daí vou receber os alimentos.
+
+Com isso que eu vou chamar aqui o subsecretário.
+
+Vou colocar um console Fotolog para a gente vai chamar.
+
+Então estamos aqui para ver o meu operador de criação estar funcional executando 2 3 4 5 6.
+
+Demorou seis segundos e uns quebrados exatamente o que eu tenho seis números e o intervalo é de dois
+
+segundos o colocado aqui de 2 executando mais uma vez a gente conseguiu criar agora o operador de criação
+
+que gera números a partir de determinado intervalo e números que eu passei não.
+
+Na verdade não números nem geram elementos.
+
+Se eu passar por exemplo monstrinho ou Bullet ele vai gerar neles colocar aqui dia colocar aqui falso.
+
+Vou colocar aqui o último pra ser Rei e três posições 1 2 3.
+
+Aquilo que eu quiser que ele gere geral.
+
+Então primeiro depois dia 2 3 2 falso depois o número 5 e finalmente a rede 3 amigos a 1 2 3 h.
+
+Então criamos esse exemplo um operador de criação a partir do observa o ponto quente você passa que
+
+os parâmetros e aí a partir daqui você vai gerar time de dados provavelmente você vai receber uma série
+
+de parâmetros que vai te ajudar a partir de outro homicídio irá por exemplo observar boa parte de Warren
+
+em geral observa Bo a parte de uma requisição por exemplo usa no Axis ou qualquer outra coisa você pode
+
+encapsular um frame ou aqui dentro.
+
+Observa que há algo bastante simples que eu possa até não achar pra vocês depois.
+
+Então tem muitas possibilidades e pra criar um operador de criação muito simples você vai usar lo observa
+
+o ponto de colheita para colocar dentro de uma função.
+
+E aqui dentro você vai criar a lógica de como esses dados vão ser gerados.
+
+Então fico por aqui.
+
+Na próxima aulas eles fazem os operadores quatro quartos esses são nas operadores.
+
+Agora nós vamos criar um operador bucal para que pode ser encaminhado depois do outro ter um pouquinho
+
+mais complexidade aí vai ser bem tranquilo que eu vou fazer de uma forma muito carenciada.
+
+Então fico por aqui até para o.

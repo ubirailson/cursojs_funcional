@@ -1,0 +1,93 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Usando Promise
+
+Agora nós vamos fazer essa pequena alteração para a igreja retornar diretamente o arquivo a gente tinha
+
+tornar uma promessa e daí vai conseguir fazer todo aquele encaminhamento é necessário fazer sim leu
+
+não necessariamente você precisaria de uma promessa aqui.
+
+Nesse caso vai ser interessante para a gente colocando toda aquele filme baseado no bem.
+
+Cabe agora chamadas então aqui eu vou retornar ao Rio mas vou retornar aqui colocá lo resolve e vou
+
+também colocar o widget.
+
+Ou seja caso aconteça algum erro a gente vai chamar o widget.
+
+Vou jogar essas duas coloquei pra dentro.
+
+Eu como fazer no momento que a gente tiver o resultado nos arquivos que a resposta do MEP e o colocar
+
+aqui.
+
+Arquivos já que é uma variável que chamo coloquei delete nela arquivos e serve os próprios arquivos.
+
+Depois do Mac ou seja o MAP ele vai transformá la rei em outro rei só que tinham a original com os nomes
+
+apenas os nome e o nome do arquivo agora tem um nome completo e o nome da pasta mas o nome do arquivo
+
+legal.
+
+Com isso a gente pode chamar o resolve que resolve passando exatamente os arquivos.
+
+Caso aconteça algum problema aqui eu posso colocar aqui um bloco.
+
+Isso se der algum problema ele vai cair no CAT e eu vou chamá lo widget assando essa ação como parâmetro.
+
+Vou usar aqui o Audi Shift Tf.
+
+Acredito que seja o altivo TF para formatar também no Windows e no Mac.
+
+O Linux também tá aqui no caso é óbvio um chip F que seria correspondente ao tipo de f legal então já
+
+estou tratando ele.
+
+Caso aconteça algum erro de leitura ele vai cair aqui e eu vou rejeitar para homens caso a leitura seja
+
+bem sucedida pegue os arquivos só os nomes dos arquivos aqui eu estou fazendo a junção do nome do arquivo
+
+mas o caminho é tona os nomes completos aqui no final chama resolvi então pra gente fazer alteração
+
+aqui e veja colocar os arquivos aqui uma constante.
+
+Eu vou chamar afinal ponto lei diretório ponto.
+
+E aqui eu vou simplesmente chamar o console em outro blog.
+
+Mas vamos fazer algumas transformações antes.
+
+Então vai ter outros bens antes desse mas eu vou deixar esse aqui como último para a gente tá sempre
+
+entendendo que ele está sendo processado naquele momento e que a gente tinha antes o que é que foi gerado
+
+a partir do novo processamento.
+
+No meio a gente vai colocar varios várias chamadas de ponto para que a gente possa processar os arquivos
+
+até chegar ao resultado final.
+
+Então nesse momento olímpico o console salvando a gente tem aqui o problema.
+
+Ele disse que ao ler diretório D não é uma função.
+
+Então foi que eu fiz mal esqueci de salvar o arquivo da TAM tem que salvar que ele não vai lá.
+
+Então limpando aqui executando mais uma vez.
+
+Agora a gente voltou a ter todos os arquivos daquela pasta e não os arquivos em si mas os caminhos para
+
+os arquivos da pasta e agora está usando promessa na próxima aula ele vai fazer o primeiro processamento
+
+que vai ser filtrar todos os arquivos que não interessam.
+
+Eu vou querer filtrar todos os arquivos que não tem a extensão ponto s RT.
+
+Então tenta imaginar uma forma mais genérica possível de fazer isso na próxima aula eu vou mostrar a
+
+minha versão.
+
+A gente se vê lá.

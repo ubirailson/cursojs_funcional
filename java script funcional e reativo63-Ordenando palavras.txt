@@ -1,0 +1,199 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Ordenando palavras
+
+Agora nós vamos fazer a função que vai ordenar e para isso eu vou criar a função que vai ordenar a partir
+
+de um determinado atributo de um objeto.
+
+Então vou colocar o nome da função em tal função a ordem na primeira equipa ou atributo numérico sei
+
+lá é um atributo de um objeto em que esse atributo é um atributo numérico até porque a lógica para ordenar
+
+valores textuais vai baixinho a lógica para ordenar valores numéricos um ao outro.
+
+Então vou querer passar aqui o nome do atributo bi.
+
+O segundo parâmetro vai ser que a Ordem vai ser no sentido se vai ser ascendente ou descendente por
+
+enquanto eu não vou passar nenhum atributo.
+
+Vou passar aqui só atributo e vou retornar uma função que vai tornar o próprio rei que vai receber o
+
+Rei.
+
+E aqui dentro a gente vai fazer esse processo de ordenação já que é um atributo numérico o pescador
+
+faz o seguinte eu vou criar a função aqui que vai ser responsável por fazer o ordenamento decrescente.
+
+Então como eu vou receber dentro deixarei o objeto e eu quero acessar o atributo dele.
+
+Então eu vou comparar o objeto é um objeto dois e aqui dentro eu vou querer pegar o objeto dois por
+
+exemplo no atributo que foi passado que é exatamente esse atributo numérico menos o objeto ponto um
+
+determinado atributo que foi passado.
+
+Com isso eu consigo fazer a ordenação decrescente.
+
+Qual é a lógica que é usada para fazer a ordenação.
+
+Basicamente alguma coisa do tipo assim hoje coloca aqui um comentário só pra tentar explicar rapidinho.
+
+Quando você pega dois valores no com que você tenha a rei de lá colocar 3 5.
+
+Beleza ele vai comparar esses dois números três e então três menos um vai dar um resultado dois.
+
+O que significa que o primeiro elemento é maior do que o segundo.
+
+Então ele vai pegar o 3 e jogar pra cá certo.
+
+E aí ele vai agora pegar um outro numeração que é o 3 menos 5 e o resultado vai dar menos dois.
+
+Nesse caso não vai mexer o 5 exatamente porque o estado negativo está carente de ordem ascendente.
+
+Então ele vai trocando de acordo com a operação se você tem por exemplo o outro terá um outro exemplo
+
+um pouco mais enrolado ou você tem aqui 3 e 5 a que ele vai fazer.
+
+Ele vai pegar o 3 menos o resultado deu dois 2 então se deu dois quer dizer que esse aqui é maior do
+
+que o outro.
+
+Ele vai colocar o 3 pra cá de novo ele vai fazer o 3 menos um resultado vai dar 2 pegar o 3 e vai trocar
+
+por esse.
+
+Depois ele vai fazer o 3 e o 5 então 3 menos 5 o resultado vai dar menos 2 neste caso como deu negativo
+
+ele não vai trocar porque eu quero a ordem ascendente.
+
+Então ele vai basicamente ordenasse fora é descendente.
+
+Vai ser exatamente o contrário.
+
+Então em vez de pagar 3 mil vai pagar o 3 que é exatamente o que eu quero.
+
+Ele passou lamentou o aumento 2 eu estou fazendo o contrário o elemento 2 menos valha.
+
+Isso aqui vai dar ordenação decrescente.
+
+E aqui eu estou precisando acessar até nada atributos de um objeto imaginar que eu estou fazendo uma
+
+alienação por atributo numérico é basicamente o que está faltando fazer aqui e eu retornar o meu Rei
+
+Amado aqui.
+
+A função sorte passando o valor da crescente.
+
+Se eu quiser criar aqui o ascendente então passo que o ascendente é aqui em vez de ser objeto de objeto
+
+ou vai ser objeto e menos objeto 2 e aqui eu tempo passar um segundo atributo que seria a ordem então
+
+a ordem em que por exemplo o padrão seria ascendente e eu tenho que passar explicitamente da ascendente
+
+caso eu queira fazer ascendente nesse caso eu vou passar dois parâmetros e eu vou definir qual a função
+
+que eu vou passar baseado na ordem.
+
+Se a ordem for estritamente igual a ascendente significa que ele vai usar a função ascendente caso contrário
+
+ele vai usar a função ascendente.
+
+Então usei a função passa a dois atributos e aí o resultado dessa função é exatamente uma função que
+
+essa não é rei e com isso a gente consegue fazer alteração ou declarar essa função aqui também mais
+
+uma função que a gente vai usar na nossa aplicação.
+
+E aí você pode eventualmente criar diferentes arquivos para analisar suas funções funções que mexem
+
+a Rei funções que mexem em strings funções que mexem com Rui Correia Jaques por exemplo funções que
+
+fazem.
+
+Coisas que você pode separar nas funções realizáveis em diferentes arquivos.
+
+Para ficar ainda mais fácil de usar quando você souber que aquela função vai operar em cima de uma que
+
+aquela função vai operar em cima de um monstrinho então você consegue ainda mais fragmentar e separar
+
+organizar uma fonte fica ainda mais fácil de usar.
+
+Legal então aqui a gente já chamou agrupar elementos.
+
+Agora vou chamar alguém chamado a função.
+
+Ponto ordenar por atributo repassar o atributo aqui no caso que é quantidade ou Qt.
+
+Nesse caso eu não vou passar nenhum parâmetro herbáceo em ordem ascendente ao executar.
+
+Você vai ver que está se assumindo algum ascendente quantidade.
+
+Várias palavras foram chamados apenas uma única vez em toda a temporada e agora vou passar o segundo
+
+parâmetro descendente.
+
+Ele vai me retornar à função e essa função foi passada prudente e agora sim a gente vai descobrir qual
+
+a palavra mais dita nesse seriado.
+
+é exatamente a palavra aí.
+
+Ou seja eu a segunda palavra mais dita e o cara então tá aqui as palavras mais ditas fizemos o nosso
+
+algoritmo se você quiser salvar isso no arquivo é moleza né.
+
+Basta você chamar aqui o extremo vai dar vida e manda isso para um arquivo que ele vai salvar se para
+
+o meu.
+
+Não vou fazer essa parte porque é super tranquilo mas a gente conseguiu fazer um código extremamente
+
+funcional composição de funções funções pequenas dados imutáveis a gente não tá alterando dados em canto
+
+nenhum a não ser.
+
+Eu acho que só tem um flash.
+
+Aqui só tem Couch procurar que conchinha procurar Leite não tem e não tem vá em canto nenhum certo e
+
+nenhum de funções.
+
+E nós só temos um leite ou outro leite que é relacionado a esse trecho que vai estar sempre acrescentando
+
+mais estabilidade local só tem dois lados na nossa aplicação ou seja aqui a gente pirou avariado e está
+
+mudando ela aqui dentro e noutro caso a gente também criou uma variável que está modificando ela aqui
+
+dentro desse Mac e dá ao certo também uma variável local estabilidade muito restrita o que é um dos
+
+princípios essenciais da programação funcional certo eu não sei vocês mas eu acho que esse é um exemplo
+
+bastante interessante e é muito esclarecedor de como você consegue organizar um código funcional certo
+
+não necessariamente você vai definir todo o fluxo da sua aplicação nessa forma mas você controla as
+
+funções pra você conseguir gerar o fluxo nela lógico muito maior e muito mais interessante do que você
+
+ter uma grande função com várias responsabilidades dentro e você vai ter dificuldade muito grande de
+
+realizar mesmo que o trecho interna daquela função faça sentido se usado como ela tá dentro de uma função
+
+muito mais complexa.
+
+Vai ficar difícil você está aí vai acabar acontecendo não trouxer controle vejam lá naquele código e
+
+outra parte do sistema ou seja repetindo um código que não era pra ser repetido lembra daquela regra
+
+do drive Don't Be bitch Yourself que quer dizer não se repita Dr. bit Yourself e tal não se repetir
+
+vai exigir de você funções pequenas funções com pouquíssimas responsabilidades ou seja com a responsabilidade
+
+para daí você conseguir e usar isso de uma forma muito mais interessante.
+
+Legal fizemos aqui nosso primeiro objetivo na próxima aula a gente conclui esse capital só para alguns
+
+outros pensamentos e até lá.

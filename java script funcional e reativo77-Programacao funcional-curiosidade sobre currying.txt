@@ -1,0 +1,47 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Curiosidade sobre Currying
+
+Esse vídeo eu quero falar rapidamente só sobre uma curiosidade relacionada ao que.
+
+Se você olhar lá no lambda cálculo que é exatamente a origem da programação funcional Lacen o centro
+
+das funções usa o mais que você na anotação e eventualmente vai acabar falando inicialmente mas no final
+
+do curso mesmo que você use a anotação como se fosse a função que recebe três parâmetros na prática
+
+na verdade a função recebe um parâmetro que retorna outra função que recebe aquele outro parâmetro que
+
+retorna outra função que é essa naquele parâmetro.
+
+Por exemplo se você pegar a linguagem rasca com linguagem puramente funcional inclusive o médico que
+
+é o nome do rascunho que que é o cara que tanto deu origem ao nome da linguagem rasca o que é puramente
+
+funcional como foi o cara que propôs essa proposta que você tem a função é lo outra função que é a aplicação
+
+parcial dos parâmetros de entrada e veja você passa a todos os parâmetros de uma vez só para a função.
+
+Você vai passando os parâmetros de forma parcial.
+
+Isso é algo que tem um uso muito grande na programação funcional embora em JavaScript você acaba criando
+
+com menos frequência o uso de funções usando essa técnica mais só para dar curiosidade também que no
+
+original lá no lambda cálculo Zé que vem a base da programação funcional todas as funções usam Chrome
+
+sem exceção.
+
+E no caso do rascunho que que a linguagem puramente funcional.
+
+A grande maioria esmagadora das soluções usam que você tem como aplicar mais de um parâmetro um certo
+
+para a função mas não é o padrão padrão que todas as funções têm a sua aplicação dos parâmetros de forma
+
+parcial um parâmetro retorna a função passou de parâmetro e assim você vai fazendo a invocação na função
+
+de forma parcial o que dá vários recursos interessantes como é o caso do Luis Cláudio nós vamos ver
+
+aproximá lo.

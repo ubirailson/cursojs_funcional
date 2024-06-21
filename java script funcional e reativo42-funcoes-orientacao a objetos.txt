@@ -1,0 +1,586 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Orientação a Objeto
+
+
+Apesar de esse ser um curso mais voltado para a programação funcional é importante também falar um pouquinho
+
+sobre orientação a objeto está.
+
+Então eu vou mostrar pra vocês aqui um exemplo bem básico até porque orientação objeto em JavaScript
+
+também é baseado em função.
+
+Então vou criar aqui ô puseram o ponto de S e eu vou mostrar pra vocês as vocês perceberam que usei
+
+exemplos de pronomes se a gente tem é função e a gente precisou ser que criou uma nova pronomes nós
+
+chamamos mil homens pra distanciar um novo deles.
+
+Aqui no caso do polonês contou algo a um metro utilitário que você vai usar ele para Apache.
+
+Dessas promessas gerados ele sincronizar todas as respostas para daí chamar o metro bem mas quando você
+
+criou a prova se você vai usar uniu a palavra reservada para criar uma nova instância.
+
+Como é que a gente poderia usar uma função pra conseguir um objeto por exemplo poderia criar uma função
+
+chamada produto e eu posso eventualmente receber parâmetros desse produto.
+
+Começar bem simples depois a gente vai evoluindo.
+
+Então vou receber aqui por exemplo o nome do produto e o preço do produto legal.
+
+Eu posso simplesmente.
+
+Se eu vim aqui algo criar um custo constante mesmo se necessário a gente coloca pra variar.
+
+Então o produto recebe o produto.
+
+Então aqui não tem nenhum problema para instancia um novo produto.
+
+Passado como por exemplo os parâmetros.
+
+Vai ser Barcelona caneta e vou passar aqui o valor por exemplo vai ser oito reais e 59 centavos.
+
+Magal possa criar um segundo produto uma segunda instância.
+
+Certa parte dessa função chama o produto 2 que ou coloca na geladeira e o valor vai ser 2 1345 contou.
+
+Nova York então tem dois produtos o produto e produto dois da forma como aqui se eu simplesmente colocar
+
+aqui um console Fotolog e fizer a mesma coisa que provedores ele vai simplesmente dizer que a gente
+
+tem um objeto.
+
+Então aqui a gente tem um objeto onde o produto está.
+
+Se eu colocar aqui on off resetar você vai ver que ele é um objeto assim como seu pai corta aqui pra
+
+cima.
+
+E o pior produto.
+
+Nada mais natural do que esperar que seja uma função assim como a gente tem lá.
+
+Mas há também uma função assim como a gente também tem no caso JavaScript o objeto.
+
+Ele também é uma função.
+
+Então olha já tem uma função e produto uma função promocional função que você pode distanciar produtos
+
+assim como você pode transferir para filmes e objetos.
+
+Então continuando aqui como é que a gente vai conseguir por exemplo uma vez que você já sabe que nós
+
+temos uma função e temos objetos que eu consigo acessar por exemplo.
+
+Tem um ponto que nome então nesse caso é P1 e P2 aqui ponto pra isso por exemplo.
+
+Então nesse caso se a taxa de embarque cair novamente você vai ver que os dois são diferentes.
+
+Eu recebi isso aqui.
+
+Eu preciso de alguma forma colocar isso disponível para ser acessado.
+
+Então pra você inicializar os dados você vai fazer desse ponto o nome recebe o valor de Ali e desse
+
+ponto pra isso recebe o upload pra isso sempre que você usa desse ponto alguma coisa você está colocando
+
+esse atributo dentro da instância gerada.
+
+Sempre que você chama a partir dessa função vai ser criado uma instância e essa instância vai ser devolvida
+
+com a resposta da chamada do Rio.
+
+é dessa forma que você consegue acessar os atributos usando a palavra deles.
+
+Aqui é importante salientar o seguinte que quando você usa desse ponto o nome desse ponto pra isso você
+
+acabou de tornar esses atributos públicos.
+
+Eles ficam visíveis pra todo mundo se você quer algo que fique visível apenas dentro da função.
+
+Você cria uma variável normal por exemplo em latim por exemplo o aqui privado recebe 3.
+
+Nesse caso esse valor é um valor que fica interno ou qualquer que depois fica interno dentro da função
+
+e não é visível para fora.
+
+Então aqui ao se executar novamente você vai perceber que é uma coisa que a beleza está novamente um
+
+símbolo aqui que eu coloquei para algo útil então mostrou que a caneta e o valor das 1345.
+
+98.
+
+Legal seria tentar acessar o privado clicar aqui.
+
+O local é privado.
+
+Ele vai dar um valor.
+
+Faris exatamente porque esse valor não está disponível.
+
+Neste ponto aqui está escondido dentro da sala posso usar ele quando eu quiser mas eu não posso acessar
+
+esse valor fora da função legal.
+
+Como é que eu posso criar uma função associada a esse produto.
+
+Supondo que eu receba também aqui o desconto que por padrão vai ser de 0 ponto 15 por cento então não
+
+precisam necessariamente passar na construção do objeto e aqui vão fazer algo desse ponto.
+
+Desconto recebe desconto e eu quero por exemplo calcular o preço com desconto pagar o preço com desconto.
+
+Consigo fazer isso ao usar desse ponto.
+
+E aí eu posso colocar o nome da função que eu queira né.
+
+Então preço final eu posso atribui essa variável uma função que não precisa receber nenhum parâmetro
+
+porque eu já tenho o preço e o desconto então que é que eu posso fazer aqui onde vai retornar.
+
+Desse ponto o preço multiplicado por um menos o desconto desconto.
+
+Dessa forma eu posso chamar aqui ao preço final com a função e aí sim executar.
+
+Você vai ver que o resultado é exatamente o preço o que você quis com você colocar preços mais fáceis
+
+de calcular por exemplo colocar aqui 3.000 reais a geladeira e a caneta baixei 10 reais.
+
+Então se acertar você vai ver que agora o valor vai ser exatamente os 15 descontos a colocar aqui por
+
+exemplo para poupar °C 50 por cento de desconto.
+
+Ela sabe que o resultado vai dar 1500 executado ou 1500 aqui na geladeira né o valor cheio é o preço
+
+com desconto para o valor final aqui.
+
+Então pensar que eu tinha para falar na sala a gente viu um pouquinho de como a gente consegue a partir
+
+de uma função usar a função pra me distanciar objetos e pode também fazer isso com classe no final das
+
+contas quando você criou a classe você tem como se fosse apenas um detalhe de sintaxe não é o que ele
+
+chama de sintaxe julga que é um detalhe de sintaxe porque quando você cria uma classe na verdade uma
+
+função o faz é um exemplo bem básico de classe só para mostrar para vocês porque isso já foge um pouco
+
+do escopo do custo já que já vai muito mais para a questão da orientação a objeto tá mais é importante
+
+você entender também que você consegue criar a função e a partir do 10 você consegue definir atributos
+
+e comportamentos.
+
+Você consegue criar uma função dentro de outra função com a gente já viu anteriormente tanto para que
+
+você possa retornar função paixão função receber uma função como parâmetro.
+
+Como você consegue criar uma função que é a estrutura.
+
+Como você vai definir aquele objeto e a partir daí você consegue distanciar vários objetos com valores
+
+diferentes.
+
+Então fico por aqui aproximar o exemplo bem rápido sobre classes só para mostrar para você que das contas
+
+a classe também é uma função.
+
+Daí a importância de uma funções s da linguagem JavaScript.
+
+E tem tudo a ver também com o tema do nosso curso que é programação funcional.
+
+Então você precisa dominar a função das diversas formas possíveis.
+
+Fique por aqui e até aproximá la.
+
+Agora nós vamos criar mais um exercício aqui que eu vou chamar aqui de O2 2 ponto de táxi e eu vou criar
+
+uma classe chamada produto da mesma forma como a gente criou anteriormente está aqui nessa classe Produto.
+
+A gente pode definir um construtor que seria um construtor equivalente ao que a gente tem aqui.
+
+O que a gente chama esquece até de falar né.
+
+Isso aqui é conhecido como uma função construtora são construtora então você tem uma função construtora
+
+que o objetivo era construir ou criar objetos e aqui é como se você tivesse essa função aqui.
+
+Acabou sendo chamado aqui ao seu construtor e aqui você vai passar por exemplo o nome porque pra isso
+
+é o desconto então dentro dessa função construtora nós vamos por exemplo inicializar o nome recebe o
+
+nome vou colocar aqui o preço do desconto da substituição como líder ou contra o B.
+
+Ele seleciona o próximo que tem exatamente o mesmo nome e eu posso modificar ao mesmo tempo o preço
+
+é a mesma coisa que baixa do S que pra ele liberais seleção como a B.
+
+Só uma vez para selecionar algo do lado é que eu coloco desconto nos dois.
+
+Então aqui eu estou alisando as variáveis que foram passadas na construção de objetos e logo na classe
+
+eu posso criar outros métodos como por exemplo definimos um método que é o preço final.
+
+Então vou criar aqui o preço final que vai ser a minha função.
+
+Nesse caso eu não uso a fabricação.
+
+Alguma coisa.
+
+Nesse caso ele não vai permitir que você faça isso.
+
+Você coloca simplesmente a função e os parâmetros de entrada nesse caso para calcular o preço final
+
+não tenho um parâmetro de entrada e aqui eu vou retornar.
+
+O BC tem que acessar os aluguéis desse ponto.
+
+Para isso vou multiplicar por menos desse ponto um desconto então feito isso eu vou conseguir pagar
+
+exatamente esse código final de dezembro passado porque embora eu tenha feito isso com função com função
+
+construtora com a classe eu vou ter exatamente o mesmo efeito com o seguinte se há produtos vou conseguir
+
+passar aqui os valores assumindo que o valor de desconto aqui tem um valor padrão por exemplo zero de
+
+5 e eventualmente vê se que eu posso passar colocar na geladeira aqui para ter zero ponto.
+
+Oitenta por cento de desconto vamos colocar geladeira de 10.000 reais para cá pouco mais cara.
+
+Então com isso eu consigo acertar o resultado até que a caneta o teu valor.
+
+O preço da geladeira que é 10 mil e o valor com desconto que deu em 1999 9 9 9 9 9 5 por conta da caxumba
+
+arredondamento da Caixa no algorítimo usado nas linguagens de programação.
+
+Eu já falei isso acho umas 20 vezes em cursos diferentes praticamente todas as linguagens usam um algoritmo
+
+que tem o erro residual muito baixo na manipulação com ponto flutuante.
+
+E aí o que acontece se ele fosse usar o algoritmo que é extremamente preciso a esse algoritmo parece
+
+que 10 15 20 vezes mais lento do que esse algoritmo que é adotado por praticamente todas as linguagens
+
+então as linguagens oferecem mecanismos de você conseguir realmente trabalhar de forma precisa mais
+
+você vai sacrificar um pouco essa questão do desempenho.
+
+Via de regra quando você trabalha com ponto flutuante nem as linguagens você tem essa imprecisão residual
+
+legal uma coisa que você pode fazer aqui também dá certo fazer na função mas a sintaxe um pouco diferente
+
+e você usar o engate aqui na frente quando você usa o bilhete na frente você está dizendo que não quer
+
+mais chamar essa função como uma função mas sim como se fosse um atributo então posso vir aqui ou simplesmente
+
+chamar o preço final como se ele fosse um atributo mas na verdade que está sendo chamado por trás é
+
+uma função tão acertada você vai ter exatamente o mesmo valor e se você tentar acessar isso como se
+
+fosse uma função vai gerar um problema.
+
+Ok você só vai conseguir acessar como se fosse um atributo já que você colocou o gatinho como se fosse
+
+um gato e aqui tem a vantagem você acessar como se fosse um atributo no e caso você queira criar um
+
+atributo de fato você pode criar esse atributo mas se você precisar transformar o atributo pra a função
+
+beta você consegue fazer isso tranquilamente por exemplo em vez de fazer o que você busca não quero
+
+salvar o nome do jeito que veio.
+
+Eu quero colocar aqui ou ali o nome e você pode criar.
+
+Get It Out.
+
+E aqui você consegue por exemplo fazer algum tipo de processamento que pode ser o nome mesmo então o
+
+britânico então toca aqui um britânico e vou retornar por exemplo um produto 2 PONTOS E VOU ENTRAR COM
+
+ALGO 10 pontuando.
+
+Não então essa forma eu acabei de transformar o nome em um gadget.
+
+Era um atributo anteriormente.
+
+Agora passou a ser o método certo e a gente chama a função dentro de uma classe.
+
+Chamo de método.
+
+Então tem essa diferença de nomenclatura mas acaba sendo uma função dentro de uma classe.
+
+Está colocando aqui e agora apareceu o produto dois pontos caneta exatamente porque eu tenho um processamento
+
+por trás da chamada desse atributo essa propriedade que na verdade é um beta você também consegue definir
+
+metas no cetro.
+
+Então por exemplo suponha que eu queira gerar aqui um set nome que vai receber um novo nome e você vai
+
+querer por exemplo transformar esse novo nome em letra maiúscula sempre todos os meus produtos têm letra
+
+maiúscula.
+
+Então antes de alterar aqui por exemplo o ponto onde você vai pegar o novo nome.
+
+Ponto G pé que quer isso aí você vai transformar o nome passado pra letra maiúscula pra daí você acertar
+
+na variável.
+
+Então o que é que eu vou fazer que eu vou alterar o nome do produto colocar aqui um nome recebe caneta
+
+com letra minúscula e você vai ver que logo na sequência ele vai aparecer com letra maiúscula exatamente
+
+com nesse ponto aqui foi chamado o método e não diretamente o atributo.
+
+E você pode inclusive fazer isso aqui já que eu estou aqui eu criei o método sete nome você pode fazer
+
+o desconto o nome recebe nome mesmo que eu não altere aqui na hora de construí já que aqui não construtor
+
+eu estou chamando o set ele vai alterar a partir desse método aqui.
+
+Então Salvador é acertado você vai ver que ele colocou a caneta maiúscula.
+
+Você trabalha como se fosse um atributo mas na verdade você está chamado.
+
+O método garante o site o que facilita.
+
+Você pode tratar tudo como atributo no momento que você precisar aplicar alguma validação.
+
+Um exemplo disso seria com relação ao preço.
+
+Então você poderia colocar aqui o método set preço e você tem aqui um novo preço.
+
+Caso o novo preço seja maior se ele for maior ou igual a zero significa por exemplo considerar isso
+
+como sendo um preço válido.
+
+E aí eu vou pagar aqui colocar 10 ponto dólares para isso.
+
+Então é nesse momento que eu vou criar essa variável de preço recebe o novo preço e aqui em cima o desconto
+
+preço agora vai apontar para esse cara que é o site e eu vou criar aqui um método beta Paulo coca cola
+
+diet para isso.
+
+Nesse caso a única coisa que eu vou fazer vai ser tornar o desporto lá para isso.
+
+Acabei de perder a conexão com o meu mouse chumbo botar o trackpad por enquanto tal.
+
+Feito isso ao fechar aqui rapidinho.
+
+Pronto agora a gente tem um preço.
+
+E se você tentar passar um preço por exemplo negativo ele não vai alterar o valor do preço.
+
+Então eu tenho uma caneta que vale das anos porque aqui eu vou querer fazer o seguinte o preço recebe
+
+menos 20 e eu vou acertar.
+
+Você vai ver que no final das contas ele não alterou o preço da caneta nem mostrei na verdade o preço
+
+da câmera para mostrar aqui o preço da caneta também.
+
+Você vai ver que a caneta continua valendo 10.
+
+Exatamente o que eu passei.
+
+Qual inválida você consegue habitar isso.
+
+Dá para fazer isso também na função da mochila para os maus.
+
+Como você pode criar guetos incertas dentro de uma função.
+
+E a gente finaliza essa parte aqui de função com orientação a objetos até então.
+
+Isso conta aproximada.
+
+Nós vamos agora mostrar como é que faz a gestão dos métodos quietas em certas associado a essa sintaxe
+
+usando puramente função que é uma sintaxe mais natural do mundo JavaScript está lá se criar classes
+
+ali cabine mostrando mais se você fizer aquele console o outro logo no exercício passado e colocá lo
+
+no Top of produto você vai ver que apesar de eu ter definido o produto como sendo a classe se você olhar
+
+o próprio produto você vai ver que ele é uma função tão executado.
+
+Ou seja por isso que eu estou dizendo que na verdade ele é só um sintaxe shugo não é um detalhe que
+
+ele chama leiga no termo inglês que chama só a sua ocasião ali em termos de sintaxe.
+
+Só pra você ficar mais fácil por exemplo a criação da happening de quem vem de linguagens como Java
+
+onde fica mais natural trabalhar com o clássico que função mais saiba que função javascript.
+
+E o cara é importante não é o cara mais importante é o rei ou presidente do mundo JavaScript da classe
+
+é meramente um detalhe de sintaxe como você pode escrever algumas coisas acabam sendo facilitadas até
+
+mesmo que você consegue ter alguns citações mais naturais assim tá mais uma acha pra você só pra gente
+
+finalizar aqui ou criar um novo arquivo aqui dentro ou chamar de OH 3 conto de S.
+
+Vou me basear no exercício tal colocar aqui e colocar que valham uma coisa que a gente fez anteriormente
+
+né.
+
+Se você colocar produto ponto Prototype logo aí você consegue por exemplo adicionar uma funcionalidade
+
+a produto que não existia anteriormente que não foi definida dentro da função construtor.
+
+Então aqui eu posso atribuir uma fala que está não.
+
+Nesse caso eu não posso usar o fax já uma função para ter acesso ao 10 ou seja o mesmo desenho que eu
+
+criei aqui na hora que eu criar um produto eu vou ter acesso nessa função log halteres que no caso aqui
+
+vai ser o P O que é uma instância de um produto ou o caso um P2.
+
+E aí eu posso por exemplo retornar aqui eu posso colocar nada ali eu vou chamar um console com logo
+
+olhe puto logo vou passar aqui as informações do produto então nós temos nome dois pontos vou colocar
+
+aqui uma vez outro nome eu vou colocar pressão dois pontos um símbolo do real vou entrar aqui desse
+
+outro pra isso vou deixar só esses dois sem baixar o desconto caso você queira achar o desconto pode
+
+acrescentar aqui só pra mostrar ideia então uma vez que eu defendi isso eu posso fazer aqui um ponto
+
+log chamado com uma função e você consegue estender a capacidade que demonstrou o nome caneta e preço
+
+10 reais exatamente o que a gente colocou associado ao protótipo.
+
+A gente tem a opção é na praça gastar mais os gatos não objetos objeto de.
+
+Tem um método chamado o design próprio TI definem uma propriedade e você vai definir uma propriedade
+
+no protótipo do objeto certo você quer definir a propriedade que vai servir para todos os objetos criados
+
+com essa questão de herança.
+
+No modelo JavaScript baseado em protótipo você tem um protótipo associado à função que você criou.
+
+Esse protótipo é o que vai definir como as instâncias serão criadas então aquilo que você definiu aqui
+
+ele foi adicionado dinamicamente nesse objeto no momento que você está ansioso em chamar função dinamicamente
+
+ele vai questionando esses valores diretamente no objeto.
+
+Quando você coloca alguma coisa no Prototype você está dizendo que todos os objetos criados vão ter
+
+essa função que foi definida no protótipo do produto.
+
+Então vou passar o definam a propriedade que num caso que eu vou definir dentro de produto ponto Prototype
+
+para essa propriedade estar disponível para todos os produtos criados.
+
+O nome dessa propriedade eu vou chamar vai ser por exemplo criar um método Gatti associado ao desconto.
+
+Então eu vou chamar aqui onde sei eu vou chamar o desconto.
+
+Por enquanto aqui de ídolo da bola não dá um desconto.
+
+E aqui eu vou usar um desconto legal posso fazer isso também pelo preço total certo então vou chamar
+
+aqui essa propriedade de desconto e o terceiro parâmetro.
+
+Inclusive você consegue ver pela documentação.
+
+O primeiro parâmetro vai ser o objeto aqui.
+
+O segundo esse item que ele chamou só de pena é exatamente o nome da propriedade.
+
+E o terceiro você usa atributos que.
+
+Eu próprio tive escritor certo onde são os atributos dessa propriedade então aqui dentro você consegue
+
+criar um método GET assim ao GATT dois pontos se você define uma função e essa função aqui também não
+
+pode ser um fantoche.
+
+Você consegue por exemplo chamar o 10 ponto Verlaine das que você tem à sua disposição os atributos
+
+que foram criados dentro do objeto então de tal forma que agora eu consigo chamar João qualquer aqui
+
+só o seguinte.
+
+Em vez de colocar só dez que eu vou colocar isso aqui como se fosse um daria problema se colocasse como
+
+se fosse um texto porque eu estou calculando o desconto vai gerar um problema mais beleza vou colocar
+
+aqui pra não achar o desconto e depois eu vou criar aqui o outro gato só pra não achar pra vocês.
+
+Então eu vou criar o outro que eu vou chamar aqui de dez distritos.
+
+Tá.
+
+Então nesse caso eu vou retornar como se fosse no exterior então vou pegar o valor do desconto.
+
+Até lá vou multiplicar isso sem mostrar aqui o percentual só pra gente ver que a gente vai conseguir
+
+também acessar esse 10 que distribui como uma propriedade que também é propriedade do tipo gato vai
+
+estar associado a uma função.
+
+E aqui eu posso.
+
+No fim um produto final então console Fotolog P2 Ponto 10 que é P2 Ponto 10 que.
+
+Acertaram só para a gente.
+
+Gostaram.
+
+Nós temos aqui 0,5 que é o valor original que veio a partir do método beta.
+
+E nós temos aqui 50 por cento de desconto que foi exatamente o que foi gerado aqui.
+
+Posso até complementar de desconto legal então você consegue definir tanto o beta como você também tem
+
+a propriedade certa.
+
+Se você quiser acertar a partir daqui eu posso usar por exemplo nesse caso para alterar o desconto então
+
+até que um site que vai ser também uma fantoche uma função você já definiu a propriedade do objeto que
+
+vai receber o novo desconto novo dessa.
+
+E aqui eu vou fazer o seguinte se o novo desconto for maior ou igual a zero.
+
+E o novo desconto for menor ou igual a 1.
+
+Ou seja ele está entre 0 e 1 significa que eu vou alterar o desconto então 10 quem recebe o novo desconto
+
+caso contrário não vou fazer absolutamente nada.
+
+Então definir que a minha propriedade.
+
+Agora se eu tentar por algum motivo pagar aqui por exemplo P2 Ponto 10 que recebe valor 3 ele não vai
+
+permitir.
+
+Você vai perceber que ele continuará.
+
+Ainda tenho zero pontos 5 por cento desconto mas se eu passar aqui pra 6 0 ponto 9 9 o cara vai ter
+
+99 por cento de desconto e a empresa provavelmente vai falir.
+
+Certo Olhar monstruosa era ponto 99 99% de desconto exatamente porque você conseguiu definir uma propriedade
+
+na propriedade que não existe nenhum atributo associado.
+
+Ele vai pagar um desconto fazer um processamento e definir o outro garoto.
+
+7 relacionado ao produto uma vez que você define algo no protótipo daquele produto sempre que o novo
+
+produto for criado tudo o que tem no protótipo estará nas instâncias também porque ele vai procurar
+
+a própria instância se ele não achar e procura no Prototype do objeto.
+
+Então é isso que eu tinha pra falar.
+
+Fico por aqui e até para o final.

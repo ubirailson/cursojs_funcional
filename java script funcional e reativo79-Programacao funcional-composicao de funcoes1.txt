@@ -1,0 +1,143 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Composicao de funcoes 1
+
+Outro conceito importante é o conceito de composição de funções certo ou se compor várias funções pequenas
+
+para fazer um processamento mais complexo e como já estou falando várias vezes aqui nos exemplos a gente
+
+já viu isso também no nosso primeiro projetivo primeiro projétil seguiu para a gente usar vários conceitos
+
+e eu meio que invertia a lógica em vez de falar de exercício.
+
+Esse princípio de programação funcional é só o básico de função.
+
+Foi o nosso primeiro projeto para daí a gente conseguir ver vários princípios interessantes e consegui
+
+linkar o nosso projeto e eu vou criar aqui um outro exemplo sobre composição composição composição assim
+
+e nós vamos aqui criar aqui uma função chamado de composição e essa função vai receber duas funções
+
+um fim de um e fim dois e a ideia.
+
+Essa função exatamente culpou a execução dessas duas funções em cima de um determinado valor.
+
+Eu vou retornar aqui uma função falando que vai receber o valor propriamente dito que eu quero processar.
+
+E aqui eu vou por exemplo seguir na hora e fazer filme vai processar em cima do valor e o resultado
+
+final eu já vou colocar dentro de F2 então a função 2 vai receber o Estado afim um em cima do valor
+
+e eu vou passar o estádio para a outra ou seja estou fazem uma composição de funções que é basicamente
+
+o que foi feito lá no nosso projeto.
+
+Só que usando isso usando talvez se você consegue compor várias funções exatamente com o conteúdo da
+
+resposta de uma função a passada como parâmetro para outra função.
+
+Resposta é não fuçar passado comparando para outra função é a mesma coisa que eu estou fazendo aqui
+
+ou a resposta da função em cima do valor que foi passado vai ser passada por valor 2 que poderia eventualmente
+
+tem um valor três ou quatro.
+
+Eu inclusive poderia fazer o seguinte chamar aqui de funções eu posso passar quantas funções eu queira
+
+esse aqui vai ser Larry e o que é que eu vou fazer aqui pra executar esse caso eu posso chamar aqui
+
+saber que tipo de chamar eu posso fazer.
+
+Eu tenho aqui funções no plural.
+
+Se eu vim aqui eu posso transformar isso a partir por exemplo.
+
+E aí eu faço o seguinte Fiennes.
+
+Deus eu vou passar aqui uma função que vai receber o acumulador e a função atual é basicamente o que
+
+eu vou fazer aqui.
+
+Eu ver o que faz pensar que eu estou falando esse exemplo agora.
+
+O valor será o valor inicial da execução.
+
+é aqui que eu vou fazer e retornar o valor de f usando o acumulado ou ele vai passar o estado dessa
+
+função para a próxima função e ele vai executando todas as funções até o final legal.
+
+Eu tinha pensado no exemplo diferente composição mais simples que a gente vai receber contra as funções
+
+a gente queira a partir dessa função de composição tomara que dê certo exemplo.
+
+Basicamente o que eu vou fazer é o seguinte eu vou criar um determinado valor o resultado que vai receber
+
+que a função de composição.
+
+E aqui no final vou passar o valor por exemplo aqui de um jeito simples apara e eu vou colocar aqui
+
+console porque logo o valor de um resultado legal nesse caso o que eu vou criar uma função.
+
+A função que eu vou chamar de gritar.
+
+Então basicamente essa função vai fazer vai receber um valor textual Texto e vai retornar o valor de
+
+texto ponto chegou pé diz Tal.
+
+Nesse caso vou chamar aqui a função de gritar eu vou criar uma outra função que eu vou chamar aqui de
+
+enfatizar e enfatizar.
+
+E eu vou retornar aqui Tactics né.
+
+O símbolo da crase para intercalar o valor de texto eu vou colocar várias exclamações da Gal.
+
+Então agora que eu vou fazer eu vou fazer uma composição de funções pra esse maluco eu quero passar
+
+aqui ou então vou passar a função gritar com parâmetro vírgula é a função de enfatizar.
+
+Então vamos ver se vai estar vai dar certo agora não executando legal deu certo eu posso criar outra
+
+função por exemplo para a gente colocar por exemplo eu vou chamar aqui de torná lo lento.
+
+é basicamente que eu vou fazer.
+
+Vai ser o seguinte eu vou pegar o texto vou fazer um split Split em relação a ou.
+
+Vazia ou seja ele vai separar todas as letras e no final fazer um jovem com um espaço em branco e não
+
+afastado.
+
+Se no texto certo se ele vai tornar lento eu vou colocar mais uma função aqui na minha composição e
+
+função me chamado tornar lento e agora executar mais uma vez.
+
+Ele tornou lento.
+
+Olha como é legal esse conceito de composição de função.
+
+Você consegue compor várias chamadas e o resultado de uma é passado como parâmetro para a outra.
+
+No nosso exemplo lá a gente até poderia ter feito algo nesse sentido sem necessariamente usar o DEM
+
+poderia passar para a função várias funções e passar aqui determinado valor inicial que vai processando
+
+colocando uma função bem da outra.
+
+E no final a gente tem um resultado.
+
+Então pessoal muito legal também é um conceito extremamente importante e extremamente relevante relacionada
+
+à programação funcional.
+
+Essa questão de composição de funções está aqui.
+
+Você pode compor quantas funções você quiser fazer Unidos chamando a função e o resultado da função
+
+vai ser passada para a próxima função.
+
+E o golo inicial foi ultrapassado inicialmente pelo Windows legal.
+
+Então é isso e nos vemos aproximá lo.

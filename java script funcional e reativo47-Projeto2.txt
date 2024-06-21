@@ -1,0 +1,224 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto 02
+
+
+Agora vão baixar para vocês o nosso projeto nosso primeiro projeto o escopo do primeiro projeto para
+
+que vocês possam implementar e associado a essa aula vai ter o Zippy que é exatamente o conteúdo dessa
+
+pasta chamada legendas dentro da pasta dados que eu criei no meu projeto.
+
+Tem uma pasta legendas que vai ter uma série de arquivos com extensão srt.
+
+Eu coloquei aqui outros arquivos do arquivo como txt.
+
+A ideia é só para ele atrapalhar mesmo para ter arquivos de diferentes extensões eu coloquei aqui outro
+
+arquivo como TXT só para você filtrar mais o foco mesmo em cima desses arquivos que tem a extensão ponto
+
+SRT aqui dentro.
+
+Eu tenho a legendas de um seriado famoso americano e a ideia é a gente a partir de todas as legendas
+
+dessas 18 legendas gerar um arquivo final.
+
+Eu vou chamar aqui só pra mostrar pra vocês.
+
+Será um resultado esgotado.
+
+Eu chamo aqui de ponto de sou só pra exemplificar aqui como é que eu quero o resultado mas o Estado
+
+vai ser arquivo por exemplo só que vai ter as palavras por exemplo aí que a palavra ela foi dita no
+
+seriado 3000 mil 456 vezes vírgula.
+
+A palavra foi dita duas mil 459 vezes depois a palavra Lattes foi dita mil seiscentas e noventa e nove
+
+vezes por exemplo e você vai ter aqui uma série de palavras naquele meio né.
+
+E aí ele vai colocando todas as palavras dizendo quantas vezes aquela palavra apareceu dentro do seriado.
+
+Então por exemplo sei lá Rawls foi dita 300 vezes a palavra lá Haddad foi dita apenas três vezes no
+
+seriado inteiro.
+
+Então a idéia é gerar um resultado como esse com chaves valor a palavra em si e a quantidade de vezes
+
+que aquela palavra foi dita dentro desses 18 arquivos aqui ou seja dentro de uma temporada de um famoso
+
+seriado americano.
+
+Na verdade o seriado o Brooklyn nem acho que alguma temporada aí eu peguei as legendas e coloquei aqui
+
+tá só para a gente fazer esse exercício.
+
+E outra coisa que eu também vou querer que você coloca as palavras ordenadas da palavra mais dita lá
+
+em breve primeiro e depois segundo terceiro e assim até as palavras menos ditas ou seja no final você
+
+vai ter esse ela alguém falou a palavra Li ou leu e falou só apenas uma única vez no seriado.
+
+Aí você vai ver que no final tem várias palavras que têm exatamente o mesmo nome ABC também foi dita
+
+uma vez que você tem várias palavras que foram ditas apenas uma vez durante o seriado inteiro.
+
+Mas você vai ter como saber quais são as principais palavras em inglês ditas por exemplo nessa temporada
+
+isso pode te ajudar inclusive no estudo de inglês.
+
+A ideia é exatamente a gente processar todos esses arquivos tirar aquilo que não interessa se você olhar
+
+aqui na legenda da Série B que tem linhas que não interessam com números linhas que tem o intervalo
+
+que ela ainda vai ser exibida na tela.
+
+Você tem símbolos como por exemplo vírgulas que não interessa ponto manterá essa linha em branco não
+
+interessa.
+
+Então você tem muita coisa.
+
+O hífen aqui manhã não interessa você vai ter que terá então aspas duplas também não interessam aspas
+
+simples quando você tem uma contração não interessa saber quantas vezes foi falado.
+
+Junto uma contração.
+
+Mas no caso de aspas duplas também é interessante você tirar.
+
+Então você tem que filtrar várias coisas e fazer todo um processamento.
+
+No final você agrupar tudo isso.
+
+Dessa forma necessariamente precisa exibir o sinal.
+
+Você pode inclusive retornar ao Rei se você preferir de objetos e o objeto tem por exemplo um atributo
+
+chamado Word.
+
+A palavra pode ser em português palavra.
+
+E aí você coloca aqui o valor da palavra por exemplo a vírgula e a quantidade que teve e também tem
+
+se aspas doutores né porque é um só que teve dois pontos lá três mil 456 vezes.
+
+Tá viu.
+
+Você vai ter uma segunda palavra.
+
+Digo uma terceira palavra você pode colocar quantas palavras você queira dar esse formato de objeto.
+
+Pode ser assim.
+
+Pode ser dessa forma.
+
+Tá lembrando que você pode não necessariamente salvar o arquivo de som pode simplesmente marchar na
+
+tela.
+
+O resultado já com as palavras organizadas pela quantidade de vezes que ela foi dita dentro do seriado
+
+sacristão só colocar o ódio aqui e ali você tem a quantidade de vezes 12 mil vezes a 550.
+
+Chame todos se você quiser começar simples pode começar lendo apenas um único arquivo e depois você
+
+vai processando todos os arquivos de uma única vez.
+
+Beleza então esse objetivo não quero que vocês usem para homens para isso.
+
+A ideia é criar funções pequenas e usar vários tiros espaços em branco deve ter Ilsinho demitiria aquilo
+
+pra você ver um pouco dessa estratégia de você criar funções que podem ser reutilizadas a partir da
+
+composição de funções várias funções operando ou depois da outra você conseguir fazer um processamento
+
+bem mais complexo.
+
+Tal resultado era da forma que você quiser.
+
+A idéia é simplesmente pegar as palavras mais ditas e ordenar da forma como você preferir também mostrar
+
+a quantidade de vezes que ela foi mencionada dentro desse imbecil dessa temporada que dentre todas as
+
+legendas você vai colocar o seu código dentro desse projeto onde ela tinha um eu vou criar aqui já criei
+
+a pasta e vou criar aqui um arquivo e desse ponto de S.
+
+é basicamente você vai fazer um algorítimo aqui você pode criar por exemplo outro arquivo que você vai
+
+chamar aqui de funções ponto de S.
+
+Aqui você pode criar todas as funções que você quer reutilizar pra criar uma função dentro do Now.
+
+Eu acredito que você já deve conhecer isso mas se não conheceu você pode criar aqui uma função.
+
+Por exemplo o em que eu escutei ela após uma aula e aí você pode colocar aqui me consola em outro blog.
+
+Ou criar aqui até ache que vai imprimi Itachi e vou criar aqui.
+
+A função de bastidor 2 só para criar mais funções você vê que vai ficar 3 x 2 e aqui vou jogar x2 legal.
+
+No final você pode chamar o modo li com outros esportes e você pode exportar um objeto que vai ter a
+
+função de 1 e vai ter que a função teste.
+
+2 Como é que eu posso usar esses arquivos no meu ainda neste outro arquivo.
+
+Então você pode vir aqui ao constante chamar aqui por exemplo Fiennes de funções ou simplesmente chefe
+
+o define tá.
+
+Então você pode colocar aqui e aí eu vou colocar o caminhão relativo.
+
+Ponto barra de funções.
+
+E agora posso chamar a partir de Avinhão e fique com outro teste F impondo Teste 2 e eu consigo aceitar
+
+esse código de tal forma que ele acessar a função e a função 2 a partir de um outro arquivo.
+
+Então só para a gente organizar o arquivo ainda que esse de esse vai ser a nossa lógica a gente vai
+
+implementar todo o fluxo de transformação do arquivo desde a leitura do arquivo até achar no console
+
+e nesse outro arquivo de funções.
+
+Você vai colocar todas as funções que você considera que não sejam utilizadas em outros problemas e
+
+eventualmente no futuro.
+
+Qualquer coisa que eu vou fazer outros projetos se a gente quiser criar uma outra pasta aqui chamada
+
+Core Selarón ou coisa do tipo.
+
+Funções funções já tem e mais alguma coisa pra gente utilizar em outros projetos mas por enquanto começar
+
+o primeiro vai colocar todas as funções que a gente vai utilizar dentro de funções e no arquivo ainda
+
+que se você vai fazer todo o fluxo da chamada dessas funções e transformar os dados até gerar um estado
+
+final.
+
+Então esse é o desafio Se você quiser tomar esse desafio como um desafio você não olhar o resultado
+
+a partir da próxima aula vou construir isso na verdade várias aulas.
+
+Não vai ser apenas uma aula para dar resposta completa mas eu vou quebrar isso em várias aulas e vai
+
+fazer a primeira parte.
+
+Depois ele vai fazendo outra construindo cada função até que chegue no estado final e para esse primeiro
+
+projeto nós vamos usar muitas coisas interessantes.
+
+Vai servir também como a consolidação bem mais realista daquilo que a gente fez no exemplo no capítulo
+
+passado certo nós vamos aprender a usar isso nós vamos usar a função dos sinais vamos usar várias soluções
+
+interessantes para fazer esse processamento de esperma aproximá lo com a resposta e se sinta desafiado
+
+a tentar fazer esse desafio.
+
+Até lá.

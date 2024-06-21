@@ -1,0 +1,149 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Scheduler
+
+Diferente do que muitas pessoas acham o uso de observou Boulos não está ligado necessariamente a sincronismo
+
+da via de regra.
+
+Na verdade o padrão é o processamento ser feito de forma síncrona.
+
+Vou achar isso para vocês nesse exemplo.
+
+No ano passado a gente usou o Ajax e o Ajax por essência ele é um processo assíncrona.
+
+Lembra daquela ideia dado o aniversário surpresa né.
+
+Fiquei mais preocupado e tal antigamente.
+
+Quando você faz uma requisição o Brasil ficava naquela espera ocupada até chegar a resposta que era
+
+aquela famosa tela branca e ficava entre a transição de uma página para a outra hoje com o advento da
+
+técnica do Ajax.
+
+Você faz a requisição e ao mesmo tempo você registra lá lista e você não faz isso internamente já feito.
+
+Quando chega a resposta algum por exemplo a chamada função couber que você registrou e as APIs fazem
+
+isso decorar o fez isto é trabalhar como couber.
+
+Você tem um hashes de trabalho para homens e com a resposta chega eles chegam a aldeia e tal e aqui
+
+é feito de uma forma assíncrona.
+
+Tanto é que se eu colocar aqui embaixo um console.
+
+Ponto logo no fim você vai ver que primeiro ele vai mostrar o filme e depois ele vai trazer o resultado
+
+a nossa aquisição ao fim logo depois veio os repositórios que a gente obteve a partir da pedido.
+
+Mas eu quero provar para vocês nesse exemplo exatamente que o padrão é a execução 6.5 e para isso vamos
+
+falar sobre um cara chamado sequer se quer do ponto de S.
+
+E vou começar aqui bem simples vou criar uma constante ou chamar que o operador
+
+RX e as mãos aqui por exemplo número 1 2 3 4 5 6 7 8 9 e 10 eu vou fazer aquilo.
+
+Sou um escravo de console.
+
+Locke só passa na frente da função mesmo antes disso eu vou colocar aqui um console e outro logo de
+
+início e vou gerar um console.
+
+Outro blog chama aqui de fim.
+
+Pronto.
+
+E fim ou depois.
+
+E antes legal.
+
+Nesse caso o que é que você acha que vai acontecer.
+
+Ele vai mostrar antes mostrar isso só depois ele vai colocá lo depois ou ele já vai imprimir antes e
+
+depois como foi o caso aqui ou no caso do operador passado.
+
+Se eu coloquei aqui ou um depois.
+
+Depois é só colocar aqui antes.
+
+Claramente por conta da sincronismo do Ajax a gente sabe que ele vai mostrar antes e depois e só então
+
+ele vai pegar os dados aqui nesse caso porque é o comportamento padrão dos operadores e dos.
+
+São cinco anos.
+
+Você vai ver que é o tipo de operação.
+
+Mas se antes já achar todos os números só então é que ele vai colocá lo depois.
+
+Não importa a quantidade de número de tempo necessário para fazer os processamentos e por padrão.
+
+Isso acontece de forma síncrona.
+
+Isso não quer dizer que você não consiga alterar isso.
+
+A gente pode por exemplo importar um cara chamado assim isso quer ou seja o escândalo é como se fosse
+
+o ambiente de execução que vai ser usado para processar seus observadores.
+
+E a gente consegue alterar isso.
+
+Existe um operador chamado que eu vou colocar aqui.
+
+JS ou leitores existe um cara chamado Aldo Sound of Sound.
+
+E aqui a gente consegue por exemplo usando o PayPal aplicar esse papo bom ou bonito né quem é um operador
+
+que a gente coloca dentro do PayPal.
+
+E aqui eu passo o outro discador.
+
+Nesse caso como se fosse um ambiente no qual será executado esse fluxo aqui.
+
+Agora nós teremos um comportamento assíncrona mas não é um padrão antes.
+
+Depois é só então ele quais ataque os números certo.
+
+Se a gente olhar a documentação se você procurar nos principais conceitos um deles é o buscador e ele
+
+vai mostrar o esquerdo lá é um contexto de execução certo esquerda.
+
+Ele é uma estrutura de dados.
+
+Ele explica direitinho porque ele controla com a subscrição inicia e quando as modificações são tragados.
+
+Então ele como um contexto de execução você consegue tornar por exemplo uma determinada opção de forma
+
+assíncrona.
+
+Mas é importante você perceber que o padrão dele é trabalhar de forma síncrona.
+
+Existem outros tipos discador por exemplo o que é como se fosse uma fila e você vai colocando todos
+
+os processamentos na fila e depois ele vai consumindo essa fila.
+
+Você pode não olhar aqui você tem assim que cábula irá mostrar outros exemplos como o que escreve certo
+
+que ele colocam escala uma fila e tal ele faz mais ou menos que a lógica de um assim se que a gente
+
+usou.
+
+Se você passar no ele vai entregar as coisas de uma forma síncrona como é o padrão.
+
+Então é bem legal você entender que você pode tornar também um processamento assíncrona usando o esquerdo
+
+e você pode também ter outros tipos de esquema para criar um ambiente de execução diferente você pode
+
+personalizar isso a partir do esquerdo usando observe.
+
+Isso vai mudar a forma como os dados são processados o que é bastante interessante.
+
+Legal estão mostrando para você o conceito de escala a partir de um exemplo e tornando a execução que
+
+por padrão era síncrona para a execução assíncrona.

@@ -1,0 +1,237 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Refatoracao
+
+Pessoal a gente tem o próximo nosso próximo objetivo é exatamente excluir os símbolos das instituições
+
+exclui Vila ponto aspas duplas Barra e vários símbolos atuais.
+
+Na próxima aula nessa aula o cara faz uma pequena fatoração para deixar o nosso código mais enxuto e
+
+olha como vai ficar legal essa é a fatoração.
+
+Vou fazer o seguinte eu vou nesse caso que lembra que a gente tá recebendo apenas um único parâmetro
+
+e chamando a função passa nesse mesmo parâmetro.
+
+Nesse caso a gente pode por exemplo tirar aqui ou linhas e passar simplesmente a referência da função
+
+pra cá ou seja remover esse vazio.
+
+Ele vai remover os ela pode até colocar a remover elementos se vazio pra fechar um pouco mais clara
+
+e deixar um pouco maior nome da função.
+
+E aqui também é baixo remover se apenas número eu também posso.
+
+Escutei isso aqui eu não posso excluir e deixar a função apenas assim.
+
+Essa foi a primeira fatoração que eu fiz.
+
+Posso estar aqui ou continua trazendo os elementos e se eu quiser deixar mais claro eu posso colocar
+
+o remover.
+
+Ela é muito usado como o maior da função mas não vejo como problema novo elemento Sybase e remover elementos
+
+se inclui alguma coisa e remover elementos se apenas numero estão faltando lá a gente.
+
+E aí eu vou adicionar aqui né.
+
+Na verdade removê la mente se apenas números remover se inclui remover esse vazio então com os nomes
+
+mais completos digamos assim essa é a fatoração e só que a ordem era tentar acessar pra esse momento
+
+aqui vê se inclui só testando para ver se essa fatoração funcionou ou continuou funcionando perfeitamente.
+
+O cara fazia uma oração agora que eu considero que ela será mais legal que exatamente em cima desse
+
+método aqui ou elementos se inclui.
+
+Olha que eu vou fazer nesse método eu vou inicialmente fazer a mudança bem simples eu vou jogar o rei
+
+ou remover elementos sim inclui um determinado padrão textual eu vou tirar que o Harry certo eu vou
+
+colocar lá reconhecendo o segundo parâmetro.
+
+Essa vai ser a primeira mudança.
+
+Então com isso a gente vai chegar aqui nosso outro código e eu vou colocá la pra ser seu segundo elemento
+
+e o primeiro vai ser exatamente o trecho que eu quero que exclua o trecho que eu vou usar para definir
+
+se ele vai escolher as minhas ou não.
+
+Então nesse caso eu salva aqui novamente.
+
+é sempre bom como você foi faturando seu código você iria fazer um ajuste de cada vez pra ver se o código
+
+funciona legal nesse caso a gente passou agora inverter a lógica né.
+
+Passei o primeiro trecho pra depois passar o conjunto de linhas e eu acho que não tem mais nenhum outro
+
+cenário que faz isso até porque é importante você manter uma certa coerência na assinatura dos metros
+
+você colocar assinaturas com uma certa coerência entre eles né.
+
+Se a gente for precisar por exemplo agora passar aos símbolos e passe a barra e também em primeira mão
+
+passar o simples.
+
+Depois eu vou passar lá Rei.
+
+Da mesma forma que eu fiz aqui na primeira passei o texto e depois eu passei a hora que a gente pode
+
+fazer agora nesse método que é legal a gente em vez de receber os dois parâmetros eu posso retornar
+
+a partir desse método.
+
+Outra função ou retornar à função.
+
+Essa função vai recebê la Rei e só então quando for passado a lei é que eu vou fazer esse processamento.
+
+Olha como é legal e agora não vou mais percebeu aí aqui ou eu vou simplesmente passar apenas o padrão
+
+textual e armamento ou na função e essa função sim eu vou passá la.
+
+Ou seja somente quando tiver aí é que ele vai fazer o processamento pra pagar esse valor textual.
+
+Eu até poderia chamar essa função apenas uma vez para um determinado valor textual e passar a raiz diferentes
+
+pra ela tá com a vontade de fazer isso a vontade de fazer isso é que aqui eu posso fazer assim eu vou
+
+executar a primeira função e depois passá la alias deixou salva aqui pra gente ver o resultado você
+
+vai ver que continua exatamente o mesmo resultado ele realmente tirou né.
+
+E aí uma vez a gente treinou isso aqui a gente sabe que o resultado dessa chamada é uma função que vai
+
+receber apenas um único parâmetro que é exatamente disparando que eu estou passando aqui tá.
+
+Então o que é que eu poderia fazer eu poderia simplesmente tirar isso e tirar isso aqui e chamar dessa
+
+forma remover elementos sim inclui isso.
+
+A resposta disso aqui vai ser uma função que recebe como parâmetro a Rei que passa esse aí pra essa
+
+função pra realmente processar.
+
+Isso aqui também é funcional.
+
+Você vai executar que.
+
+Você vai ver que vai funcionar.
+
+E se eu tirar isso aqui eu vou tirar essas últimas duas aqui e acertando aqui você vai ver que volto
+
+pra contar antes.
+
+Então essa possibilidade também aqui é um exemplo prático de uma função que retorna outra função.
+
+Você pode chamar essa função como um retorno essa função é uma função que recebe a Rei você vai querer
+
+retornar ao rei.
+
+Então não tem problema nenhum você fazer isso você deixa um pouco mais enxuta e o código ficou um pouco
+
+mais difícil é saber exatamente o que está acontecendo.
+
+Sim ficou um pouco mais difícil ela estava um pouco mais explícito mas apesar de estar um pouco mais
+
+simplista essa questão aqui esse código.
+
+Se você criar uma padronização forte dentro da sua aplicação sempre que você for por exemplo trabalhar
+
+com determinado Larry é que você precisa passar alguns parâmetros pra conseguir fazer a lógica em cima
+
+desse rei você pode exigir que todos os parâmetros sejam passados como parâmetros da primeira função
+
+e essa função sempre retorna uma segunda função que recebe como parâmetro.
+
+Se você padronizar vai ficar muito mais fácil você por exemplo definir situações como essa embora fique
+
+o código menor fica um pouco mais implícito mais se você entender que isso a padronização muito forte
+
+da sua aplicação você já vai saber de cara que essa função vai retornar uma função e é exatamente essa
+
+função que está sendo passada para o método dele.
+
+Espero que tenha ficado claro se você não quiser fazer Essa fatoração não tem problema nenhum.
+
+Você pode continuar mantendo da forma antiga mas essa é uma forma que eu encontrei de usar um exemplo
+
+prático de uma função que retorna a outra função.
+
+E nesse caso aqui tem uma função que essa apenas o único parâmetro que é o valor textual na esse padrão
+
+textual e a resposta dessa função se a gente olhar lá é exatamente essa função que vai ser passada com
+
+um argumento para o método.
+
+Ou seja que eu não estou passando a referência da função.
+
+Eu estou chamando a função e a resposta dela é que será passado.
+
+Fica um pouco enrolada mas eu acho que depois que você se acostuma você vai conseguir trabalhar com
+
+isso de uma forma muito tranquila.
+
+Aqui é a mesma coisa.
+
+Nesse caso a gente tem os arquivos As tece no passado e eu estou passando os arquivos até pra cá eu
+
+também poderia simplesmente tirar isso aqui ou é simplesmente chamar a função dessa forma ler arquivos
+
+aqui eu também poderia fazer a mesma coisa.
+
+Por exemplo elementos terminados com poderia colocar o STR antes ao olhá la.
+
+A gente pode ver em elementos terminados com após colocar o padrão textual para a Viñales por exemplo
+
+e aí pra mim depois é dessa forma que eu posso criar uma função retornando uma faixa que recebe o rei.
+
+Ou seja então ao ver esse trecho aqui que é exatamente o que vai fazer a operação ou tirar aquilo ali
+
+como sendo o segundo parâmetro.
+
+Nesse caso eu vou passar o padrão textual e com esse padrão textual eu vou retornar uma função que realmente
+
+essa função vai receber Rei e aqui eu vou tirar isso aqui e vou passar apenas o Sr.
+
+Ora como fica interessante o nosso código ou então elementos terminados com STR ler arquivos aqui.
+
+Não cria uma função mas poderia criar a função também e apagar os conteúdos e juntar só quebrando a
+
+linha entre cada um dos conteúdos.
+
+Aqui eu quebrei as linhas depois de mover elementos vazios e mover elementos se inclui alguma coisa
+
+e mover elementos se apenas numero e tal.
+
+Ou seja fica bem fácil você ler um código super enxuto e ao mesmo tempo ele faz todo o processamento
+
+necessário.
+
+Então fizemos aqui um pequeno parênteses no nosso código para fazer algumas orações e espero que pra
+
+vocês tenha feito sentido aquilo que eu quis fazer na sala exatamente mochilão pra vocês um dos recursos
+
+era a linguagem que é o fato que você consegue fazer com que uma função António ou outra função função
+
+passa no comparando para outra função estatal usando direto e isso mais uma função que retorna outra
+
+função a gente não tinha usado a ideia nesse exemplo eu acho que faz todo o sentido para ser usado aqui
+
+tá muito legal.
+
+Tem outras formas de fazer isso de uma forma mais enxuta usando o falante eu vou deixar para fazer isso
+
+um pouco mais à frente para não confundir muito agora mais a ideia que a gente tem agora um código super
+
+declarativa ou super fácil de ler.
+
+Com a composição de funções a gente processar está faltando mais algumas coisas para gente processar
+
+e tirar os símbolos e tal eu vou continuar na próxima aula eu espero lá.

@@ -1,0 +1,248 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Stream de dados 3
+
+
+Nós vamos fazer agora um exemplo extremo de dados usando a JS.
+
+Na verdade você vai ver que tudo é tratado como um enxame de dados esses dados você passa a buscar soluções
+
+e no final você vai ganhando as respostas.
+
+E aqui nós vamos usar dentro da JS um cara chamado Bau que não poderia fazer JS ponto intervalo como
+
+eu posso por exemplo se eu quisesse acessar ele eu posso colocar aqui usar o Destruction ou já falei
+
+sobre isso anteriormente.
+
+Acredito nessa você cria por exemplo um objeto eu vou criar aqui bem contextualizado né.
+
+Cheguei a esse e esse objeto dentro dele tem intervalo que é uma função por exemplo de acordo com a
+
+fonte.
+
+E essa função aqui console em outro blog integral só pra ele e coloca aquela bola.
+
+Você consegue por exemplo usar um dashboard.
+
+Ou seja você cria e consegue criar aqui uma constante e aí você por exemplo Teoricamente você iria fazer
+
+assim igual recebe X X.
+
+Esse é exatamente esse ponto.
+
+Terra E você também pode fazer assim não colocar simplesmente o objeto e usar o operador desprotegido
+
+proteções que você consegue por exemplo pagar a conta igualzinho.
+
+Dessa forma posso chamar o igual e aí no final ele mais está jogando aqui.
+
+Exatamente o texto que eu coloquei no console para o blog.
+
+Quando você usa um par de chaves do lado direito da expressão você está criando um objeto de forma literal
+
+quando você usa um par de chaves do lado esquerdo da expressão você está usando essa técnica é um despropósito
+
+para que você possa ler essa informação dentro do objeto.
+
+Basicamente o que eu vou fazer aqui ao vou usar o desktop pra chamar aquilo que estava legal.
+
+Então uma vez que eu tenho um integral agora posso por exemplo gerar números a partir dele então vou
+
+criar uma constante eu vou chamar aqui de gerar números ou chamar aqui o integral passando por exemplo
+
+uma quantidade de milissegundos e um trabalho que ele vai ficar gerando os números da mesma forma que
+
+a gente criou manualmente e agora posso fazer o seguinte eu chamo gerar números pontos subscritos.
+
+Então esse gerar números aqui ele vai retornar para a gente observou.
+
+Ou seja o internauta ele é chamado de operador vai já falar um pouquinho.
+
+Um operador de criação e ele vai retornar para a gente.
+
+Observe o bom e o observe.
+
+Ele implementa o padrão.
+
+Observem então nesse caso eu posso chamar o subsecretário que seria a forma que eu tenho de me registrar.
+
+Nem sabe sobre o robô.
+
+E aqui eu vou passar uma função que mais alguma coisa no nosso caso aqui é uma função que recebe número.
+
+E aqui no meu planejamento eu coloquei pra simplesmente fiz a mesma coisa.
+
+Outro exemplo você sabe eu fiz aqui meu ponto fala passando dois e levado a um determinado número legal
+
+então eu fiz isso ou seja nesse momento que eu chamei aqui o subsecretário eu estou me registrando dizendo
+
+Olha estou interessado e recebi o Chile de dados que vai ser gerado a partir desse operador aqui chamado
+
+intervalo que é um operador de criação a partir dele eu começo o meu fluxo de operações acima de determinado
+
+conjunto de dados nesse caso ele vai ficar gerando números de intervalos de meio e meio segundo uma
+
+vez que eu fiz uma subscrição e ele vai chamar aqui sempre que o número foi gerado.
+
+Então eu vou executar aqui o código você vai ver que ele vai gerar 2 120 outros 56 mil 20 4 4 mil 16
+
+mil 32 64 até aqui.
+
+Eu vou parar aqui contra o Alckimin e ele parou já tá com esse número 15 e depois de 13 segundos.
+
+Você também consegue a partir desse método que o subscritor recebeu o que chamo de sua Description onde
+
+uma inscrição quando você diz que está interessado em receber a notificação.
+
+Você por exemplo recebe uma subscrição e a partir da subscrição você pode ou não fazer alguma coisa
+
+com ela como por exemplo cancelar o exemplo.
+
+Exemplo disso contextualizado lá no exemplo o dia do aniversário surpresa seria você tá todo mundo lá
+
+esperando você fala para o porteiro ao porteiro.
+
+Você pode me notificar quando o morador tal chegar o porteiro ao beleza posso notificá mas já são seis
+
+e meia e sete horas já começa outro porteiro.
+
+Qualquer coisa seria interessante só ligar depois 7000 caso ele não chegue até lá.
+
+Tudo bem tudo.
+
+Assim por exemplo 6 58 a namorada ligue de volta 19.
+
+O que ele vai chegar agora são nove horas da noite.
+
+Vou ficar aqui e curtir quando for mais tarde eu ligo para o porteiro para lembrar ele quando tiver
+
+perto da hora de chegada.
+
+Ou seja a namorada registrou o interesse dizendo que tinha interesse ela descobriu que o namorado mora
+
+bem mais tempo do que era previsto ela foi lá e disse que não mais está interessada então ela só fez
+
+isso porque ela sabe exatamente o canal que consegui alcançar lá a gente consegue alcançar subscrição
+
+uma vez que eu armazena aqui o que ele chama de sabe o que seria a minha subscrição sabe escolher.
+
+E a partir disso eu tenho um método chamado subscrever.
+
+Então subi um ponto sobre Claire eu consigo me inscrever.
+
+Então aqui eu fiz a subscrição ou seja eu estou me registrando quando um evento acontecer ele vai chamar
+
+essa função que seria o couber aqui.
+
+Programação reativa ou seja o número 9 foi gerado já na função o número 9 foi gerado chama de forma
+
+reativa a função mais um evento foi gerado que é um novo número chama a função ou seja programação reativa
+
+e ao mesmo tempo nós temos aqui o conceito de o extremo de dados vários números são gerados é como se
+
+eu tivesse na prole se chamar várias vezes o médico usou o jovem número 1 aí chamo o Metro como se fosse
+
+resolve resolve 2 chama de novo método.
+
+Só que no caso a promessa feita apenas uma única vez já que é feito várias vezes ou seja você tem um
+
+filme de dados você pode receber todos os dados uma vez.
+
+Pode não ter problema mas é muito comum se trabalhar com essa sequência de dados está transitando e
+
+eu posso chamar que subscreve chamado aqui um sétimo vai maus passando aqui uma função.
+
+Aqui eu vou chamar o Sully subscreve passando depois de por exemplo 8 segundos.
+
+Então nesse caso a gente não precisa implementar nem boa parte daquilo já está implementado dentro de
+
+um intervalo e depois que eu precisei que foi subscrever passa na função e com resultado da chamada
+
+sob os quais eu recebo description.
+
+E aqui se eu quiser posso fazer o subsecretário em tudo que o soberano subscrever subscrito e o santo
+
+escravo que é pra se e registrei Recebi aqui uma variável que eu consigo se quiser parar essa subscrição
+
+Cavalli.
+
+8 16 32 ou 64 e 38.
+
+Crescendo aqui né.
+
+4 baixe 16 bits e no final depois de 8 segundos ele cancelou na gaucha vc tem mais alguma coisa eu posso
+
+também subscrever outra vez e se eu quiser criar aqui vou duplicar isso e vou chamar aqui subscrição
+
+2 ou simplesmente passar o valor de console e ponto logo direto passar referência.
+
+Como a gente já fez anteriormente e agora que eu tenho na subscrição 2 eu vou esperar aqui por exemplo
+
+6 segundos pra cancelar subscrição 2 que vai só mostrar os valores gerados e aqui são valores diferenciar
+
+cada uma e gerar valores independentes eu posso inclusive demorar um pouco mais para iniciar subscrição
+
+2 mais acertando novamente ele vai gerando os valores e depois de 6 semanas para um deles e depois 2
+
+segundo ele para esse outro está pagando aqui o número 2 a levaram a esse número então isso fizemos
+
+três exemplos falando de time de dados que é um conceito muito importante por isso que eu fiz um exemplo
+
+básico manualmente construindo e colocando a versão mais simples e construindo você junto do vídeo depois
+
+coisa que um pequeno desafio quer para transformá la Rei.
+
+Este filme de dados e agora a gente está usando o intervalo para fazer isso você paga aqui ao JS você
+
+pega aqui por exemplo ao from Ivens e um dos tipos que você tem que a partir de um evento você gera
+
+o outro seria farão parte de um array.
+
+Você consegue gerar e evite não baixar o front.
+
+Se você pega aqui vão passar aqui um 2 3 e aqui você pode ir direto já com vc observa.
+
+Bom posso chamar aqui o subscreve e colocar um console conta o blog.
+
+Só na aparência mesmo que para ele mostrar os três valores ou então só comentar aqui rapidinho.
+
+Essa prática é o começo.
+
+Comentei aqui pra vocês verem que vai gerar um dois três que foram os três valores do ele transformou
+
+isso em um filme de dados.
+
+Legal ele também consegue usar outras formas que são operadores de criação que a partir dele é criado
+
+o fluxo de dados para que esses fluxos de dados possam ser trabalhados e a gente vai trabalhar muito
+
+com essa questão de composição de função assim como a gente fez lá no projeto o que a gente colocou
+
+aqui que é uma composição de função com várias funções ou ser executado depois da outra.
+
+Nós iremos ter.
+
+Mesmo a ideia de composição de funções.
+
+Só que usando o observou bom é outra coisa interessante que o Observador como você os operadores e tornado
+
+novos obscuros robôs.
+
+Você tem um pouco daquela ideia que a gente trabalhou no capítulo passado do Phantom Black como por
+
+exemplo ter o metro Map e o Metro no Map retorno.
+
+O outro observou.
+
+Só que em vez de ter apenas um metro Map o observou tem uma série de operadores de operações que vão
+
+te ajudar a transformar os dados gerando novos observadores e você pode fazer esse encadeamento que
+
+é muito interessante.
+
+Então fico por aqui nessa primeira parte no capítulo que a gente trabalhou esse time de dados.
+
+Na verdade segundo a página page já falou de observe e agora o time de dados é até aproximá lo.

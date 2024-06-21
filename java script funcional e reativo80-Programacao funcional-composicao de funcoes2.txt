@@ -1,0 +1,137 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Composicao de funcoes 2
+
+Nesse exercício.
+
+Na verdade não vou criar um outro arquivo.
+
+Eu quero reforçar um pouco mais o exercício passado que é o seguinte um dos maiores pontos de venda
+
+é quando você vai por exemplo dizer a tecnologia X é muito legal por isso.
+
+Por isso por isso a linguagem é muito importante porque ela faz isso faz aquilo outro e tal você deveria
+
+usar um dos maiores pontos de venda na programação funcional exatamente a composição de funções.
+
+Você monta as funções como se você estivesse montando LEGO.
+
+Você tem o final de um peça que encaixa perfeitamente no início da outra.
+
+Você consegue montar toda uma estrutura mais complexa pegar nas partes já pré moldadas exatamente funções
+
+pequenas que você tem um alto grau de uso funções puras que não geram efeitos colaterais funções que
+
+não dependem de nada externo apenas dos parâmetros que foram passados e quando você tem isso comprou
+
+as funções se torna muito mais fácil.
+
+Por exemplo aqui nesse exemplo que a gente fez mal passado e está usando o que é você passar de forma
+
+parcial os parâmetros e você passa a todos os parâmetros de uma vez que torna a execução um pouco mais
+
+limitada porque não apenas você tem que ter toda a seqüência de funções mas você também tem que ter
+
+o valor final já para passar se você passa tudo de uma vez só.
+
+Quando você quebra os parâmetros e coloca isso de uma forma parcial você consegue por exemplo fazer
+
+o que eu achar agora para o 6o.
+
+Não consigo pagar apenas essa parte da composição.
+
+Olha como é interessante e por que esses recursos estão presentes.
+
+Vou tirar aqui Pacheco oposição vou armazenar isso é uma constante.
+
+Por exemplo o chamado exagerado e você atribui essa composição que tem gritar enfatizar e tornar lento
+
+como eu passei o parâmetro o que realmente vai ser aplicado pra essa composição de funções ou sequência.
+
+Só depois de forma tardia eu consigo agora que eu salvei o meu fluxo.
+
+Eu coloco aqui e ali chamo exagerado pra o texto para eu vou ter um resultado por exemplo.
+
+Então executando nós temos exatamente o mesmo resultado por conta que eu estava usando o que eu consegui
+
+salvar a minha composição de funções dentro de uma constante para daí chamar ela se eu quiser aplicar
+
+isso novamente para um outro valor como realmente eu só passei isso depois de forma tardia.
+
+Eu não preciso mais me preocupar e ter que replicar exatamente os mesmos passos.
+
+Ok ok por conta do carry eu atrasei a execução da função e ele só será executada realmente com o passar
+
+todos os parâmetros.
+
+é nesse momento que da linha 22 eu só tinha os parâmetros das funções eu não tinha ainda os dados que
+
+eu queria aplicar e aqui eu posso colocar por exemplo ao cuidado que foi dado um buraco.
+
+Por exemplo se eu li iPaq e ela está novamente imprimindo o console você vai ver que ele vai executar
+
+o mesmo processamento para dois das diferentes.
+
+Você poderia por exemplo duplicar isso aqui e criar uma versão seria lá um pouco menos exagerado.
+
+E aí você poderia tirar por exemplo o tornar lento simplesmente gritar e enfatizar que você teria substituído
+
+aqui algo um pouco menos exagerado.
+
+Nesse caso nós teríamos o resultado sem os espaços brancos entre as letras certo o que é extremamente
+
+interessante.
+
+Aparentemente a Apple que acabou atrasar nem passar de forma parcial os parâmetros se eu posso passar
+
+tudo de uma vez.
+
+Quando você tem que passar tudo de uma vez você não consegue eventualmente criar versões intermediárias
+
+dessas execuções e tornar o seu código mais flexível como foi o caso desse exemplo embora esse exemplo
+
+não seja necessariamente sobre Kerry mas a gente já aplicou esse exemplo de tal forma que a gente conseguiu
+
+salvar uma versão intermediária dessa execução com todos as funções.
+
+A composição de funções para depois chamar isso quantas vezes você precisa e o que é extremamente interessante
+
+é o fato de você conseguir receber do Lego né.
+
+E você comprou pequenas soluções e um ao final de um encaixe no começo da outra.
+
+Você consegue fazer toda uma execução muito mais complexa a partir de partes muito pequenas partes e
+
+funções puras que são facilmente estáveis de funções por que você consegue ter uma previsibilidade maior.
+
+Ou seja acaba que o seu algorítimo final tem uma previsibilidade maior exatamente porque as partes são
+
+mais previsíveis.
+
+Como eu falei pra vocês anteriormente e nem sempre você vai.
+
+Sempre sinto funções puras demais você vai priorizar isso com todo seu coração como brinquei anteriormente.
+
+é isso que eu tenho pra falar na altura uma complementação eu vou fazer mais um ou outro exemplo de
+
+composição.
+
+Então vou aproveitar isso aqui pra mandar para a composição.
+
+Só pra gente colocar um pouquinho também relacionado a questão da LA sincronismo.
+
+Nesse caso nossas funções são chamadas de forma síncrona aproximar ou criar uma composição dois para
+
+a gente colocar também um pouquinho de promessas no meio para não apenas suportar as funções cinco nosso
+
+como é o caso desse exemplo mas também para suportar funções que serão resolvidas no futuro funções
+
+compromisso.
+
+Então pra isso ainda precisar também usar o A5 é isso que a gente já viu anteriormente lá no capítulo
+
+de fundamentos para um homem se viu couber que a inclui vários conceitos que a gente agora está aplicando
+
+na prática e até para mal.

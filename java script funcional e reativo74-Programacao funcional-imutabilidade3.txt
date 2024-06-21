@@ -1,0 +1,287 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Imutabilidade3
+
+Eu devesse ter começado o exemplo de imutabilidade com ela com esse exemplo aqui.
+
+Mas o mais importante é exatamente eu voltar aqui pra copiar o valor do nome do arquivo pra ficar melhor
+
+pra criar ou criar aqui estabilidade pra isso porque assim é uma das questões importantes é exatamente
+
+isso quando você cria por exemplo uma constante pessoa e vou criar aqui um objeto literal CARAL coloca
+
+aqui o nome da pessoa vai ser Maria vou colocar aqui a altura da pessoa vai ser sei lá um metro e setenta
+
+e seis vou colocar por exemplo cidade da Maria mas sei São Paulo está colocando aqui você tem as características
+
+dessa pessoa você tem uma constante mas isso não significa que você não consiga modificar por exemplo
+
+o nome em vez de Maria vai ser João em vez de na cidade de São Paulo cidade de São Paulo Você Fortaleza
+
+certo então acabei de modificar os dados da pessoa.
+
+Se eu colocar aqui consome o blog você vai ver que as informações que Pessoa foi modificar exatamente
+
+porque nós não temos dentro nem os atributos do objeto não são imutáveis a não ser que eu coloque lá
+
+o objeto de culto foi isso.
+
+Mas não é tanto o objetivo da sala que eu vou lá e o que é que eu posso fazer aqui.
+
+Com relação à pessoa eu não posso por exemplo colocar a pessoa recebe um novo objeto base exatamente
+
+com o que eu tenho uma constante.
+
+Então se eu tentar executar isso você vai ver que vai dar um erro de execução exatamente o que você
+
+não consegue atribuir para uma constante mas você eventualmente pode atribuir isso pra uma ou outra
+
+variável.
+
+Por exemplo você colocar aqui nova pessoa nova pessoa recebe a variável pessoa então colocar aquela
+
+pessoa.
+
+Isso aqui só foi feita uma passagem por referência que é uma atribuição a atribuição por referência.
+
+Esse é um tipo de situação principalmente porque se trata de algo que é mutável.
+
+Você tem dados mutáveis dentro da pessoa e embora tenha uma constante que a gente viu que os dados internos
+
+podem ser modificados inclusive no momento o que eu faço uma atribuição por referência em vez de alterar
+
+o nome da pessoa a partir da variável PESSOA E VEJA alterar a cidade a partir da variável pessoa eu
+
+vou alterar o nome e a cidade a partir de outra variável qualquer que no caso a que eu chamei de nova
+
+pessoa e você vai perceber que a pessoa foi alterada ou seja porque o que as duas constantes apontam
+
+para um mesmo objeto mutável na memória.
+
+Então executando aqui você vai ver que nós teremos o João e a cidade dele e Fortaleza e não originalmente
+
+como tinha sido feito né Maria e São Paulo porque aqui foi feito uma atribuição por referência a uma
+
+cópia da referência ou seja do endereço de memória de uma variável para a outra.
+
+Há uma economia de memória porque você tem duas variáveis apontando para um mesmo espaço de memória
+
+mas isso gera problemas sérios como você pensa do ponto de vista de dados mutáveis.
+
+Então se você passar por exemplo você criar uma função certo.
+
+Se eu colocar por exemplo isso aqui e já viu que isso aqui foi feito uma atribuição por referência.
+
+Se eu criar aqui uma função por exemplo uma função que altera a pessoa e você recebe aqui por exemplo
+
+uma nova pessoa e faz esse código aqui dentro da função certa.
+
+Nesse caso o que nós temos também é uma passagem com referência você passou para a sua função.
+
+Essa não é uma pessoa ou seja uma referência de pessoa foi passado pra cá uma vez que você altera os
+
+dados de pessoa você tem uma função é pura estar executando executado aqui você vai ver que os dados
+
+não foram modificados porque eu não chamei a função na então chamada função alterar a pessoa passando
+
+a pessoa.
+
+E agora sim vou executar não só porque nós temos o João e a idade dele foi Fortaleza exatamente o que
+
+foi passado a referência aqui nem tanto é uma atribuição com referência chama de passagem ou referência
+
+à ideia de que você já passou na referência para o objeto de memória ali é o mais caro por exemplo dentro
+
+dessa função realmente fazer a alteração nos dados e tal.
+
+Então o que você pode fazer para transformar essa função em uma função pura.
+
+E você por exemplo criar aqui uma constante chamada a pessoa.
+
+Você coloca o atributo pra sei pessoa aqui e você vai criar aqui uma nova pessoa.
+
+Você pode clonar um objeto usando esse aparador Gama que os atributos de pessoa coloca nos espreite
+
+todos os atributos desse objeto estarão dentro desse objeto que tem a questão também se você tiver por
+
+exemplo ou o outro objeto aqui dentro posso colocar por exemplo um endereço.
+
+Aí você coloca aqui por exemplo rua feliz.
+
+Então tem que ter um certo cuidado mas eu peguei aqui os dados dele alterou o nome da pessoa até a cidade
+
+dela vou retornar aqui os dados de uma pessoa.
+
+E nesse caso teria a pessoa que vai ver o valor da pessoa original executando.
+
+Você vai ver que continua sendo a Maria que mora em São Paulo se não alterar esses atributos.
+
+Se eu pagar aquilo constante a nova pessoa.
+
+Isso é importante porque se você tiver consciência o que vai acontecer quando você passa um valor por
+
+exemplo função e quando você faz uma atribuição por exemplo você tem uma referência pra um determinado
+
+espaço de memória pra você sabe exatamente o que você pode fazer para não causar notabilidade.
+
+Então aqui em Nova pessoa eu vou colocar nova pessoa aqui aqui.
+
+Você vai ver que nós temos a Maria e nós temos aqui o João.
+
+Ou seja no caso aqui a nova pessoa o João que foi alterado dentro de um clone do objeto se por algum
+
+motivo você está fazendo aqui ou você pegou nova pessoa.
+
+Ponto.
+
+Endereço Rua.
+
+E você vai passar aqui rua ABC portal simplesmente ABC original era o feliz agora virou o ABC.
+
+Seu ataque o código.
+
+Você vai ver que o João vai ter o ABC e a Maria também vai ter o ABC.
+
+Por quê.
+
+Então o que aconteceu aqui.
+
+Como você fez esse clone.
+
+Você não fez um clone de forma profunda.
+
+Você fez o clone apenas no primeiro nível dos atributos.
+
+Certo que no caso aqui foi Maria o nome à altura a cidade.
+
+Você simplesmente pegou esse objeto que é também uma referência e simplesmente pegou a mesma referência
+
+de endereço e colocou no novo objeto de tal forma que o endereço uma vez será modificado ele vai gerar
+
+impacto nos outros objetos também.
+
+Embora você tenha feito um clone porque esse clone aqui foi feito o clone Shell Man é raso apenas no
+
+primeiro nível e não foi um clone feito de forma profunda em toda a estrutura do objeto.
+
+Pra evitar qualquer tipo de imutabilidade então você que precisa ter muito cuidado quando lida com essa
+
+questão de referência versus valor eu comecei pelo mais difícil que a referência.
+
+Como é que seria a questão de passagem por valor ou passagem por valor.
+
+Quando você tem por exemplo criar aqui uma variável ou mesmo uma constante variável aqui Let a recebe
+
+o valor 3 e você vai criar uma outra variável.
+
+B recebe o valor de A neste caso tem uma passagem pelo valor de tal forma que o app tem o valor e o
+
+B tem uma cópia do valor de a neste momento não foi feita uma atribuição por referência foi feito atribuição
+
+de valor ou seja foi feita uma cópia da variável do valor da variável é atribuído para a variável B
+
+ou seja uma cópia de apoio estabelecida ou seja que automaticamente há uma separação de memória.
+
+Por quê.
+
+Feito isso historicamente porque aqui há um consumo baixo de memória.
+
+Então entendeu se que fazer uma cópia seria o melhor e no caso de um objeto como objeto pode ser algo
+
+que pode ocupar um espaço relativamente grande de memória se entende que para ter economia de memória
+
+é interessante compartilhar as referências só que compartilhar as referências não é algo interessante
+
+tanto é que se fosse interessante essa atribuição seria feita também por referência.
+
+Se fosse algo que no longo prazo gerasse impacto positivo na sua aplicação o ideal é que você trabalhe
+
+certo as variáveis de forma independente qual o canal que o console Porto log A e B.
+
+Então por isso eu estou falando um pouco mais apto desses conceitos porque esse custo não é um custo
+
+voltado para quem é iniciante não o uso voltado para quem quer aprender programação.
+
+Então já espero que vocês tenham um pouco de conhecimento em relação a isso nem tal atribuição ou valor.
+
+Aqui é feito uma cópia e aqui se não foi feita uma passagem nem referência sejam atribuição por referência
+
+como mostrei antes que foi o caso de a gente criar aqui Constantin outro ou outra pessoa ou outra pessoa
+
+recebe a pessoa e aqui foi feito um.
+
+A atribuição ou referência não aqui mais a h uma atribuição com referência a que foi feito uma passagem
+
+com referência quando você passa a dar para a função que é um objeto.
+
+Tudo isso é passado por referência quando você passa valores primitivos como é o caso de um vale no
+
+mapa como é o caso de um bule como no caso de uma estrela e você passa uma cópia então você não consegue
+
+modificar o valor original.
+
+Nesse caso sim você consegue modificar o valor original com a ressalva extremamente importante que não
+
+basta você fazer um clone de forma digamos assim Chela ou rosa tem que fazer um clone de forma profunda.
+
+Existem bibliotecas que vão te ajudar nesse tipo de coisa.
+
+Acho que o ou deixe por exemplo ele tem um tipo cópia né.
+
+Você tem uma cópia profunda do objeto.
+
+Alguns bibliotecas vão te ajudar a fazer esse clone ou a forma mais interessante.
+
+Lagarde também já aprendeu algumas coisas aqui com relação a somente essa caixinha referência versus
+
+valor.
+
+E como isso impacta na questão da mobilidade.
+
+Por mais que você tente ainda fazer um código de certa forma correto que não vai gerar efeito colateral
+
+vocês perceberam que a gente entrou de forma aninhada dentro dos objetos a gente mesmo assim gerou impacto
+
+negativo.
+
+Ou seja dessa forma que está implementado aqui nós temos uma função impura.
+
+Então muito cuidado com essa parte na contabilidade nós estaremos trabalhando o máximo possível com
+
+códigos imutáveis aqui no nosso custo e tentando manter a notabilidade sempre com um escopo muito restrito.
+
+Então era isso que eu tinha pra falar com vocês pessoal sobre a atribuição por valor e atribuição por
+
+referência a um tema que impacta profundamente essa questão da imutabilidade.
+
+Certo é sempre que você for trabalhar com dados de referência como é um objeto como não há rei trabalha
+
+de forma imutável e quando você for compartilhar referências e objetos vou compartilhar Reference Gear
+
+Rei.
+
+Você trabalha com os dados imutáveis e há sempre uma boa prática você colocar por exemplo objetos muito
+
+feliz porque essa é a forma que você vai garantir que o objeto não será modificado então sempre que
+
+você precise que o objeto não seja modificado é interessante você trabalhar dessa forma executando o
+
+que você vai ver que ele colocou o ABC.
+
+Ele alterou para os dois casos e você pode se quiser colocar aquilo para que o seu endereço também seja
+
+um objeto imutável.
+
+E aí acertando a última vez você vai ver que nos dois cenários não houve mudança a não ser que o usuário
+
+vá lá e clone os dados eu consegui alterar a Maria consegui alterar Estado de São Paulo exatamente o
+
+que eu coloquei essa parte uma fortaleza mas você tentou mudar a rua feliz não conseguiu exatamente
+
+o que você congelou também.
+
+Isso é tão importante caso você queira evitar isso.
+
+Uma opção interessante o JavaScript.

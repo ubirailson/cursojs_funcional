@@ -1,0 +1,118 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Agrupando Palavras
+
+
+Agora nós vamos passar para a parte final do nosso fluxo que é exatamente fazer a agregação.
+
+A gente tem que o método para agrupar os elementos existem várias formas de fazer isso.
+
+Eu vou fazer de mais uma forma diferente vou começar de uma forma mais parecida com o que a gente fez
+
+anteriormente.
+
+E aí depois vieram a segunda versão aqui no arquivo indexa uma versão alternativa para a gente usa alguns
+
+operadores do próprio RX.
+
+é tão legal nesse ponto aqui é que a gente está.
+
+Nós temos brechas mas não é isso.
+
+Nós temos aqui.
+
+As palavras certo.
+
+Se eu por exemplo comentar esse aparador aqui primeiro e acertar você vai ver que vai pegar apenas a
+
+primeira palavra que nesse caso eu quero converter esses times de dados.
+
+REI.
+
+E para isso existe um operador chamado João Rui que ele faz exatamente isso ele pega todo esse time
+
+de dados e joga como se fosse o rei aquela que eu vou precisar para trabalhar com a função que é a função
+
+que nós vamos agrupar dados ele espera receber la completos até para fazer um agrupamento para contar
+
+as palavras e tal.
+
+Então nesse caso mesmo usando foi este o meu transformei toda a extremidades de uma Rei.
+
+O resultado vai ser um grande rei coloquei fofoca não só não importa aqui contra o espaço entre ele
+
+não importa aqui sinodal ele também trouxe legal então daqui pra exercitar novamente.
+
+Ele trouxe todos os elementos iguais e eu coloquei só aqui tem mais ou quatro mil e tantas palavras
+
+adicionais.
+
+Eu coloquei esse fosse só pra mostrar que nesse caso sem o delay ele vai trazer só a primeira palavra
+
+e agora irá trazer todas as palavras exatamente o que ele só tem agora um único elemento que foi passar
+
+pra frente como Grande Rei.
+
+Então agora o que eu tenho o Grande Rei eu posso transformar só fechar isso aqui.
+
+Eu posso duplicar essa função aqui vou usar aqui o nome da função nova agrupar elementos que eu vou
+
+receber não como parâmetro.
+
+Não vou receber nada comparando o a receber na verdade as palavras ou receber 500 no Anexo II.
+
+Então eu posso pegar esse trecho aqui que eu faço a lógica de agrupamento que vai continuar assim na
+
+mesma.
+
+Aí eu posso criar um constante aqui por exemplo agrupado recebe isso aqui de baixo para formatar aqui
+
+pronto agrupado e uma vez que eu tenho os dados agrupados eu posso passar todos os dados de uma única
+
+vez para o próximo passo.
+
+Agora excluindo se vários elementos passou a ser o grande uma grande estrutura primeiro e agora os valores
+
+agrupados.
+
+Eu posso colocar aqui pra chamar o subscritor Macchi e vou passar aqui valor agrupado.
+
+Então essa tabela existe dentro da gente GS.
+
+O grupo vai para algum motivo assim eu preciso colocar que ele vai chamar esse cara pra cá.
+
+Aqui vou chamar logo depois do Tio Rei Fini pontuou agrupar elementos salvando aqui dando algum problema
+
+afinal é a fonte que acontecerá agrupar elementos faltou apagar a função de baixo.
+
+Agora sim mais iremos zarpar de forma correta.
+
+Então nós temos os elementos todos agrupados só pra finalizar essa versão eu vou finalizar a primeira
+
+depois já a fatoração pra em vez de usar aquilo agrupar elementos índios alguns operadores do eixo x
+
+DS.
+
+Na próxima aula vou tratar com a questão da sorte.
+
+é pra gente fazer um sócio um pouquinho diferente do que a gente fez anteriormente eu vou estar lá ao
+
+longo deixo aqui também uma biblioteca muito legal que tem também a sua estratégia mais funcional onde
+
+vai usar o software Bay do próprio Lodetti já que não tem um aparador de sorte baixo dentro da X DS.
+
+é legal os seus autores bibliotecas como por exemplo Lodetti tem um da também muito interessante não
+
+pagar também mais funcional.
+
+E aí eu vou estar lá pra gente usar ou deixe pra especificamente para fazer um agrupamento e já tá quase
+
+no final nessa primeira versão aqui fazer só um ajuste como eu falei nessa parte especificamente para
+
+agrupar na próxima aulas uns fazem ordenação pra finalizar.
+
+é exatamente o mesmo resultado da versão passada ele faz mais alguns ajustes para mostrar alguns operadores
+
+diferentes.

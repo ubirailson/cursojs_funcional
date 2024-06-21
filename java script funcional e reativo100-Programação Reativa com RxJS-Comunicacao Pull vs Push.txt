@@ -1,0 +1,205 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Comunicação Pull vs Push
+
+Mas vamos agora ver um conceito importante na verdade é importante trabalhar alguns conceitos durante
+
+o capítulo pra que fique muito claro do que se trata.
+
+Observo por você ter a noção exata do que você está fazendo e também entender o que acontece com o comportamento
+
+por exemplo.
+
+Só aqui está um exemplo.
+
+Todo mundo pensa pelo menos quem está iniciando a execução padrão onde observa Bo Xilai de forma assíncrona
+
+mas na verdade o código ele é executado de forma sincronizada fazer experimentos para mostrar isso para
+
+vocês.
+
+Você pode tornar execução assíncrona se você quiser usando o esquerdo.
+
+Você pode usar mas quer ele vai ele vai conseguir por exemplo fazer com que a execução se torne formula5
+
+mas por padrão quando você executou com ele o comportamento dele é um comportamento.
+
+5 Eu quero falar nessa aula sobre uma questão relacionada à comunicação entre um produtor e o receptor
+
+das informações.
+
+Por exemplo quando você faz uma chamada função quando você chama a função normalmente você recebe algum
+
+retorno.
+
+Você sabe o valor por exemplo que é o retorno daquela função nem sempre uma função retorna uma coisa
+
+mas via de regra você vai receber algo em resposta.
+
+Nesse caso quando uma função a chama ou a função B Quem você acha que agiu de forma ativa e quem você
+
+acha que agiu de forma passiva ou de forma reativa.
+
+Neste caso a função a que chamou a função B para receber alguma informação algum tipo de retorno da
+
+função B a função foi a função ativa e a função B a função passiva.
+
+é esse tipo de comunicação a gente chama de puré ou seja o estilo de comunicação e o estilo que a função
+
+que quer informação puxa a informação da outras mãos.
+
+Se você quer puxar por exemplo um segredo de um amigo você fica perguntando de forma ativa e a pessoa
+
+de forma reativa responderá até que você tem por exemplo uma confissão auto chateado com você.
+
+Então você puxa essa informação esse é o tipo de comunicação que a gente chama de pu ta.
+
+E esse tipo de comunicação é o que acontece por exemplo com as funções e também o que acontece quando
+
+você lida com um tarado.
+
+Quando você tem o interesse do The vai por exemplo percorri um arranjo de elementos você precisa de
+
+forma ativa pedir para percorrer esses elementos e recebido cada um dos elementos de uma estrutura por
+
+exemplo.
+
+E nesse caso você usa o PU e essa estratégia pu tem tudo a ver com a relação que existe para aquilo
+
+que ele fará.
+
+Qual a relação que existe entre um determinado produto ou quem vai gerar o dado.
+
+Então tem um produtor e você tem aqui alguém que vai receber o dado determinado ressaltou.
+
+Nesse caso a comunicação é quem vai receber o dado vai pedir o produtor.
+
+Esse dado que é o que acontece nessa linha aqui ou no caso da função do inquérito.
+
+Já no caso do push da promoção e do obscuro robô aqui seria uma estratégia e aqui já não há estratégia
+
+Push.
+
+Ou seja de empurrar a informação certo.
+
+O que você não está nem querem saber o segredo da pessoa humana a pessoa está empurrando a informação
+
+mesmo que você não tenha pedido então aquela ideia você tem um determinado produtor da informação um
+
+produtor e você tem um receptor.
+
+Tanto no caso da prova como no caso dos observadores o produtor ele envia os dados ressaltou.
+
+Ou seja quando você vai lá no observou e cria um obscuro robô off e aí passa a bola 1 2 3 e alguém foi
+
+lá e fez um subsecretário também foi lá e fez um subsecretário.
+
+Esses dados serão passados para quem realmente precisa do dado.
+
+Não é essa função que é o dado que vai pedir essa informação para o pessoal robô.
+
+Isso é passado via push ou seja empurrando essa informação.
+
+Isso acontece tanto nos observamos como também acontece a partir das promessas é só uma questão pra
+
+você também tem mais uma visão de como as coisas acontecem.
+
+Outra coisa também que acaba as pessoas confundindo observa Bo não é exatamente como apólice de muitos
+
+valores apesar de que tem sim essa comparação é comparação diria certa forma justa porque você tem uma
+
+certa relação ali observa bônus e promessas você consegue fazer muitas coisas como alguns que você poderia
+
+por exemplo fazer compromissos mas a verdade ou a questão do observador como se fosse uma abstração
+
+para uma chamada de uma função certa ou quando você faz aqui na verdade.
+
+Necessariamente uma chamada de função mas toda uma cadeia de chamar de funções para processar alguma
+
+coisa.
+
+Então quando você dispara esses dados é como se outras palavras você tivesse chamando.
+
+Essa função aqui que você subscreveu em relação a esses dados tal ou seja em vez dessa função chamar
+
+os dados de uma forma ativa ela recebe de forma passiva esses dados e essa função que você passou ou
+
+que foi subscrita um ou mais funções serão chamadas sempre que você for gerando novos dados que a partir
+
+da assistente de dados não necessariamente você vai receber.
+
+O dado original mas esse dado vai ser passado por vários filtros vários processamentos até que no final
+
+você recebe o dado na função que você colocou aqui certo e como ser tivesse também emitindo esses dados
+
+ou emitindo agentes tanto que às vezes há uma comparação com o evento que um emissor de eventos.
+
+Não é exatamente como isso pode se comportar como seguir esse padrão mas na verdade ele é mais uma abstração
+
+de uma função se você folheando estava ao comentar sobre todos esses detalhes aqui tem mais algumas
+
+coisas que vai falar mais à frente como por exemplo a diferença entre o que se observa bom ou não observa
+
+o frio e o roto observou que o robô quente tem uma diferença em alguns conceitos interessantes para
+
+trabalhar mais.
+
+Por enquanto acho que é legal ter essa visão certo do que se trata realmente observou.
+
+Nós vamos trabalhar nas próximas aulas alguns conceitos também um outro conceito importante que eu lembrei
+
+aqui é o seguinte onde normalmente você tem aqui um determinado obscuro robô não era nem para falar
+
+na sala mas eu vou colocar aqui só para a gente.
+
+Rapidamente você tem um obscuro robô e mentalmente vai emitir por exemplo valores 1 2 3 etc.
+
+E esse tipo de observação é chamado de Forrest Frost.
+
+Observe a seleção observa gols que geram valores numéricos objeto ou seja não geram outros observa Augusto.
+
+Eventualmente você vai ter observado que não gera por exemplo valores.
+
+De fato eles geram outros.
+
+Que têm vai ter que observar o bom vigor observou.
+
+2 Que dentro dele mentalmente vai ter um valor e gerando outros valores nesse caso.
+
+Chama esse cara de raio observarmos certo e eu sei que você vai ter situações que você vai ter um seu
+
+robô que gera novos observa bons e você vai ter.
+
+Luz que por exemplo geram valores diretamente tem essa diferença de nomenclatura e você tem operadores
+
+que convertem por exemplo esse tipo de robô nesse tipo de observa.
+
+Ou seja você resolve usar esses dados seus robôs internos e transformam e observadores de valores literais
+
+ou de valores por exemplo objetos reais números bonitos estribos e coisas do tipo legal.
+
+Então só pra mostrar pra vocês que tem alguns conceitos interessantes por isso que eu falei vale muito
+
+a pena dar olhada na documentação e entender esses conceitos.
+
+Saber quando aplicar eles na prática mais o que eu queria falar mais mesmo aqui nesse exemplo é exatamente
+
+essa diferença entre o PU e o Bushnell que há uma diferença de estratégia.
+
+Normalmente quando você precisa de alguma informação você age em meu receptor de forma ativa ou naquela
+
+informação.
+
+Já no caso do observou ele meio que empurra isso pra quem precisa dessa informação.
+
+Há por exemplo o responsável por iniciar esse processo que é normalmente comparado de criação e a partir
+
+daí todo o fluxo de operações vão sendo geradas a partir dessa estratégia de puxar empurrando as informações
+
+para todo show ou até chegar realmente nos interessados que foram essas funções que fizeram o subscritor.
+
+Espero que tenha ficado um pouco mais claro a ideia de observou a gente vai fazer muitos exemplos a
+
+ideia é usar eles na prática e até aproximá los.

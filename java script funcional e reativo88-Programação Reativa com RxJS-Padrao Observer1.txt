@@ -1,0 +1,314 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Padrao Observer1
+
+
+Só nesse vídeo nós vamos falar sobre o padrão.
+
+Observem que é um dos padrões mais importantes da atualidade.
+
+é um padrão que é a base da programação reativa.
+
+Para você ter ideia do primeiro vídeo que eu gravei na vida diante das câmeras foi sobre o padrão observe
+
+inclusive ele está no canal da coluna embora ele tenha sido gravado para um canal antigo que eu tinha
+
+aulas de programação excluído.
+
+E hoje ele está no Canadá colocou com o título O padrão mais utilizado na web é um vídeo muito legal
+
+olha apenas algumas das imagens que eu vou colocar aqui.
+
+Ver esse vídeo lá tá um pouco mais animado sim que ele tem animação no vídeo mais grave aqui explicando
+
+pra vocês o padrão Observer com base na programação reativa.
+
+Nesse contexto do curso mais vale a pena conferir lá com cursos o vídeo padrão é o mais utilizado na
+
+web.
+
+Eu vou colocar aqui só a minha tela e nós vamos entrar nos slides para entender um pouquinho sobre essa
+
+história que eu vou contar pra exemplificar o uso do padrão.
+
+Observem certo vou tentar fazer aqui de uma forma mais lúdica essa história você vai conseguir perceber
+
+em vários outros cenários da vida real.
+
+Esse padrão observa está presente.
+
+Então essa ideia foi extraída do mundo real para que a gente possa transformar este software logo na
+
+sequência.
+
+Vocês vão ver que a gente vai implementar isso em JavaScript estava lá o aniversário surpresa é exatamente
+
+a história que a gente vai contar aqui pra exemplificar o uso do observe e sem o uso de observe pra
+
+você comparar o benefício que é usar o observe.
+
+Uma questão importante é que a base da programação reativa é o padrão observe como a gente pensa em
+
+atividade esse ativo normalmente tem aquela sensação e encerrar ativo é aquela pessoa que não tem iniciativa
+
+aquela pessoa que só age diante de uma circunstância aquela pessoa que não tem proatividade para fazer
+
+as coisas.
+
+Quando a gente pensa por exemplo um funcionário de empresa espera se que ele seja proativo que ele tenha
+
+iniciativa e não é uma pessoa meramente um ativo ou um fazedor de tarefas.
+
+Só que quando a gente olha para o código esse conceito de reatividade é algo bom.
+
+Por quê.
+
+Porque quando você tem um código proativo o corte fica todo o tempo processando as coisas ele tende
+
+a consumir mais memória mais processador um código que vai acabar trazendo malefícios do ponto de vista
+
+de desempenho para sua aplicação a gente quer que o código ele responda a eventos que eventualmente
+
+tenha acontecido por exemplo um evento seria um site como o Submarino e Shoptime e Americanas qualquer
+
+site desses de e-commerce que tem uma venda quando a venda acontece a gente pode tratar isso como um
+
+evento e automaticamente em resposta a um evento ou seja compra concluída pode ser feito vários processamentos
+
+em ativos como enviar um e-mail mandar uma mensagem para um sistema de estoque mandar o pessoal da logística
+
+separar o produto e você tem uma série de ações que podem ser disparadas a partir de um evento.
+
+Então não é tão desejável do ponto de vista de software você tem um código proativo que fica dando tempo
+
+processando.
+
+Claro que existem cenários para isso né.
+
+Isso é desejável mas via de regra a gente quer que o código ele reaja a eventos e isso vai trazer uma
+
+série de benefícios.
+
+Vocês vão ver ao longo desse capítulo.
+
+Então voltaram aqui para o nosso aniversário surpresa nós temos dois personagens e você pode até perguntar
+
+leu e não tem o próprio aniversariante né porque aquela história do aniversário surpresa tá todo mundo
+
+no apartamento esperando o aniversariante chegar.
+
+Pra quando ele chegar todo mundo lá cantar os parabéns e gritar surpresa essa é a história que todo
+
+mundo já conhece e nós temos dois personagens na história que a namorada que é quem está organizando
+
+toda a festa que está lá em cima no apartamento esperando chegar namorado dela e nós temos também o
+
+porteiro que vai nos ajudar a contar essa história quando a gente for usar o padrão seguem vocês vão
+
+perceber que quando fossem parar observe.
+
+Só quem fará parte da história a namorada é quando for compadre observa o porteiro vai entrar e vai
+
+exercer um papel extremamente importante.
+
+Outra questão é que o aniversariante ele não faz parte dos personagens o aniversariante.
+
+Ele é o evento que vai acontecer.
+
+Então vou tratar o aniversariante como evento ou seja a chegada dele está no trabalho.
+
+Não chegou ainda.
+
+Quando ele chegar exatamente o evento que vai disparar toda a preparação para o aniversário surpresa
+
+apagar as luzes todo mundo fazer silêncio pra aí todo mundo conseguir fazer a surpresa quando ele entrar
+
+no apartamento.
+
+Legal então essa história e nós temos uma história que é exatamente o aniversário surpresa e nós temos
+
+dois caminhos diferentes o caminho vai ser uma possibilidade.
+
+Vai ser o cenário sem usar o padrão observa que vai ser o primeiro que eu vou abordar aqui na aula e
+
+o segundo cenário vai ser com.
+
+Recebe e eu quero que vocês percebam que no primeiro cenário se observe o porteiro não fará parte da
+
+história.
+
+Então nesse caso o porteiro me aparece aí na imagem tem a namorada e vai ficar na janela esperando o
+
+evento acontecer.
+
+Ou seja só vai preparar essa vai apagar as luzes todo mundo só vai fazer silêncio quando o namorado
+
+chegar ao evento.
+
+Então antes de ele chegar por aqui são seis horas da noite e o namorado só vai chegar seis e 20.
+
+Então ela não sabe que ele vai chegar seis e vinte mas a partir de 6 horas ele pode chegar.
+
+A namorada vai ficar na janela esperando preocupada para não perder o evento e esperando a chegada do
+
+namorado.
+
+Vinte minutos depois o evento acontece.
+
+A namorada sai da janela faz toda a preparação do apartamento que é o tempo que ele sobe e aí tem um
+
+aniversário surpresa legal qual é o problema dessa estratégia.
+
+O problema é que a interessada que é a namorada ela assumiu pra si a responsabilidade de detectá la.
+
+Vendo a namorada poderia simplesmente delegar isso para uma outra pessoa.
+
+Por exemplo vocês vão ver o próximo cenário que vai ser o porteiro mas ela acabou trazendo pra si esse
+
+primeiro cenário sem um padrão observe trouxe pra si a responsabilidade e passou 20 minutos sem curtir
+
+a festa.
+
+Preocupada na janela esperando a chegada do aniversariante para só então ela sair dessa posição de espera
+
+ocupada que a gente é muito famosa né.
+
+Você fica lá é formal ocupada esperando ocupado sem fazer praticamente nada.
+
+E aí aconteceu a esse que ela tomou as ações necessárias para apagar a luz e fazer um aniversário surpresa.
+
+No segundo cenário o cenário como segue.
+
+Agora nós temos a participação fundamental do porteiro.
+
+Eu quero tentar narrar aqui uma sequência lógica que é exatamente a mesma sequência lógica que vai acontecer
+
+no padrão observe.
+
+A primeira coisa que precisa ser feita é a namorada ligar para o porteiro e se mostrar né.
+
+E isto é analisar a sua vontade de ser notificado quando a visita acontecer.
+
+O porteiro não tem como adivinhar que ela peça modificada quando chegar o namorado.
+
+Ela precisa telefonar e dizer fulano de tal você pode notificar quando o fulano 200 e o chegar vai vir
+
+no carro amarelo num fusca amarelo e tal.
+
+Você pode me notificar dizendo que ele chegou há pouco está todo mundo aqui esperando pra fazer a festa
+
+surpresa pra ele.
+
+Aí eu por ter diz tranquilo eu recebi aqui o seu desejo.
+
+Assim que ele chegar o interfone volta e esse telefonar de volta ou ligar de volta tem tudo a ver com
+
+o tempo que a gente já viu e já usou anteriormente que é o call back ou seja ligar de volta ou chamar
+
+de volta.
+
+Certo então a namorada registrou e tornou explícito o seu interesse em ser notificado o que alguns chamam
+
+de registrar.
+
+E aí o porteiro vai ficar observando porque o porteiro porque ele é a pessoa mais indicada para fazer
+
+isso ele está numa posição privilegiada ele está exatamente no local onde o evento vai acontecer dentro
+
+do padrão observe.
+
+A gente chama o porteiro de subject ou o sujeito ou o assunto certo.
+
+Então ele o porteiro que o subject é capaz de detectar o evento legal.
+
+A namorada não está na janela.
+
+A namorada não está naquela espera ocupada está curtindo a festa fazendo o que ela tem que fazer ou
+
+mesmo dormir não tem problema se ela quiser ficar dormindo ela vai ficar aqui e o que vai acontecer
+
+provavelmente no quarto reativa não vai estar sendo executada.
+
+E quando o evento acontece o porteiro faz uma couber que chama de volta avisando o que aconteceu e vendo
+
+passando para novamente para Helô acabou de chegar aqui.
+
+O carro amarelo um fusca amarelo do seu namorado Zezinho.
+
+Então eu estou te avisando para que você faça o processamento necessário para o porteiro e afundou depois
+
+que aconteceu o primeiro passo é registrar o interesse a namorada liga para o porteiro para dizer que
+
+tem interesse em ser notificado quando acontece o evento.
+
+O segundo passo o evento acontece.
+
+Terceiro passo o porteiro liga de volta para a namorada fazer o que couber aqui é o quarto passo a namorada
+
+fazer toda a preparação para apagar as luzes fazer silêncio e ter a faixa surpresa.
+
+Legal então nesse caso com a participação do porteiro você percebe que a namorada teve sua vida mudada
+
+completamente mudada mas ela não precisou ficar aqueles 20 minutos lá de forma daquela espera ocupada
+
+esperando chegar o evento para daí só então curtir a festa ela ficou curtir na festa desde o começo
+
+e quando aconteceu o seu objetivo que é o porteiro ficou.
+
+Nesse caso a namorada era o que a gente conhece observa.
+
+Não confunda observem com aquele que vai observá lo e vendo quem observa.
+
+Quem detecta o subject e o observa e o interessado no evento é quem em última análise está interessado
+
+em observar o evento.
+
+O porteiro ali ele vai ser um mero intermediador.
+
+Ele detecta e notifica mais um interessado mesmo e o observe.
+
+E nesse caso a namorada a observa da nossa história legal então o próximo passo aqui só para a gente
+
+finalizar questão no poder observa o padre observe.
+
+Ele é um padrão orientado a eventos ou seja as coisas só vão acontecer se o evento acontecer.
+
+A única coisa que acontece antes do evento acontecer é a namorada se registrar com como porteiro dizendo
+
+que está interessada.
+
+Esse processo de registro acontece antes do evento acontecer e observa se registrar nos objetos para
+
+dizer que tem interesse em ser notificado quando o evento acontecer.
+
+A partir daí tudo só vai acontecer quando acontece.
+
+Então nós temos os objetos que é o cara responsável por detectar o evento e nós temos os interessados
+
+neles observa se que pode ser mais útil na nossa história foi sua namorada mas poderia por exemplo o
+
+síndico também falar pro porteiro dizer ao qual fulano chegar Me avisa porque eu sei que está lá numa
+
+festa surpresa e eu quero ficar monitorando o barulho da festa então tenha aviso que eu vou para a janela
+
+só pra ver se tem alguma coisa que viole as leis do condomínio então poderia ter um segundo interessado
+
+e nesse caso o porteiro iria ligar de volta para a namorada e também iria ligar de volta para o porteiro
+
+para dizer que o evento aconteceu.
+
+Então nós temos vários interessados nós temos noção que é o cara que vai detectar o evento e aí nós
+
+temos o processo de registrar não basta ter o observe e o sabonete no observe é de informativa dizer
+
+que está interessado em receber o evento e isso vai acontecer pra que todos os observe.
+
+Não coloquei só uma seta mas todos irão se registrar.
+
+O evento acontecem e aí sabe que detecta o evento e ele vai notificar todos os interessados.
+
+Legal então esse é o padrão observa explicaram.
+
+De uma forma um pouco mais visual aproximá las vamos implementar isso em JavaScript e até lá.

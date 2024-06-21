@@ -1,0 +1,99 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 3 - Resposta 1
+
+Então nós vamos fazer o seguinte Veja dar uma resposta mais longa e mexer muito no colo e nós vamos
+
+fazer de forma parcial.
+
+Eu vou quebrar essa resposta em vários vídeos para que fique bem claro até porque não existe apenas
+
+uma única alternativa mas tem várias possibilidades diferentes misturando diferentes técnicas.
+
+Vou começar bem simples e depois nos próximos meses a gente vai fazendo as devidas alterações que forem
+
+necessárias estão lá.
+
+O primeiro cenário eu vou querer usar esse operador primeiro.
+
+Então lá embaixo eu vou comentar o operador o último e vou comentar.
+
+O operador primeiro é o resultado que a gente vai ter na execução.
+
+é exatamente esse vai ser o primeiro e único elemento na verdade que vai chegar aqui no final do console.
+
+Logo exatamente por conta disso a parábola legal Galvão fazer esse operador funcionar.
+
+E aí me dá por satisfeito nesse vídeo no próximo.
+
+A gente vai fazer os ajustes até que todos os três fiquem e faturados nessa mesma função.
+
+Então a partir daqui eu vou pegar esse código.
+
+Vou jogar pra cá pra colher de papo.
+
+Essa parte da função que recebe é a origem dos dados né.
+
+A outra opção robô vai continuar aqui.
+
+Eu vou criar um observador e eu vou precisar de alguma forma passar essa função pra cá ou pelo menos
+
+passar uma função como parâmetro de tal forma que dentro do Net eu chame a função.
+
+Então coloquei a lógica especificamente desse aparador que está aqui dentro do Mac.
+
+Então vou passar aqui por exemplo neste fim que eu vou chamar de Function Function e eu vou fazer com
+
+que essa função receba tanto o subsecretário ou ele vai precisar receber tanto o valor que eu recebi
+
+como o próprio subscrever.
+
+Lembrando que essa função de baixo não vai ter mais esse trecho toda ela vai ter apenas o Metro do cliente
+
+pago o ocorrido e eu vou precisar passar a função como parâmetro aqui pra uma vez essa função seria
+
+chamada Eu vou executar essas duas esses dois passos aqui eu quero chamar o subsecretário e chamar a
+
+partir dele também um acesso um valor.
+
+Então eu preciso pelo menos aqui recebeu subscrita é preciso receber o valor de tal forma que eu consiga
+
+executar essas duas ações dentro desse operador lógico que ficou bem mais simples essa função está basicamente
+
+focando aqui a parte realmente vai implementar o Macchi.
+
+Então aqui eu preciso dentro do Net chamar essa Macchi passado como primeiro parâmetro o subscrever
+
+e o segundo parâmetro o próprio valor.
+
+Então acabei trocando um pouco a assinatura da função NET.
+
+Nela recebia só o valor de Paris ou vi isso depois aplicar outras técnicas mas a falta agora que eu
+
+precisei passar as duas coisas antes de mesclar bem como o valor seguia a versão provavelmente mais
+
+simples.
+
+Então acertando ao executar aqui pra gente eu estava ainda usar o primeiro funcionou corretamente e
+
+se eu não chamar o cúmplice certo ele vai executar vai passar todos ao mesmo só pagar aqui por exemplo
+
+vê mais sem saber que o resultado final vai se sentir exatamente porque ele está passando por esse novo
+
+código aqui legal.
+
+Na primeira versão é essa fizemos uma função por enquanto estou me achando só no primeiro ele vai fazer
+
+um ajuste depois pra mexer nos próximos.
+
+Aqui também daria certo fazer a fatoração e simplesmente não subscrever ponto com o cliente.
+
+O que não daria certo seria o último porque ele iria dar precisaram usar também o conflito não apenas
+
+o México mas o cúmplice já precisava falar sobre isso autoral.
+
+Então por enquanto essa aqui é a primeira versão da nossa função cliente pago leitor.
+
+Na próxima aula vou mostrar para vocês uma outra alternativa e até lá.

@@ -1,0 +1,126 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Ordenando Palavras
+
+
+Agora nós vamos instalá lo dashi e para isso vou entrar aqui no Terminal do nosso projeto.
+
+Vou rodar o comandante mi Low Dash.
+
+Ele vai estar lá vai declarar que não está aqui.
+
+Gerson está lá ele colocando aqui.
+
+Além de ter o antigo DS X o XML http: chiclete agora adicione o ou deixe o ou deixe a com o nome já
+
+diz né.
+
+E o traço embaixo Wonderland a gente acaba referenciando ele a biblioteca usa o nome dela então é só
+
+tirar o Flash e colocar um constante andar lá e assim recebe quais importa aqui no caso Bash.
+
+Legal e com ele.
+
+Nós temos a possibilidade de usar também o operador Map XPS.
+
+A ideia é mapear esse inteiro e o outro array.
+
+Só que com os dados armazenados aqui não vai receber cada um dos elementos vão receber um array inteiro.
+
+Então depois de agrupar vou chamar aqui metros maquilhar Rei problema ou chamar aquilo ou deixe ponto.
+
+Sorte Bay.
+
+Vou passar lá Rei e eu vou usar dentro dessa Rei.
+
+O elemento vai ser o seguinte só lamento que a gente tem que só comentar essa linha aqui temporariamente
+
+adaptado.
+
+Nós temos o elemento e a quantidade então querer a quantidade e forma decrescente.
+
+A gente pode fazer o seguinte que eu posso passar uma função que vai receber o elemento e eu vou retornar
+
+o elemento de quantidade se eu fizer isso ele já vai ordenar por esse atributo eu vou mostrar Jajá como
+
+a gente faz de ordem decrescente tal executava que você vai ver que ele trouxe só os elementos que começam
+
+com isso eu colocar isso de forma negativa e estando aqui pra gente ver o resultado que ele trouxe.
+
+Já agora ordenado de ordem decrescente pelo resultado aqui ele está trazendo apenas um único arquivo
+
+o que não é o que a gente quer porque o valor é bem maior do que isso esse que é como se fosse apenas.
+
+O episódio provavelmente deve ter algum conflito fora do canto aqui então ou daqui como fi estão concluídos
+
+nós temos esse final e temos um conflito aqui em relação ao meu diretório aqui não tem problema porque
+
+de fato o diretório inteiro e aí pode compactar aqui até porque é um operador de criação Gilberto tem
+
+algum outro ponto no arquivo um arquivo.
+
+Ele é um cliente pago HBO.
+
+Então nesse caso eu não colocarei o cliente aqui todo o tempo já que está lá apenas um arquivo né.
+
+Por conta disso o cliente e eu só vou querer que ele complete exatamente quando o outro observa HBO
+
+vou.
+
+E aí ele vai mal com o outro aqui no Google então eu coloquei pra quando for chamado complete do sócio
+
+da fonte.
+
+Ele chama o cúmplice desse operador também.
+
+Certo e raras exceções né.
+
+Como é o caso do último por exemplo do primeiro que eu realmente queria ir para a execução antes meu
+
+voto abaixo manda o publisher dentro do anexo eu procurava tem algum outro cliente que como político
+
+eu tenho esse aqui do lado do diretório e tenho os de baixo prontos.
+
+São esses mesmos que está mais uma vez para ver meu resultado ao ponto.
+
+Agora nós temos o valor que realmente deu na outra casa em 2000 1491 agora com um valor ordenado.
+
+Usamos aqui no final solo deixe a gente pode inclusive colocar isso como sendo o operador também sem
+
+problema nenhum para pagar os valores e ordem na pagar um Harry por exemplo e ordenar o software da
+
+rede ou coisa do tipo.
+
+Mas eu posso também colocar aqui dirá também que está faltando pra gente concluir na verdade já concluí
+
+Eu vou criar uma segunda versão rapidamente só pra mostrar uma alternativa e como a gente poderia agrupar
+
+esses valores que usa alguns operadores do X DS então fique por aqui na proxima além de mais alguns
+
+ajustes numa versão alternativa tanto é que eu vou copiar o IBEX ponto de S.
+
+Eu já posso até limpar essa parte final.
+
+O que mais conseguiu chegar no final do nosso exercício.
+
+Eu vou limpar.
+
+Nós temos aqui uma função de ordenação.
+
+Eu não vou usar essa função é só conferir se está tudo conforme eu preciso.
+
+Então agrupar o se aparar por trecho acho que o resto a gente já fez todas as migrações necessárias
+
+mesclar elementos eu não vou precisar.
+
+Também deixei tirar aqui a declaração ele deixar só aquilo que eu preciso aqui é a função que ajudei
+
+a criar os operadores foi migrado que até aqui só formatar esses espaços em branco se necessários aqui
+
+para isso a gente já tem tudo todo o nosso código migrado para essa primeira versão e está faltando
+
+só mais alguns pequenos ajustes para baixar pra vocês algumas alternativas com relação a essa questão
+
+de agrupar os elementos pra isso já até aproximado.

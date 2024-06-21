@@ -1,0 +1,139 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Operadores 4
+
+Para criar mais um operador agora operador boné que fica ali no meio do processamento para criar um
+
+operador Supersimples que já existe no site JS mais alagar que a esses operadores simples para entender
+
+um pouco na mecânica para a coragem de criar operadores mais complexos personalizados a gente saiba
+
+a mecânica.
+
+Então para isso eu vou criar mais um arquivo que eu vou chamar de operadores em quatro ponto e assim
+
+e aqui eu vou importar o foram e vou importar também o observador.
+
+Isso tudo vem de XII.
+
+Então eu vou criar aqui uma eterna 1 2 3 4 5.
+
+Vou chamar aqui o subscreve colocando o console logo e vou criar aqui.
+
+Vou criar a função que vai ser o meu operador então operador.
+
+Primeiro a ideia é pegar o primeiro elemento que foi chegar nele e então passar o primeiro para cá se
+
+executar desse dessa forma que vai provavelmente gerar um problema curto destinada a colocá la na frente.
+
+Vocês vão gerar um problema exatamente porque não foi retornado nada que ele espera receber uma função
+
+como a resposta desse operador primeiro aqui.
+
+Então ele vai tornar uma função Fantin e vão receber aqui um determinado parâmetro que por enquanto
+
+eu não sei exatamente do que se trata e eu vou mandar aqui ele exibiu um console outro logo para se
+
+salvar e acertar.
+
+Você vai ver que esse parâmetro é alto só robô então esse observa o bom é exatamente o que está vindo
+
+do anterior poste aqui observa Bo ou obedece anterior ou posso chamar anterior ou posso chamar de sorte
+
+e observa um pouco da fonte de dados né.
+
+Então vou colocar obedece fonte certo só pra dizer que eu recebi os dados a partir deste observa Bo.
+
+E essa função aqui também vai torná lo observa Bo.
+
+Então eu vou retornar lembra aquela ideia do Phantom né que você tem a função Mac que retorna o objeto
+
+do mesmo tipo.
+
+Então aqui eu estou dentro recebendo observou Bo e vou gerar um novo observou.
+
+Então tem uma função que retorna a função e nesse caso aqui eu vou retornar observou bom ponto.
+
+Ok aqui vou fazer subscrever e aqui dentro eu vou querer chamar observa Bo Fontenelle sós.
+
+Vou colocar sorte aqui pessoal que é inglês né.
+
+Está colocando tudo em português só pra ficar mais alinhado que com um salário baixo fica mais natural.
+
+Mas eu vou colocar aquele sócio ponto sobre Craig sobre os quais vou passar aqui pra dentro eu posso
+
+subscrever de várias formas de aposta na função como posso passar o objeto e aqui eu posso criar a função
+
+aqui.
+
+Então eu vou receber um determinado valor que eu não sei o que é o V e aqui dentro eu posso por exemplo
+
+chamar o subscreve que é esse novo observo que eu estou retornando pra esse eu por exemplo sou escravo
+
+e ponto que vou chamar aquele valor só pra gente ver o que acontece nesse caso estão acertando.
+
+O resultado foi um eu diria que um dois três quatro cinco números e no final das contas eu acabei gerando
+
+aqui no verão.
+
+Então não fiz nada com o que eu recebi falou.
+
+Nesse caso eu vou pegar por exemplo ver e somar mais mil só pra gente ver o resultado aqui.
+
+Certo seria um outro operador colocar gerar operado primeiro então acertando dois.
+
+Ou seja consegui executar ele de uma forma correta que no final ele passou a estar pra cá.
+
+Se eu quero pagar apenas o primeiro elemento eu posso simplesmente chamar o Macchi e automaticamente
+
+eu vou chamar o subscrever.
+
+Conto com o clichê ou seja não quero receber o dado.
+
+Então nesse caso você vai executar ou saber a resposta final será.
+
+Ou seja eu passei baixo nele vários dados 1 2 3 4 5.
+
+Peguei só o primeiro e no final tirou só o primeiro aqui.
+
+Vamos gerar de novo o último e aí eu convido vocês a não olhar o primeiro e tentar fazer o último de
+
+novo.
+
+Então nós temos aqui uma função Fantin que eu vou chamar aqui de útil.
+
+Essa função vai retornar para retornar uma função que essa função vai receber o nosso Observador fonte
+
+dos dados que eu chamei aqui de sorte legal e essa função interna vai retornar observou um ponto.
+
+E aqui eu vou receber um subscrito dentro desse sob os quais eu vou pagar fonte de dados e vou querer
+
+receber os valores dela pra receber os valores da fonte.
+
+Eu preciso chamar fonte ponto subscrito aqui eu vou passar um objeto pegando por exemplo a função NET
+
+e eu vou colocar aqui vou simplesmente chamar o meu por enquanto subscrevo Ponto Chique pagar o valor
+
+de o valor de venda que eu receber aqui e somando mais um só para somando mais dois mil dá pra gente
+
+ver aqui.
+
+Nesse caso eu vou usar e vou duplicar isso vou chamar aqui de última e vou comentar por enquanto o primeiro.
+
+Legal só pra gente ver o resultado desse nosso pago volto direito está funcionando até aqui 2 mil.
+
+2003 2004 2005.
+
+Legal como é que eu vou conseguir gerar um operador que vai ser o último.
+
+Eu vou fazer o seguinte não vou achar na sala.
+
+A gente já viu aqui rapidamente como é que cria um operador nosso operador o time está funcionando.
+
+Eu quero que você pense um pouquinho como é que a gente vai agora selecionar apenas o último elemento.
+
+é só mostrar o último aqui.
+
+Quando chegar no consórcio culturalmente o subscrevem na próxima hora da resposta e até lá.

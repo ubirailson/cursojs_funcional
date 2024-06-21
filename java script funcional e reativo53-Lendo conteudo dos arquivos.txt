@@ -1,0 +1,203 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Lendo Conteúdo dos Arquivos
+
+Agora nós vamos transformar a lista de caminhos que a gente tem assim uma lista dos conteúdos dos arquivos
+
+ainda precisar lê todos os arquivos.
+
+Então nesse caso eu vou fazer o seguinte vou colocar aqui.
+
+A função pode fazer sentido a gente querer devolver por exemplo uma compromisso na verdade com todos
+
+os arquivos que a gente pode fazer isso.
+
+Eu vou criar aqui uma função chamada Santos chamada lê arquivos e a gente pode até criar uma função
+
+ali um arquivo especificamente ao fazer o seguinte bloquear duas funções uma função chamada Lei arquivo
+
+singular e essa função.
+
+Por se tratar de algo que assíncrona eu vou envolver essa função na está para colocar eu para homens
+
+e vou passar que a função resolve e vou passar a função Market.
+
+Então nesse caso a gente vai fazer o seguinte a gente já tem um FPS aqui em cima e eles esperam receber
+
+aqui o caminho para conseguir ler o arquivo.
+
+Então vou chamar que oferece ponto wi fi.
+
+Eu posso ler tanto o vídeo faz o sinal de forma síncrona como posso ler.
+
+De.
+
+Tanto faz aqui não vai fazer muita diferença para nosso caso.
+
+Só pra gente usar uma função diferente vou usar aqui o vídeo fail SYNC de forma síncrona.
+
+Então aqui eu vou passar o caminho certo e eu vou receber como resposta o conteúdo do arquivo ou então
+
+chamar aquele conteúdo recebe o resultado dessa função 5 uma função síncrona você recebe diretamente
+
+a resposta da função com uma função normal quando você chama fi.
+
+Você tem que passar uma couber aqui e nessa couber você vai receber o erro e o conteúdo.
+
+Você pode perguntar como é que eu faço aqui o tratamento de erro nesse caso tem uma função síncrona.
+
+Por quê.
+
+No outro cenário que a gente tinha feito anteriormente fazer assim não a esse ponto o ID Fail a gente
+
+passaria o caminho do arquivo e passaria uma função e essa função ela recebe dois parâmetros.
+
+O primeiro parâmetro é o erro e o segundo parâmetro é o conteúdo do arquivo.
+
+Essa é a forma que você tem para ler o arquivo usando uma couber aqui.
+
+Nesse caso a está usando de forma síncrona chamando o metro para ali o arquivo passa no caminho ele
+
+vai me devolver o conteúdo.
+
+Nesse caso aqui você vai usar um tratamento normalmente vai com Cat.
+
+Então você vai ter um CAT.
+
+Caso aconteça um erro nesse caso eu não vou usar o wi fi mas vou usar o ID fail 5.
+
+Então apagar esse código aqui.
+
+Então nesse caso a resposta da chamada da função é o conteúdo.
+
+Se der algum problema ele vai cair no caixote no quente eu vou chamar o widget passando ué.
+
+E no caso se eu conseguir ler o conteúdo do arquivo eu vou chamar aqui.
+
+Resolve então resolve passando o conteúdo.
+
+Ponto extremo.
+
+é aqui na leitura do arquivo você pode passar as propriedades por exemplo.
+
+Uma delas é um código que você pode passar aqui no caso TF 8 que é um de é usado nos arquivos.
+
+Então passa um código que você pode passar o caminho do arquivo.
+
+O conteúdo foi obtido uma vez no site o conteúdo conteúdo ponto string e será retornado que a pasta
+
+resolve.
+
+O conteúdo do arquivo lembrando que se lê arquivos só fechar rapidinho dá o console ali lê arquivo.
+
+Ele vai ter apenas o único arquivo vai retornar um quando o arquivo foi lido.
+
+Aí sim que ele baixe malwares houve e o método será chamado.
+
+Já o método lê arquivos no plural.
+
+Eu vou esperar receber um conjunto de caminhos então vou colocar aquele caminhos no plural para fazer
+
+alusão que vai ser lá Rei.
+
+Nesse caso é que eu vou fazer.
+
+Eu vou retornar para homens.
+
+Olha que legal para homens.
+
+E ele espera aqui dentro receber uma rede.
+
+Me lembra que a gente fez assim colocou a Rei e definiu várias promessas na capital.
+
+Passado a gente fez aqui algum exemplo acho que foi 4 algo bom para o oficial.
+
+Ele espera receber um diploma se lembrando que eu fui chamado na função e a resposta dessa chamada foi
+
+um compromisso.
+
+Nesse caso a mesma coisa vai acontecer aqui no arquivo o arquivo vai retornar para homens e aqui a gente
+
+tem um rei de caminhos que é que eu posso fazer eu posso usar uma função Mac pra ele retornar os arquivos
+
+né como então fazer caminhos.
+
+Ponto Mac.
+
+Voltei cada um dos caminhos cada um em cada caminho especificamente a navegar e aqui eu vou chamar o
+
+método ler arquivo e aí basicamente eu vou ter que.
+
+Minha.
+
+Vou passar o caminho para ali o arquivo.
+
+Ele vai transformar o valor string para algo o retorno dessa função aqui que é o valor ou o tipo Palmense.
+
+E quando o arquivo for lido ele vai chamar.
+
+De tal forma que eu li arquivos.
+
+Ele será chamado com todos os arquivos forem lidos ele vale tudo em paralelo com todos aqueles que forem
+
+lidos ele vai me dar um ar rei com os conteúdos de todos os arquivos já que houve aqui resolveu o conteúdo
+
+de cada arquivo no seu caminho.
+
+Ele me devolveu o conteúdo como eu estou lendo vários arquivos.
+
+Então eu passei aqui todos os caminhos e fiz aqui o MEP.
+
+E no final esse metro aqui e ler arquivos já me devolveram nomes que só será chamado no metro.
+
+Quando todas as promessas foram resolvidas aqui.
+
+Quantos caminhos você passar ele vai esperar resolver e todas as leituras de todos os arquivos para
+
+daí passam a com todos os conteúdos então aqui a gente pode declarar aqui nesse objeto o método.
+
+Lei arquivo no singular e Lê arquivos no plural embora não vá usar especificamente o arquivo no singular
+
+mas eu posso quiser exportar eles sem problema.
+
+Então voltando aqui para o nosso índex agora está começando a ficar um pouco mais complicado mais ao
+
+mesmo tempo bem mais legal a gente vê todas essas funções serem usadas na prática.
+
+Então aqui pra gente recapitular executando novamente nós temos vários caminhos que apontam para nossos
+
+arquivos ponto externo.
+
+Agora eu vou chamar aquele bem nesse caso eu vou receber aqui arquivos STR a pé na jaca filtro.
+
+No exemplo passado e o que eu vou querer fazer aqui é chamar F.
+
+Ponto.
+
+Lê arquivos no plural e vou passar todos os meus arquivos Astérix que são os caminhos pra eu sei o que
+
+é que ele espera receber agora o conteúdo de todos os arquivos.
+
+Olha que legal vou limpar aqui tá e ele mostrou todos os arquivos serão exibidos pra gente.
+
+Aquele colocou como se fosse um estribo e somando os arquivos ou mais finalmente tem todos os arquivos
+
+a nossa disposição é bem longa aqui e ali estou porque são todos os arquivos serem exibidos tá então
+
+legal agora tem um a cada um dos elementos que representa cada um dos arquivos.
+
+O próximo passo que a gente vai fazer vai ser quebrar os arquivos em linhas.
+
+Então a gente tem um conteudo gigantesco e cada elemento deixa a raiz e o conteúdo de um arquivo.
+
+Eu quero quebrar cada arquivo cada conteudo arquivo em minhas pra que eu consiga filtrar as minhas que
+
+eu consiga tirar as linhas que são vazias pra que eu consiga tirar as linhas que só tem numero tirar
+
+linhas que tem esse intervalo aqui ou então irá precisar fazer isso e na próxima aula nós vamos pagar
+
+esse array de conteúdos dos arquivos e transformar num grande rei com todas as linhas de todos os arquivos.
+
+Então esse é o próximo passo e eu vou fazer isto aproximá lo.

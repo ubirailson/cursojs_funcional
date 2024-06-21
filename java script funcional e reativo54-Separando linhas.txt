@@ -1,0 +1,120 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Separando Linhas
+
+Só uma observação que vale ser feita com relação a que a nossa aplicação vai estar crescendo vai colocar
+
+bem mais funções vai ser um procedimento bem mais interessante.
+
+Eu quero que vocês notem que algumas funções como é o caso dessa com elementos terminados com essa função
+
+ela retorna um simples a Rei ela poderia retornar o numero poderia retornar uma string poderia retornar
+
+um objeto.
+
+O fato é que o resultado dessa função é passado como parâmetro para a próxima função.
+
+Já no caso de ler arquivos assim como foi no caso de lei diretórios essa função vai retornar promessas
+
+mas retornar palmeirenses quando essas promessas forem cumpridas ou seja depois que terminar todo o
+
+processamento dos arquivos só então o próximo é chamado.
+
+Nesse caso que como a função pegou simplesmente o rei retornou a Rei ela vai executar de forma síncrona
+
+e vai simplesmente chamar o próximo passo.
+
+Mas esse caso como você colocou não lê arquivos não é uma função pra retornar várias promessas.
+
+Quando todos estiverem resolvidas aí sim é que ele vai chamar que o processo muda então só pra ficar
+
+claro que alguns metros vão retornar valores que a gente já conhece como objetos números e strings e
+
+o resultado em uma função vai ser passado pra próxima.
+
+E nesse caso aqui que a gente tornou promessas e promessas e quando todos foram resolvidos aí sim que
+
+ele chamou o console ponto logo final.
+
+Nesse caso que agora vou querer transformar os conteúdos dos arquivos em linhas.
+
+Então pra fazer isso eu vou primeiro juntar todos os conteúdos numa grande histria pra só então separar
+
+isso por quebras de linha.
+
+Por exemplo tá pra juntar.
+
+Eu acho que não precisa desenvolver uma aplicação a função só pra fazer isso porque pra juntar já tem
+
+uma função que o próprio rei faz.
+
+Então nesse caso eu vou ter aqui eu vou receber os conteúdos conteúdos dos arquivos e aqui eu vou fazer
+
+conteúdos com o Tom Jobim e vou juntar todos os conteúdos usando o espaço em branco então como eu tenho
+
+18 arquivos eu tenho 18 conteúdos e depois disso eu vou ter uma grande tribo com todos os conteúdos
+
+juntos.
+
+Agora não vou ter mais um rei né.
+
+Tio Rei até aqui agora passei a ter uma string com todos os conteúdos junto se eu exibi esse valor ou
+
+se vai ver que nos é passado ele Tio Rei.
+
+E agora eu vou limpar vou executar esse código e você vai ver que a gente vai ter um grande conteúdo
+
+OPA como se fosse um grande arquivo com todas as 18 legendas juntos.
+
+Eu vou fazer usar a mesma estratégia que usei o jovem nesse caso eu não vou criar a função água usar
+
+porque pra você separava esse Supersimples já tem uma função na própria rede que faz isso.
+
+Então eu vou duplicar e vou chamar aqui o nome do atributo de todo conteúdo é um grande texto e agora
+
+nesse caso eu vou chamar a função Split e a função explícita eu vou usar pra quebrar a linha.
+
+Uma das vantagens que você tem de ter uma função é que você consegue eventualmente dar um nome melhor
+
+pra ela caso você queira.
+
+Mas aqui eu acho que está bem claro né.
+
+O conteúdo juntinho usando o espaço em branco vai juntar todos os arquivos inclusive a gente até poderia
+
+usar aqui ao bairro pra juntar pra quando ele for juntar os arquivos.
+
+O novo arquivo ficará na linha separada e não juntar o final de um arquivo com o começo do outro.
+
+Então posso botar um baixo para ele juntar e depois agora eu vou quebrar tudo.
+
+Só que agora estou quebrando todas as linhas de todos os arquivos até aqui eu tinha todos os conteúdos
+
+juntei tudo meu estão tendo todo o conteúdo e aqui estou pagando cada uma das linhas se a gente vê agora
+
+o resultado executando.
+
+Você vai ver que a gente tem novamente o grande rei tanto é que no final ele mostrou que é rei.
+
+Ele diz que tem mais outros 53 mil itens e quase 754 mil itens a mais.
+
+Fora esses caras exibiu aqui e começou aqui mostrando cada um dos elementos.
+
+Agora a gente tem todas as linhas separadas.
+
+Começamos só com os caminhos filtrar os arquivos e até aí lemos os arquivos juntamos um grande texto
+
+agora separamos esse texto aqui em várias linhas e o próximo passo vai ser filtrar as linhas.
+
+A primeira linha que a gente pode filtrar são linhas que são vazias por exemplo tal barra é apenas um
+
+caractere não visual se a linha for vazia por exemplo a gente pode eventualmente querer tirar ela.
+
+E será exatamente o primeiro processamento que ele faz retirar tirar todas as linhas vazias do nosso
+
+arquivo ou seja barra é considerado como a linha vazia também não fico por aqui.
+
+Na próxima vamos remover as linhas vazias e até lá.
+

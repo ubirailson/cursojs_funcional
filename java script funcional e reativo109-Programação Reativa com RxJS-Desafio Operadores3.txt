@@ -1,0 +1,53 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 3
+
+Já aprenderam a criar operadores de criação e operadores que podem sem cadeados um depois do outro que
+
+os famosos pay per BOL ou projetores.
+
+Eu queria agora que a gente crie uma função usando os recursos que a gente já aprendeu que vai te ajudar
+
+a criar esses operadores do tipo pago HBO os que acho que são a maioria.
+
+Você vai acabar tem muito mais operadoras rivalidade no meio do processo do que propriamente operadoras
+
+que vão inicializar o fluxo de dados.
+
+Então para isso eu vou criar aqui um exercício.
+
+Sei que vou copiar aqui operadores cinco só para gerar o novo nome operadores 6 outro de S.
+
+Nós vamos usar o exemplo de operadores 4 por exemplo que a gente criou por exemplo o operador chamado
+
+primeiro que usa um operador chamado Men 1 Se você não tiver criado este operador basta pausar o vídeo
+
+copiar é bem simples na verdade e simplesmente conecte chama completamente o elamita passar para a frente.
+
+E nós temos aqui um operador chamado último eu vou copiar todo esse código.
+
+Eu vou jogar aqui dentro de operadores seis.
+
+E o desafio é criar uma função que vai me ajudar a criar esses operadores eu não quero ficar repetindo
+
+sempre a mesma coisa para criar novos operadores eu vou criar aqui uma função um Falcão Eu vou chamar
+
+essa função de clientes.
+
+Bom aí eu quero que você faça com que essa função facilite o seu trabalho na hora de criar novos operadores.
+
+Como é que a gente pode usar a composição de função.
+
+Todas essas técnicas para nos ajudar a criar novos operadores e não precisar ficar repetindo o código
+
+simplesmente vou fazer a mesma coisa.
+
+Então esse é um desafio e um desafio talvez um pouco mais desafiante porque você vai precisar pensar
+
+como é que você pode organizar essa função e provavelmente dentro dessa função primeiro você vai precisar
+
+chamar essa função para exatamente parte do trabalho ficar aqui dentro.
+
+E aí eu quero mostrar pra vocês a resposta na próxima aula e até lá.

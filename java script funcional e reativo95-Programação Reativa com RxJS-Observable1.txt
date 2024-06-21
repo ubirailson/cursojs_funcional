@@ -1,0 +1,174 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Observable 1
+
+
+
+Miniatura da aula
+0:04 / 7:21
+Transcrição
+Agora nós vamos entender o conceito de observador.
+
+Então eu vou fazer aqui um exemplo mostrando o paralelo entre homens e o observa boa até pra você entender
+
+um pouco das diferenças.
+
+Então vou colocar aqui algo sobre Angola aí sim é opção.
+
+Ele implementou o padrão observem certo só que já tem várias outras coisas adicionadas como a Caixa
+
+dos operadores certo mas a ideia é que no final das contas você tenha um padrão observe ele é implementado
+
+também eu vou criar aqui uma constante vou usar um par de chaves do lado esquerdo da expressão seja
+
+eu tenho aqui um desktop aí vou usar o iPad X e XI e vou chamar aqui observou Gal.
+
+E com isso a gente vai querer observar daqui a pouco porque antes eu vou querer criar um para eles.
+
+Eu vou criar aqui por exemplo um mês recebe mil por um mês um mês e vou passar aqui uma função que a
+
+gente já viu que o resolve e dentro dessa função posso chamar aqui avisou.
+
+Mas bem legal legal então vou resolver a partir disso então uma vez que eu chamo a para homens tudo
+
+bem.
+
+E aqui eu posso chamar um console que conta logo que ele vai fazer e jogar no console exatamente aquele
+
+que você resolver dentro da promessa então executando o código.
+
+é bem legal ano aqui executando a promessa bem legal como é que seria para gerar aqui um obscuro robô.
+
+Eu vou gerar aqui só pra você ter um paralelo um lado ou outro e ver a questão das diferenças tal vou
+
+criar aqui um observador vou chamar aquele obedece recebe e eu observo.
+
+Bom vou também passar pra ele uma função não vou chamar de Horizon pois poderia chamar o.
+
+Poderia mais omitir chama subscrever subscrever e quem vai chamar o metro subscrito e aqui dentro desse
+
+subscrito pra gente pode chamar ao subscrito ou falar sobre os quais conto né.
+
+E aí eu vou passar aqui algo semelhante a isso por exemplo onde observa é bem legal.
+
+Com isso a gente consegue fazer aqui um observe tudo sobre isso claro que não é um método nem na Maximo
+
+Square.
+
+E aqui eu vou chamar o console em outro blog da mesma forma pra ser executado então executado nós temos
+
+o observe é bem legal e a promessa é bem legal legal fica muito legal aqui nessa surge nos segundos
+
+aí de conversa com você mas aqui uma das diferenças é o seguinte ao invés de chamar apenas usou uma
+
+única vez né como é o caso da promoção não vou chamar resolve duas vezes resetar.
+
+Ele simplesmente chamou uma única opção de bem legal resolveu.
+
+Você tentou chamar aqui duas vezes a usou mas não fez diferença nenhuma porque você só pode chamar uma
+
+vez.
+
+Você até pode chamar mais vezes mas só conta quando você acha uma única vez ou resolveu Bridget.
+
+Já no caso do observa você consegue chamar várias vezes.
+
+Eu vou chamar aqui.
+
+E aí eu vou só quebrar o texto e vários outros Observem aqui vai ficar bem e no final ficar legal.
+
+Então nesse caso você está gerando monstrinho de dados ou seja um dado depois do outro depois do outro
+
+então se você está aqui você vai ver que você tem o observa bem legal e no final ele jogou aqui é bem
+
+legal o que você consegue gerar múltiplos dados a partir de observa observe.
+
+Então nesse caso aqui quem criou observa foi essa função verbal que é o operador de criação então ele
+
+cria um observo assim como os outros operadores também sempre retornam novos absurdos.
+
+Tá mais aqui você criou observa e já na sala eu estou criando observem de forma manual eu crio observa
+
+Estanciano ele é aqui dentro sempre que você chama o método.
+
+Ele vai gerar um novo dado daqui.
+
+Aqui você consegue ver o fato de que você consegue usar o mesmo observa gerando mais um dado.
+
+Já no caso da promocional você só consegue resolver digamos assim uma única vez.
+
+é que eu poderia fazer isso aqui no blog você poderia por exemplo gerar larguei várias das mãos você
+
+já teria que ter o rei completo pra mandar uma única vez a partir do jogo.
+
+Já para você não necessariamente precisa ter esses dados juntos.
+
+Ivy você pode colocar aqui ou no site em maus.
+
+Como a gente já tem feito vários exemplos né.
+
+E aqui eu posso por exemplo mandar a última parte da ístria e só depois de um segundo.
+
+Então você está aqui você vai ver.
+
+Observe bem aí ele jogou a promessa bem legal no final jogou legal só no final.
+
+Legal então isso.
+
+Muito legal aqui mas a gente falou aqui sobre pronomes e sobre robôs comparando um pouco os dois pra
+
+você ver a diferença.
+
+Do mesmo jeito que lhes passa a função eu também crio observa o Observador passando a função.
+
+A diferença é que aqui dentro eu vou chamar o resolvo e aqui dentro.
+
+Eu já recebo a própria função resolvo aqui e ser um subscritor.
+
+é como chamar um táxi todo mundo te chamar a função subscrevo será notificado.
+
+Então a partir do mesmo que eu posso ter mais de uma subscrição como já mostrei anteriormente.
+
+Nesse caso eu vou por exemplo era uma função que vai pegar na verdade que ao lá texto e eu vou colocar
+
+por exemplo aqui o texto.
+
+Ponto.
+
+Só pra mostrar a diferença então executado.
+
+Observem.
+
+Observem bem.
+
+Bem legal legal.
+
+Então era isso que eu tinha pra falar.
+
+Comparei os dois demonstram aquilo que você já conhecia anteriormente com o Observador.
+
+E nesse primeiro momento o que chamou mais atenção até esse ponto na diferença de um para o outro é
+
+exatamente o fato de que você consegue gerar quantos dados você queira chamando o metro NET e você por
+
+que eu quero agora identificar que eu não vou mais mandar nem o dado dentro do meu observe como é que
+
+eu faço isso.
+
+Você chama que o.
+
+Ponto o chamado como político serviçal.
+
+Acabei de completar meu observa bom finalizei tudo não tem mais nada para mandar para as redes sobrecarregou
+
+você chama o subsecretário ponto compliance fica claro pra todo mundo que não vai ser mais gerado nenhum
+
+valor.
+
+A partir disso você roubou também.
+
+Você pode chamar isso eu vou falar um pouco mais na frente vai ter mais outros exemplos de observadores
+
+e até proximal.

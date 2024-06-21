@@ -1,0 +1,107 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Observable Resposta
+
+Agora apresentando a resposta pra vocês nós vamos criar aqui uma função tão função que eu vou chamar
+
+de trem que vai receber um valor mínimo e um valor máximo.
+
+Se você quiser fazer uma verificação e fazer por exemplo a inversão desses valores não se pode fazer
+
+o seguinte se o mínimo for maior do que o máximo você pode criar por exemplo.
+
+Por isso ao máximo recebe.
+
+Não há rei com máxima em mim você consegue inverter os valores.
+
+Aqui é uma das coisas que não é legal aqui em relação a você está alterando parâmetros que você recebeu
+
+de forma destrutiva e tal.
+
+Então isso aqui não é legal embora isso aqui seja também imutabilidade local está mudando dentro da
+
+função.
+
+Então não tem grandes problemas como você tem mudanças internas nem da função.
+
+Por quê.
+
+Quando o Paraná tinha passado principalmente no caso que são valores numéricos você sabe que está esperando
+
+o número.
+
+Esses valores são passados por cópia e não por referência.
+
+Então só pra explicar que eventualmente você pode querer fazer isso se o número mínimo for maior do
+
+que o máximo você quer garantir a ordem correta pra sempre exagerando de forma crescente.
+
+Você pode inverter aqui desse lado e um deixar desse lado aqui e ali da mesma forma que isso do lado
+
+direito gera um objeto o Chaves do outro lado tem um destruidor de objeto.
+
+Então nesse caso eu não vou colocar isso eu vou imaginar que vou passar os valores de forma correta
+
+e aqui eu vou cortar aqui o bolo atribui passando antes de ele assim.
+
+E aqui dentro eu vou criado retornar eu o pai e observou Goal.com e eles também a votação sobre esquadra
+
+e vou fazer o seguinte vou fazer aqui um fora aquele tradicional mesmo que vai pagar um valor e que
+
+é mínimo nesse caso você tem que garantir por exemplo que é um valor menor do que o outro pra não gerar
+
+nenhum problema na lógica mas de qualquer forma simplesmente ele poderia não fazer.
+
+Se você inverter essa lógica ele não é nada mais que ao pagar o valor mínimo.
+
+Aí tem que ser menor ou igual ao valor máximo.
+
+E aqui eu vou pagar o valor de mais mas ele pode até trocar isso tem outras estratégias para você gerar
+
+um laço sem necessariamente precisar criar aqui um valor mutável.
+
+Eu posso até mostrar eventualmente pra vocês mas aqui eu vou chamar o sub esclareceu lamentando a forma
+
+mais simples chamada de Macchi passando o valor de e no final como ele terminará esse laço foge do corte
+
+Maki ao subscrever com outro complete.
+
+Só pra garantir que ele vai finalizar a execução.
+
+E aqui eu poderia por exemplo chamá lo no OP para tratar o erro aqui op op.
+
+E finalmente faço aqui um console em outro blog do cúmplice no caso como ele não passa nada como parâmetro
+
+então nesse caso deve chamar se então executando esse código número 4 5 6 7 8 9 10.
+
+A execução tem outras estratégias aqui né.
+
+Por exemplo eu poderia gerar um array com o tamanho máximo menos do tamanho mínimo chamar o método fio
+
+aqui e depois criar um fio eu posso chamar o MAP como Map eu não me interessa o parâmetro que foi gerado
+
+gerou tudo onde Farias mais me interessa aqui o índice por exemplo.
+
+Então aqui eu posso por exemplo fazer isso subscrever passando o valor mínimo mais o valor de quem já
+
+mostrar o mimo e vá até o final e Jorge irá até o valor máximo já que ele gerou aquilo aí que tem a
+
+diferença dos dois acredito que vai dar certo também está aqui.
+
+Só que agora de uma forma mais funcional sem usar muita habilidade tá tão caro gerou 4 5 6 7 8 9 10
+
+e agora de uma forma diferente ao pedir o máximo o que seria o Delta a diferença dos dois pedi para
+
+ele gerar uma rede com esse tamanho pra encher Warren.
+
+Fiz um map pegando o índice o primeiro vai ser mínimo mais eram que o próprio mínimo mínimo mais o mínimo
+
+mais dois e tal ele vai gerando Net.
+
+No final ele completa a execução agora então é isso que eu tinha para mostrar para vocês nesse exemplo
+
+fizemos mais um desafio agora gerando um intervalo de dois no mesmo time de dados entre um valor mínimo
+
+e um valor máximo e até proximal.

@@ -1,0 +1,267 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional FlatMap
+
+Nesse capítulo eu poderia ter falado por exemplo.
+
+Além de tudo que eu já falei dos princípios da programação funcional poderia ter falado da API dos filter
+
+que tem muito a ver com esse processamentos e mais funcionais esse tipo de função.
+
+Mas como já cobri isso anteriormente acabou que eu não coloquei por exemplo exercício sobre Mac Windows
+
+Filter mas tenho um deles que eu não falei que é exatamente o Flash MAP.
+
+Eu quero mostrar para vocês para que a gente possa adicionar o nosso Phantom também.
+
+O forte médio por enquanto ele só tem o Mac é mais caro justificar um pouco essa questão do Fat Mac.
+
+Para isso ele vai fazer um exercício antes de 3D o flat Map que vai atender o Flash depois de entrar
+
+no Flash Mac.
+
+Então eu vou estar aqui ou criar um arquivo chamado flash Mac.
+
+Outro dia assim e eu vou criar aqui um rei que eu vou chamar de letras e vou colocar aqui por exemplo
+
+algumas letras só só clicando aqui.
+
+Aqui tem uma atribuição colocar gente formata aqui pra ficar bonitinho.
+
+Há espaço um do outro.
+
+Isso aqui formatar eu vou só quebrar aqui mais de uma linha então há espaço no mundo e vou colocar isso
+
+aqui pra gente tem mais ou menos belo que está sendo exibido aqui no nosso a rede leitores aqui com
+
+um barreiro vou colocar o resultado recebe as letras Map eu vou fazer o seguinte vou fazer a mesma coisa
+
+pra ficar bem simples na letra vou colocar letra.
+
+Ponto Ju Keys no final das contas eu vou fazer aqui o que Deus produz só pra concatenar todos os valores
+
+tão baixo colocar a e b concatenar A mais B no caso como são letras ele vai concatenar se fosse o valor
+
+numérico ele iria somar o resultado.
+
+Vou colocar aqui pra finalizar um console logo.
+
+Resultado legal nada diferente daquilo que a gente já tinha feito anteriormente.
+
+Faltou só colocar um espaço em branco aqui pra ele ficar separado e colocar acentos acento legal.
+
+Pronto fizemos aqui nosso exercício base.
+
+Vamos supor que dentro desse array de letras na verdade você não tem apenas uma rede de letras você
+
+tem um rei dentro de outra.
+
+Rei então coloco por exemplo a palavra olá fica dentro de um rei vou colocar aqui esse espaço em branco
+
+aqui dentro.
+
+Rei.
+
+REI.
+
+Essa parte aqui final de rei.
+
+Nesse caso eu não vou conseguir processar essas informações exatamente porque eu tenho lá Rei Dito de
+
+outro e pra isso a gente pode por exemplo usar e eu vou tirar isso aqui e depois eu vou tirar esses
+
+reis mais só pra gente ver aqui o Estado tem a função rei chamada Flash então letras ponto G colocar
+
+letras e executar só pra você ver na gráfica acima exibida onde você tem lá Rei o rei já estão lá entao
+
+e eu posso chamar aqui o ponto flat.
+
+Então se chama Flash você vai ver que ele vai acertar e vai colocar tudo como se fosse dentro de um
+
+carro ele vai aqui no caso achar exatamente o Flash tem essa de achar quando você tem um rei dente de
+
+outro rei você possa ter uma matriz certo quando você tem um rei dentro de lá Rei bem que o outro rei
+
+você vai ter já múltiplas dimensões no caso três dimensões a pasta fica 4 5 dimensões.
+
+Você já não consegue visualizar né Rei seria como se fosse unidimensional com a minha mão a atriz bidimensional
+
+de três dimensões que seria se ela fosse um cubo e a partir daí você não consegue mais visualizar se
+
+no plano do Plano Terreno digamos assim.
+
+Até a quarta dimensão.
+
+De qualquer forma você pode ter uma rede de outra rede de outra rede.
+
+Nesse caso vamos supor que eu coloco aqui só pra complicar aqui na letra L um outro rei e eu vou envolvê
+
+la entre a letra e a letra aí também com a REI.
+
+Então eu tenho Rei que tem um outro rei que tem um outro rei aqui dentro a mesma coisa que é um rei
+
+que tem um rei e que tem rei esse caso você pode chamar por exemplo flat duas vezes que ele vai tirar
+
+o único flerte não vai tirar.
+
+Ao tirar aqui só pra você ver o resultado.
+
+Pois está ele vai continuar ainda com algumas letras indesejáveis.
+
+Se eu chamar o folhetim duas vezes ele vai tirar da gaveta vai ter todas as letras aqui é uma outra
+
+forma que você tem que fazer aqui é como se fosse um flat ou seja o nível ele vai achar tá certo tiveram
+
+outros níveis ele não vai achar tal.
+
+Nesse caso ele não tirou a letra L de dentro do ar nem a letra O e em seu passado dois dias tá que vai
+
+acontecer aquele baixa tá nos dois níveis.
+
+Então vai ter aquele espaço mundo se você colocar aqui eventualmente mais um outro nível aqui você terá
+
+de colocar por exemplo aqui.
+
+Ainda sobre a letra aí você pode se quiser não souber exatamente o tamanho você pode colocar em definitivo
+
+que ele baixa tá independente na profundidade de alinhamento de uma rede de outra ri dentro de outra.
+
+Nesse caso executando quando ele encontrar aqui todos os alimentos foram achatados e faz parte de um.
+
+Aí você vai parar.
+
+Tá certo então a possibilidade também de você fazer dessa forma.
+
+Então aqui vou salvar esse outro rei que eu vou colocar em letras alinhadas.
+
+No final eu vou chamar aqui em letras a minha.
+
+A verdade é que na época letras recebe letras alinhadas lat.
+
+Eu vou passar aqui em frente só pra você saber que ele vai achar tá e vai devolver para a gente.
+
+Agora nesse caso eu tenho um rei de letras que é exatamente isso aí que eu vou aplicar o flat MAP.
+
+Uma questão importante.
+
+Nós temos o Mapping que a gente já viu anteriormente.
+
+Se eu executar isso em cima de letras não vai ter problema.
+
+Exatamente porque já foi achatado a gente consegue fazer o olá mundo tirar esse consolo pontual aqui
+
+não interessa mais se eu tentar fazer esse processamento em cima de letras animadas a gente sabe que
+
+vai ter um problema exatamente com o conteúdo de sua pesquisa.
+
+Existe um outro método que é uma variação do MEP que é a mistura do flat com uma épica exatamente flat
+
+MAP.
+
+Só que ainda vai dar problema.
+
+Por quê.
+
+Porque primeiro ele vai fazer o MEP pra depois ele fazer o flat.
+
+Tá.
+
+Então nesse caso ele não vai conseguir resolver o problema de você ter os elementos animados.
+
+Você precisaria nesse caso chamar letras animadas.
+
+Ponto flat Infinite ponto médio ou seja você colocaria o flerte antes de chamar o Mac porque é um flashmob.
+
+Primeiro ele faz o backup e depois ele faz o Flash.
+
+Então pra que serve o Fat Mac nesse caso aqui só pra baixar pra vocês que ele vai gerar um problema.
+
+Ainda assim ele não vai saber essa função na sua porque não faz parte do Harry.
+
+Por isso que ele tentou invocar o apertei se o e não deu certo.
+
+Vamos supor que eu receba as letras né.
+
+E aí eu não vou ter problema nenhum com relação à execução que ele vai conseguir executar normalmente.
+
+Uns poucos vão voltar aqui prometem temporariamente.
+
+Só que eu vou fazer o mapeamento seguinte.
+
+Eu recebi a letra e eu vou querer retornar a rei que é a própria letra e por exemplo uma vírgula certo.
+
+Então nesse caso o resultado que a gente vai ter no final vai ser esse.
+
+Depois que eu chamei aqui fiz um idoso com de leitura mas deixou comentar que o Edu só para a gente
+
+viu o resultado final.
+
+Você vai ver que é o seguinte nós teremos um rei dentro de outro.
+
+Nesse caso se você usar um late Map Flash snap você vai ver o estado gerado e ao vivo ali.
+
+Ah e tal porque você gerou a Rei mas depois que ele fez o mapeamento de um indo pra outro ele achou
+
+o resultado gerando apenas um carry.
+
+Então nesse cenário você acaba usando um flat Mac pra ele primeiro fazer o mapeamento e o resultado
+
+desse mapeamento ele acha chata devolvendo o valor.
+
+Porque é que isso é importante.
+
+Aí eu posso voltar aqui executar porque que isso é importante que no caso do fantoche nossos fantoches
+
+porque você pode eventualmente criar aqui o método eu vou até duplicar isso aqui em um flat Mac Clash
+
+na Apple fazer a mesma questão de verificação inválido.
+
+Só que nesse caso eu não vou retornar o resultado dentro do tipo seguro eu vou simplesmente retornar
+
+um resultado justo achatado e devolvendo para o usuário apenas o resultado e não ele dentro da envolvido
+
+com.
+
+Tipo seguro então aqui fazem o mesmo processamento.
+
+Até poderia nesse caso ou para não repetir a lógica.
+
+Eu chamo o 10 ponto Map passando a função é na verdade o que eu retorne aqui mas seu valor vocês falou
+
+falou ele não vai ter problema então aqui basicamente estou devolvendo o valor que o usuário nem achatado
+
+digamos assim o meu fator não apenas usar.
+
+Então aqui no final em vez de chamar o MEP eu poderei chamar um flat Map flat Map ele executou isso
+
+e o resultado final vai ser exatamente igual ao caralho não mais dentro de um tipo seguro.
+
+Simplesmente vale alterado.
+
+Então salvando aqui.
+
+Esse é um texto e esse é um texto exatamente por conta disso se eu não colocar aqui um flat aqui eu
+
+tenho apenas o tipo de seguro eu continuo conseguindo.
+
+Cabe aqui a Salvador então tem uma função como resultado a verdade ele jogou esse objeto todo.
+
+Já com o Fat Man eu poderia fazer um mapeamento e depois ele meu quer chat e me devolve apenas o valor.
+
+Seria uma estratégia interessante caso você queira adicionar por exemplo mais um método dentro do seu
+
+tutor legal.
+
+Então era isso que eu tinha para falar fiz aqui um hangout para falar um pouquinho de algumas coisas
+
+que também são importantes né como é o caso do Flash.
+
+E como é o caso do flat Map que também é muito usado.
+
+Você vai ver isso também tanto na JS como se você for por exemplo Claudete vai ter lá.
+
+Então acho que tem muitas bibliotecas que usam esse tipo de funções e que vai te ajudar também no dia
+
+a dia a trabalhar com esses dados esses processamentos não ficam por aqui até para os mal.

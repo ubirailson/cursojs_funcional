@@ -1,0 +1,179 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Lendo arquivo
+
+O nosso primeiro objetivo aqui vai ser criar uma função que vai retornar para a gente.
+
+A lista dos arquivos de um determinado diretório está então para isso dentro de funções.
+
+Eu vou eu vou tirar essa função trechinho dos dois Vou apagá las aqui.
+
+Vou criar uma função que vai ser responsável por ler o diretório e então vou chamar aqui lê diretório
+
+pode ser ler basta.
+
+Basicamente eu vou esperar e receber que o caminho vai tornar a lista dos arquivos de determinado diretório
+
+sons estranhos mesmo com os falsos caminhos dos arquivos.
+
+é o objetivo.
+
+E eu vou querer exportar isso aqui pra cá.
+
+Certo.
+
+Esse vai ser o primeiro.
+
+A primeira chamada que eu vou fazer aqui então vou chamar aqui funções.
+
+Ah vou chamar esse ponto.
+
+Ler diretório Lagarde ou passar aqui o caminho pra eu passar o caminho.
+
+Eu vou precisar sair da pasta projetos entrar na pasta dados mala agendas de Bailey exatamente essa
+
+pasta aqui.
+
+Então nós vamos precisar interagir aqui na parte de leitura do diretório com aquela dependência de Vale
+
+System né.
+
+O FS então vale System.
+
+Eu vou colocar aqui quais FS vale System.
+
+Então pra gente ler aqui o diretório primeiro faz o seguinte nós vamos chamar o FS que é o falho System.
+
+Eu vou chamar função lite de cinco ou seja diferente do Wide Fail que a gente tinha o que passa quem
+
+sabe não couber aqui.
+
+E o vídeo fail síncrono.
+
+Nós vamos eleger o diretório de forma síncrona.
+
+Então vou fazer o seguinte pegar aqui.
+
+White disse que vou passar o caminhão.
+
+Vou armazenar isso aqui não variável são os arquivos.
+
+Inicialmente eu vou colocar aqui ao console voltou logo para a gente ver exatamente a resposta dessa
+
+chamada.
+
+A partir desse caminho legal aqui no meu índex eu vou importar lembra la naquele importe do TAF que
+
+a gente tem que ouvir.
+
+Vou importar o teto e aí eu vou fazer o seguinte eu vou colocar aquele perfil com o turbo.
+
+Vou pegar a pasta atual então a amanhã da Disney me vou sair da pasta atual então eu estou aqui no Disney
+
+me quero sair dessa pasta.
+
+Então eu vou colocar dois pontos dois pontos pra sair da pasta vou querer concatenar com a pasta dados.
+
+Vou querer concatenar com pasta legendas.
+
+Então esse é o caminho.
+
+Então você consegue fazer dessa forma na opinião do diretor atual sair do diretório entrei na pasta
+
+da arte depois entrei na pasta lógica só que aqui e com o texto pronto.
+
+Com isso eu tenho o meu caminho.
+
+O craque é um constante chamada Caminho.
+
+Vou passar o caminhão aqui ler o diretório e dentro dessa função aqui de ler diretório a gente vai ler
+
+os arquivos do diretório eu vou simplesmente jogar aqui no console fotolog.
+
+Esse é o primeiro teste que vai fazer.
+
+Então o Olympique execução em passado mostrado aqui onde ele achou todos os arquivos de áudio dessa
+
+história.
+
+Arquivo TXT legendas e acabou mostrando aqui um grande rei com essas informações.
+
+Legal é só a resposta lá Rei talvez não.
+
+Ele colocou aqui um colchetes.
+
+A gente também consegue ver isso.
+
+Se eu colocar aqui ao Top of arquivos executá novamente você vai ver que ele é um áudio na verdade porque
+
+ele o Arrelia o objetivo é mais você pode testar assim que arquivos.
+
+Rei.
+
+Rei.
+
+Se eu colocar os arquivos pra ver o resultado você vai ver que ele vai executar isso aqui vai mostrar
+
+aqui que se trata de um Arrigo Barnabé.
+
+REI.
+
+Ele tem uma função que é chamada foro íntimo e a gente pode usar essa função de o colocar aqui ou arquivos.
+
+Ponto fora é assim como a gente passa uma função por mera API assim como a indicação função para o Edu
+
+se assim como a gente passa função com o filtro a gente pode fazer na verdade que como fazer o seguinte
+
+eu vou chamar função Map porque a gente olhando aqui o resultado ele está mostrando apenas o nome do
+
+arquivo não o nome completo.
+
+Então apagar arquivos.
+
+Ponto Mac.
+
+Vou receber cada um arquivo aqui como parâmetro e vou querer também chamar o PF aquele esperto e vou
+
+botar ele aqui perto e vou fazer.
+
+A resposta vai ser um.
+
+O caminho seja não caminhando a pasta eu vou colocar tem que fazer uma junção com o nome do arquivo
+
+como apagar o caminho mais o arquivo e no final vou ter que chamá lo Wittmann.
+
+Por enquanto já não dá isso aqui tá.
+
+Então significa que agora eu posso colocar aqui lá constantes arquivos e isso eu colocar aqui um console.
+
+Ponto blog arquivos.
+
+Legal.
+
+Vou limpar agora acertar mais uma vez isso a gente tem agora os caminhos completos ao usuário.
+
+Leonardo Leitão desktop o curso de funcional dados legendas ponto dessa bela história arquivo mental
+
+agora tem um caminho completo do arquivo que vai tornar bem mais fácil.
+
+Eu vou querer encapsular essa chamada aqui dessa função para ela retornar para homens então vou fazer
+
+isso na próxima aula.
+
+Mais uma oportunidade de você tentar pegar esse pequeno desafio e eu vou tentar fazer isso durante o
+
+sempre que eu for pra aproximá la eu já digo mais ou menos o que é que eu vou fazer e você pode assumir
+
+isso como desafio então eu quero e veja retornar diretamente ao arquivo.
+
+Eu quero retornar mas porque retornando a promessa eu vou conseguir fazer por exemplo ler o diretório
+
+no caminho da aldeia.
+
+Faça isso depois dela faça aquilo ou outro faça aquilo outro.
+
+Conseguir fazer toda uma sequência de operações usando provas então na próxima aula faça essa pequena
+
+alteração e até lá.

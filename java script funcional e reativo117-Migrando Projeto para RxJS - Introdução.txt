@@ -1,0 +1,45 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Introdução
+
+Estamos começando mais um capítulo do nosso curso de programação funcional.
+
+E esse é um capítulo de desafio.
+
+A ideia é você pegar aquele primeiro projeto que é o projeto das palavras mais usadas que a gente processou
+
+uma série de legendas pra gerar um agrupamento de palavras.
+
+No final você vai migrar esse projeto pra encher esse substitui esse por observou ou substituir as funções
+
+por operadores tanto operadores de criação como operadores que você vai conseguir encadeada.
+
+Vários operadores dentro da função.
+
+A ideia é fazer exatamente essa migração os vai pagar parte do projeto.
+
+Projeto dela e vai gerar uma cópia dessa pasta Projeto Andar em Uberlândia x BS e aqui dentro dessa
+
+pasta você vai fazer todas as adaptações todas as evoluções pra migrar aquele código tal enche.
+
+Esse vai ser um desafio maior do que eu já propus até então que vai ser mais com ele você vai ter que
+
+fazer várias coisas para fazer essa adaptação.
+
+Eu vou começar a mostrar resposta a partir da próxima aula.
+
+Nessa parte desse desafios de certa forma a loja já foi resolvida e a gente já quebrou em várias partes
+
+já fizemos lá implementação.
+
+Agora o trabalho é apenas de migrar isso pra gente mas vale muito a pena.
+
+O que você vai acabar usando vários recursos interessantes.
+
+Você vai acabar usando o princípio da programação funcional para fazer essa migração.
+
+O que torna o desafio bem interessante então é isso que eu tinha para falar para vocês na próxima aula
+
+começa fazer a sequência de aulas para que a gente possa implementar essa migração para gx de.

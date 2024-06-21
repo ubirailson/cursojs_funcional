@@ -1,0 +1,211 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Função Pura 3
+
+Agora no terceiro exemplo o que nós vamos criar.
+
+Eu vou criar um novo arquivo chamado função pura três são três assim e nesse exemplo nós vamos fazer
+
+inicialmente uma função pura talvez seja a função mais conhecida somada aos números.
+
+E aqui eu vou retornar o valor de A mais B.
+
+Não existe nada externo que eventualmente vá atrapalhar a soma de dois números você vai passar lá e
+
+o B.
+
+O resultado vai ser a soma dos dois.
+
+Uma função extremamente previsível certo que é uma das características de uma função por onde as vantagens
+
+de você ter uma função previsível.
+
+Já o próprio nome já diz essa não é algo previsível algo fácil de ser manipulado e também algo fácil
+
+de ser testado.
+
+Se você controla sem sentido todos os parâmetros que você passa para a função e você consegue controlar
+
+o retorno exatamente porque o retorno depende apenas dos parâmetros de entrada.
+
+Isso faz com que você tenha uma facilidade muito grande relacionada ao teste.
+
+Quando você tem uma função que depende de algo exterior.
+
+Aí surge aqueles conceitos que muita gente usa no teste que a parte de motos a moto que é quando você
+
+tenta simular certo por exemplo a dependência externa da função.
+
+Qual a função ela depende por exemplo de um API que vai custar o valor do dólar.
+
+Isso vai tornar a função impura colocada pelo diálogo externo.
+
+Então quando você for testar essa função você vai ter uma dificuldade muito maior porque se você quer
+
+testar apenas a lógica interna e não depender dessa API por exemplo do valor do dólar que a função vai
+
+consumir você vai ter que alguma forma tentar marcar isso isso torna os testes mais complicados de serem
+
+feitos.
+
+Quando você tem uma função pura que a resposta só depende dos parâmetros de entrada então a facilidade
+
+de testar é muito maior ou seja um dos benefícios de você ter funções puras.
+
+Então o que mais um benefício é você ter uma função pura diz respeito aos testes.
+
+Ou seja você tem uma função previsível e muito mais fácil você testar o que é previsível.
+
+Você não depende de nada externo.
+
+Então vamos lá.
+
+Uma vez que eu criei uma função essa função na função procurando colocar aqui onde o povo já tornara
+
+impura e oxalá que o console coloque chamado somar sei lá.
+
+Sessenta e oito e trinta e um resultado.
+
+Descobri que o Estado da Função gerou um problema há que somar não somos o link aqui.
+
+é preciso salvar também certa lá ao 99 o valor do seu quintuplicar que é cinco vezes está do Estado
+
+sempre será o mesmo e todos as vezes um resultado previsível já que os dados de entrada são exatamente
+
+os mesmos.
+
+Agora vou criar aqui determinada variável Let em quantidade de execuções.
+
+Vou colocar aqui o valor para ser zero.
+
+Sempre que eu entro nessa função eu vou incrementar a quantidade de execuções de tal forma que aqui
+
+ao console outro blog o valor vai ser zero.
+
+Lá no final o valor vai ser cinco vezes.
+
+Eu estou enganado.
+
+Então acertaram.
+
+Zero.
+
+Acertou aqui vale 9.
+
+Isso aqui é um efeito colateral observável.
+
+Então voltando pra definição há quem ache copiar e trazer pra cá então você acabou de alterar algo que
+
+está fora da função então aqui é um efeito colateral.
+
+Observo que nem sempre esse efeito colateral observado num primeiro momento parece inofensivo não vai
+
+causar nenhum dano e eventualmente pode ser que de fato não cause nenhum dano mais sério na sua aplicação.
+
+Mas o problema é que quando você começa a tornar regra funções impuras uma hora você vai perder completo
+
+com todo o seu sistema porque você já não sabe se aquela função do que é aquela realmente depende dela
+
+vai depender de algo externo que eventualmente depende de outra coisa que é modificado por outras funções
+
+que você altera outras coisas externas a função.
+
+Isso fica muito mais difícil de você ter o uso da função que eventualmente você não quer com determinado
+
+efeito colateral seja causar o que você quer e somente chamar a função aqui no primeiro caso o primeiro
+
+quesito a função ou seja o valor de retornar determinado apenas pelos seus valores de entrada mais no
+
+segundo quesito essa função causou um efeito colateral observável alterando algo externo a função certo.
+
+Então esse é um exemplo que esse segundo princípio aqui Abelardo volta aqui para a tela cheia.
+
+Só assim pra vocês aqui algumas questões por exemplo morte nalguns cenários que vão tornar as suas funções
+
+impuras você criou uma função que recebe o caminho do arquivo.
+
+Você segue o caminho do arquivo da função você vai ler o arquivo no disco.
+
+Essa é uma função impura.
+
+Por quê.
+
+Porque o resultado da função.
+
+Por exemplo eu quero pegar a primeira linha do arquivo restaurar a função.
+
+Não dá para ser inserido a partir do parâmetro que você colocou.
+
+Porque se você coloca um caminhão por exemplo usuários Barra texto ponto DOC ou texto ponto txt.
+
+E aí o arquivo você passou esse caminho e você foi lá.
+
+A tal função é a primeira linha era bem vindo ao arquivo.
+
+Aí alguém foi lá e o arquivo e você passou o mesmo caminho o resultado já foi um estado diferente.
+
+Ou seja porque já não tem um arquivo ou mesmo arquivo foi mudado o conteúdo já é outro resultado.
+
+Então esse é um exemplo de uma função que tem cura.
+
+Por quê.
+
+Porque a partir do parâmetro de entrada você mesmo que você esteja só lendo o arquivo e você não vá.
+
+Isso acontece mesmo que você esteja só lendo o arquivo.
+
+Mesmo que você não cause um efeito colateral observável que é não vou excluir o arquivo.
+
+Eu não vou alterar o arquivo quero só ler a primeira linha do arquivo você não consegue ter uma consistência
+
+um retorno exatamente quê.
+
+Vai depender de algo que está externo seja o conteúdo de um arquivo que você vai ler ali é uma coisa
+
+que eu não posso ler arquivos na minha aplicação não.
+
+O ideal é que você leia assim.
+
+Você vai ter uma função impura para fazer isso.
+
+Que você concentre isso em um único ponto não fique espalhando isso para toda a sua aplicação ou seja
+
+leia o arquivo e o ponto e a partir daí você trabalha com funções puras passando por exemplo o conteúdo
+
+da primeira linha para uma outra função que vai transformar essa linha de alguma forma.
+
+Outro exemplo de função impura é as funções que você acessa o banco de dados mesmo que seja pra leitura.
+
+Você não vai ter com a partir por exemplo da rede do usuário saber exatamente quais são as informações
+
+vai depender do que esteja persistir no banco de dados.
+
+Ou seja a dependência externa.
+
+Quando você insere dados por exemplo em uma tabela você está gerando um efeito colateral observável.
+
+Embora esse seja um efeito colateral observável que faz parte da sua aplicação você eventualmente terá
+
+que inseridas no banco de dados alterar exclui consultar os dados mas saiba que são categorias de funções
+
+impuras.
+
+Você não tem como controlar digamos assim exatamente o que vai acontecer.
+
+Dado o parâmetro de entrada ou seja você depende de algo externo.
+
+Isso viola o conceito de função pura e tal A grande máxima priorize o máximo possível o uso de funções
+
+puras saiba que você terá que implementar funções impuras para situações específicas.
+
+Mas a grande maioria das suas funções foram em funções puras.
+
+Você terá uma facilidade muito maior de testar sua aplicação.
+
+Então essa é a moral da história e espero que tenha ficado claro esse primeiro conceito que é um conceito
+
+extremamente importante no nosso capítulo de princípios de programação funcional.
+
+Isso é até proximal.

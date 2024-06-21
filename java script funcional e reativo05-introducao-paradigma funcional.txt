@@ -1,0 +1,670 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Paradigma Funcional
+
+Agora nós vamos falar sobre o paradigma funcional e ver algumas coisas interessantes mas como já disse
+
+anteriormente o curso inteiro é o paradigma funcional então termino uma pretensão de Messi nessas apresentações
+
+falar de forma exaustiva sobre o paradigma até porque não costumo falar sobre isso tão só fazendo aqui
+
+a transição para a tela.
+
+E nós vamos falar rapidamente sobre o paradigma funcional.
+
+Primeira coisa que eu falar que dentro do paradigma funcional as funções são muito importantes e as
+
+funções também são tratadas como valores.
+
+é um conceito chamado Frost Class.
+
+James também conhecido como formas clássicas sem cidadão de primeira classe.
+
+O grau de importância que funções assumem na linguagem e isso gera uma série de impactos.
+
+Existe um outro conceito também muito importante que é o órgão fantoche ou função de primeira ordem
+
+que é um pouquinho diferente do conceito de os clássicos têm exatamente esse conceito que eu estou mostrando
+
+na tela.
+
+A família real família real não é a rainha da Inglaterra com os seus sei lá quem são os juízes é um
+
+pessoal muito importante.
+
+Não sei dizer exatamente quem é mas o fato é que a função tem esse mesmo grau de importância dentro
+
+da linguagem exatamente porque é um estado de primeira linha funções são tratadas como valores e o outro
+
+conceito que é o infantil que fala mais na frente.
+
+Na prática a gente usa muito isso é que uma função consegue retornar uma função e função sem receber
+
+uma função como parâmetro nada do que eu estou falando nesse momento nesse nível inicial do curso eu
+
+espero que tudo aquilo que eu esteja falando faça sentido mas com o passar das aulas sim eu vou mostrar
+
+tudo na prática vai ficar bem mais tranquilo pegando aqui um exemplo exatamente desse conceito de que
+
+funções são valores.
+
+Eu pego aquela declaração simples de uma função que um fantoche que eu chamei de dobro.
+
+A função vai receber um determinado atributo que eu chamei aqui um parâmetro x é o único trabalho que
+
+essa pessoa vai fazer parecer multiplicar o X corredores.
+
+Então achamos que a função do ogro vai ser feito o processamento x valendo 20.
+
+No final vou ter registado 40 que é uma declaração simples de uma função que você já deve estar acostumado
+
+a fazer em JavaScript.
+
+Então você também consegue atribuir uma função anônima ou seja uma função sem nome para uma variável.
+
+No caso aqui uma constante mais especificamente em aparição constante ou variável que eu chamei de dobro.
+
+Da mesma forma que eu declarei meu função aqui usando o Funchal decorre Xanana cala a sua função.
+
+Eu posso usar nesse caso aqui em JavaScript gente chama isso de Fukushima Exploration.
+
+Você pega uma função anônima e atribui a um determinado instante variável e a partir daí essa constante
+
+essa variável vai apontar para a função onde você consegue executar como uma função normal ou seja da
+
+mesma forma que eu chamei dobro 22 em passado que foi esse aqui também eu chamei dobro 20 mostrando
+
+pra você que você também consegue atribuir função à bala ou então funções que são valores.
+
+Isso é extremamente fundamental importante para a programação funcional.
+
+O outro conceito é exatamente o conceito que você passa uma função como parâmetro para a outra função.
+
+E que eu estou mostrando o exemplo que a gente vai fazer lá na frente no curso que é usando uma função
+
+chamada composição.
+
+Tudo aqui é função com exceção do texto que eu coloquei lá no final chamada para o resto a composição
+
+é uma função gritar.
+
+é uma função enfatizar é uma função o retorno da chamada de composição que atribui essa constante exagerado
+
+também a uma função.
+
+Daí você consegue perceber isso.
+
+Essa ideia de composição de funções.
+
+Por enquanto muito alto nível a gente vai construir tudo isso de uma forma muito tranquila com exemplos
+
+básicos de positivo evoluindo mas o fato é que você consegue misturar as funções de tal forma que você
+
+consegue ter códigos bem poderosos.
+
+é um dos motivos pelos quais você consegue isso é exatamente a composição de funções.
+
+Isso é possível porque você consegue passar uma função como parâmetro para a outra função.
+
+Por exemplo gritar é uma função enfatizar é uma função e composição é uma outra função então composição
+
+recebeu como parâmetro a função gritar e recebeu como parâmetro a função é enfatizar a resposta da chamada
+
+nessa função composição retornou uma outra função chamada exagerar o que mais a frente ali embaixo eu
+
+chamei exagerado passando por exemplo extremo para então daí você consegue perceber que o centro do
+
+paradigma é a função e este vai falar muito sobre.
+
+De vários aspectos diferentes com vários exercícios desafios para que você possa entender achando aqui
+
+o outro exemplo fazer uma comparação entre um código mais procedural e uma versão mais imperativa e
+
+uma versão mais funcional que é uma versão declarativa.
+
+O problema é que eu vou querer mostrar agora fazendo também essa comparação.
+
+Já fiz isso em alterá lo só mostro mais um exemplo aqui pra vocês e quando eu tenho por exemplo uma
+
+série de alunos e eu quero pegar apenas os alunos aprovados para mandar por exemplo a carta e parabéns
+
+da família.
+
+Nesse caso eu tenho aprovada a Bia foi aprovada.
+
+O Gil foi reprovado.
+
+O Léo foi aprovado o que foi aprovado e ali foi aprovado foi aprovado.
+
+Então nós temos aí o Gil e ali como sendo dois alunos que foram reprovados.
+
+Eu quero no final gerar uma nova lista apenas com os alunos aprovados.
+
+Como é que eu posso fazer isso usando uma versão procedural.
+
+Basicamente eu vou ter aqui os alunos que são aqueles alunos que eu mostrei no ano passado para não
+
+ficar muito grande nesse slide.
+
+Tem um outro rei vazio que eu chamei de aprovados e agora vou fazer um laço então percorrendo cada um
+
+dos elementos começando com índice zero verificando se o índice é menor do que o tamanho do rei incrementando
+
+ele fazer um teste seus alunos a partir do índice foi colocado ponto nota for maior igual a 7.
+
+Quer dizer que o aluno deve fazer parte dos alunos aprovados e aprovados.
+
+Ponto.
+
+Puxe alunos índice seja índice 0 1 2 dependendo do valor da variável e ele vai lá acrescentar o valor
+
+do aluno ele vai lá acrescentando cada um dos alunos a sua lista de aprovados está aqui é um código
+
+que tem notabilidade porque apesar de aprovado sejam o restante o valor ou o conteúdo interno de aprovados
+
+está sempre mudando sempre sendo modificado a partir do momento que o chama aprovados puxa.
+
+E no caso também eu já estava muito hiperativo eu estou dizendo exatamente o que tem que ser feito colocando
+
+aí o teste coloca no laço e no final até lentilha aprovados qual seria uma estratégia mais funcional
+
+ou mais declarativa.
+
+Nesse caso eu tenho o mesmo lixo de alunos.
+
+Eu criei uma função já que estou trabalhando com a estratégia funcional.
+
+Nada mais é esperado que eu colocasse lógicas dentro de funções.
+
+E aí eu chamei uma função aqui criei uma função chamado está aprovado.
+
+Essa função recebe um aluno e retorna verdadeiro falso se a nota do aluno for maior Gasset.
+
+Essa moça vai retornar verdadeiro se a nota do aluno for menor do que o 7 vai tornar falso.
+
+E aí eu vou usar uma outra função que é uma função especializado em filtrar os elementos de um rei.
+
+E aí eu passo uma função como parâmetro para a outra função e você pode estar se perguntando lá eu não
+
+conheço o filtro não tem a menor ideia do que faz.
+
+Eu não estou entendendo muito bem isso.
+
+Pode ficar tranquilo que no capítulo básico eu vou falar isso de uma forma muito tranquila eu quero
+
+só que você perceba um pouco da diferença de abordagem dessa abordagem para a abordagem do outro exemplo
+
+que mudou bastante exatamente por conta dos dois paradigmas.
+
+E nesse caso eu vou filtrar os alunos usando essa função que já está provado.
+
+Então todos os alunos aprovados serão armazenados nesse novo rei que eu chamei de aprovados e essa é
+
+uma estratégia que o código está muito mais preocupado no que precisa ser feito do que propriamente
+
+no Congo.
+
+Ou seja eu quero filtrar os alunos que estão aprovados e até a leitura dessa linha que tem alunos ponto
+
+Filter e está aprovado.
+
+Ou seja é uma linha mais fluída claro que eu estou misturando um pouco de português com o inglês porque
+
+a linguagem JavaScript de todas as soluções são em inglês mas de qualquer forma você tem algo a filtrar
+
+os alunos que estão aprovados.
+
+Então você consegue até ter um leitura um pouco mais fluida disso do que propriamente na versão anterior
+
+ou sequer uma versão que diz muito mais o passo a passo que tem que ser feito estão progredindo aqui.
+
+Outra questão muito importante que é uma questão que às vezes é difícil você imaginar como você pode
+
+escrever um código que você não vai modificar as coisas é algo que inicialmente é contra intuitivo mas
+
+que com o passar do tempo vocês vão perceber que isso é bem tranquilo.
+
+Eu não estou aqui eu não estou aqui querendo mostrar para vocês como isso vai ser feito em relação a
+
+imutabilidade a gente vai ver durante o curso mas eu quero apontar algumas coisas muito importantes
+
+lá atrás eu fiz uma pergunta mostrando se porquê que a linguagem é pouco paradigma de dizer o que é
+
+que o paradigma funcional.
+
+Ele teve uma adoção tardia e a grande culpada foi a memória exatamente porque a programação funcional
+
+foi inventada a primeira linguagem funcional foi criada na década de 50 ou seja foi criado antes a programação
+
+estruturada e foi criado antes de.
+
+Objeto dessa programação procedural é a memória era muito cara nessa época pra que fosse viável você
+
+trabalhar com dados imutáveis pra que fosse viável você duplicar por exemplo um arranjo de elementos
+
+se você quisesse modificar apenas um elemento deles ou seria inviável você ficar duplicando sempre que
+
+você quiser gerar uma nova versão com menos objetos como foi o caso aí da nossa lista apenas dos alunos
+
+aprovados de uma lista original com todos os alunos e que iria apenas os aprovados.
+
+Então como você tinha uma grande restrição de memória você não fazia tanto sentido você ficar duplicando
+
+e evoluir nessas informações.
+
+é um dos mecanismos que foram criados exatamente por conta dessa caixa da memória.
+
+Que memória era muito caro para você ficar gerando evoluções desses dados.
+
+Exatamente o conceito de referência o valor dessas referem se e esse é um conceito muito importante
+
+que também é muito importante para a orientação objeto assim como é importante pra você entender o paradigma
+
+funcional e trabalhar com esse conceito de imutabilidade João Rocha pra vocês aqui é um exemplo.
+
+Imagino que essa parte verde seja uma área de memória de computador.
+
+E você vai criar que eu estou colocando o código em Java 7 mais tanto faz declaração de uma variável
+
+algo extremamente simples mas eu crio uma variável inteira que eu chamei de armazém meio Value 2 dela
+
+a memória.
+
+Vamos supor que eu queira criar uma outra variável B que vai receber o valor da variável.
+
+Nesse caso foi feito uma cópia do valor ou seja ele está ocupando mais memória do computador e não aproveitando
+
+o espaço de memória que já existia.
+
+Exatamente porque esse pensou o seguinte como o valor inteiro é um valor mais primitivo e um valor mais
+
+básico ele é algo que consome pouca memória.
+
+Então faz mais sentido gerar uma cópia do valor do que fazer a mesma variável apontar para um mesmo
+
+local de memória.
+
+Então foi criado aí uma atribuição exatamente o item b criei o inteiro D que recebe o valor do inteiro.
+
+Aí no caso foi criado um cópia.
+
+Eu chamo isso de passagem por um valor ou atribuição ou valor.
+
+E aí criei um inteiro C.
+
+E nesse caso atribui um valor padrão já que não coloquei absolutamente nada só pra mostrar pra você
+
+o que seria atribuído caso você não coloque nada então nesse caso foi criado um espaço de memória para
+
+armazenar o valor da variável a que foi criado o espaço de memória para armazenar a variável B assim
+
+como foi criado um espaço de memória para armazenar o valor de c.
+
+Vamos supor que ele queira acrescentar a variável a se eu acrescentar uma variável a nem a variável
+
+B e nem a variável C serão impactadas exatamente porque cada uma tem o seu próprio espaço de memória.
+
+Quando a gente lida com objetos aí o negócio é diferente.
+
+Por quê.
+
+Porque já imaginou o seguinte Quando você cria um objeto ou objeto é algo que via de regra pode ser
+
+grande e pode ocupar um grande espaço de memória assim como uma lista por exemplo de alunos imagine
+
+o que você tem ali.
+
+Imagine que você tem uma lista de mil alunos e os alunos têm 10 atributos ter o nome do aluno tem a
+
+nota do aluno.
+
+Tem por exemplo a matrícula do aluno até o endereço do aluno tem o número do endereço até o site do
+
+aluno dessa idade de alguns até uma série de atributos que você tem dentro dessa lista de alunos de
+
+1 a Rei você tem mil alunos.
+
+Então nesse caso se você bate bem é uma lista que você colocar a variável a que atribui para a variável
+
+B.
+
+Se pensou no início o seguinte memória é muito caro então se eu for fazer uma atribuição de uma variável
+
+aqui tem uma lista de mil alunos para a variável B que também vai querer ter um lixo de mil alunos.
+
+é mais interessante a gente aproveitar o mesmo espaço de memória que é exatamente o conceito que referência.
+
+Quando você cria um objeto a que uniu Object eu tenho dentro da variável lá não o conteúdo do objeto
+
+mas eu tenho uma referência pra onde esse objeto está na memória de tal forma que se eu crio um objeto
+
+B que recebe o valor do objeto a ser copiado.
+
+Preste atenção não é copiado o valor mas é copiado a referência para o local de memória.
+
+Isso faz com que você tenha duas variáveis apontando para um mesmo local de memória.
+
+Então nesse caso você criar por exemplo um objeto sei que não faz absolutamente nada né não está atribuindo
+
+nada pra ele.
+
+Ele vai ter uma referência nula.
+
+A gente chama de nu.
+
+E nesse caso significa que ele não aponta para nenhum local de memória.
+
+Qual é a vantagem.
+
+Você trabalhar com referência a vantagem clara é o consumo menor de memória.
+
+Você consegue reaproveitar o mesmo espaço de memória e tem mais de uma variável com um cano para esse
+
+espaço de memória.
+
+E qual é a desvantagem e trabalhar dessa forma.
+
+Desvantagem é pouco e se você tem várias variáveis que mexe no mesmo espaço de memória a chance de você
+
+mexer nos dados e tornar esses dados bagunçado é muito maior.
+
+Se os dados forem constantes isto não é um problema nenhum porque você tem apenas várias variáveis apontando
+
+para algo que é constante e imutável então não tem problema.
+
+Mas se você tem várias variáveis e diferentes pontos na sua aplicação acessando o mesmo espaço de memória
+
+a chance de bagunçar é muito grande.
+
+Certa vez no canal no YouTube eu fiz um vídeo falando seguinte imagine que você vai para um Hotel um
+
+hotel chique.
+
+Cada quarto tem o seu próprio banheiro.
+
+Então você tem 50 quartos de hotel e 50 hóspedes cada um no seu próprio quarto.
+
+A chance desses banheiros ficarem impunes é muito maior porque cada quarto tem o seu próprio banheiro.
+
+Cada hóspede será capaz de tratar o banheiro da melhor forma possível porque só quem vai usar aquele
+
+banheiro é aquele hóspede.
+
+Mas vamos supor que você foi para um hostel que você tem apenas o único banheiro compartilhado com 50
+
+quartos diferentes.
+
+Então nesse caso a chance do banheiro está sujo.
+
+A chance do banheiro não está na forma como você gostaria que ele tivesse é muito maior.
+
+Exatamente porque você tem 50 referências que são 50 quartos apontando para um mesmo objeto que é o
+
+banheiro e tem um outro problema que é a questão de concorrência.
+
+Ou seja pode ser que você tenha uma dor de barriga.
+
+Tente usar o banheiro e esse banheiro esteja ocupado.
+
+Então fica claro a partir desse exemplo que comparando um hotel com um rosto todo mundo usando o mesmo
+
+banheiro ou você ter banheiro separados que a referência também pode causar esse mesmo nível de confusão.
+
+Se você tem vários códigos mexendo no mesmo objeto foi lá e colocou o preço pra mil reais outro colocou
+
+pra 500 o outro colocou o valor zero.
+
+E aí você não tem muito controle do que está acontecendo no objeto exatamente porque você tem um dado
+
+mutável que está sendo referenciado por vários locais.
+
+Eu assisti uma palestra bem interessante do White Witch que é o cara que criou uma linguagem chamada
+
+Cluj Cluj é uma linguagem que agora também em cima na máquina virtual Java.
+
+Só que é uma linguagem funcional e ele criou esse termo aí que na verdade é uma crítica da orientação
+
+a objeto que ele chamou de alpina como se fosse um novo paradigma que é less Oriented Programming.
+
+Porque é que ele chamou de programação orientada a lugar exatamente por conta dessa desse conceito que
+
+a gente viu aqui no slide anterior que é o conceito de valor dessas referem se à volta aqui para mostrar
+
+exatamente o ponto certo.
+
+Então aqui nós temos um local de memória que é exatamente essa instância do objeto que está sendo referenciado
+
+por vários locais então há aí uma importância muito grande exatamente nessa questão da referência ou
+
+seja no local de memória que você está compartilhando.
+
+Daí o Ruy para os íntimos.
+
+Ele fez essa crítica dentro desse vídeo se você procurar no youtube aqui embaixo da referência é quem
+
+é quem.
+
+Coisas do tipo D velho Alfie velhos o valor dos valores ou o valor nem qual o valor que determinada
+
+coisa tem na no caso aqui o valor dos valores.
+
+Então se você olhar ele mostra exatamente o que faz essa crítica orientação a objeto que é o fato de
+
+que a programação orientada a objeto está muito ligada nessa questão do compartilhamento de espaços
+
+de memória e espaços que são mutáveis e principalmente um ambiente múltiplas grandes.
+
+Já imaginou múltiplos estresses e processos paralelos mexendo no mesmo espaço de memória.
+
+A chance de você ter problema é muito grande por isso que a orientação objeto acaba não sendo o melhor
+
+paradigma para você trabalhar em ambientes de múltiplos processamentos.
+
+Não há novas informações substitui as antigas.
+
+Então isso pode gerar efeitos colaterais por exemplo determinado código esperava acessar a informação
+
+antiga mas um outro código foi lá e alterou a substituir a informação por isso que na programação funcional
+
+não se mexe nas informações antigas se criam novas versões e isso como já falei pra vocês tem um impacto
+
+de memória e essa ideia de você programar orientado a referências orientado ao lugar surgiu como a limitação
+
+no início da computação se tinha pouca memória RAM e pouco disco.
+
+Já falei pra vocês que esse crescimento foi na ordem de milhões.
+
+Hoje se você pegar o seu celular ele tem mais memória e mais poder de processamento do que por exemplo
+
+o maior mainframe na década de 50.
+
+Sendo então ele mostra aí há mais ou menos a história da memória.
+
+40 foi inventado o bicho é Memória em 50 foi inventado baixe de memória depois um cartão de memória
+
+depois 32 K em 2011 até o 11 terabytes de memória então o crescimento foi na ordem dos milhões.
+
+Então hoje em dia é muito mais fácil você ter um programa que consome mais memória e isso não quer dizer
+
+que você vai criar de forma deliberada um programa que consome mais memória mas muitas vezes você pode
+
+priorizar um colégio melhor escrito do que propriamente aquele corre o que é otimizado no nível do byte
+
+do bit.
+
+é algo que muito comumente o vejo dos alunos.
+
+Essa necessidade de fazer por exemplo melhorias de desempenho de forma antecipada.
+
+Certo Você tem que se preocupar sim com o códice performático tem que ter esse cuidado principalmente
+
+se o projeto que você está trabalhando vai demandar um código extremamente otimizado como é o caso de
+
+o sistema operacional.
+
+Como é o caso de um framework que começam vários casos que você pode passar na sua vida como programador.
+
+Mas é importante você não ter uma preocupação exagerada com o desempenho e tentar melhorá lo no micro
+
+que muitas vezes não vai fazer nenhum impacto na sua aplicação.
+
+Uma questão que diz é também com relação à programação orientada a objeto o fato de que ela exige um
+
+acoplamento temporal pelo fato de você está modificando a variável.
+
+Então você tem por exemplo esta atribuição você mexe na variável depois da atribuição.
+
+Então se você fizer um código nesse momento e depois a atribuição vai ter o resultado com você mexeu
+
+um código fez uma atribuição 2 Se você colocar o código.
+
+Depois essa atribuição você já vai ter um outro resultado então há um acoplamento muito forte em relação
+
+ao tempo de execução exatamente o código que você está sempre mexendo nos dados.
+
+Se você mexer num dado no momento que ele não sofreu uma alteração anterior o que você esperava.
+
+Então você eventualmente vai sofrer um baque além do fato que potencialmente você pode ter muitos códigos
+
+mexendo no mesmo espaço de memória.
+
+Continuando aqui.
+
+Porquê mudar a programação funcional é mais simples.
+
+Depende muito da questão daquele que você já está acostumado a fazer.
+
+Obviamente como eu falei pra vocês anteriormente aprender o novo paradigma é difícil.
+
+Se você está familiarizado com o paradigma de orientação objeto programação funcional não será mais
+
+simples pra você pelo menos no início certo mas depois a programação funcional vai mostrar um série
+
+de benefícios extremamente importantes vai tornar mais fácil de escrever e manter o código.
+
+Isso é verdade você vai priorizar funções pequenas funções que fazem apenas uma única responsabilidade
+
+e isso faz com que você tenha um grau de uso muito maior.
+
+Sem dúvida isso no médio longo prazo vai te ajudar muito pra escrever o código não possui esse acoplamento
+
+temporal exatamente com o que você trabalha com dados imutáveis e evoluções dos dados certo.
+
+E você tem menos problemas de concorrência ou seja tem poucos problemas de concorrência se comparado
+
+com a programação orientada a objeto ou mesmo a programação procedural que também trabalha com essa
+
+questão de referência de memória.
+
+Você trabalha com imutabilidade e aqui embaixo você está a ver mais uma referência de um vídeo que eu
+
+peguei lá com Balbina o Alberto Simonetti que é o cara que criou o código e é um cara super influente
+
+da área de desenvolvimento boas práticas que um arquiteto na carta pura limpa é um cara muito legal
+
+para você olhar tanto o material escrito dele como as palestras que ele que ele ministra são muito legais.
+
+é uma coisa importante com a sua programação funcional essa questão de declarar guerra à atribuição
+
+você pode esquecer algumas coisas alguns princípios mais imutabilidade é algo fundamental é algo basilar
+
+dentro do paradigma ou seja sempre que você está trabalhando no nível de um determinado valor o que
+
+é compartilhado por muitos códigos você coloca esse dado como imutável e você só tem imutabilidade dentro
+
+de um espaço muito pequeno muito isolado que você consiga controlar exatamente aquilo que você está
+
+modificando ou seja dentro de uma função.
+
+Você pode ter muita habilidade mas sempre que você compartilhar esse dado na rede externa a função para
+
+fora da função você vai trabalhar com dados imutáveis e o cenário atual.
+
+Hoje você tem um mora muito mais abundante você tem múltiplos processadores porque acaba ajudando muito
+
+nesse cenário atual você incorpora nas linguagens mais modernas o uso de programação funcional.
+
+Exatamente porque você tem uma série de benefícios em relação à manutenção e você tem um cenário bem
+
+mais favorável à questão de múltiplos processadores ou seja trabalhar de uma forma mais frequente e
+
+usar esses múltiplos processadores para processar coisas em paralelo.
+
+O que o paradigma funcional acaba ajudando é o fato de você ter uma memória abundante faz com que você.
+
+Evoluiu da forma mais tranquila.
+
+Não necessariamente você precisa forçar sua aplicação para aquele consumo mais memória.
+
+Claro que não é isso mas o fato de você ter memória mais abundante você consegue programar de uma forma
+
+mais segura sem necessariamente compartilhar referências só para economizar memória.
+
+Se essa estratégia de compartilhar referência fosse muito boa também para dados primitivos iria usar
+
+a mesma estratégia de compartilhar referências por porquê não economizar.
+
+Por exemplo um pouquinho de memória ali em relação aos valores inteiros como esse pra vocês se compartilhar
+
+referência fosse bom.
+
+Só vou ter a vantagem de economizar um pouco mais de memória mesmo que não seja significativo e ainda
+
+assim eu uso a referência mais referência.
+
+Como falei pra vocês no exemplo lá do hotel né.
+
+As chances de você ter um banheiro compartilhado que não está legal é muito maior do que você ter um
+
+banheiro isolado para cada quarto até porque se você tiver um banheiro por quarto você vai conseguir
+
+ter paralelismo.
+
+Você pode ter 50 pessoas com dor de barriga sem problema nenhum pouco cada quarto vai ter o seu próprio
+
+banheiro legal que mostra um pouco do crescimento em relação a processamento e também em relação à questão
+
+do preço e em relação à memória mostrando isso naqueles 60 70 80 90 2000 2010 e seguiu para os dias
+
+atuais.
+
+é outra questão não é com relação à programação funcional que eu já comentei com vocês que também foi
+
+dito nessa palestra do ano com o Bope é o fato de que você consegue processar funções em processadores
+
+diferentes uma vez que você trabalha muito fortemente com dados imutáveis.
+
+E se f de x por exemplo uma função f que recebe um parâmetro x você usa os princípios de programação
+
+funcional se imutabilidade tal não importa se você está executando a função do mesmo processador ou
+
+depois da outra ou se você paralisa porque o resultado vai ser exatamente o mesmo porque você não trabalha
+
+com estabilidade.
+
+Então pessoal era isso que eu tinha para falar um pouquinho sobre a programação funcional.
+
+Sei que esses são alguns dos princípios a voltar aqui só pra minha tela.
+
+Eu sei que falar de paradigma entender alguns desses princípios são tanto quanto complicados nesse início
+
+mas vai ficando tranquilo que a gente vai ver tudo muito cadenciado e de uma forma muito prática.
+
+Apesar de que nesse primeiro momento que a gente fala algumas coisas mais teóricas só para dar um certo
+
+embasamento mais assuntos começar a falar de muitas coisas práticas.
+
+Logo na sequência espero que vocês estejam gostando do curso é muito importante ter esse embasamento
+
+mais fundamentos e embasamento teórico para quando você pouco colhe.
+
+Você conseguiu pegar a parte prática e linkar com os conceitos que é algo fundamental e depois vale
+
+a pena uma vez que você já viu parte do custo baixo dos códigos voltar novamente para as apresentações
+
+pra ver se você tem uma ou outra visão daquilo que eu estou falando já com experiência prática na bagagem
+
+então isso é até aproximá lo.
+

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Higher-order function
+
+Outro conceito muito importante da programação funcional é o órgão fantoche e esse é um conceito que
+
+você já viu na prática então você já conhece.
+
+Vou só ligar agora o nome exatamente com um conceito.
+
+Então eu vou criar aqui um novo arquivo que eu vou chamar aqui
+
+tem que falar com um sotaque bem interior de São Paulo O mineiro né.
+
+Corta mais ou menos essa mesma nessa mesma linha né.
+
+O que é que significam a obra Fantin vou colocar aqui o comentário para a gente entender o que significa
+
+ela que é um conceito importante a gente já usou anteriormente nem todas as linguagens implementam esse
+
+tipo de coisa.
+
+Então funções que operam em outras funções tomando as como argumentos ou retornados são chamadas de
+
+fonte.
+
+Em outras palavras o fato de você conseguir passar a função como parâmetro para a outra função ou retornar
+
+uma função como parâmetro significa que a linguagem suporta a obra.
+
+Então como você cria por exemplo a função Executar e você recebe.
+
+Afinal por exemplo você passa em um conjunto de valores por exemplo para tal na verdade o que você tem
+
+que usar o operador.
+
+O resto você repassa aos parâmetros todos espalhados e ele faz essa questão de juntar tudo dentro de
+
+um array.
+
+Então aqui dentro eu posso chamar a passar por exemplo usar agora o Opera 2 7.
+
+Nesse caso ele vai espalhar passando os parâmetros para ser um pouco mais flexível.
+
+Dessa forma eu consigo criar aqui uma função chamado somar que recebe valor A B e C e que vai retornar
+
+que o valor a mais b C c e eu vou criar uma outra função chamada de multiplicar aqui.
+
+Colocar dois números A e B e aqui eu consigo explicar o valor de A e B.
+
+Nesse caso a gente pode eventualmente chamar funções está e eu vou retornar o valor dela só pra ficar
+
+mais genérico e realmente ter o valor de retorno vou passar a função somar o número 4 5 6 e vou chamar
+
+a função de multiplicar o So Much passando os valores aqui sei lá 30 vezes 40 pegando o resultado.
+
+é verdade que eu estava em 2 de tal forma que o console Fotolog e R2 executando nós temos os valores
+
+ao 15 exatamente 4 mas 5 9 mais 6 15 e 30 vezes 40 andar 1200 ou seja conseguir passar na função como
+
+parâmetro para uma outra função significa em JavaScript uma função e uma raia order function e com um
+
+voucher pra vocês também a gente consegue retornar na função a partir de outra função.
+
+Então por exemplo se eu quero colocar aqui chamar aqui uma outra função que vai receber por exemplo
+
+um texto de texto inicial vai receber o texto inicial e aqui no final ele vai chamar a outra função.
+
+Então significa que quando eu for chamado isso aqui eu posso colocar o trecho inicial que vai ser eu
+
+vou usar aquele texto inicial aqui para fazer o seguinte Eu Vou intercalar colocar texto inicial vou
+
+pagar aqui o resultado da operação por exemplo e vou finalizar com uma exclamação.
+
+Pronto.
+
+Nesse caso vou passar o trecho inicial vai ser o seguinte o resultado da soma e eu vou passar o trecho
+
+inicial aqui pra c o resultado da multiplicação sabe.
+
+Pronto.
+
+O meu grande aqui mais nem o estado da multiplicação é uma coisa no estado da soma ele passei o texto
+
+aqui e essa função inicial retornou outra função que eu já chamei ela aqui e no final das contas ela
+
+vai executar a função que foi passada como parâmetro e vai retornar para os dois textos.
+
+Vou colocar em duas linhas separadas.
+
+Primeiro o R1 R2 R2 adaptado você vai ter o resultado da soma 15 e o resultado da multiplicação é 1200.
+
+Ou seja nesse exemplo a gente usou tanto o recurso que recebeu a função como argumento com uma função
+
+e outra função nessa mesma função Executar.
+
+As duas coisas ou seja em JavaScript.
+
+Uma função é óbvia vantagem.

@@ -1,0 +1,371 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Async/Await
+
+Agora vou falar de um assunto que está relacionado ao compromisso inclusive na área que eu gravei o
+
+capítulo de funções acabei não falando sobre isso.
+
+Eu estou voltando aqui para gravar mais alguns vídeos que eu acho que vai ser importante alguns momentos
+
+a gente vai acabar precisando usar esse uso da linguagem.
+
+Acho você olhar que vai ter outras pastas mais para frente o curso mais não tem problema.
+
+Eu vou criar mais alguns exercícios aqui dentro de funções falando sobre a simples e ao Haiti certo
+
+são duas palavras muito importantes que a gente também usa relacionado a essa questão de processamento
+
+assíncrona.
+
+E eu quero falar exatamente logo após ter comentado com vocês sobre o assunto diplomas então eu vou
+
+criar aqui.
+
+Então não liga tanto os arquivos tem alguns arquivos adicionais aqui.
+
+Mas o fato mais importante é você entender sobre esse assunto no caso que o assisti ao Haiti.
+
+Então vou colocar aqui.
+
+Assim andei ali ao Haiti ponto de a gente vai entender um pouquinho sobre isso.
+
+Se eu pegar aqui um exemplo de promessa que a gente fez chegar aqui por exemplo aquele que a gente falou
+
+do malte pra prometedores.
+
+Pronto nós criamos uma função que vai esperar dois segundos e vai permitir um console que logo eu vou
+
+usar essa função para me basear para a gente trabalhar um pouquinho esse conceito.
+
+é assim que ela é uma coisa importante com relação ao Haiti você não pode por enquanto nesse momento
+
+que eu estou gravando o vídeo Now não suporta você usar a palavra ao Haiti diretamente dentro de um
+
+arquivo.
+
+Por exemplo eu já explicava aqui que serve ela.
+
+Então se eu tentar colocar ao Haiti e esperar por exemplo ela três segundos e se eu tentar executar
+
+esse código ele não vai permitir.
+
+Vai dar um problema dizendo que o Haiti só é válido dentro de uma função assíncrona.
+
+Se você já ouviu falar em outro grande termo JavaScript chamado Dina o que foi inclusive criado pelo
+
+mesmo criador do Now de que Randall já o Digg não suporta colocar alguém diretamente dentro do arquivo.
+
+Então a gente precisa criar uma função assíncrona para daí usá la dentro dela.
+
+Então qual é a questão para aquele que existiu assim que é o Haiti.
+
+Existe exatamente para marchar para achar para vocês que a ideia não.
+
+Se eu for chamar essa função aqui vai esperar um determinado tempo.
+
+Então a gente vai usar Palmas.
+
+Então vou colocar aqui ou esperar por dois segundos.
+
+Ponto.
+
+Deve esperar esperar por dois segundos de novo.
+
+Posso até passar a aparência da função.
+
+Esse caso já está assumindo o padrão.
+
+é esperar por mais dois segundos.
+
+Pode fazer essa forma usando para.
+
+Então se vai acertar você vai ver que ele vai esperar dois segundos vai imprimir o console e logo vai
+
+esperar mais dois segundos e tal se eu quiser tirar esse console logo aqui está a analisar é só fazer
+
+a função realmente separar dois segundos.
+
+Então teria que esperar dois segundos.
+
+Ponto.
+
+E aqui eu vou imprimir o console logo ao fazer dessa forma.
+
+E aí ele vai esperar mais dois segundos e eu vou imprimir o console e no final ele vai oprimir mais
+
+uma vez o console.
+
+Então se eu quiser tirar de dentro ele simplesmente não resolve.
+
+E aqui eu posso até transformar isso para o funk já que ele vai simplesmente Marky Eu sou mineiro porque
+
+as linhas de código são basicamente o que eu tenho é isso aqui.
+
+E se eu quiser imprimir vai fazer isso ele vai esperar dois segundos vai imprimi vai esperar a quantidade
+
+padrão de tempo exatamente dois segundos e vai imprimir isso.
+
+E no final imprimiu isso aí então executar talvez depois 2 depois 3.
+
+Só pra gente ver aqui com o logo console pontualmente analisadas e contando para o mocinho um dois três.
+
+Como é que eu poderia fazer esse mesmo código usado assim.
+
+Então a ideia por trás assim que exatamente você tem um código que parece síncrono embora ele seja um
+
+código assíncrona ou seja em vez de ele chamar a função dele ele vai ficar parado esperando a recepção
+
+lá para a próxima Miccoli ter mais opção.
+
+Então para isso eu vou ter que criar uma função que eu vou chamar aqui de executar e eu vou chamar essa
+
+função já está aqui no final certo.
+
+Então se eu chamar criar a função é simplesmente colocar aqui um console ou executar.
+
+Você vai ver que ele vai essa passa a função normal sem nenhum problema.
+
+Eu acho que elas estavam trouxe um dois três e aí finalizou corre lá eu vou.
+
+Marcar essa função com a função assíncrona então colocar a palavrinha assim que está aqui dentro eu
+
+vou ter a capacidade de usar a palavrinha.
+
+A White White certa então que eu faço eu posso chamar por exemplo essa função que retorna sempre que
+
+tem uma função de retorno para eles.
+
+Eu posso usar ela junto com o Haiti e nesse caso eu vou usar uma lente.
+
+Para vocês verem e depois de qualquer convite eu vou colocar aqui ao console fotolog.
+
+Assim ao Haiti.
+
+Vou colocar dois e 3 2 3 e vou colocar entre uma chamada e outra o console logo e vou colocar aqui e
+
+esperar por dois segundos console.
+
+Logo estará com dois segundos console o Fotolog esperar um ou dois segundos console algo que no caso
+
+até poderia colocar um pouco menos para justificar o fato de passar para a noite já que 2 segundos é
+
+o padrão legal.
+
+Do jeito que está aqui o que é que vai acontecer vou inclusive comentar isso aqui só para não ficar
+
+exaltando o que vai acontecer que ele vai executar tudo isso de uma vez só.
+
+Vai esperar um segundo e meio mas ele já vai ter colocado no console todos esses três textos aqui eu
+
+vou limpar resetar você vai ver que ele já colocou tudo vai demorar um pouquinho né.
+
+Que é um segundo e meio de cada uma das chamadas que ele colocou todo mundo lá da outra e no final terminou
+
+nosso código mais ou menos um segundo e meio de execução.
+
+Se eu quero que ele espere.
+
+Ou seja para uns 6 ouvida pra só então ele tá a próxima linha.
+
+Basta eu colocar aqui ao Canaltech AQUI AQUI e AQUI.
+
+Agora parece que você tem a sensação de que escolhe um quando síncrono porque ele vai executar essa
+
+linha de salvar para a próxima pois terminar a executar Celine pois ele já vai para a próxima contornar
+
+essa linha aqui ele vai esperar ele vai executar esse corte de uma forma síncrona.
+
+Então o resultado você vai ver que vai ser exatamente com a gente tinha feito anteriormente eram 51
+
+2 e 3 agora demorou quatro segundos e meio exatamente o que eu coloquei.
+
+O segundo é meio e cabe execução.
+
+Então quando você marca uma função como assíncrona você tem a capacidade de disparar dentro dela que
+
+eu não tenho nada para que seja resolvido sem usar o método dela.
+
+Aqui é como se você tivesse automaticamente pagando o valor de resposta dessa função.
+
+Então por exemplo suponha que eu queira criar uma função aqui um fantoche retornar o valor de essa função.
+
+Ela vai retornar Milk talvez e aqui dentro vocês recebeu o Joseph.
+
+E dentro dessa função eu vou chamar aqui o site Animals e ela vai chamar aqui uma função dentro do site
+
+está em balde e eu vou simplesmente chamar acusou.
+
+Retornando o valor 10 suponho eu vou demorar aqui cinco segundos para retornar esse valor ou seja até
+
+aqui uma promessa que está sendo desenvolvida a partir dessa função retorna abalou e essa função vai
+
+retornar o holandês apenas depois de cinco segundos por conta no site está mal que você já demora um
+
+certo tempo pra depois entregar esse valor.
+
+Vamos supor que eu queira aqui dentro chamar essa função retorna ao valor.
+
+Então eu quero esperar que essa função seja executada então vou colocar aqui ali.
+
+Vou querer armazenar o valor por exemplo aqui quem sabe o valor já vai devolver para mim o valor que
+
+foi resolvido que aluguéis e aqui dentro.
+
+Eu posso substituir isso pra Bética e aqui eu vou por exemplo pagar o valor inicial já no outro de baixo.
+
+Eu vou colocar o valor de mais um e no outro de baixo vou colocar o valor mais de 2 de tal forma que
+
+eu vou precisar desse valor ser resolvido pra só então ele mostrar essa parte aqui de baixo.
+
+Então se a gente limpar aqui e acertar você vai ver que ele vai esperar cinco segundos.
+
+Ou seja está esperando a para ser resolvida resolveu com o valor 10.
+
+Aí sim aqui vai pra frente para mais um segundo e meio igualou 10 valor 11 12.
+
+Ou seja você trabalhou aqui como se fosse um código síncrono como se esse código devolvesse o valor
+
+no momento que você chamou ele então nesse caso ele vai ficar esperando a prova resolvida quando foi
+
+resolvida.
+
+Você já tem acesso diretamente o valor.
+
+Ou seja parece um código síncrono embora não seja um código que vai demorar um determinado tempo para
+
+ser resolvido.
+
+Por trás do assim que a gente tem tem compromisso.
+
+Você vai fazer um ao Haiti em cima de uma função que retorna.
+
+Mas vamos supor que você queira no final aqui retornar o valor esse valor aqui mais três que seria o
+
+valor original ou mais um valor mais dois eu quero retornar ao lote 3.
+
+Como é que eu consigo.
+
+A partir da função Executar pegar o valor aqui dentro eu não posso fazer isso com constante recebe você
+
+e se milhares está.
+
+Porque essa função bolsa é marcada como assíncrona.
+
+Essa função vai devolver o compromisso e se eu fizer aqui vai o que eu vou ter.
+
+Na verdade antes de colocar Console Console ponto logo se vê você vai ver o resultado que ele vai primeiro
+
+console há exatamente um mês que está pendente você não tem como na linha seguinte pagar um valor e
+
+eu também não posso por exemplo marcar isso como o Haiti.
+
+O que é que eu não posso falar marcar isso como autêntico aqui no caso de não permite ficar esperando
+
+na chamada hoje diretamente dentro de um módulo dele.
+
+Já um dia não ele suporta isso mas no caso do novo não.
+
+Nesse caso a gente tem que fazer.
+
+CHAMAR O DEM e colocar console Fotolog aí sim quando estiver resolvido o valor que ele baixa mais console
+
+pode mostrar o valor somado mostra o seu impacto aqui e está executando.
+
+Você vai ver que ele vai esperar um segundo e meio né.
+
+Vai esperar cinco segundos depois mais um seguro e meio um segundo e meio um segundo e meio.
+
+No final a gente teve acesso ao bolo 13 ou seja sempre que você está trabalhando com uma função assíncrona
+
+te chama outra função assíncrona você pode sim colocá la lá e ficar esperando a prova isso ser resolvido.
+
+Quando você vai sair desse mundo dado a sincronismo e vai entrar por exemplo no código cinco no normal
+
+você tem que acessar o valor a partir do demo.
+
+Se eu tivesse uma outra função por exemplo criar outra função chamar aqui uma função de chamada executar
+
+de verdade e essa função aqui foi marcada como assíncrona eu vou chamar o resetar de verdade aqui vou
+
+chamar aqui embaixo e vou colocar a função acertar aqui dentro.
+
+Então nesse caso tranquilo o que eu posso aqui dentro já cortou lá então a função assíncrona colocá
+
+la leite e esperar aqui receber a resposta.
+
+RESPOSTA AO RESULTADO O valor faz.
+
+Agora sim ao console alguém falou e aqui eu consigo esperar exatamente o que eu chorei.
+
+Uma função assíncrona.
+
+Já nesse caso se eu quiser realmente pagar algum valor preciso chamar alguém o achei pra vocês anteriormente.
+
+Então executando se.
+
+Primeiro depois mais um segundo e meio ele vai começar a mostrar as frases aqui nela 5 10 11 e 12 o
+
+valor 13 foi exibido exatamente aqui porque eu estou dentro de uma outra função assíncrona chamado outra
+
+função assíncrona e com essa função assíncrona ela retorna para um mês.
+
+Assim como essa função aqui não é assíncrona mas que de forma explícita retornei para homens e aqui
+
+eu poderia até fazer exatamente a mesma coisa ao colocar aqui outra função chamada retornava ao local
+
+rápida.
+
+E aqui eu posso simplesmente retornar o valor 10 ou o valor 20 por exemplo e eu marcando isso aqui como
+
+assíncrona assim.
+
+Então nesse caso ele vai retornar 20 dentro de outro homem.
+
+Ou seja ela vai retornar para Holmes e esse 20 será retornado exatamente como se eu tivesse chamado
+
+resolvo automaticamente que equivale a retornar para um amigo chamado RESOLVO LOGO NA HORA.
+
+Então nesse caso se eu chamar a tornar um valor rápido aqui nesse caso o que eu sou não colocá la Leite.
+
+Na verdade eu vou a esse blog para homens não é um valor 20 ora se ela está aqui pra ver o valor que
+
+vai dar certo ao Haiti objetos para homens objeto próximo ao Jardim pra eles mas eu não quero receber
+
+a promoção o cara recebeu o valor.
+
+E aí você coloca o Haiti nesse caso mesmo que o valor seja retornado diretamente com você colocou a
+
+função assíncrona o Haiti vai fazer com que ele extrai e o valor.
+
+Só quando a promoção foi resolvida nesse caso aqui foi resolvida logo na hora e nesse outro caso a promoção
+
+foi resolvida apenas 10 segundos cinco segundos depois quando você chamou a função.
+
+Então testa não mais Alguém já calculou que o Haiti que estão salvando você vai ver que ele vai esperar
+
+um seguro meio né.
+
+20 21 22 e o resultado final é 23.
+
+Só espero ter ficado clara essa questão do assim realmente é algo extremamente importante e ele está
+
+totalmente ligado ao compromisso.
+
+Ou seja a forma que você tem vez de você trabalhar chamando o DEM passando uma situação chamando o DEM
+
+para essa nova função.
+
+Você pode trabalhar como se o socorro fosse síncrono pagar os valores como se fosse um código 5 ele
+
+vai esperar quando ela estiver pronto ele passa para a próxima linha é executado.
+
+Concordo que muito provavelmente você já tá bem mais familiarizado de trabalhar.
+
+Eu acredito que seja isso vou fazer só mais um exemplo para a gente reforçar na próxima aula eu falar
+
+um pouquinho termina o tratamento de erro associado assim ao Haiti.
+
+Então fico por aqui até aproximá lo.

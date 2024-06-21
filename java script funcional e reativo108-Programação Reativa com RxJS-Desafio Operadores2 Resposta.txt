@@ -1,0 +1,174 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 2 - Resposta
+
+Pessoal na resposta.
+
+A gente já sabe que pelo jeitão da função vamos precisar aqui retornar à função que recebe.
+
+Observo que a Fonte Nova chama aqui de fonte agora em português mesmo.
+
+Ele está usando aquilo que eu passo um parâmetro que é exatamente o texto final e recebo a fonte.
+
+Depois que foi executado.
+
+é legal usar os princípios da programação funcional na prática e aqui basicamente essa função vai retornar
+
+observou.
+
+Outro cliente também pode ser observado ou sem problema nenhum que o subscreve.
+
+E aqui dentro nós vamos pegar a fonte que eu vou receber os dados vou subscrever essa fonte não fontes
+
+pontuou o subsecretário.
+
+Vou passar aqui não necessariamente precisaria passar um objeto.
+
+Posso passar as funções direto mais aqui fico um pouco mais explícito não.
+
+Então a função Macchi é a ideia do que está exatamente aqui no valor que eu vou receber que vai ser
+
+um texto.
+
+Eu vou fazer o seguinte Aqui vou chamar de texto para ficar mais explícito no texto por exemplo pontuou
+
+o chef.
+
+A parte final será terminar com isso.
+
+Aí sim você vai chamar aqui o subscrito Marcos passando o texto pra frente.
+
+Caso contrário ele não vai fazer absolutamente nada.
+
+Quero que você pode fazer aqui.
+
+Além de passar um anexo você pode passar o erro.
+
+Caso aconteça um determinado eu aqui você pode simplesmente chamar aqui o seu subscrito pontuou.
+
+Erro terá que padronizar tudo isso aconteceu e você passou o erro.
+
+E nesse caso quando aconteceu conflitos complicados Você também vai chamar aqui o subscritor.
+
+O conflitos.
+
+Você testou o tratamento nos dados como aconteceu com você completa aconteceu erro ou seja algum erro.
+
+E aqui você faz o filtro nos dados gerando novos valores.
+
+E aqui tem implementação a nossa lógica é filtrar não apenas os textos que determinam o valor que você
+
+passou aqui em cima.
+
+Esse vai ser o primeiro teste.
+
+E aí para a gente ver como é que ficou estável e a gente faz aqui um outro teste para deixar um pouco
+
+mais flexível então funcionou perfeitamente.
+
+Nesse caso a Maria não termina com o ponto C só vai sobrar a Ana Silva mais tarde o PSIU final Silvana
+
+ele vai funcionar perfeitamente.
+
+Terminou com a Anacom agora todo mundo vai ser atendido não.
+
+Ana Silva Maria Silva Pedro Rocha terminou com a virar tão somente os seus rostos continuaram na sua
+
+memória legal.
+
+Imagino que por algum motivo você passou a Rui Rio você quer que essa função também suporte a Rui.
+
+Agora ele vai passar Larry inteiro e se eu fizer isso ele vai gerar um problema.
+
+Ah então quer que a gente pode fazer o que pode suportar.
+
+A Rita Mendes então por exemplo se o texto aqui eu vou colocá lo para ficar mais genérico então Alô
+
+Paulo Mendes.
+
+E aqui a gente pode testar a rei.
+
+Ponto.
+
+Exagerei.
+
+Se for a Rei a gente vai fazer alguma coisa caso contrário a gente vai fazer isso aqui colocar os prótese
+
+e a rede vai entrar aqui já que a gente pode fazer em relação ao rei a gente pode fazer um filtro.
+
+Então a gente pode por exemplo colocar aqui valor ponto frio e a gente vai receber os elementos do Harry
+
+pra rua isso eram textos.
+
+E aí eu vou querer saber apenas se vou querer retornar apenas se o elemento que no caso aqui algum elemento
+
+termina com a parte final.
+
+Se terminar significa que esse elemento estará no final caso contrário não.
+
+Então isso aqui eu vou chamar o subscritor.
+
+Ponto X agora filtrado aqui meu Rei.
+
+Então agora meu operador suporta não apenas um estilingue como também suporta o Rei.
+
+Aqui você poderia até verificar se o tipo é o tipo string.
+
+Só pra ter certeza e ele só gerar o próximo valor o caso realmente seja o tipo suportado não gerar um
+
+erro tão só para a gente vê como eu passei o Larry agora executado que vai chegar no final vai ser rei.
+
+Só que filtrado ou seja tanto você passando a estrela como você passando a Rey que tem estrias dentro
+
+e aí você pode verificar para ter certeza no momento que você chamar essa função que ao menos serve
+
+pra você está chamando ela em.
+
+.
+
+Você pode verificar tanto aqui como verificar aqui.
+
+Certo ou então se pode até criar uma outra função aqui dentro para fazer esse tratamento e não precisar
+
+replicar em dois locais diferentes.
+
+Legal então é isso que eu tinha pra falar o nosso operador funciona corretamente.
+
+Filtros mentes a partir do final da Astrid e suporta tanto Harry como também suporta estilingues.
+
+Faltou aí um acerto a questão de validar os dados para ter certeza de chamar essa função se realmente
+
+ela existir para não gerar nenhum problema.
+
+Outra coisa que você vai perceber que tem muito coelho aqui né.
+
+Como falei anteriormente que a gente pode eventualmente realizar e focar apenas da parte do da lógica
+
+mesmo que exatamente o conteúdo da função NET.
+
+Então acho que dá para a gente aproveitar isso a meu ver está proximal ou faço isso ou faço depois mostrar
+
+para vocês que a gente pode compor isso melhor e aproveitar para que a gente quando for criar novos
+
+operadores não precisar escrever todo esse código focar apenas na parte mais importante da lógica.
+
+Outra coisa que você pode já assume isso como desafio mesmo que eu não goste na próxima aula você tentar
+
+fazer uma função que vai te ajudar a gerar novos operadores e você também pode experimentar com outros
+
+operadores.
+
+Começando com algum texto contendo um determinado texto chegando a Rei e ordenando esse aí na ordem
+
+crescente.
+
+Então por exemplo você pode receber uma sequência de números desordenados você criar um operador que
+
+vai ordenar esses números o que é bastante interessante.
+
+Então fiquei vários desafios para que vocês possam tentar experimentar um pouco mais e também criar
+
+uma função que te ajude a criar os operadores.
+

@@ -1,0 +1,135 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Filtrando Arquivos por Extensão
+
+Agora que a gente fez a nossa primeira migração que foi criar um operador de criação nós vamos precisar
+
+usar agora.
+
+Na verdade criar os operadores que vão ficar ali no meio é exatamente nosso processamento que vai ser
+
+que essa parte lá dentro do método do.
+
+Nós teremos vários operadores intermediários que vão processar os dados até que no final ele vai chegar
+
+aqui no console porque logo aquilo que a gente realmente quer.
+
+Então para a gente agora criar os operadores é o bolso ou pelo jeito que a gente já definiu anteriormente
+
+eu vou pagar um quarto que a gente fez no capricho do passado que foi de operador e seis nós temos esse
+
+metro que é o que vai nos ajudar a criar os operadores que vão sem cadeados.
+
+Então vou copiar isso e vou jogar esse método dentro do nosso arquivo de funções.
+
+A priori eu vou precisar desse método aqui apenas aqui dentro esse método nessa função me dizendo vou
+
+precisar apenas aqui dentro.
+
+Então não vou exportar ela para outro arquivo.
+
+Então primeiro que nós vamos precisar fazer seguindo a lógica aqui vai seu elementos terminados com.
+
+Então eu vou entrar aqui funções ponto de se pesquisar elementos terminados com que vou criar uma função
+
+que vai substituir não são elementos terminados como vou receber em determinado padrão padrão textual
+
+e eu vou querer retornar nessa função.
+
+O método cliente pagou o proveito.
+
+Ele vai receber como parâmetro subscrever e aqui ele vai retornar.
+
+Que ele vai retornar um objeto dentro desse objeto a gente tem um um do marketing que vai receber de
+
+fato o valor certo.
+
+Eu não vou mais receber agora o rei como era nesse exemplo passado eu vou receber um texto que vai ser
+
+o meu texto então basicamente o que eu vou fazer isso aqui.
+
+Sim o texto termina com o valor que realmente estou querendo procurar que o padrão textual.
+
+Se o texto.
+
+Termina com o padrão textual significa que eu vou chamar o sub escriba pontuou Macchi.
+
+Automaticamente ele baixa chamar Macchi caso aconteça um erro.
+
+A gente já tem essa função aqui um tratamento de erro jovem.
+
+Já temos o erro senão passar um erro.
+
+Ele vai pegar o padrão e quando terminar o operador anterior tenho mais opção.
+
+Ele vai automaticamente chamar o cúmplice do subscritor entendendo essa função já em cápsula.
+
+Caso não queira passar o erro o cúmplice que é o que eu vou fazer nesse caso a única coisa que eu preciso
+
+nesse caso ela menos exterminados com o chamado anexo.
+
+A partir de um texto não mais completo.
+
+E aqui eu verifico ser terminar com o padrão se eu vou querer ele eu passo pra frente caso contrário
+
+ao subscrever ponto Macchi vou passar aqui obviamente o texto.
+
+Caso contrário não vou fazer nada.
+
+Então essa é a nova função.
+
+Usando o X DS estava a apagar a versão antiga só pra gente ver se o resultado não vai ser exatamente
+
+como a gente quer.
+
+Vou colocar aqui e fini fini.
+
+Faltam elementos terminados com.
+
+Ponto SBT.
+
+Nesse caso temos a caixa do carro.
+
+Essa função aqui se você olhar essa função vai retornar.
+
+O cliente paga o bom direito que aqui dentro.
+
+A gente tem retorno de outra função atual.
+
+Quanto a Anac uma função que realmente vai receber o Observador anterior.
+
+Então acaba ficando uma função chamada outra função importante.
+
+Tá bem natural essa questão pra vocês para que não fique confuso o código aqui uma vez que você criou
+
+o operador certo pra reutilizar auxílio pra você construir o seu workflow bem tranquilo.
+
+E é exatamente aqui que você vai conseguir ver o grande porte porte funções pequenas e tal nesse caso
+
+já filtra ou apenas SRT.
+
+Se eu colocar pra pegar os arquivos que são TXT vou limpar aqui e resetar você vai ver que apenas 2
+
+arquivos foram omitidos no arquivo dela e o outro arquivo exatamente por conta desse aparador.
+
+Então vou colocar aqui SRT.
+
+Você precisa executar novamente o que funcionou corretamente.
+
+E o próximo aqui vai ser a leitura do arquivo.
+
+Então todos esses elementos podem ser tomados como desafios.
+
+Tá legal uma vez que você já viu o operador de criação no operador paca.
+
+Agora você pode por exemplo se quiser pausar nesse momento e não ir para a próxima aula e tentar fazer
+
+isso com desafio sem dúvida vai ser muito legal na próxima aula.
+
+Nós vamos fazer o arquivo que provavelmente vai acabar fazendo mais um operador por aula vai depender
+
+da complexidade de cada um deles entrar para a escola a gente continua continuando aqui a migração para
+
+encher de DS e até lá.

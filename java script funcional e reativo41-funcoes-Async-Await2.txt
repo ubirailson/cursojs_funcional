@@ -1,0 +1,309 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Async/Await2
+
+Agora nós vamos fazer o nosso segundo exercício relacionado assim ao Haiti para mostrar parte do tratamento
+
+dinheiro então para isso nós vamos criar aqui ou até pagar esse primeiro nome aqui basear ou criar um
+
+segundo arquivo chamado assim Witch 2.
+
+Outro dia esse e nós vamos usar.
+
+Eu acho que nós fizemos uma função em o beque Back 2 Black que foi ao Beco não foi Palmas para uns três
+
+mas fizemos essa função aqui ao gerar números entre o mínimo e o máximo que eu vou fazer eu vou pagar
+
+essa função que vai me ajudar a desenvolver esse exercício.
+
+Vou querer fazer uma pequena alteração nessa função é o seguinte eu vou querer gerar os números da Mega
+
+Sena então vou criar uma função que vai receber a quantidade de números por exemplo seis números sete
+
+números e aí ele vai gerar os números da Mega Sena.
+
+Só que para gerar os números na Mega Sena é interessante que eu passe para ele aqui um terceiro parâmetro
+
+para seus números proibidos por exemplo números que já foram sorteados anteriormente até porque eu não
+
+posso.
+
+Se eu vou gerar os seis números da Mega Sena não pode ter duplicidade nesses números então vou passar
+
+aqui números pró e lidos e vou logo depois gerar um número aleatório na linha 5.
+
+Eu vou fazer um trechinho ao números proibidos que é um rei ponto incluídos o número aleatório se ele
+
+inclui o número aleatório eu vou rejeitar essa promessa eu vou chamar aquilo que eu já tenho.
+
+Só que a gente viu que a gente consegue gerar um erro a partir do widget.
+
+Então vou chamar o widget se o número aleatório gerado está dentro dos números proibidos.
+
+Eu vou colocar aqui numero repetido para outro bi.
+
+Caso contrário meus eu vou chamar o jogo porque a gente já tem aqui passando aqui um número aleatório
+
+gerado para pra gente tá aí está eu vou chamar aqui onde será morreram entre por exemplo 1 e 5.
+
+Eu vou passar aqui um rei com o número 1 2 4 então ele só vai conseguir gerar dois números que é o 3
+
+e o 5.
+
+Então vou passar o que eu tenho só para jantar estar aqui no primeiro momento eu vou usar aqui.
+
+O rapaz que me consola apontou logo no dele e também no kart caso ele caia dos dois ele vai simplesmente
+
+largar seja o erro que eu joguei aqui número repetido ou mesmo o número que foi gerado.
+
+Então executado.
+
+Pois é que daquela vez valeu o 5 foi gerado vou estar aqui novamente julguei que ele gera mais algum.
+
+Vou limpar mais uma vez e acertar um numero repetido.
+
+Não está funcionando.
+
+Já gerou 5 já gerou o numero repetido legal então já caiu nos dois cenários que eu quero.
+
+Como é que nós vamos agora criar uma função ou criar uma função que eu vou chamar de gerar numero gerar
+
+Mega Sena na mega sena e eu vou passar aqui a quantidade de números que eu quero que sejam gerados aqui
+
+eu posso fazer o seguinte.
+
+Eu posso colocar só.
+
+Vou que o leite não vou me importar com o número off.
+
+Tenho um método do Harry que é o seguinte se eu colocar a Rei das exposições chamar o método pode ser
+
+o método Phil ou mesmo o método que isso tanto faz ele vai gerar gerar para a gente um tarado ou mesmo
+
+um método frio.
+
+Ele vai gerar aqui vários valores para sendo Farid não tem problema.
+
+Ele vai gerar desvaloriza valores haver falhas porque eu não vai me interessar pegar os valores.
+
+Não quero simplesmente pagar os valores eu quero simplesmente percorrê por exemplo só com a quantidade
+
+de elementos que eu recebi aqui.
+
+Então essa é uma forma que você consegue fazer sem necessariamente precisar criar uma variável sem precisar
+
+criar estabilidade.
+
+Você simplesmente vai dar um só em cima de um Harry que tem um tamanho já permite que você quer e outras
+
+linguagens você tem um raiz humano Python.
+
+Acho que no ramo também há mais aqui você consegue fazer dessa forma.
+
+E o que é que eu vou querer fazer aqui eu vou criar a receita é um constante vou chamar aqui de números.
+
+Esse Harry vai iniciar vazio e no final das contas eu vou querer chamar esse método ou gerar números
+
+entre não tem como gerar de forma paralela.
+
+Até porque eu preciso garantir que não vai haver duplicação.
+
+Não passa aqui um número com o número 60 e vou passar os números.
+
+é exatamente esse aí.
+
+Se já tiver dentro do números eu não vou querer que ele adicione ele vai gerar um erro legal como é
+
+que eu faço agora pra usar 50 ou apagar esse texto de baixo pra usar assim que é preciso primeiro marcar
+
+essa função como função assíncrona.
+
+Então tá aqui agora que eu marquei com assíncrona eu consigo por exemplo chamar o hoje.
+
+E aí ele vai esperar a geração para geração vou querer colocar isso dentro de um rei.
+
+Existe um cuidado que você tem que ter que é o seguinte jogos bons Boca não tem White aqui eu vou colocar
+
+números ponto.
+
+Pois que eu estou trabalhando com um dado mutável eu estou alterando esse dado sempre.
+
+é uma questão menos crítica nesse caso porque é algo que você criou internamente tem dar função certo.
+
+Então isso não vai gerar impacto fora.
+
+Então trabalhar muita habilidade dentro de um escopo restrito ok.
+
+A não ser que você esteja trabalhando com a linguagem puramente funcional como é o caso do rascunho
+
+zero que você vai ter outras estratégias para fazer isso provavelmente com recursão mas aqui em JavaScript
+
+é plenamente aceitável você trabalhar como estabilidade local dentro da função.
+
+Então coloquei um Push vou gerar valor e aí você pode achar por exemplo que o local da palavra ou seja
+
+aqui.
+
+Mas na verdade não é porque é que eu não vou colocar lá o que na verdade é porque não é a função puxe
+
+a função que vai torná lo para isso quem vai retornar para Holmes.
+
+Essa função aqui ou seja uma função assíncrona porque toda função assíncrona retorna para um mês ou
+
+uma função que retorna mas que não é uma função assíncrona.
+
+Então ao Haiti vai ficar juntamente da função que vai retornar para onde seja a função retornando para
+
+Holmes porque ela assíncrona seja uma função que você simplesmente retornou para Holmes como é o caso
+
+da função gerar números entre então nesse ponto o que você vai querer esperar para só então quando essa
+
+função retornar ao valor certo que está dentro da promessa se você jogar esse valor dentro de uma rede
+
+de números.
+
+Então para cada execução ele vai esperar até que no final ele vai retornar aqui porque o valor de números.
+
+Nesse caso eu pedi para ele gerar aqui gerar mega-sena e eu vou colocar aqui por exemplo quero oito
+
+valores vou chamar aqui eu bem e vou passar aquilo que consome fotolog.
+
+E eu passo aqui para Rocket.
+
+Caso aconteça um erro vai mostrar aqui o console pontuou algo também.
+
+Então nesse caso agora ele vai gerar a quantidade de vezes que eu pedi.
+
+Então gerou aqui que conseguiu sem gerar nenhum erro.
+
+Provavelmente se eu pedir para gerar aqui 15 vezes a chance de ele não era bem maior.
+
+Então acerta novamente gerou aqui o problema de número repetido.
+
+Como você trata o erro dentro de uma função assíncrona basicamente torrefação nesse exemplo só pra mostrar
+
+isso e falando mais algumas coisas alguns detalhes para você entender realmente como funciona a questão
+
+do Wii sei exatamente qual a função que retorna sempre.
+
+Talvez seja porque assíncrona ou pouco você tomou de forma explícita então aqui ao colocar um trailer
+
+e vendo extrai você pode colocar o coelho que eventualmente vai gerar um problema.
+
+Então nesse caso o que vai acontecer aqui é que ele vai cair dentro desse Cat.
+
+Aqui você pode lançar a exceção novamente ou você pode dar um tratamento tentar se recuperar da falha
+
+digamos assim.
+
+Então eu posso por exemplo um troll aqui chato por exemplo só pra me achar pra você o que vai cair aqui
+
+dentro do Taiti não é mais.
+
+O problema foi gerado aqui no widget e sim um problema que foi gerado a partir do solo.
+
+Então acertando o nosso código você vai ver que ele gerou outro sem problema nenhum apertar mais uma
+
+vez para ver se ele era um problema então algo nesse caso gerou um problema chato porque ele caiu no
+
+kart e aí sim saiu essa ação ou seja a forma que você tem pra rejeitá lo como se dentro de uma função
+
+assíncrona e gerando essa ação.
+
+A forma que você tem pra resolver uma promessa dentro de uma função assíncrona é simplesmente retornando
+
+o valor.
+
+Então quando você retorna o valor você resolveu.
+
+A promessa e quando você lançou essa ação você está rejeitando uma promessa porque sempre que você marcou
+
+função assim com essa função vai retornar uma promessa tanto é que eu preciso chamar alguém que não
+
+vai executar a função certa assim como então nesse caso se você quisesse você até poderia tentar mais
+
+uma vez.
+
+Você poderia aqui colocá la a quantidade de tentativas para eventualmente se não conseguir em cinco
+
+tentativas.
+
+Ele geram essa ação.
+
+Então poderia por exemplo que tem tentativas recebe la seria a primeira tentativa.
+
+E aqui você pode passar pra ser a tentativa mais de que seria a segunda tentativa e etc.
+
+Caso por exemplo a quantidade de tentativas seja maior do que se tentativas for maior do que 10 significa
+
+que você quer por exemplo melhorar essa ação que já está muito difícil de conseguir gerar números independentes.
+
+Caso o usuário passe por exemplo 30 números.
+
+E aqui você lança lá não deu certo.
+
+Caso contrário ou seja ainda não atingiu o número de tentativas.
+
+Ele vai tentar novamente.
+
+Então nesse caso tentar gerar 15 números a chance de ele conseguir vai ser muito grande e ele retornou
+
+aos adversários e tomando a ideia.
+
+Claro que tem algoritmos que são bem mais otimizados do que isso.
+
+BAD está chamando aqui de forma recursiva não é exatamente a melhor forma de você gerar os números da
+
+Mega Sena.
+
+Eu sei disso.
+
+Inclusive o próprio número geralmente já poderia resolver se ele não conseguiu gerar aqui fazer um apelo
+
+pra ele ficar gerando só que eu queria realmente jogar o erro caso ele não conseguisse.
+
+A ideia desse exercício não é tanto fazer um algoritmo mais sofisticado mais algoritmo mais otimizado
+
+e sim a gente focar na questão do tratamento de erro.
+
+Essa ideia maluca dos números da Mega Sena.
+
+Então nesse caso como ele vai tentar dez vezes aqui você está fazendo os dois casos ele está tentando
+
+novamente.
+
+Caso dê problema se ele não conseguiu por várias vezes aí sim você joga uma mensagem de erro na cama
+
+pra ver o jogo se ele vai executar não deu certo.
+
+Tentar mais uma vez que ele gerou mais outra vez gerou mas outra vez gerou a maioria vai.
+
+Se eu começar a aumentar muito aqui por exemplo 25 números a chance de não dar certo já passa a ser
+
+bem maior.
+
+Não deu certo não deu certo não deu certo.
+
+E se você tentar por exemplo 100 vezes é possível até que ele consiga vieram conseguiu 25 números independentes
+
+sem repetição já que eu tentei sem bem legal então para isso mostrar o tratamento de erro.
+
+Bem Simples né.
+
+Como você está vendo que uma função assíncrona o retorno significa exatamente isso.
+
+Quando você joga com essa ação você está rejeitando a execução da promessa.
+
+O caso aqui que eu tratei o erro e tentei novamente mostra claramente que a função só vai gerar o Idec
+
+quando você lançar uma sessão saindo da função.
+
+O fato de ter acontecido o erro que não necessariamente vai chamar diet o que vai definir exatamente
+
+o que você vai fazer com ele se você não tratar o que é chamado esse você de forma explícita lança o
+
+erro.
+
+Também será chamado para isso pra complementar essa ideia do que Weiss e até para os mal.

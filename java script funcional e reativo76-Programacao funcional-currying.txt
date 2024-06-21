@@ -1,0 +1,447 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Currying
+
+Nesse vídeo eu quero falar de uma técnica muito importante que é o carinho e o carinho.
+
+Esse nome vem do Race que eu vi que é um matemático.
+
+Inclusive foi ele um dos criadores dessa técnica na verdade dois grupos criaram essa técnica ao mesmo
+
+tempo mas depois de alguns anos o nome da técnica foi dado em homenagem a esse cara que tanto criou
+
+a linguagem acho que rasca que deu foi a inspiração na linguagem rasca como também nessa técnica chamada
+
+Carry o sobrenome dele é a técnica que nós vamos criar aqui um exercício faz o seguinte eu vou quebrar
+
+o exercício várias versões que eu vou colocar aqui ou ali com um carrinho vou colocar que exercícios
+
+versão um ponto de acesso e no geral o exercício é um versão dois são três ao mesmo exercício.
+
+Quero quebrar vários arquivos para ficar um pouco mais organizada.
+
+Então nós vamos começar criando uma função sem o uso de carrinho para a gente entender o porquê que
+
+ele é importante e tem tudo a ver com a questão de uso.
+
+Como você pode compor melhor as funções uma vez que você cria uma função com o carrinho e a primeira
+
+pergunta é o que é o carrinho.
+
+A gente já usou anteriormente.
+
+Quando você quer em vez de você passar todos os parâmetros uma única vez para a função você passa os
+
+parâmetros de forma parcial.
+
+Eu vou colocar aqui um exemplo muito simples eu vou apagar esse exemplo positivo por exemplo oficial
+
+se você criar uma função que por exemplo a função soma que recebe a b e c e você vai retornar nessa
+
+função a mais b mais C.
+
+Nada mais justo do que você chamar a função na console.
+
+Outro blog chamada função soma passando aqui o valor de 1 2 e 3 o resultado vai ser 6.
+
+Como é de se esperar então a executar aqui ao resultado 6h.
+
+Se você aplicar a técnica do carrinho nesse caso nós vamos fazer o seguinte ao invés de essa função
+
+receber os três parâmetros essa função vai retornar uma outra função.
+
+Outra que vai receber o parâmetro b que vai retornar uma outra falando que vai receber o parâmetro c
+
+e da Bretanha pra mim tal função.
+
+Obviamente a primeira função já não vai receber os três parâmetros.
+
+Então nesse caso eu vou chamar a função vou ter um pouquinho mais de trabalho para chamar a função.
+
+O que eu precisar chamadas de forma em vez de balsa por Vigo ou então dois e três.
+
+Mas o ganho de flexibilidade é muito grande.
+
+Eu vou limpar aqui vou executar e você vai ver que o resultado é exatamente o mesmo legal.
+
+é difícil provar pra vocês que o ganho de flexibilidade é grande principalmente no que se trata de uma
+
+função muito pequena mas vou criar aqui um exemplo um pouco mais complicado não fazer o seguinte eu
+
+vou criar uma função que eu chamei aqui de texto texto com tamanho entre vai ter um valor mínimo no
+
+valor máximo uma mensagem de erro e o texto que você quer validar imagine que você aqui imagina.
+
+Esse sim é um método que vai fazer uma validação na sua aplicação você vai precisar o tempo todo de
+
+validação e saber se o texto está dentro de um tamanho especificado.
+
+Saber se um determinado valor está preenchido ou não está terminado o atributo é falso ou verdadeiro.
+
+Então você vai ter uma série de funções que vão te ajudar na validação que é uma delas.
+
+Por exemplo você verificar se o texto está em um tamanho mínimo e máximo então basicamente como fazer
+
+o seguinte eu coloquei o constante constante tamanho eu vou fazer o mínimo de proteção se o texto não
+
+estiver acertado vosso meu texto como o vazio o que eu estou imaginando que eu vou realmente receber
+
+um texto string.
+
+Vou aplicar a função Trim para tirar os espaços brancos e vou pegar o tamanho desse texto.
+
+Agora peguei o tamanho aqui há tamanho legal.
+
+Com isso o que vou fazer.
+
+Ou fazer um caixão.
+
+Se o tamanho for menor do que é o mínimo ou o tamanho tamanho for maior do que o máximo significa que
+
+eu tenho um texto inválido.
+
+Então o que é que eu vou fazer aqui.
+
+Eu vou lançar exatamente esse erro que foi passado aqui onde rolou um erro.
+
+Então essa implementação na função vai me ajudar a validar um determinado texto de algum objeto.
+
+Então vou criar aqui um objeto por exemplo vai apresentar um produto.
+
+Vou ter o nome do produto.
+
+Ser apenas a letra A.
+
+Vou colocar o resto do valor.
+
+Por exemplo o preço 14 ponto 99 é um desconto de 0 ponto 25.
+
+Você pode criar uma validação para verificar se o preço está dentro de determinado intervalo na minha
+
+loja.
+
+Eu não vendo.
+
+Tudo abaixo das reais por que não compensa o frete.
+
+Então você pode colocar uma ligação por exemplo pra isso obrigatoriamente tem que ser maior igual 10
+
+reais e o preço tem que ser menor do que um determinado valor.
+
+Por exemplo que você não vende acima daquele valor.
+
+Por uma questão de selagem por sei lá qualquer coisa você pode também criar validações para verificar
+
+numeros em determinados intervalos.
+
+Certo é aqui por exemplo no desconto você tem um desconto válido apenas entre 0 e 1 1 600 000 por cento
+
+de desconto.
+
+Você não pode apresentar um desconto.
+
+2 3 porque isso violaria por exemplo a regra que você estabeleceu para essa variável também seria um
+
+outro atributo que você poderia aplicar.
+
+A validação legal.
+
+Então vamos lá.
+
+Nesse caso eu vou chamar aqui um texto com tamanho entre eu coloquei o tamanho de 4 e 255.
+
+A mensagem de que eu coloquei no homem inválido e eu vou aplicar aqui pelo um ponto o nome é similar
+
+a alegação da forma como a gente implementou ele vai jogar aqui uma mensagem de erro é exatamente daquele
+
+nome é válido.
+
+Então nós fizemos aqui a nossa implementação básica e a frase Não vou copiar aqui a versão B2 do nosso
+
+no nosso código para que a gente possa deixar a versão anterior.
+
+Você vê esse rastro aqui do reuso.
+
+Então vamos lá.
+
+Agora eu vou aplicar o carry em cima dessa validação aqui eu estou meio Robocop até o pescoço e mais
+
+a mão Arregaça.
+
+Então aquele texto com tamanho entre eu vou criar aqui retornar uma função que eu vou receber o valor
+
+máximo aí dentro dessa função eu vou retornar uma outra função que pode no final colocar o falante pra
+
+ficar sem espaço um pouco menos pesada.
+
+Vou colocar aqui que vai ser meu erro e a Ordem dos parâmetros vai influenciar muito na forma como você
+
+usa por exemplo e todos esses parâmetros aqui.
+
+Eu acredito que o mínimo é o máximo eu posso realizar com maior frequência.
+
+Depois eu posso realizar o erro e por último o que é mais volátil o que vai mudar mais frequentemente
+
+o texto.
+
+Por isso que ele entrou no último dos parâmetros exatamente para ele ficar o mais tarde possível na
+
+hora de passar os parâmetros exatamente como tenho de fato testículo quero aplicar a lógica a primeira
+
+função retorna a função que recebe ao máximo a outra recebe o erro e finalmente eu tenho a última função
+
+com a Foundation quem recebe o valor de texto nesse caso eu não vou mais receber esses três primeiros
+
+parâmetros aqui todas as funções recebem apenas um parâmetro e eu vou jogar essa lógica aqui para dentro
+
+da minha função texto uma caixa importante quando você quebra a sua função em passagem de parâmetros
+
+parcialmente ou seja usando o carry você automaticamente vai receber o cara chamado Luis Evaluation
+
+que uma característica é um recurso muito importante da programação funcional é você avaliar parte do
+
+código ou código completamente de forma tardia exatamente porque você vai olhar achar para vocês que
+
+a gente vai ter versões parciais da nossa função só site uma versão anteriormente lá na versão 1 ponto
+
+zero.
+
+A gente só tinha como chamar essa função aqui de uma única forma vocês vão ver que agora gente vai ter
+
+várias formas diferentes de chamar a mesma função e é interessante a gente atrasar o processamento o
+
+mais tarde possível para que a gente possa ocupar o mínimo de processamento de forma antecipada.
+
+Então antecipar o processamento não é bom atrasar o processamento deixar para depois pra só realmente
+
+quando ele for necessário.
+
+Sem dúvida é a melhor solução e eventualmente até com esse conceito né.
+
+Até colocar aqui um comentario o Luis Evaluation.
+
+Ou seja você também pode até ganhar por exemplo o tempo de processamento depender de como você vai rearranjar
+
+a função.
+
+Vou mostrar isso pra vocês no exemplo especificamente de leis abaixo mas aqui a gente já está falando
+
+sobre isso.
+
+Ou seja essa função só será executada completamente quando você passar o parâmetro mínimo o parâmetro
+
+máximo o parâmetro.
+
+Até então ela não processou nada.
+
+Apenas quando você passa o último parâmetro que o parâmetro de texto.
+
+Aí sim a função será avaliada.
+
+Legal uma vez que eu mudei o nossos parâmetros para usar o carrinho.
+
+Agora a gente vai ter um pouquinho mais dificuldade para passar os parâmetros porque não pode ser usado
+
+vírgula.
+
+A gente não vai passar todos os parâmetros de uma única vez mas vamos passar de forma parcial.
+
+Daí a gente tem que usar esses parênteses então aquele nome inválido vou jogar pra cá.
+
+E finalmente eu vou passar aqui o outro nome e vou apagar o resto terá função legal.
+
+Tem exatamente o mesmo comportamento anterior só que agora a gente está passando os parâmetros de forma
+
+parcial com a vantagem de fazer isso a vantagem é que a gente vai começar agora conseguir criar versões
+
+intermediárias das soluções que vão achar pra vocês aqui.
+
+Eu vou criar uma função que eu vou chamar aqui ao constante forçar tamanho tamanho padrão.
+
+Um pouco na minha aplicação eu tenha um tamanho padrão de texto tamanho padrão de texto vai ser algo
+
+entre 4 e 255.
+
+Da mesma forma que eu coloquei aqui por exemplo o nome vai respeitar o tamanho padrão assim como o nome
+
+indica.
+
+O cliente também vai respeitar o tamanho padrão.
+
+O nome de um endereço vai respeitar o tamanho padrão eu quero usar isso em vários pontos de diferença
+
+minha aplicação.
+
+Nesse caso eu posso criar uma versão intermediária da função e associar a isso aqui ao forçar tamanho
+
+padrão.
+
+Nesse caso essa função vai lançar uma exceção depois vou mostrar para vocês como a gente pode encapsular
+
+o tratamento de exceção bem de outra função.
+
+Vai ser a versão 3 aqui no nosso exemplo.
+
+Então percebam que agora eu realizei uma parte da lógica da nossa função.
+
+Agora eu tenho que ao forçar tamanho padrão é a única coisa que eu preciso fazer é passar o nome do
+
+erro e o valor que eu quero validar o texto que eu quero validar a mensagem de erro melhor dizendo e
+
+depois o texto que eu quero validar agora com essa versão intermediária da função eu consegui.
+
+A partir de uma única função criar uma segunda função exatamente com alguns parâmetros resolvidos.
+
+Vamos supor que eu queria criar uma outra função constante.
+
+Vocês percebem que você consegue ter o uso e criar várias versões diferentes por conta do carinha é
+
+exatamente esse é o benefício que você tem usando o que você consegue criar versões parciais e que por
+
+conta que a nossas funções em JavaScript são Cláudia no momento que você criou a função passando o valor
+
+de 4 para mínimo e máximo 255.
+
+Essa função que erro que foi retornada ela vai lembrar do valor máximo e mínimo que foi passado de tal
+
+forma que eu posso criar aqui uma segunda função que eu chamei aqui.
+
+Forçar o nome do produto válido e aqui eu posso pegar essa função aqui ao forçar tamanho padrão já com
+
+a mensagem de que eu quero posso até colocar o nome em produto inválido.
+
+Você pode melhorar a mensagem colocando por exemplo os tamanhos mínimos e máximos tal.
+
+O fato é que agora eu posso chamar aqui embaixo.
+
+Essa função passa agora apenas o valor p 1 como se fosse uma função normal como você já está acostumado
+
+a chamá lo um parâmetro de todos os parâmetros.
+
+Uma única vez mas nesse caso a gente teve um ganho muito grande exatamente com o que a gente conseguiu
+
+realizar parte das funções.
+
+E essa é uma das grandes vantagens do Cariri.
+
+Muito legal essa técnica vai te ajudar muito a ter um grau de uso muito maior na sua aplicação exatamente
+
+porque você consegue salvar versões parciais das funções e aproveitando toda uma lógica sem necessariamente
+
+você precisar ficar criando funções versões espaciais com códigos internos que você mais difícil de
+
+manter.
+
+Nesse caso eu tenho apenas uma única função e eu criei versões espaciais dela exatamente para cada necessidade
+
+legal ou criar aqui uma versão 3.
+
+A nossa função no nosso Exército de Liberação 3 eu vou fazer o seguinte vamos supor que você não queira
+
+que todas as funções gerem essa ação.
+
+Você quer criar uma função que vai encapsular o tratamento de erro para você.
+
+Então a gente pode também usar Kerry aqui ou criar uma função falando que eu vou chamar de aplicar validação
+
+e aí eu vou receber aqui uma função de validação e vou receber por exemplo um determinado valor que
+
+eu quero aplicar nessa validação.
+
+Tanto faz que valor esse vai ser um texto se vai ser um valor genérico não importa aqui dentro eu vou
+
+fazer um traficante eu vou colocar aqui enquete embaixo eu vou retornar um objeto com uma mensagem dizendo
+
+exatamente aquilo que eu recebi aqui no Canaltech e aqui dentro do trailer eu vou chamar o afim passando
+
+o valor que eu recebi.
+
+Legal nesse caso eu não estou usando corrida então se eu quiser por exemplo chamar uma validação específica
+
+eu não vou conseguir realizar ok o que eu vou precisar chamar aplicava a ligação passando aqui o nome
+
+da função que eu quero aplicar que é um falso nome produto válido passando o pé eu não consigo gerar
+
+uma versão intermediária dessa função.
+
+Eu tenho que colocar aqui ao console o ponto log e usar isso se eu quiser um produto dois por exemplo
+
+eu tenho um produto dois que o nome dele é a b então P2 eu preciso chamar de novo aplicava a ligação
+
+passa a não forçar o nome do produto e aqui.
+
+No P2 exatamente porque nesse caso não tem como usar versos intermediários da função porque eu não usei
+
+o carro e agora se aplica a carga e como é que vai ficar.
+
+Nesse caso a gente vai retornar a uma função de volta aqui.
+
+Essa função vai receber o segundo parâmetro que é o valor somente nesse momento.
+
+Quando tiver a função e o valor que eu vou fazer avaliação tardia realmente fazer o processamento se
+
+eu passo apenas a função.
+
+Eu não vou fazer processamento nenhum.
+
+Aqui também nós temos o famoso Luis Carvalho legal.
+
+Como é que eu posso agora faturar o meu código.
+
+Agora em vez de eu chamar isso de forma explícita eu vou criar uma constante que eu chamei aqui de validar
+
+não um produto.
+
+Aqui sim eu vou chamar o metro aplicar a validação com essa função que ao forçar o nome do produto válido
+
+e aqui embaixo.
+
+Olha como vai ser muito mais simples.
+
+Eu não vou mais precisar chamar essa função dentro da outra.
+
+Eu simplesmente chamo isso a qualidade do produto vale.
+
+Eu vou substituí lo aqui por ali dá nome do produto passando o P2.
+
+Muito legal essa técnica vai te ajudar muito com as duas funções certo é o carro.
+
+Ele é uma técnica tão importante que lá no lambda cálculo que é a base da programação funcional todas
+
+as funções necessariamente usam.
+
+Não tem nenhuma função que recebe dois parâmetros ao mesmo tempo todas as funções e tornam outras funções
+
+que recebe apenas um único parâmetro.
+
+Isso acontece muito frequentemente também em linguagens puramente funcional por exemplo.
+
+Por padrão no Raskin Você também vai usar Chrome a não ser que você Force para não usar mais como padrão.
+
+O uso de campanha acontece em todas as funções daí o grau de importância que você percebe que essa técnica
+
+tem para programação funcional exatamente porque você consegue compor melhor essas funções e tem um
+
+grau de uso bastante interessante.
+
+Então é isso que eu tinha para falar para vocês pessoal em relação ao Chrome.
+
+é algo muito importante você precisa estar atento ao uso de carro porque sem dúvida ele vai te ajudar
+
+bastante na construção das suas soluções e principalmente na questão do uso das suas funções.
+
+Você vai conseguir criar uma série de funções diferentes exatamente porque você atrasou a passagem dos
+
+parâmetros.
+
+Você ganhou ainda essa questão do laser valuation ou seja nesse momento aqui na linha 27 não houve processamento
+
+da regra na linha 28 não houve processamento da regra na linha 29 também não houve processamento.
+
+Você passou parte dos parâmetros somente na linha 33 da linha 34 que foi de fato quando você passou
+
+o parâmetro.
+
+Aí sim foi processado o código.

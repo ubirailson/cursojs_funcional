@@ -1,0 +1,428 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Declarativo vs Imperativo
+
+Só nessa aula eu vou falar sobre a diferença entre o código declarativa e um código imperativo e eu
+
+tive certa dificuldade no começo para entender esse conceito essa diferença exatamente o existem algumas
+
+frases que não é tão fácil você exatamente capturar a mensagem como por exemplo o estilo de código declarativa.
+
+Ele não diz como ele diz o que.
+
+Ou seja o que tem que ser feito não como deve ser feito já um estilo de código imperativo ele diz isso
+
+como deve ser feito ou seja ele entrou nos detalhes ensina o contador passo a passo de como deve ser
+
+feito.
+
+Eu tinha uma certa dificuldade no começo de entender isso e eu vou tentar explicar de uma forma bem
+
+tranquila para que esse conceito fique fácil.
+
+Se você programa de forma mais procedural ou se você programa de forma mais orientado a objeto você
+
+já está acostumado com um padrão hiperativo certo a novidade que seria o padrão declarativa ou padrão
+
+decorativo vai ser abordado durante todo o curso.
+
+Nós iremos escrever durante todo o curso o código o estilo de programação declarativa que é exatamente
+
+o estilo da programação funcional.
+
+Então vou mostrar para vocês aqui a apresentação para que a gente possa falar um pouquinho sobre a diferença
+
+desses dois estilos de código você escreveu um código mais ativo entre você escreveu Cole universos
+
+escrever um código mais interativo estão lá fazendo aqui a diferença entre os dois e você tem o código
+
+imperativo que é o que é mais comum e mais popular que a base da programação procedural é a base da
+
+programação orientada a objeto que é o foco no fluxo.
+
+Você acaba escrevendo muito como as coisas devem ser feito todo o fluxo de como funcionar cria uma variável
+
+adicional variável faz aqui um laço forte conta se a variável menor do que o tamanho de alguma coisa
+
+não.
+
+Rui Tavares sabe habitam você acaba trabalhando muito nessa questão do fluxo geral declarativa ele foca
+
+muito na questão mais a questão da lógica certo isso não não é preto e branco não era no sentido de
+
+que eu tenho somente foco no fluxo somente o foco na lógica você tem um foco maior na lógica mas eventualmente
+
+você vai precisar mexer um pouco o fluxo assim como também no imperativo imperativo você trabalha dados
+
+mutáveis e já não declarativa se tem um foco muito grande na imutabilidade e você deixa pra ter dados
+
+mutáveis.
+
+Mesmo o código mais ativo é esse cálculos muito pequenos ou seja dentro de uma função você cria uma
+
+variável você faz a mudança lá eventualmente não vai ter problema mas o foco muito maior é você trabalhar
+
+com dados imutáveis você não altera os dados que já existem.
+
+Você pode criar novos dados como evolução na qualidade que já existe hoje pra vocês um exemplo é você
+
+tem um array com por exemplo 10 produtos e você precisa excluir um produto em vez de você excluir um
+
+array que já existe.
+
+Você cria um novo rei com 9 produtos antigos endereço continua existindo.
+
+Você cria o outro com o novo produto Seleuco e a vantagem disso existe uma série de vantagens com relação
+
+a essa questão.
+
+Se trabalhar com imutabilidade.
+
+Um exemplo é você trabalhar com estabilidade e o fato de que você consegue trabalhar muito melhor com
+
+ambientes de múltiplos processamentos de múltiplas trades.
+
+Mas a gente vai entrar muito em detalhe durante isso no curso dos benefícios eu vou falar isso em muitos
+
+casos na prática.
+
+Pra vocês entenderem mais o código nativo está sempre alterando as variáveis e mexendo nas variáveis
+
+de um código declarativa trabalhar grande parte do tempo com a imutabilidade o imperativo ele tem um
+
+foco no comum ou seja ele tem um foco em explicar como cada passo deve ser feito.
+
+Já o declarativa ele foca no que precisa ser feito e não como o como ele deixa para a linguagem resolvê
+
+lo.
+
+E no código você vai dizer apenas o que você quer que seja feito no cartão.
+
+A partir você tem uma maior quantidade de código já que você precisa explicar exatamente como deve ser
+
+feito e não declarativa.
+
+Você tem uma menor quantidade de código uma coisa por exemplo daqui um exemplo de como seria essa diferença
+
+entre o imperativo da cara ativo no mundo real você tem um funcionário da sua empresa e você vai pedir
+
+para o funcionário pagar uma conta como seria pagar uma conta.
+
+A estratégia mais declarativa você chama um funcionário por exemplo na sua sala de jogos eu quero que
+
+você pague uma conta a que está aqui o papel dar conta e aí você não diz absolutamente nada.
+
+O funcionário já sabe que ele vai pagar a conta vai descer no prédio vai atravessar a rua vai andar
+
+200 metros vai entrar na casa lotérica e vai pagar aquela conta e vai trazer.
+
+Com a o carimbo de que foi pago pronto.
+
+Você disse apenas que ia pagar uma conta.
+
+Passou o parâmetro de entrada que seria o papel da conta e depois de um tempo chega de novo funcionário
+
+com a conta paga na sua mesa ou seja dá um retorno naquele processamento.
+
+Já no caso de uma estrutura imperativa você vai chegar e chamar um funcionário na sua sala de aula.
+
+Eu quero que você paga a conta.
+
+Então você vai sair do nosso escritório vai pegar o elevador vai clicar no botão B.
+
+Seu pai Kim ou o zero para facilitar aqui eu tenho.
+
+E aí você vai andar na rua tal.
+
+Você vai atravessar a rua na altura da Rua X.
+
+Você vai andar cem metros vai entrar na casa lotérica vai esperar na fila.
+
+Quando for sua vez a fila vai andando.
+
+Quando chegar sua vez você vai se dirigir ao caixa que foi informado no painel eletrônico.
+
+Depois disso você vai pedir para a moça que quer pagar a conta.
+
+Você vai passar a conta.
+
+Vai passar o dinheiro não vai embora espera receber a resposta que é o troco e a conta com um comprovante
+
+que foi paga.
+
+Você vai voltar por esse caminho.
+
+Vai pagar e abordou novamente em clicar no décimo andar.
+
+Voltar para a sala entrar aqui e me entregar.
+
+Ou seja nesse segundo caso você acabou dizendo como deve ser feito.
+
+Claro que aquilo deu exagerada mas o fato é que vai depender muito da linguagem de programação quando
+
+a linguagem e a linguagem de mais baixo nível esse como precisa ser muito detalhado exatamente porque
+
+você não tem tantos comandos de alto nível quando é uma linguagem de mais alto nível.
+
+Como fica facilitado porque você vai conseguir usar funções que tem o mais alto nível.
+
+E aí você vai ter um código mais simplificado mais essa a comparação entre você e dizer o que você quer
+
+declarativa você tem que explicar exatamente o passo a passo e o algorítimo.
+
+Quando você usa uma estrutura mais imperativa.
+
+Continuando aqui você tem uma quantidade de código imperativo menor quantidade de código acaba ativo.
+
+Isso vai ficando cada vez mais evidente quando você vai para cenários mais complexos exatamente porque
+
+em cenários muito pequenos ou muito localizados a diferença de corte já não é tão grande mas quando
+
+você vai para cenários mais complexos e você começa a promover uma maior quantidade de uso você vai
+
+ter um código significativamente menor.
+
+Legal ou imperativo você tem um baixo nível de escalabilidade e não declarativa você tem um alto nível
+
+de escalabilidade exatamente pelo fato de que eu falei em relação ao trabalhar com múltiplos estresses.
+
+Quando você trabalha com múltiplos trainees de um lado no caso hiperativo você vai ter uma dificuldade
+
+exatamente porque ele trabalha muito com dados mutáveis e já difícil trabalhar mexer em dados com múltiplas
+
+traz você eventualmente pode ter problemas.
+
+E no caso da cara Tio você consegue trabalhar com bases imutáveis e isso acaba escalando mal o padrão
+
+hiperativo ele é mais conhecido os programadores do que o declarativa que é menos conhecido.
+
+O imperativo ele é mais explícito fica mais fácil você vê no padrão imperativo o código é exatamente
+
+a lógica que a lógica está mais explícita ou seja como está bem descrito no seu algoritmo.
+
+Já no caso declarativa ele é mais implícito ou seja menos explícito o que torna muitas vezes você leu
+
+o código não mais difícil mas o primeiro momento você vê que o código está fazendo muita coisa por baixo
+
+e você precisa na verdade se acostumar com essa abordagem mais implícita e menos explícito.
+
+Aqui existe uma outra questão que também vale a pena ressaltar que é exatamente uma desvantagem do padrão
+
+funcional ou seja do modelo mais declarativa principalmente por trabalhar com imutabilidade.
+
+A questão é que no modelo imperativo você acaba consumindo menos memória e você acaba tendo um código
+
+mais rápido exatamente porque você trabalha com dados mutáveis ou seja se você tem uma lista de mil
+
+elementos você não precisaria criar cópia desses elementos para alterar a lista.
+
+Já no modelo declarativa trabalhando com muita habilidade você precisaria estar gerando novas versões
+
+desses dados.
+
+Claro que você pode sempre criar uma estratégia pra tentar diminuir essa carga de consumo de memória
+
+e de processamento.
+
+Você pode estabelecer estratégias que podem te ajudar nisso mas via de regra como imperativo hoje trabalha
+
+com dados mutáveis.
+
+Não tem tanto problema você pegar uma estrutura que tem por exemplo a quantidade considerável de dados
+
+e alterar essa estrutura sem necessariamente precisar criar uma cópia ou com nenhum desses dados.
+
+Então vale a pena dar esse ponto positivo pro lado imperativo em relação que você consegue criar um
+
+código menos usável mais que eventualmente pode ser mais rápido do que um código declarativa que é um
+
+código mais realizável abre mas via de regra pessoal sendo bem sincero com vocês.
+
+O maior gargalo que eu vejo nos projetos reais não é necessariamente um problema de desempenho.
+
+O problema de código mal escrito de você tem várias duplicações no código você Piccolo repetido em todo
+
+canto você tem uma dificuldade eu uso coisas do tipo.
+
+é isso padrão imperativo ele é inferior do que o padrão declarativa que você consegue e tem um uso mais
+
+interessante.
+
+Tem uma série de conceitos que eu vou acabar trabalhando com vocês durante o curso eu quero mostrar
+
+pra vocês aqui o exemplo de código é um código bem simples o código SQL e eu quero que vocês me digam
+
+esse código ele é um código mais imperativo olhar o código mais declarativa que é que eu estou colocando
+
+aqui ou Select matrícula nome e meio e média no qual a média seja maior ou igual a 9 eu quero pegar
+
+por exemplo todos os alunos que têm uma média igual a 9 e eventualmente oferecer para as famílias um
+
+desconto na mensalidade.
+
+São alunos muito importantes para a instituição e a gente quer fidelizar esses alunos aqui.
+
+Então essa consulta SQL ela diz isso como deve ser feito.
+
+Ora diz o que é que deve ser feito então nesse caso com a linguagem SQL como todo não apenas essa consulta
+
+é uma linguagem que tem o estilo declarativa.
+
+Exatamente porque você não está dizendo pro banco de dados como é que ele deve percorrer a tabela dos
+
+alunos pra realmente pagar os alunos que tem a média maior que o 9 maior ou igual a 9 se ele vai usar
+
+o índice se ele vai percorrer a tabela inteira se ele vai começar de cima da tabela para baixo ou de
+
+baixo para cima se ele vai abrir vários processos paralelos e percorrer a tabela de 500 em 500 registros
+
+para ser mais rápido.
+
+Não sei como é que ele vai fazer isso.
+
+O fato é que eu estou dizendo apenas o que eu quero eu quero a matrícula o nome o e-mail e a média de
+
+todos os alunos e esses alunos precisam ter a média maior ou igual a 9.
+
+Ou seja estou dizendo o que é que eu quero e não como como é algo que faz parte da implementação do
+
+banco de dados o banco de dados vai tentar me entregar aquilo que eu pedi lá fora o mais rápido possível.
+
+Então aqui um exemplo claríssimo de como você tem um código decorativo e se você fosse escrever um código
+
+é imperativo ter que explicar exatamente como você percorre a tabela.
+
+Qual a estratégia que você vai usar o nível de complexidade seria muito maior exatamente porque você
+
+tem que entrar no detalhe de como vai ser implementado.
+
+Outro exemplo de um código declarativa é o próprio HTML no HTML.
+
+Você não vai dizer como tem que ser por exemplo desenhado as coisas no Brasil você disse simplesmente
+
+o que você quer e eu quero criar aqui uma divisão.
+
+Quero criar uma outra divisão que eu vou colocar aqui uma classe.
+
+Eu quero criar um título e aí você coloca lá como vai ser feito é algo que o próprio Brasil vai fazer.
+
+Então HTML também é uma linguagem voltada para o declarativa.
+
+7 Você cria digamos assim a sua interface gráfica com HTML de uma forma mais declarativa do que de uma
+
+forma mais imperativa mostrando pra vocês aqui um exemplo entre código interativo versos código declarativa.
+
+Agora usando JavaScript.
+
+Imagine que você tem aí uma rede de notas 7 6 pontuou várias notas aí nós vamos querer nesse exemplo
+
+calcular a média das notas que é um exemplo super fácil super tranquilo de ser implementado.
+
+Então uma mostrar pra você uma versão no paradigma imperativo ou seja tinham as notas em cima de uma
+
+função chamada média.
+
+Vou criar aqui uma variável chamada total que recebe zero.
+
+Vou criar uma ou outra variável que recebe um exagero no laço forma a variável e que vai controlar o
+
+laço.
+
+E aí é a sabe zero.
+
+Tem que ser menor do que notas do tamanho da barra de notas.
+
+Depois eu vou incrementar o é mais mais e dentro do laço vou fazer uma atribuição aditiva pegando a
+
+nota de um determinado índice começando do zero indo até o final lá e vai acrescentar na nota até que
+
+no final pegue o total e divido por notas.
+
+Ponto final.
+
+Tenho estado a médica coloquei ele baixa média turma e no final coloco lá o console e ponto logo a média
+
+e eu pego o resultado final escolhe o que funciona nesse código.
+
+Eu tenho uma constante que notas tem outra constante lá em baixo que eu chamei de imediato uma e tenho
+
+variáveis que é um total por exemplo que será mudado várias vezes.
+
+Tenho aí outra variável que controla o laço e um código bem hiperativo todos eles exatamente como ele
+
+deve fazer os passos para calcular a média.
+
+Se eu faltar um código mais declarativa você eventualmente vai ter um pouco mais dificuldade para entender
+
+principalmente para quem está começando mas pode ficar super tranquilo que esse é o objetivo do nosso
+
+curso inteiro é exatamente passar essa mentalidade código mais declarativa mais.
+
+Ressaltar algumas coisas pra vocês que é o seguinte primeiro nós temos aí esse código e dá pra ficar
+
+ainda mais declarativa consegue tem mais coisas serão feitas aí mais eu coloquei um pouco mais tranquilo.
+
+Basicamente nós criamos uma função de somar e essa função somar embora seja uma função Supersimples
+
+ela pode ser usada em outros contextos imagina a função somar como uma função mais complexa em vez de
+
+ter que escrever a função somar várias e várias vezes e mesmo calcular a média de uma forma digamos
+
+assim a média inteira de função.
+
+Nesse caso eu quebrei a média em várias soluções menores e isso é algo extremamente importante dentro
+
+do paradigma funcional e também no estilo de código declarativa que é a função e não necessariamente
+
+esse exemplo.
+
+Um exemplo muito pequeno você vai ver que a quantidade de código não é tão grande assim está mais nenhum
+
+momento.
+
+Eu fiz um laço em nenhum momento eu criei uma variável total para ficar acrescentando ou seja as coisas
+
+aconteceram de uma forma mais implícita.
+
+Eu simplesmente chamei criei uma função somar que são dois números passo essa função somar para um cara
+
+chamado Notas virtuais foi que ele fez ele pegou todo o rei e sambou ele de tal forma que me deu o valor
+
+total do Harry e no final eu chamei a função de vendi passando o resultado desse produto que a soma
+
+é dividido pelo tamanho do rei usando várias funções na composição e funções para a entrega.
+
+à medida que no final coloquei a média.
+
+Esse é um código um pouco menor e esse é um código um pouco menor nem daria para ser muito menor do
+
+que o outro.
+
+Exatamente porque é um código pequeno.
+
+Um exemplo muito pequeno para mostrar um pouco dessa diferença mas durante o curso vocês vão entender
+
+as vantagens de se trabalhar assim.
+
+Nós vamos fazer exemplos bem mais complexos e vocês vão ver poxa aqui fica muito mais fácil e você comprou
+
+toda a loja da sua aplicação usando o estilo mais declarativa.
+
+Por enquanto eu não espero que você cumpra ainda completamente esse exemplo aqui.
+
+Certo a quebra do sigilo vai ver isso com muita calma.
+
+Vai ter uma aula para cada coisa na verdade mais uma aula pra cada coisa.
+
+Falar de Windows vou falar de método falar difícil tem vários exemplos como desafios então pode ficar
+
+tranquilo que passa essa mentalidade de um código mais declarativa do paradigma funcional exatamente
+
+o objetivo do uso.
+
+Então fico aqui na próxima aulas vamos falar um pouquinho sobre o paradigma funcional só pra dar uma
+
+visão geral até porque o curso inteiro é sobre isso e até lá.
+

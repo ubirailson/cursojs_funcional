@@ -1,0 +1,253 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Functors
+
+Só nessa aula eu vou falar sobre um outro conceito chamado fantoches certo que na verdade é um conceito
+
+bem simples e eu vou criar aqui dentro do nosso capítulo funcional um arquivo chamado conectores.
+
+Outro dia assim legal.
+
+Na verdade o que é um fantoche.
+
+Ele é como se fosse um container ou também chama de lar para colocar aqui ao lado.
+
+Quer dizer algo que envolve alguma coisa tal como tem né.
+
+Ele é um rapper de um valor e será apenas esse objeto na verdade um fantoche.
+
+Ele é um objeto que em cápsula guarda um valor imenso objeto que é o Phantom.
+
+Ele tem uma função Map que vai transformar esse valor.
+
+Se você olhar para a programação funcional você não você não altera as informações você evolui ou transforma
+
+esses dados assim como por exemplo você tem um exemplo de ou talvez o fator mais popular do mundo é
+
+o Harry em JavaScript.
+
+Porquê.
+
+Porque você tem um contêiner que armazena uma série de valores lá se é um lixo e valorizou o Newman
+
+dimensional.
+
+E você tem a função Map que aplica processamento em cima desses valores internos que são guardados pela
+
+rede o Harry também é um objeto o caso do JavaScript.
+
+Outro exemplo de Phantom que a gente vai ver mais pra frente algo sobre o robô CERTO QUE LADO A GENTE.
+
+JS ele também é um objeto que encapsular dados não é uma extreme de dados nem mais especificamente ele
+
+tem uma função na web e na sala nós vamos criar o nosso próprio Phantom.
+
+Então alguns conceitos interessantes que eu vou jogar pra vocês aqui ao copiar que são objetos que implementam
+
+a função Map.
+
+De fato também é um rapaz de um valor ou seja da Amazon no valor que você consegue transformando esses
+
+valores a partir do momento que você vai aplicando o MAC.
+
+Então para isso eu vou criar aqui uma função que eu chamei aqui de tipo o seguro aqui tipo acho eu achar
+
+que um exemplo antes.
+
+Se eu pegar por exemplo a constante de números recebe por exemplo 1 2 3 4 5 6.
+
+E nós vamos ter 15 números.
+
+A gente sabe que no caso do JavaScript Tayyip Nunes vai dar um Estadão que é um objeto estão acertando
+
+aqueles objetos e esse objeto implementa a função Mac.
+
+Então ele acaba sendo um ponteiro nas informações.
+
+Então vou chamar aqueles.
+
+Vou passar aqui por exemplo pra essa função Mac.
+
+Uma função que recebe um determinado elemento ele vai somar e elemento mais dez.
+
+Então a gente vai ter o resultado e ele não altera nenhum dado interno original continua ainda nos números
+
+aqui sem problema.
+
+No segundo caso eu vou colocar aqui uma função Double explicar por dois de tal forma que no final a
+
+gente vai armazenar aqui por exemplo novos mas recebe isso.
+
+E nós temos os números originais e os novos o novo executando.
+
+Você vai ter que ao Estado somar ideias com 11 12 e tal.
+
+E aí ele concordou hoje com 22 24 26 28.
+
+30.
+
+32.
+
+Aqui um exemplo de fantoche.
+
+Rei ele é um fantoche Eu até coloquei um comentário por exemplo.
+
+REI.
+
+é um exemplo de fato.
+
+Qualquer comentário aqui vou criar o nosso próprio toca aquela fala que recebe tipo Seguro acabou que
+
+eu vou explicar porque é que eu sei que eu vou chamar aquele tipo de seguro e eu vou passar nessa função
+
+que vai construir um objeto eu vou passar aqui um determinado valor.
+
+A louca vou armazenar e aqui eu vou retornar um objeto que aí eu vou criar desse objeto um atributo
+
+chamado valor que vai apontar para o valor que eu recebi como parâmetro.
+
+Pensar que não preciso repetir duas vezes posso colocar aqui vírgula e nós vamos dentro desse objeto
+
+que será retornado sempre que eu chamei aqui o tipo seguro nós vamos retornar também uma função aqui
+
+é essa função mapeia exatamente o que vai garantir que nós teremos um fator ou seja nós conseguiremos
+
+nos processar certo esse.
+
+Mais dado a partir da função médicos essa função Map assim como a função Mac do Rei vai receber uma
+
+função e essa função é trabalhar em cima desse valor que é exatamente o valor que esse objeto esse objeto
+
+aqui quer se tornar um objeto literal.
+
+Tornar um fator dentro dele.
+
+Eu encapsular o valor e tenho uma função Map que vai me ajudar a transformar esse valor.
+
+Então basicamente é como fazer eu vou retornar outra caixa importante também com relação ao fator que
+
+uma vez que você chama o método ela retorna o objeto do mesmo tipo assim como eu chamo o MAP.
+
+Ele retorna a Rei aqui no meu caso esse fator vai tornar também um objeto do tipo seguro.
+
+Então aqui e aqui eu vou retornar.
+
+Tipo seguro eu não preciso usar o amigo exatamente o que sempre quis chamar essa função ele vai tornar
+
+um novo objeto.
+
+é um tipo seguro.
+
+Nesse caso eu vou pagar essa função.
+
+Vou aplicar o valor de 10 contra o valor de tal forma que a gente vai ter um outro tipo de seguro que
+
+é exatamente esse objeto com outro Mac.
+
+Só que com esse valor transformado já que eu passei a resposta da função basta colocar em duas linhas
+
+aqui então tal novo valor que recebi isso é ao passo que um novo valor para tipo seguro.
+
+Pedi mais contra o Pragal então aqui embaixo por exemplo eu posso criar aqui na estante.
+
+Resultado o resultado recebe o tipo de seguro.
+
+Posso passar por exemplo um valor textual.
+
+O texto e aqui eu vou aplicar o MAP passando o elefante que recebe o texto como parâmetro é aquele chamado
+
+texto ponto que é o clássico x.
+
+Então depois que ele fizer todas as letras maiúsculas eu vou colocar aquilo que eu fiz no outro que
+
+é aqui o texto e vou na verdade o arquivo de texto que ela adorava ter colocado exclamações e finalmente
+
+eu vou fazer mais um mashup.
+
+Só que agora fazem naquele espaçamento ter o texto bem longo então vou pegar texto ponto split com o
+
+espaço vazio que ele vai quebrar todas as letras e vou fazer um jovem usando o espaço em branco.
+
+Nesse caso o resultado do dérbi vai me dar de novo um tipo seguro.
+
+Eu consigo fazer por exemplo no final console fotolog.
+
+Resultado.
+
+Ponto vale é estando aqui pra gente ver pelo Estado nós temos.
+
+Esse é o texto legal.
+
+Algumas outras coisas que a gente pode fazer para evitar por exemplo vamos pô que essa função aqui por
+
+algum motivo retornou um valor nulo.
+
+Nesse caso nós vamos ter um problema.
+
+Então ele explica que tal não pode ler o espírito de nulidade gera um problema a gente pode ter um tipo
+
+seguro.
+
+Se eventualmente foi passado o valor é válido eu não vou fazer essa chamada aqui da função passa por
+
+exemplo o valor nulo simplesmente retomo o tipo seguro de.
+
+Eu posso por exemplo criar aqui uma função chamada valendo ou mesmo inválido certo que é inválido.
+
+Quando o 10 ponto bailout foi igual estritamente igual a nulo ou o 10 ponto de bala ou for estritamente
+
+igual a um default.
+
+Então nesse caso o valor é válido se for inválido eu posso fazer um fecham se desse ponto inválido.
+
+Nesse caso eu vou retornar um tipo de seguro passando o valor nulo.
+
+E caso eu tenho um título válido aí sim eu vou chamar que a função poderia se proteger dessa forma e
+
+não chamar a função Map.
+
+Caso você tenha o valor que ele está envolvido não que ele guarda ele foi um valor inválido por exemplo.
+
+Então nesse caso o resultado que a gente vai ter ao se acertar você vai ver que não vai gerar nenhum
+
+problema mesmo retornando algo nulo porque o motivo aqui ele vai de certa forma proteger em relação
+
+a isso.
+
+E aqui eu posso retornar por exemplo onde está olhando o valor de ter colocado aqui algumas informações.
+
+Agora pessoal então só pra mostrar que essa ideia de um fator JavaScript ele JavaScript não é de fonte
+
+tornou se um objeto que guarda naquele.
+
+Ele guarda um determinado valor e esse objeto implementa a função Map e sempre você retorna a partir
+
+do MAP.
+
+O mesmo Phantom nessa de tal forma que você consegue em cada ano várias chamadas de Mac para aí transformando
+
+os valores.
+
+Lembrando que nesse caso você está sempre transformando valores diferentes e gerando valores diferentes.
+
+Aqui eu tenho o texto original de original
+
+que ele vou passar a original era importante você não alterar o original e aqui chamar de alterado.
+
+Agora no final você tem que aqui no final você tem o valor de mostrar que o original o original é tanta
+
+que esse é o texto original esse aqui é o texto que foi alterado.
+
+Outra questão só pra eu vou fazer o seguinte eu vou quebrar isso na outra aula ainda vou falar sobre
+
+isso mesmo exerce este fator só para mostrar um conceito que também é interessante chamado de Flash
+
+né.
+
+Você faz o Zlatan você acha chata alguma coisa e pra isso você também tem uma função chamada Flash MAP.
+
+Nesse caso é interessante que no final você não precisar por exemplo chamar o valor ou seja vai receber
+
+o resultado achatado e vou achar o que é isso na próxima aula e até lá.

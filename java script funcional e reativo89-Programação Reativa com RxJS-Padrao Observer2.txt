@@ -1,0 +1,464 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Padrao Observer2
+
+
+Agora que a gente viu a parte teórica do padrão observem nós vamos implementar um padrão que serve especificamente
+
+para esse exercício.
+
+Eu vou criar uma nova pasta para não misturar com parte do restante do capítulo então vou criar a pasta
+
+chamada observa.
+
+E nós vamos criar um arquivo aqui dentro o que eu vou chamar de festa.
+
+Festa anda lá surpresa ponto de legal.
+
+Então eu vou usar aqui uma constante chamada no site da Presidência pra gente pedir para o usuário digitar
+
+a resposta e eu vou fazer algo maior.
+
+Ele completou Acho que por conta da variável que mais beleza eu vou criar uma função que eu vou chamar
+
+essa função de obter resposta.
+
+Então a ideia era essa função.
+
+Eu passo aqui uma pergunta como parâmetro e eu vou retornar aqui tem muitas formas de implementar o
+
+padrão observe que eu vou usar aqui porque a gente já tá usando como vocês já estão familiarizado com
+
+esse conceito até pra transformar essa questão de resposta de forma síncrona.
+
+Então vai tornar aqui outro homens que vai receber.
+
+O método resolve.
+
+Acredito que não vai ter nenhum tipo de erro aqui mas poderia colocar o widget e usar qualquer coisa
+
+do tipo eu vou fazer o seguinte antes de chamar a promoção Eu vou criar o que eu vou chamar de RL que
+
+seria um de Ideli.
+
+Vou chamar aqui delay pontuou.
+
+Nós temos um método chamado cliente interferisse aqui nesse cliente perfeito se ele vai receber dois
+
+parâmetros.
+
+Putz que eu vou pagar a partir de processo.
+
+Ponto.
+
+STB.
+
+ST e vou criar aqui um óculos algo que eu apagar de SP estão criando aqui essa interface que vai ler
+
+a linha que vai tanto exibir os dados no console como pagar as taxas a partir da claro usar esse RL.
+
+Nós vamos mostrar uma pergunta para o usuário eu vou colocar aqui e ali tem um método chamado coaching.
+
+Daqui a um metro do caixão vou passar para ele.
+
+A pergunta que eu recebi como parâmetro será a primeira pergunta e vou passar o segundo parâmetro aqui
+
+que vai ser exatamente a couber aqui que vai lhe dar resposta.
+
+Só isso aqui já é um padrão observa.
+
+Ou seja você está registrando uma pergunta Você está dizendo que está interessado em ser notificado
+
+com o nome e responder quando for feita a resposta ele vai chamar essa função de volta que é exatamente
+
+o que aconteceu sejam usuários da resposta e apertou ainda mais bela esse que é um padrão observa mais
+
+nosso exemplo como todos serão observa.
+
+Por enquanto só estou criando a função que vou passar a pergunta e quando a resposta acontecer eu serei
+
+notificado para daqui a pouco a gente criar lá ao porteiro a namorada o síndico e fazer o nosso observa.
+
+Então basicamente quando a resposta chega aqui eu vou chamá lo.
+
+Resolvi então vou chamar aqui resolvo passando a resposta e a gente pode até estar aí só obtém resposta
+
+da seguinte forma obtém resposta.
+
+Eu vou colocar esse teste.
+
+E a resposta vai chegar a partir do método da resposta.
+
+Eu vou simplesmente jogar aqui console Fotolog.
+
+A resposta poderia simplesmente só passar aqui uma referência para a função logo como a gente já tem
+
+feito em vários outros exemplos estão executando aqui.
+
+Aí uma questão importante é o seguinte a gente não vai conseguir acertar com o curitibano e até consegue
+
+mudar a configuração.
+
+Eu vou habilitar aqui o console então se você entrar no menu na Salvio você tem que ir ao terminal.
+
+No meu caso ao contrário da crase clicando ele vai abrir essa janela.
+
+Então nesse caso eu vou entrar dentro da pasta observa.
+
+E aqui dentro vou chamar hoje de festa surpresa.
+
+Tem como configurar pro próprio Calderaro já executado diretamente no terminal.
+
+Então vou colocar aqui.
+
+E aí ele já imprimiu.
+
+E nesse caso ele continuou executado.
+
+Então vou parar aqui um contra o Zé vou colocar aqui dentro uma vez que foi escondido pra ele chamar
+
+o RL como Klaus.
+
+Ele fecha esse cara pra ficar monitorando as respostas e vou colocar aqui o espaço em branco só pra
+
+gente veja agora eu vou colocar a resposta olho pra gente meu resultado vais estar novamente aqui.
+
+Então esse é um teste.
+
+Vou dar resposta 1 2 3 Mostrar as portas e mostrar isso e saio novamente.
+
+Isso é um teste.
+
+Olá.
+
+Resposta lá saiu.
+
+Ou seja essa parte a gente conseguiu pegar a resposta do teclado já estava funcionando.
+
+A partir desse método a próxima fase vai ser exatamente a gente construir o padrão observe mesmo.
+
+Então eu vou primeiro começar construindo os observadores vou criar aqui uma função que eu vou chamar
+
+de namorada namorada.
+
+Eu não poderia por exemplo passar um determinado evento aqui em certo evento mas nesse caso não me interessa
+
+muito bem que você poderia por exemplo gerar um evento dizendo quem chegou dizer na hora que chegou
+
+e a namorada por exemplo ficar.
+
+Quem chegou não foi o fulano.
+
+Então não vou fazer nada mas nesse caso não vou suprimir o evento a namorada simplesmente vai jogar
+
+no console Fotolog e eu vou colocar aqui o homem na frente pra dizer que a namorada ela vai apagar as
+
+luzes vai ter de silêncio.
+
+Ele disse isso é.
+
+E finalmente ela vai.
+
+Todo mundo vai gritar.
+
+Surpresa surpresa.
+
+Certo.
+
+Então esse aqui seria a implementação da namorada.
+
+Quando aguentar acontecer ela for notificada ela vai obviamente passar por aqui.
+
+A gente pode até simular aqui um site por exemplo site está em Malt dizendo que isso só será executado
+
+depois de algum tempo.
+
+Obviamente a já vai gritar surpresa como vai acontecer então vou colocar aqui dois segundos depois ela
+
+vai chamar e fazer isso o que obviamente seria alguns minutos depois ou quando acontecesse o outro evento
+
+que é quando o cara abre a porta né o aniversariante mais beleza não abstrai essa parte aqui.
+
+Então nós temos a namorada e o próximo passo é criar o síndico que é um outro observa outro interessado.
+
+Então o síndico é já o síndico.
+
+Ele vai também colocar que o salão tem malte.
+
+O seguro só para chamar mais rápida.
+
+Vou colocar aqui o síndico e eu coloquei a frase monitorando o barulho e dando vá.
+
+Apagar isso aqui na então apagar as luzes três pontinhos fazer silêncio do pontinhos finalmente surpresa
+
+e o 5 vai ficar monitorando o barulho agora nós somos escrever o nosso.
+
+Observem que exatamente o porteiro e o porteiro ele vai receber uma lista de interessados no caso que
+
+eu coloquei como rei.
+
+Então ele vai receber aqui os interessados.
+
+Nós vamos fazer com esses interessados mas vamos chamar esses interessados.
+
+Sempre que aconteceu o evento a gente já poderia chamar de cara que só chamava interessados a ponto
+
+fora ou para um ponto fora.
+
+E aí a gente vem aqui e chama o chamar aqui de interessado onde OBEDECE E.
+
+E aí eu simplesmente chamo a atenção observe se a gente quiser testar aqui só pra ver nessa primeira
+
+execução ao porteiro.
+
+Vou passar aqui dois interessados que baixei a namorada e o síndico.
+
+Então nesse caso como já estou chamando o porteiro e passa naqueles dois já está chamando de cara.
+
+Então essa que estando aqui eu posso nesse caso como não tem leitura.
+
+Está claro eu posso executar diretamente com o Joana ou monitorando o barulho.
+
+No caso do síndico apagar as luzes pedir silêncio surpresa no caso da namorada.
+
+Ou seja eu já consegui chamar diretamente passei a função chamei todos as funções que foram passadas.
+
+A partir desse rei se eventualmente você passar aqui nulo isso vai ser um problema.
+
+Mas você pode se for o caso colocar aqui uma expressão estar aqui ou ali vazio.
+
+Nesse caso se não tiver os interessados ele vai jogar um Brasil.
+
+Caso tenha interessado ele chama o fora.
+
+Você pode mudar as formas de proteger seria assim não.
+
+Nesse caso ninguém é passar novamente aqui a namorada e o síndico executando mais uma vez para a gente
+
+vê agora de baixa mar monitorando o barulho e a namorada legal.
+
+Como é que a gente pode pedir agora pra ele ficar executando testando as coisas impostas ela acha nasal
+
+observa que provavelmente ele vai ter algum tipo de luz que ele vai ficar monitorando Braga e se realmente
+
+os argumentos acontecem então existe algum tipo de laço alguma coisa que ele vai ficar detectando até
+
+chegar lá.
+
+Bem ele precisa ficar de forma proativa monitorando o evento pra que alguém consiga trabalhar de forma
+
+reativa.
+
+Não dá para todos os códigos serem reativos se não tem ninguém por exemplo observando o evento no caso
+
+do porteiro ficar aqui executando de forma constante.
+
+E aqui eu vou marcar essa função como assíncrona pra quê.
+
+Pra que eu consiga chamar esse método de obter resposta de forma síncrona para ele esperar a resposta
+
+chegar.
+
+Então que dentro desse lucro que vai ficar esperando ele não ficar executando de forma indefinida exatamente
+
+porque a resposta vai chegar apenas com os usuário digitais então vou colocar uma noite e obter resposta
+
+e a pergunta que eu coloquei foi a seguinte o namorado chegou e aí você vai ter três respostas.
+
+Sei que vai ser mas não vai ser a resposta padrão.
+
+Não que eu vou colocar um em maiúsculo que vai ser a resposta padrão ou até maximizar até aqui.
+
+E a terceira vai ser o quê pra sair do programa.
+
+Então essas são as três respostas que eu vou custará.
+
+Na verdade não é qualquer coisa que você digitar e sim ele vai disparar o evento e o que ele sabe do
+
+programa.
+
+Então h uma vez que eu tenho a resposta eu vou querer fazer o seguinte trecho eu sei a resposta.
+
+Ponto.
+
+The Lord key is for estritamente igual a esse.
+
+Significa que nesse caso eu vou chamar o evento porque realmente o namorado acabou de chegar.
+
+Eu lancei a pergunta o namorado chegou a atacar um espaço em branco e respondeu Sim significa que o
+
+evento tem que ser disparar e todos os interessados têm que ser chamados.
+
+Sim ele respondeu ok.
+
+Resposta ponto Keys e ele respondeu estritamente igual a Key significa que ele quer sair da aplicação.
+
+Então vou chamar aqui pra ele sair do laço a ele e finalizar o nosso código seja a aplicação vai terminar
+
+e caso o usuário digite qualquer coisa como não ele vai voltar e mostrar a pergunta novamente pra ser
+
+respondida novamente.
+
+Até que no final alguém responde sim e os interessados são notificados testando aqui pra gente ver agora
+
+nesse caso.
+
+Ele vai colocar a pergunta para ser exibida você está diretamente no terminal no MAC contra o k Limbo
+
+terminal e acho que o Windows é o contra o ele certo contra o L Você limpa o terminal e volta isso aqui.
+
+Então vou colocar na faixa surpresa ele vai mostrar a pergunta o namorado chegou.
+
+Se eu colocar um item ele vai mostrar pra gente de novo.
+
+Se eu colocar aí não chegou onde não chegou foi outra pessoa.
+
+Foi assim a hora lá do 703.
+
+Aí você coloca sim chegou.
+
+Neste caso o que é que ele vai fazer.
+
+Ele não ficou mas ficou sabendo que está de forma assíncrona então ele acabou não achando que de novo.
+
+E mostrou aqui o resultado que monitora no Barueri está a tirar isso sincronismo que sobra você pode
+
+colocar só pra brincar com a questão que vai demorar um tempo né.
+
+Mas aqui já vou chamar direto pra cá um atrás do outro então só formatando de novo tirando o espaço
+
+em branco e aqui eu vou colocar o quê pra ele sair fechou a aplicação já está novamente.
+
+Eu salvei salvei.
+
+Então não chegou não chegou não chegou onde chegou.
+
+Ele executa apagar luzes de silêncio surpresa e chamou aqui ao monitorando o barulho e no final jogou
+
+a parte de novo namorado chegou.
+
+Se eu colocar não ele vai continuar ainda sem notificar ninguém se chegou de novo namorado tem dois
+
+namorar na história e aí ele vai ficar novamente sempre que vai acontecer imagino que seja um hábito
+
+de compra uma compra realizada sempre que uma compra for realizada ele notifica os interessados aconteceu
+
+outra compra não tive de novo mas uma cobra notifica notifica ele vai sempre responder em resposta aos
+
+eventos que vou colocar um buquê pra sair a nossa aplicação tão pessoal aqui foi a implementação simples
+
+usando o padrão observe em cima daquela história que a gente usou lá no passado para explicar de uma
+
+forma um pouco mais lúdica então onde é que está o momento que há o registro aqui são registrados os.
+
+é exatamente aqui na linha 37.
+
+Nesse momento eu registrei dois observadores observadores vou colocar isso aqui em cima pra ficar um
+
+pouco mais fácil e vou colocar aqui o comentário de múltiplas linhas colocar aqui.
+
+Pronto.
+
+Então aqui onde foi registrado registrei dois observadores que no caso o que eu a namorada e o síndico
+
+copiar colocar aqui os dois observadores.
+
+é o caso o porteiro ou qualquer ficheiro dos observadores que a chamaram da função então chamada da
+
+função.
+
+Assim fica melhor o chamado da comissão e registrar os dois observadores.
+
+Os observadores são dois pontos a namorada e o síndico são os dois observadores.
+
+Hong subject o Porto Ortega que é capaz de ficar monitorando porque tem um laço infinito Ele está se
+
+perguntando exatamente quando você responde Sim ele poderia ser um clique de um botão poderia ser a
+
+resposta que uma requisição poderia ser qualquer coisa.
+
+E a partir daí ele notifica nesse ponto aquilo que e os observadores são notificados.
+
+Então os observadores são notificados e aqui nós temos o.
+
+Um observador observa que nós temos o outro observa.
+
+Então observa e observa o porteiro
+
+subject e aqui os observadores são notificados.
+
+é exatamente aqui detectado que está acontecendo o evento em última análise a resposta que você dá.
+
+Só que nesse caso só me interessa a resposta Sim.
+
+Você até poderia dependendo da situação se o síndico estiver interessado em receber todas as respostas.
+
+Você poderia controlar isso dentro dos observadores e eventualmente você pode pegar dentro da ação.
+
+Por exemplo eu poderia por exemplo passar um evento aqui ao evento e ter um evento aqui.
+
+Suponho que a namorada não está interessada em receber o evento mas o síndico quer saber exatamente
+
+qual foi a resposta dada.
+
+E aí você pode criar um objeto como por exemplo.
+
+A resposta lá dentro do síndico você consegue a partir do vento pegar o parâmetro ao console Fotolog
+
+evento ponto Rio-SP.
+
+Você poderia colocar além da resposta a data por exemplo colocar aqui um ponto final.
+
+Ou seja quando aconteceu o evento você poderia ter uma ideia do sim ao evento um ponto que detinha em
+
+qualquer data que em português do Porto data.
+
+E aqui só para a gente colocar isso aqui dentro de um templo Destri que eu colocou esse síndico lá isso
+
+eu vou duplicar aqui substituídos por dados.
+
+Então nesse caso o comportamento será um pouquinho diferente.
+
+Você vai ver que o síndico vai receber também um evento que é algo extremamente comum certo dentro até
+
+aqui não sei porque mas beleza é algo extremamente comum além do padrão observa.
+
+Quando o evento acontece você passa a vida como parâmetro para os observadores e aí você consegue eventualmente
+
+pegar aqui os atributos da vendo um caso que a resposta é no caso aqui a data que o árbitro foi gerado
+
+então executado que eu vou colocar no hoje e vou chamar o arquivo.
+
+Festa surpresas etanol namorado chegou.
+
+Não chegou não chegou.
+
+Sim.
+
+Então apagar as luzes fazer silêncio.
+
+Já o síndico monitorar o barulho e aqui ele jogou o valor com a quantidade de milissegundos se você
+
+usar um deles for macho ele vai formatar de forma correta o fato é que eu consegui passar os dados do
+
+evento.
+
+Não posso colocar aqui um evento e a informação da venda do equipamento.
+
+Alguns dados do evento são muito legais na Caixa na implementação do padrão observo que isso fazer com
+
+muita calma.
+
+Já tentei que a aula mais eu acho extremamente importante esse padrão é muito muito muito muito relevante
+
+espalhando os dias atuais.
+
+Vamos acabar usando esses mesmos conceitos.
+
+Coragem for agora falar de absorve luz no contexto da JS mais dessa base de conhecimento tanto conceitual
+
+do padrão como também na prática de código extremamente em Alagoinhas então fico por aqui e até aproximá
+
+lo.

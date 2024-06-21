@@ -1,0 +1,117 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Remover Linhas vazias
+
+Agora nós vamos fazer a exclusão de todas as linhas vazias então para isso vou criar uma função que
+
+vai filtrar a partir do Harry.
+
+Aqui nesse momento depois da execução do expediente nós voltamos a ter um Harry em todas as linhas e
+
+agora além de funções eu vou criar mais uma função aqui ao criar o nome dessa função vai se mover e
+
+mover se vazio imaginando que vai mover todos os elementos básicos do Harry.
+
+Vou passar como parâmetro aqui o Harry e nós vamos fazer o metro fios então vou retornar a Rei Ponto
+
+Frio e vou querer passar aqui por exemplo a função que vai filtrar todos os elementos vazios.
+
+Então vou ter um alinhamento.
+
+E a partir desse elemento a gente vai fazer.
+
+Ponto vai imaginar que esse elemento é um estilingue que a gente pode fazer uma série de verificações
+
+para garantir que realmente eu tenho lá Rei que realmente o elemento do tipo string tal mas por enquanto
+
+eu vou colocar de forma mais simples.
+
+Depois a gente pode focar a questão das validações deixar o Coelho mais seguro porque se eventualmente
+
+você passar o objeto vai gerar problema aqui.
+
+Se eventualmente você passar o nulo vai gerar problema indefinido.
+
+Então ele tem que tratar também essas questões né.
+
+Pra ele só realmente processar aqui.
+
+Se você passar valores válidos mas por enquanto eu estou trabalhando funções mais simples mais o mais
+
+importante é você fixar a questão é você criar funções com única responsabilidade.
+
+Por quê.
+
+Isso porque quando você cria a função com única responsabilidade fica muito mais fácil você usar essa
+
+função no futuro.
+
+Vocês vão perceber que eles vão usar inclusive essa função mais uma vez exatamente o que era uma função
+
+genérica e vai nos ajudar até a questão do reuso.
+
+Quanto mais genérica a função é a única responsabilidade mais fácil era usar.
+
+Existe um método associado a restringir que é um método Trim metro o trem vai tirar os espaços em branco.
+
+Nesse caso se você tem uma estranha e vazia esse resultado vai ser convertido por conta do fio.
+
+Ele vai ser convertido para um lugar falso.
+
+Eu até poderia colocar de forma explícita ou dupla negação para ele converter para um valor verdadeiro
+
+ou falso.
+
+Mas não é necessário porque se você tinha o Basic ele vai converter para falso e automaticamente ele
+
+vai remover as instruções vazias.
+
+Pode ver isso aqui na prática.
+
+Eu vou declarar essa função aqui para a gente retornar também.
+
+E nós vamos usar essa função aqui ao criar mais um ano receber aqui comparando entre as linhas é importante
+
+você coloca os nomes dos parâmetros de tal forma que fique bem clara do que se trata né.
+
+Alguns arquivos arquivos esta é na verdade que seria mais explícito se fosse o caminho para os arquivos
+
+né.
+
+Na verdade não tenho um arquivo propriamente dito aqui temos conteúdos todo o conteúdo agora tem as
+
+linhas e eu vou apagá la remover.
+
+Fim.
+
+Na verdade fim e ponto remover esse vazio e vou passar as linhas é de se esperar que essas linhas que
+
+têm Barra R1 por exemplo não vá mais aparecer tal como já começa aqui com o número 1 não é um caractere
+
+meio estranho.
+
+Logo aqui depois tem um.
+
+Então eu vou salvar o Olympiakos execução executando algo você vai ver a partir hoje toda a gente viu
+
+que apesar de ter Barra que tem a parte de linhas que tem outros caracteres como dois três não tem mais
+
+aquela linha que é só um bar e porque todas as linhas vazias foram excluídas.
+
+Esse é o primeiro passo qual o próximo byte vai fazer.
+
+Nós vamos remover as linhas que têm esse intervalo que é o intervalo de tempo que vai aparecer a legenda.
+
+Essas linhas não interessam pra saber quais são as palavras mais ditas em um seriado americano por exemplo.
+
+Então ele vai remover todas essas linhas que definem o tempo.
+
+Eu quero que você assuma isso como desafio tente criar a função que vai remover esse tipo de linha.
+
+Como é que você pode criar uma forma tal que você consiga tratar essa função de uma forma mais genérica.
+
+Então esse é o desafio da próxima aula.
+
+E até lá.

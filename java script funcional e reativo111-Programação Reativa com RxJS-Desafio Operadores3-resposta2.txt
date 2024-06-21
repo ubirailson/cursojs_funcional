@@ -1,0 +1,116 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 3 - Resposta 2
+
+Agora vou mostrar para vocês a parte 2 da resposta e vou tentar também não gerar um vídeo muito longo
+
+para a gente fazendo que parti para ficar bem claro.
+
+As possibilidades que você tem aqui nesse caso a gente acabou colocando os dois parâmetros de uma vez
+
+só a gente pode fazer aqui e usar aquela técnica do carrinho passar primeiro um parâmetro e depois passar
+
+um segundo parâmetro.
+
+Então a gente tem a possibilidade de deixar bem claro eu posso fazer o seguinte deixou comentar isso
+
+aqui rapidamente vou retornar aqui o método de colheita.
+
+Bom posso passar uma função.
+
+A primeira função vai receber o subscritor.
+
+A partir dessa função eu vou retornar uma outra função e essa função vai receber de fato o valor pode
+
+ser bem o mesmo valor.
+
+Não tem problema é que dentro dessa comissão é que eu vou chamar esses dois códigos aqui outros inclusive
+
+desse como caos códigos e formatar aqui que vou passar a receber volta um pouco mais claro.
+
+Legal então após trocar essa forma e agora em vez de estar passando a função Net porque essa é a função
+
+NET.
+
+Eu estou passando uma função que vai criar a função NET e vou chamar aqui por exemplo de Next Time então
+
+por exemplo agora posso.
+
+Ou seja a função que vai gerar a função NET e nesse caso você pode colocar o nome que quiser pode ser
+
+inclusive Net.
+
+Não tem problema nenhum.
+
+Mas o fato é que essa função Net de mérito que eu chamei aqui recebeu subscritor e ela vai gerar a função
+
+hash que é exatamente essa função que é dada como resposta.
+
+Então aqui eu posso chamar essa função e em vez de definir a função que é esse objeto eu posso colocar
+
+o atributo em dois pontos e vou chamar aqui X direito passando o subscrito e como resposta essa chamada
+
+porque você passa naquilo subscritor.
+
+Ele vai retornar a essa função aqui e essa função foi colocada nesse ponto.
+
+Basicamente eu vou estar aqui só pra ver que o Estado curtiu ou validou o Estado.
+
+O Channel 4 mente é como se eu tivesse agora copiado isso aqui ou daqui um contra o sempre e posso substituir
+
+aqui.
+
+A mesma coisa então executando agora o Estado continua sendo um funcionando perfeitamente.
+
+Só pode ter certeza ok funcionando.
+
+Vou dar um control como dizer aqui pra ele voltar.
+
+Agora nós temos o nosso Gene esse mérito é que a função que vai gerar outra função você pode inclusive
+
+manter a mesma estratégia que a gente tinha antes que é usando um fantoche.
+
+A gente pode simplesmente atirar aqui os 40 vezes e colocar uma site aqui o rei significa que é uma
+
+função que retorna uma função ao subscrever o parâmetro V.
+
+Posso até mandar aqui parar para ficar um pouco menor mas de qualquer forma um primeiro parâmetro.
+
+Isso aqui só retornam função exatamente com o que se vê até o final que é uma função que é exatamente
+
+o retorno da primeira função aqui para continuar funcionando perfeitamente retornam no Balaio agora
+
+usando os parâmetros espaciais e espaço aos dois parâmetros móveis para o passar primeiro parâmetro
+
+depois o segundo parâmetro.
+
+Ali eu prefiro usar outra estratégia estou mais acostumado não tem problema a questão é você escolher
+
+a mochila que as diversas possibilidades possíveis pra você fazem.
+
+Então é isso na segunda pasta a resposta é na próxima aula nós vamos também fazer o que os outros operadores
+
+consigam ser implementados a partir do cliente paga.
+
+Bom proveito.
+
+Principalmente esse aqui que é o último porque ele é mais complexo ele tem por exemplo o metro cúmplice
+
+e é interessante uma vez que você cria um operador a partir de uma função genérica que você também atribua
+
+um comportamento padrão para o caso de acontecer um erro.
+
+é o caso de acontecer por exemplo com o cliente.
+
+Então é legal que aqui dentro você coloque pelo menos a implementação padrão tanto pelo erro contra
+
+o completo mesmo que o usuário não forneça e também a gente precisa passar aqui via parâmetro as outras
+
+funções.
+
+Mensalmente a função de erro uma função de geração são cúmplices que quando essa função for usada você
+
+consiga criar um operador completo que tem as três funcionalidades.
+

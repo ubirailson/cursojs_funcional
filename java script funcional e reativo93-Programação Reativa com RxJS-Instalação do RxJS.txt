@@ -1,0 +1,88 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Instalação do RxJS
+
+
+Só nós vamos agora instalar o RX JS e para isso eu vou abrir o terminal integrado ao próprio visual.
+
+Tudo o que você bem viu.
+
+Integrado.
+
+Já tá usando ele.
+
+Vou só finalizar que a execução ficou pendente vou limpar vou sair da pasta observe e vou entrar diretamente
+
+na página do meu projeto que é o curso de acesso funcional.
+
+Aqui eu vou colocar imprimi.
+
+Você tem tecnologia já tá certa noite então não tem porque não tem né imprimi e menos y pra ele já criar
+
+o Parque de condições de fazer nenhuma pergunta então automaticamente ele vai criar o Parque de pontos
+
+deixou o outro arquivo que a gente vai querer criar aqui.
+
+Certo que não é um arquivo requisita mais caso você queira salvar esse código de Ruby.
+
+Aí não tem problema você salvar os nossos códigos da cauda do.
+
+Qualquer projeto que a gente faça pode pagar esses projetos e colocar no subterrâneo a gente inclusive
+
+aconselha isso você pode modificar usar da forma que você quiser sem precisar usar pra gente mas vamos
+
+lá.
+
+O ideal é que você não pague exatamente os mesmos exemplos e façam com você acerta mais para uso como
+
+código esse não tem problema nenhum.
+
+Então aqui no guichê ignore a gente não vai querer mandar a pasta que vai ser usada para instalar todas
+
+as dependências do Novo de que é exatamente o nome da pasta onde anda lá em módulos.
+
+Seja de modo List ou molhos.
+
+Ele vai criar essa pasta não quero que essa pasta seja enviada porque já criou aquilo que chegou na
+
+hora.
+
+E eu vou fazer o seguinte nós vamos instalar essa dependência.
+
+Então vou colocar imprimi e digital e a dependência JS.
+
+JS você pode colocar em bem e tal mas basta o Wi que já vai servir pra isso.
+
+Antigamente tinha que colocar uma flag menos 05 pra ele salvar dentro do parque de de mas hoje em dia
+
+não é mais necessário colocar o folego.
+
+Se tiver um backup de ponto de som será que ele vai adicionar dependência dentro desse arquivo e trazer
+
+esse código ele vai estar lá e vai criar pasta de módulos.
+
+Ele criou aqui tá criando a ideia aqui ele criou a pasta de módulos e vai automaticamente colocar aqui
+
+nas dependências.
+
+JS A versão tem aqui a 6 pontos 5 5 e agora nós temos a possibilidade dentro do nosso código usar a
+
+dependência.
+
+JS tanto é que se eu criar aqui o novo arquivo até copiar Ishinomaki Xtreme 2 ou criar aqui mais um
+
+arquivo MP3.
+
+Ponto.
+
+E agora a gente consegue por exemplo ao criar aqui o RX e assim recebi o membro reportar se é mais só
+
+pra mostrar X XS inclusive completa para a gente.
+
+Antes de esconder a pendência que a gente tem a nossa disposição legal então estamos com tudo pronto
+
+tudo configurado na aproximadamente vai falar um pouco mais sobre este volume de dados só que agora
+
+usando o DS e o disparo na proximal.

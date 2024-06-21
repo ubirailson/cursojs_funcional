@@ -1,0 +1,226 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Observable 2
+
+
+Agora nós vamos fazer nosso segundo exemplo de observadores.
+
+Eu vou copiar aqui observou.
+
+Hoje observa Boulos dois dias assim e nós vamos importa aqui constante importa aqui observou Boulos
+
+sabendo onde isso é e quais a partida antiga e a gente consegue criar aqui um observa que eu também
+
+chamaria de obedece e alguns alguns documentações de alguns exemplos.
+
+Muita gente coloca sinal de bola ao BS para dizer para deixar claro que você está trabalhando com o
+
+obscuro robô.
+
+Então não é incomum você ver exemplos dessa forma.
+
+Mas aqui eu vou usar sem o dolo mesmo para significar.
+
+Então existe uma outra forma de você criar um observador que pode ser sinal de seu robô contou.
+
+Cuide e você vai passar também a função do cliente.
+
+Você tem como criar a partir do Estanciano e passa na função como você também pode criar.
+
+Essa forma serve como ponto de colheita.
+
+Aqui você passou o subscreveu e dentro você vai chamar o subscritor ponto.
+
+Então vou chamar a subscrever ponto aqui que eu vou colocar aqui X era assim eu vou colocar duplicar
+
+aqui é bem poderoso.
+
+Nesse caso eu vou deixar para colocar aqui.
+
+Sim mas a foto ainda foi maior do que zero ponto 5.
+
+Eu vou querer que ele faça o Complete estão a chamar que ao subscrever outro Split case that.
+
+Caso contrário eu quero que ele gere o erro para a gente também destaca Xande como é o tratamento de
+
+erro a partir do observa.
+
+Observo o melhor dizendo sobre cada ponto e aqui eu vou passar qualquer mensagem para sei que é fraudulenta.
+
+Então Jeri aqui o erro 50 por cento das vezes ele vai completar 50 por cento das vezes ele vai gerar
+
+um trabalho.
+
+Então uma vez que eu tenho aqui o meu observe que foi criada não observou melhor dizendo eu vou chamar
+
+aqui o método sob.
+
+E aí eu vou passar por exemplo aqui um console Fotolog pra ser executado então ele vai mostrar aqui
+
+executando.
+
+Na verdade não é subscrito.
+
+Ele acabou completa narrado Aqui acontece várias vezes e saberá subscrever e por ter subscrito aquilo
+
+acaba completando e jamais executado.
+
+Eu só vim para aqui Eternal talvez em algum erro ele colocou aquele x bem poderoso e no final gerou
+
+um problema exatamente porque eu lancei o erro e eu não estou tratando esse erro ainda executando mais
+
+uma vez ele finalizou sem nenhum mais 50 por cento das vezes ele vai era gerando e-mail tirou ele exatamente
+
+que o problema maior é que eu posso tratar um erro a partir do observou.
+
+Nesse caso você pode passar por subscrever três funções na função vai ser exatamente para tratar o caso
+
+de sucesso seja quando for gerado os valores ele vai chamar essa primeira função.
+
+Eu vou colocar aqui de forma mais explicita tal qual aquela função vou receber aquele valor representa
+
+o alto valor e vou chamar aqui vale dois pontos e vou aqui interpelar o UOL no segundo seu erro então
+
+vou receber aqui uma mensagem de erro e vou colocar aqui um só Link outro blog e vou interpretar que
+
+o valor de erro.
+
+E finalmente eu vou a terceira que não vai receber parâmetro nenhum.
+
+Ela é chamada quando você chama ou cúmplices ou se chama subscrever ponto complete.
+
+Essa terceira função que você passa por subscrever a chamada e então colocar aqui vai seu fim legal.
+
+Então nesse caso está mais uma vez falou em Xinjiang GS é bem poderoso afinal chamou se o filme acertando
+
+mais uma vez.
+
+Ho Chi essa mi poderoso um erro.
+
+Que problema e aqui você tem apenas o subscrever e dentro dele você vai ter 3 metros o próximo que é
+
+pra gerar o próximo dado.
+
+No caso da promoção não faz sentido porque a Ubisoft vai ser chamada apenas uma vez só tem um único
+
+dado gerado.
+
+é como se o nexo complete fossem juntos.
+
+O único método que chama resolve já mata tudo ali e dado no caso do Nate.
+
+Ele vai retornar os dados.
+
+No caso do cúmplice você diz ao terminei de mandar os dados finalizei aqui no Observador.
+
+E quando você chamou ele é como se você tivesse rejeitado também.
+
+Além de obras de arte você passa a mensagem e aqui não subscrevo.
+
+Você consegue passar tanto o método que vai receber o valor assim como o método.
+
+Lembra que eu passei a função para depois espaço uma função para tratar o erro.
+
+Além do caixa a gente pode tratar o erro dentro do DN que a gente passou tanto a função para receber
+
+o valor com o erro que eventualmente pode ser tratado aqui.
+
+O método que é chamado quando você finaliza como você chama cúmplice esse terceiro método chamado Caso
+
+você não queira por exemplo tratar o erro.
+
+Existe uma opção que você tem que é o Now.
+
+Op.
+
+Certo ou seja sem a operação na outra.
+
+Aí você eventualmente pode por exemplo passar aqui no shopping não quer tratar o erro nesse caso.
+
+Então quando você vai ver Oxygen essa minha poderoso porque que ele não chamou o fim ele não chama um
+
+fim porque deu um problema e ele caiu na Op e não fez absolutamente nada no tratamento de erro de novo
+
+não chamou o FMI não chamou o filme Pixels aqui mais algumas vezes para ver se ele chama o fim.
+
+Nesse caso ele chamou exatamente o que agora não deu problema.
+
+Ele chamou o filme mas sempre que ele tiver o erro como você passou no shopping ou seja sem a operação
+
+ele acaba não tratando mais eu vou voltar aqui para a função como estava antes.
+
+Vou tirar isso.
+
+Uma outra forma que você tem é chamar o subscritor e eu vou colocar aqui embaixo.
+
+é o seguinte você pode chamar o subscritor e passando um objeto.
+
+é só fechar aqui passando objeto e aí você vai chamar as funções por nome e está então que ao apagar
+
+o conteúdo nessa função aqui eu vou substitui isso aquela função que vai receber o valor e aqui ele
+
+vai executar isso.
+
+Vou criar a função Rock que tem hoje no final né que vai receber um erro.
+
+Eu seria em português ou mensagem E aí eu vou pegar esse trecho aqui e colocar aqui vou substituir isso
+
+aqui por mensagem então MSG seria a mensagem de erro pra cá.
+
+E finalmente eu vou colocar aqui o terceiro método que é o cúmplice então vou chamar o console porque
+
+logo sim você pode também passar aqui pelo subscrever um objeto que recebe os três metros Anarchy.
+
+O erro é completo.
+
+Nesse caso como você colocou nomes você pode inclusive trocar a ordem não necessariamente precisa ser
+
+na mesma ordem.
+
+Exatamente por se tratar de um objeto e as funções são nomeadas.
+
+Então a gente pode comentar esse aqui rapidinho só pra executar outra forma executando o valor x DS
+
+é bem poderoso virou um problema e executando mais uma vez gerou polêmica novamente e aqui ele finalizou
+
+mostra as soluções corretamente.
+
+Também nessa outra forma que só mostra pra vocês um pouco mais sobre o observador falamos uma forma
+
+diferente de criar ele com um método diferente.
+
+Você vai ver as duas formas são equivalentes não tem diferença entre você criar usando o Mil e usando
+
+o método.
+
+Sempre que você chama o próximo ele vai gerar uma nova informação quando você chama complete.
+
+Ele finaliza dar o sinal de que não tem mais nada para ser enviado.
+
+Depois de um complicado você não vai chamar mais ou Net porque não vai adiantar porque você já finalizou
+
+aqui observou e você gera um erro a partir do método erro.
+
+Nesse caso aquilo observo que você não sabe diretamente as funções você sabe se subscreve então uma
+
+ou outra diferença com relação ao homem sequer se passa as funções ele passa com um objeto e a partir
+
+desse objeto você tem acesso a as funções de marketing.
+
+Reinaldão você tem que com o cobertor não né concluir que erro é a forma que você também tem de registrar
+
+soluções.
+
+Você tem três funções que podem ser registradas de sucesso outra de erro e a outra é completado.
+
+Você também pode subscrever passando o objeto e definindo o nome das soluções de forma explícita que
+
+nesse caso você tem que manter os nomes quarentena.
+
+Você tem que chamar de Net complete erro porque essa é a forma que ele vai chamar.
+
+Então fique por aqui pessoal no nosso segundo exemplo de observadores nós vamos fazer mais um terceiro
+
+eles para lá.

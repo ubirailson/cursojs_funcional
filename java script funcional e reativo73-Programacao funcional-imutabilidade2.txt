@@ -1,0 +1,283 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Imutabilidade2
+
+Agora no segundo exemplo de estabilidade uma cópia aqui até o nome do arquivo ou criar um novo arquivo.
+
+2 Fotos de Aracy mostra que um código bem mutável.
+
+Você tem por exemplo os números e o coloca por exemplo usar 4 8 3 2 9 9 3 eu quero por exemplo somar
+
+esses números conforme você criar aqui uma variável se ela total recebe o valor zero.
+
+Você faz aqui um laço forte com o Clash é igual a zero também outra variável sendo criada para controlar
+
+o laço é menor do que os muito leves e o é mais mais.
+
+E no final você vai ter um total com atribuição aditiva em relação a o rei.
+
+Então no final a gente tem o valor total sobe o teu blog total.
+
+Esse é um código bem imperativo e você explica exatamente tudo o que tem que ser feito.
+
+Detalhe o detalhe cria a variável que controla o laço define quantas vezes ele vai fazer o laço vai
+
+somando vários valores imutáveis e Carlos tem wi você tem um total de um total de 3 dados.
+
+Um dado é constante e os outros são variáveis.
+
+No final das contas esse código aqui já vem com resultado 39.
+
+Legal essa que foi a primeira alternativa com os dados mutáveis já esteja mais imperativa e menos declarativa
+
+e menos funcional também.
+
+A segunda essa que foi a primeira colocar aqui um comentário a estratégia com dados talvez entrasse
+
+aqui a estratégia menos largada para a segunda estratégia que você achar que a gente já viu por exemplo
+
+usando Windows Windows.
+
+Ele não vai mexer no arranjo original.
+
+Então eu não vou ter nenhum problema para usar ele.
+
+Eu posso pegar aqui criam variável total posso até criar uma constante.
+
+Por exemplo agora eu não vou ficar pensando mexer nela com o restante total recebi o bônus ou então
+
+reduz passando a b somado o valor de A mais B menos código mais caro ativo.
+
+Posso usar essa função sempre que for necessário então posso criar aqui constantes somar recebe e isso
+
+posso usar quantas vezes eu quiser.
+
+Chamo aqui o somar é no final.
+
+OP console Fotolog o valor total então o valor anterior foi 39 quando teremos exatamente o mesmo valor.
+
+39 então chat estratégica a gente pode usar que a gente já viu anteriormente a função retorna a Nova
+
+a função filter também retorna não vai mais no original e reduz retorna na verdade qualquer coisa na
+
+posição número 1 a o objeto e ele também não mexe mais original então essa foi a segunda estratégia.
+
+Estratégia funcional a estratégia também mais voltada para a programação com estilo de programação mais
+
+ativo senão que o computador tudo o que tem que ser feito você diz o que é que tem que ser feito não
+
+como nessa parte que você está dizendo como tem que ser feito nessa parte que você está dizendo que
+
+tem que ser feito.
+
+Reduza de números usando a lógica de somar.
+
+Basicamente ele vai pegar e somar tudo.
+
+A terceira estratégia A terceira estratégia que também é uma estratégia funcional você pode usar recursividade
+
+XXI idade.
+
+Você também consegue nesse caso substitui um laço e conseguir substituí imutabilidade a partir de um
+
+método recursivo.
+
+Como é que eu poderia fazer um metro pra somar tudo o que posso fazer assim como a função que eu vou
+
+chamar de mencionar eu vou receber aqui o arranjo de elementos e vou receber um segundo parâmetro que
+
+vai ser o total total recebe inicialmente zero.
+
+Então não sou obrigado a passar para essa função o segundo parâmetro.
+
+Aqui eu chamaria de somar só pra ficar um pouco mais caro que eu vou a ideia é somar todos os meses
+
+na classe B que eu achei o valor total.
+
+E como é que eu vou fazer aqui pra resolver isso usando recursividade.
+
+Existem dois aspectos importantes quando você lida com funções recursivas certo e você vai ver muita
+
+recursividade também na programação funcional.
+
+Um dos aspectos é a função recursiva PRA SER recursivo precisa chamar a si mesmo.
+
+Tá então aqui dentro dessa função eu preciso chamar a função soma vai se chamar ela mesma e o segundo
+
+aspecto da recursividade que é geralmente importante a condição de parada.
+
+Você precisa definir em que momento ele vai parar de chamar a si mesmo.
+
+Porque se não houver um limite o que vai acontecer aqui ele vai dar um problema na execução.
+
+Se por exemplo eu colocar aqui ou somar a.
+
+Passado é passado por exemplo o valor total.
+
+No final das contas esse é um método recursivo que nunca vai parar.
+
+E também vai dar um problema na hora de executar.
+
+Então colhe.
+
+Mas eu preciso chamar gente aqui na então somar.
+
+Rei passando números.
+
+Alguém aqui está mais uma vez era um lema e a mensagem que deu o que foi que excedeu o máximo tamanho
+
+de chamadas na pilha de execução.
+
+Exatamente porque você tem uma chamada recursiva que não tem uma condição de parada.
+
+Então como é que a gente faz para definir uma condição de parada a primeira coisa é a condição de parada
+
+no meu caso aqui vai ser o tamanho do SESARAM.
+
+Então o tamanho do Harry 6.0 eu posso considerar como por exemplo se isso aqui resolver é falso.
+
+Não quer dizer que atuou ou seja um Harry vazio automaticamente resolvido para falso.
+
+Se eu coloca aqui tu quer dizer que o Harry está vazio nesse cenário ou se eu quiser ser mais explícito
+
+eu posso colocar Rei ponto leve exatamente igual a zero se o tamanho do Harry fizeram significa que
+
+eu tenho mais opção e vou retornar o valor total nesse caso que de baixo.
+
+Eu não posso simplesmente passar o Harry com o mesmo tamanho que passaram a menor.
+
+Então eu vou fazer o seguinte eu vou pagar o total mas o primeiro elemento do Harry reserva vou sempre
+
+a somando primeiro momento eu vou querer passar para a próxima chamada Harry menor e eu posso usar para
+
+isso aquele Metro que eu mostrei aula passar aqui e o islandês que é um pedaço então eu posso começar
+
+por exemplo.
+
+A partir daí lamento muito ele vai pegar um pedaço do Harry a partir do alimento até o final e o alinhamento
+
+de índices zero já não vai mais fazer parte da próxima execução nessa função.
+
+Nesse caso tem o total mais fizeram gerada a soma e o que foi passado para a segunda execução.
+
+Harry um pouco menor tirando o primeiro elemento já que eu já acabei de somar o primeiro elemento aqui
+
+com o total e dessa forma sempre que ele for chamado é aqui ou não há estabilidade ele não mexe no Harry
+
+original e aqui também não há muita habilidade ele pegou o total mais o aluno primeiramente do Harry
+
+e gerou o novo número Se eu executar esse código obviamente eu guardar isso aqui dentro de uma variável
+
+por esse total eu posso chamar aqui console outro blog total e o valor é pra ser exatamente o mesmo
+
+acredito que era 39 certo continuou funcionando 39 ou seja troquei um código com vários pontos de imutabilidade
+
+por uma função recursiva e não há nenhuma estabilidade também troquei um laço forte por uma função recursiva
+
+como você encontrar.
+
+Esse tipo de situação dentro de corpo funcional.
+
+Então trabalhar com dados imutáveis é algo que a gente vai fazer durante todo o curso.
+
+Se você percebeu no nosso exemplo que foi exemplo bem mais interessante pra explicar sobre isso.
+
+No primeiro momento eu obtive a Larry com todos os diretórios certo e não armazena Rui Reininho uma
+
+variável mas quando ele passou por aqui ele não mexeu na rea original ele criou o outro Harry com os
+
+dados filtrados apenas os arquivos que terminou com essa ideia original continuou lá se eventualmente
+
+alguém fazer referência para o original isso Harry não foi mexido.
+
+Depois eu peguei o Harry com os nomes dos arquivos tirei um outro Harry agora com desculpa e uso dos
+
+arquivos uma vez que eu chamei o método Li arquivos depois eu peguei esse Harry com todos os conteúdos
+
+e mesclar isso restringe só mais o Harry original continua lá.
+
+Vocês percebem a diferença entre alterar um dado pré existente e evoluir um dado para outras versões
+
+ou seja ter uma versão com Harry que era SPFC.
+
+Depois passei a ter o outro rei com menos elementos só com os arquivos que terminam com SRT.
+
+Depois eu peguei um outro rei com os conteúdos.
+
+Depois eu me esqueci dos conteúdos Depois separei os conteúdos o Linha depois eu tirei as linhas em
+
+branco mais não mexi nos arrisquei cinco gerando novos a raiz ou seja os dados onde as questões também
+
+relacionado à programação funcional e programação funcional ela acabou consumindo mais memória até porque
+
+ela vai gerando novas versões dos dados e não Machine os dados originais mas o fato por exemplo que
+
+no caso orientação objeto trabalha muito com essa questão de referência de memória.
+
+Você pega um dado e você tem duas variáveis por.
+
+Não para a mesma referência de memória e isso de certa forma economiza memória.
+
+Sim você tem o mesmo espaço de memória sendo compartilhado por várias variáveis mas esse é um problema.
+
+Porquê.
+
+Porque quando você eventualmente compartilha essas referências você vai ter mais gente alterando esses
+
+dados.
+
+Isso é extremamente prejudicial pode gerar uma quantidade muito grande de bandas como a gente tem um
+
+ambiente com memória muito mais barato ou seja hoje a gente tem no celular mais memória e mais processamento
+
+do que uma frame.
+
+Quando esse paradigma foi criado na década de 60 alguma coisa do tipo certo então a gente tem memória
+
+muito mais abundante então esse tipo de processamento não deve causar grandes impactos quando você tiver
+
+alguma funcionalidade muito específica na sua aplicação que precisa ser muito tornada precisa ter o
+
+consumo de memória muito consciente exatamente por conta da demanda.
+
+Porque são milhares de pessoas acessando simultaneamente e tal é um sistema crítico aí você pode eventualmente
+
+trabalhar com essa questão de imutabilidade trabalhar com o compartilhamento de memória em cenários
+
+muito específicos.
+
+Mas o consumo adicional de memória que eventualmente a programação funcional vai causar ele não se compara
+
+com o benefício que é em termos de manutenção você tem um coelho que trabalha com dados imutáveis você
+
+tem um código que tem funções pequenas que fazem apenas uma única responsabilidade porque a maioria
+
+dos projetos o gargalo não está necessariamente no desempenho.
+
+O gargalo está muito provavelmente no código mal escrito um código cheio de problemas relacionados a
+
+essa questão imutabilidade o código com baixo uso com alto acoplamento e esses são alguns dos motivos
+
+pelos quais os projetos fracassam não necessariamente porque o código não tem um determinado desempenho.
+
+Então ela ao hoje todas as nossas decisões são você tem ganhos e você tem perdas no caso na programação
+
+profissional você vai perder um pouco em desempenho mas por outro lado você consegue paralisar mais
+
+um código funcional do que um código pronominal que está compartilhando dados mutáveis são muitos assuntos
+
+interessantes na cada um desses temas funções puras imutabilidade dá para a gente se aprofundar muito
+
+nele não fazer só mais um exemplo de imutabilidade só pra ficar muito claro essa questão da referência
+
+como passar referência.
+
+Isso acaba sendo prejudicial e pode gerar códigos que vai mexer de forma indevida gerando efeitos colaterais.
+
+Mostrar estar proximal só pra todo mundo ficar muito alinhado o que é que significa passagem com referência
+
+e passagem por valor que também tem muito a ver com essa questão da imutabilidade.
+
+Eu tb já proximal.

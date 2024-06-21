@@ -1,0 +1,219 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 3 - Resposta 3
+
+Quero deixar claro nessas respostas que eu estou dando aqui e aqui.
+
+Assim como existem milhares de programadores existem milhares de possíveis respostas que você pode usar
+
+para eventualmente fazer um rio maior do que em relação à criação desses acabou não acha para vocês
+
+mais uma alternativa que eventualmente você pode querer usar certo que é por exemplo a gente passar
+
+o subscrito apenas uma única vez para as três funções.
+
+O compliance e o erro eu vou achar pra vocês.
+
+Como poderia ser uma possibilidade em vez de chamar aqui marketing ou proveito ou chamar de por exemplo
+
+ao prefeito
+
+eleito sei lá ou object ou só Peraí acho fica legal.
+
+é basicamente o que eu vou fazer é o seguinte a partir do operador eu vou fazer isso aqui ao chamar
+
+esse operador passando o método subscrito.
+
+E eu espero receber de dentro dele um objeto que tem o marketing que tem um cúmplice e que tem o erro
+
+inclusive em outra aula a gente pode fazer um tratamento caso o objeto retornado pelo usuário não tenha
+
+um método completamente ou método ele pode dar uma implementação padrão para facilitar mas deixa mostrar
+
+como é que seria isso.
+
+Agora vou passar uma função para chamar aqui aproveitou para se ficar claro que é uma função e basicamente
+
+eu vou passar para essa função subscrito e espera receber um objeto com uma resposta que vai ter a função
+
+Macchi cúmplice.
+
+Então usando aqui mercenário eu vou passar um subscrito.
+
+é na verdade que eu vou retornar aqui ao invés de receber o V.
+
+Vai tornar aqui dentro.
+
+A função Marchi que vai receber o V é dentro dela que eu coloco aqui.
+
+A lógica serve pra isso.
+
+Isso é realmente um objeto e não confundi esse par de chaves aqui com o corpo da função.
+
+Posso colocar aqui ou entrei pra ficar claro que ele está se tornando um objeto legal de tal forma que
+
+ele vai chamar.
+
+Eu passei essa comoção que é essa a subscrever porque estou precisando subscreve que foi criado na função
+
+genérica passei pra cá agora estou retornando um objeto que tem o valor genético aí pode ter as outras
+
+duas funções e tal estão achando pra vocês aqui.
+
+Mais uma vez isso continuou funcionando o código tá.
+
+Agora essa função vai deixar aqui mais espaço e nós temos uma função que eu vou colocar assim depois
+
+a gente muda a fatura pra gente que eu fico com medo de ficar difícil de vocês entenderem.
+
+Acho que muita gente vai conseguir pagar algo mas outras pessoas vão ter um pouco mais dificuldade e
+
+aquilo está tornando um bom objeto.
+
+Então basicamente espera receber uma função que vai me dar os dados que eu vou usar para fazer o seu
+
+escravo aqui que são as suas três funções Macchi o erro e o cúmplice.
+
+Então basicamente eu queria uma função que recebe e subscrevo o que eu preciso desse cara pra poder
+
+fazer minhas operações e eu estou retornar a partir dessa função abjeta como se estivesse pegando esse
+
+objeto aqui contra o Zé e tivesse jogado aqui dentro.
+
+Basicamente eu estou fazendo isso certo espero que tenha ficado claro se está aqui vai funcionar.
+
+E se eu voltar aqui ele vai devolver isso aqui para mim.
+
+Note que várias coisas eu não estou precisando fazer como criar observa mortal.
+
+Vai ser bem mais enxuto na hora de fazer isso.
+
+Fora que eu posso colocar também uma versão padrão pra ele uma versão padrão para o cúmplice então executado.
+
+Só mais uma vez está funcionando legal.
+
+Se eu quiser agora transformar isso para um funk basta eu fazer isso aqui.
+
+Se eu quero retornar um objeto eu coloco o objeto entre parênteses que ele sabe que você está retornando
+
+a esse objeto e aqui.
+
+Com isso eu coloco a função Net aqui dentro.
+
+O que eu posso não remover essa parte final.
+
+Agora então fica bem mais enxuta a criação do nosso operador.
+
+Posso fazer essa mesma coisa que está faltando só mais um parênteses agora vou copiar isso e jogar pra
+
+cá.
+
+Então aqui executado a gente vai ter apenas o cúmplice no caso do operador nenhum está aí só a gente
+
+vê o final comentando que o terminal gerou algum problema porque foi que gerou problemas musculares
+
+na hora que cheguei foi que eu fiz aqui o último.
+
+Na verdade tenho aqui um SOS.
+
+Na verdade não tem um só que não canta errado tá.
+
+Agora sim vou limpar executando o resultado.
+
+Exatamente por conta desse aparador.
+
+Eu posso provar que ele passou por aqui e não consola o blog.
+
+Nenhuma delas agora chamou o homem passou por ele não gerou nada e se eu desse comentar é só para domingo
+
+onde você vai ver que a gente gerou apenas o primeiro valor aqui tá o mais complicado agora vai ser
+
+esse outro aqui que é exatamente o último.
+
+Nesse caso a gente pode pegar aqui ou partirá tirar esse código aqui do haverá show copiar aquilo depois
+
+pra aproveitar acho na lógica coloca aqui vou pagar esses dois métodos que vou jogar aqui dentro eu
+
+também vou precisar criar essa variável última quinta feira último dia já pra cá não tem problema nenhum
+
+e vou tirar essa parte aqui do caixa.
+
+Agora em vez de testar o primeiro eu vou testar o último executando pegou cinco sem problema nenhum.
+
+Se você quiser por exemplo um tratamento de padrão a gente pode criar aqui uma constante chamada subi
+
+ao BJ de ser objeto digo que eu vou chamar Bonato sobre Scolari e aí eu posso fazer aqui algo do tipo
+
+marketing recebe.
+
+Eu chamo aqui só de subir não sob ponto Macchi vírgula e eu coloco aqui o erro.
+
+Se não tiver o erro por exemplo se não tiver o erro eu vou colocar por exemplo ele vai receber um parâmetro
+
+que é o erro é basicamente o que eu vou fazer aqui chamá los Santos Klein Santos.
+
+Outro erro passando erro para eu mandar para a frente.
+
+E aí eu vou colocar isso dentro de um parênteses aí vê isso como uma expressão caso não esteja saturada
+
+ele vai usar essa função padrão e a gente pode também se quiser colocar o lixo aqui também em conflitos
+
+caso o conflito não tenha sido informado.
+
+Eu vou chamar o subsecretário político e aí no caso por exemplo do primeiro pode ser que já é efeito
+
+colateral porque no caso do cúmplice eu estou chamando cúmplices na internet.
+
+Mas se se funciona a gente deixe se mencionar a gente pode inclusive passar aqui o cúmplice vazio.
+
+Não poderia simplesmente passar aqui com o clichê vazio.
+
+Como boa parte dos nossos operadores vai estar precisando mexer apenas no marketing.
+
+Então LEGAL TALVEZ TENHA implementação padrão tanto do erro como do cliente e não precisar para isso
+
+todos os meus operadores justifica ainda mais eu criar uma função que vai facilitar a criação de novos
+
+operadores.
+
+Então deixo até estar aqui mas só para ver como é que fica eu voltar está sem esse método compelidos
+
+só pra ver se ele gera algum tipo de problema.
+
+Talvez lá embaixo eu vou comentar o primeiro e vou comentar o último executado.
+
+Trouxe apenas o primeiro comentário primeiro Kagami não trouxe nenhum e o último antes vou comentar
+
+isso aqui e batalhar.
+
+O último elemento que não achei legal é basicamente o que eu fiz foi aquilo enrolado.
+
+A gente tem uma forma mais simples de criar os operadores pode usar isso mais à frente para criar mais
+
+operadores.
+
+Pra gente migrar o nosso projeto para a versão JS a gente pode usar uma função como essa para facilitar
+
+a criação dos nossos operadores vamos ter que ficar toda vez criando uma função que retorna observou
+
+Bo que implemente ou simplesmente chamar ele é menos subscrever e já devolver as funções que é exatamente
+
+o núcleo é um coisa mais importante desse processo.
+
+Isso espera ter ficado claro para vocês.
+
+Claro que a gente começa a mexer em uma função bem ou ultrapassar uma função como couber que depois
+
+você tem no meio.
+
+Muita coisa pode ficar um pouco mais confuso mais para ter ficado.
+
+Eu quis fazer de uma forma pausada até porque na prática quando você for ocupar essas funções pra você
+
+tem um uso não ter código duplicado.
+
+Você vai acabar usando todos esses recursos que não são explicados aqui no nosso curso pra isso espero
+
+que tenha ficado claro esse exercício e até o próximo dia.

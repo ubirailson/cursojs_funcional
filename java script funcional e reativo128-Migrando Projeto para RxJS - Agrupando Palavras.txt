@@ -1,0 +1,252 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Agrupando Palavras
+
+
+Agora nós vamos fazer uma versão alternativa dessa parte final que é agrupamento dos dados.
+
+Eu vou achar pra vocês agora eu não vou mais precisar dessa função de agrupar os dados aqui e nem vou
+
+precisar também converter todos os elementos pra lá Rei então você terá também essa opção por enquanto
+
+eu vou comentar aqui o uso do software.
+
+Eu vou deixar essa parte mais pro final estão executando aqui o código.
+
+O que a gente tem esse time de palavras que todas as palavras que inclui palavras repetidas e tals tem
+
+por exemplo aqui.
+
+Aí você tem novo lixo aí e eu quero agora agrupar essas palavras então pra isso eu vou usar um operador
+
+aí você tem que ter cuidado que é o seguinte como Odete tem alguns operadores incomuns que usam o mesmo
+
+nome do X.
+
+Essa gente tem que usar aqui os operadores antes de colocar aqui vai você vai ter aula o pai do LoL
+
+deixe o segundo gol.
+
+Baixe JG então vou selecionar o segundo.
+
+Dessa forma ele vai colocar logo o pai aqui no local correto.
+
+Então você tem que ter cuidado na hora de fazer eventuais aportes usando aquele login que eu falei naquela
+
+auto hipótese legal então lá coloquei aqui Bay.
+
+Nesse caso eu vou passar a função de olhar aqui pra a documentação você vai ver o seguinte.
+
+Você tem um time de dados Ligue 1 2 3 4 5 você vai definir qual é a função que você vai usar de agrupamento
+
+para esse cenário ele acabou colocando aqui a função e Módulo 2 Como será a função de agrupamento ou
+
+seja pra o valor.
+
+Essa resposta vai da prova Halo 2 a resposta vai dar zero.
+
+Então ele criou aqui hoje um Emmy e todos os elementos que a resposta vai dar pra três.
+
+A resposta também é pra 5 a resposta minha ou seja ele vai agrupar a parte da resposta dessa função.
+
+Todo mundo tiveram a mesma resposta ele coloca todos esses dados dentro de um mesmo.
+
+Então você tinha o único extreme de dados e agora você vai ter vários tipos de dados de acordo com o
+
+critério que você usou para fazer agrupamento seja dividir um determinado número e um módulo 2 dele
+
+que vai da 0 ou 0 e você vai agrupar em dois grupos.
+
+Ou você pode usar algum outro critério.
+
+Eu quero pegar todas as palavras que tenha a mesma quantidade de letras.
+
+Você vai conseguir agrupar por exemplo a quantidade de letras certo vou fazer desse jeito pela quantidade
+
+ler só pra vocês verem depois a gente faz outra estratégia.
+
+Então eu quero agrupar as palavras.
+
+Então recebi aqui por exemplo determinada lamento a parte de elemento.
+
+Ponto.
+
+Ou seja nesse caso ele vai gerar um agrupamento de todas as palavras que tem a mesma quantidade de letras
+
+que é exatamente o que esse atributo faz dentro das 30 já que a gente tem o conjunto destruídos.
+
+Legal.
+
+Só que agora depois do grupo eBay a gente vai receber uma série de outros observadores exatamente usando
+
+o Merge Map que eu vou fazer.
+
+O que eu consigo pegar esses dados aqui é agrupar eles por exemplo dentro de um array.
+
+Então como fazer eu vou colocar logo na sequência que Merge Map só tem um marcador x GS e a gente sabe
+
+que aqui a gente vai receber o elemento que saiu a partir do Bay.
+
+Nesse caso o elemento que saiu do grupo Bay é exatamente esses grupos aqui.
+
+Esses grupos que são as historinhas então vão receber vários elementos que são os grupos diferentes
+
+do nosso.
+
+Outro exemplo que a gente fez aqui no Merge Map está mais sabendo o que exatamente esses valores 1 2
+
+3 4.
+
+Só que com o grupo baixa a gente acabou recebendo aqui esses observou Boss que agrupa todos esses valores
+
+então imagine que você tem um observe o valor 1 3 e 5 ou por exemplo com as palavras se você quiser
+
+por exemplo concatenar todas as palavras e colocar tipo dentro de um rei você pode usar por exemplo
+
+para fazer isso colocar tudo dentro de uma mesma estrutura aquela que eu vou fazer aqui ou então aqui
+
+eu vou receber os grupos que vou chamar aqui de grupo e aqui dentro você pode já que esse grupo é um
+
+observador você pode fazer grupo.
+
+Para pai da mesma forma que eu fiz no outro exemplo e aqui dentro eu posso usar o Windows Edu só tem
+
+que ter cuidado porque você também tem o Windows no low baixo.
+
+Eu vou importar onde baixam quando cheguei aqui e aqui no gorducho você vai passar uma função que vai
+
+receber o acumulador que vai receber o elemento atual como chamar de inserir o item é basicamente o
+
+que eu vou fazer.
+
+Na verdade você tinha palavras até aqui ou se agrupou as palavras certo isto é me.
+
+Os independentes mas a gente continua tendo dentro desses aqui que são as palavras.
+
+é exatamente meu objetivo apagar essas palavras e colocar dentro de um ano guardei achar para vocês
+
+que tem outras alternativas também.
+
+Então chamar reduz o acumulador.
+
+Aí eu vou juntar aqui ou dentro de um a rei todos os elementos de A tela que você com coloco o ponto
+
+que ele quer completar Mas beleza a si e eu vou passar com o segundo parâmetro.
+
+Meu Deus vou passar aqui o arroz vazio.
+
+Ora quer que a gente vai ter como resposta depois desse margem média que estão executando.
+
+Você vai ver que a gente vai ter as palavras agrupar as palavras por nome arretado demoram um pouquinho
+
+mais aqui para fazer todo o processamento que são muitas palavras todas as palavras que têm apenas uma
+
+única letra.
+
+Ele agrupou junto aqui na verdade eu não vou querer agrupar pelo tamanho da palavra e sim pela palavra
+
+propriamente dita.
+
+Ou seja sempre que tiver um lai ou mesmo colocam a palavra pontuou Chu Lobo que já critiquei a teologia
+
+que já foi feito anteriormente mas já está assim se aparecer duas versões com letra maiúscula minúscula
+
+e mentalmente eu preciso mudar mas eu quero agrupar pela própria palavra ou seja pelo próprio texto.
+
+Então basta retornar assim não.
+
+Então se eu executar mais uma vez você vai ver que o processamento vai mostrar as palavras agrupar os
+
+lucros e etc e tal.
+
+Outra coisa que a gente pode fazer é no lugar do induz a gente pode substituir isso aqui pelo Ju Rei.
+
+Então eu posso passar esse operador ou importá ele aqui que já foi importado para acertar em cima falta
+
+aqui Rei nesse caso já tá pegando esse grupo que é um absurdo.
+
+Tem vários elementos lá eu estou colocando tudo dentro de um.
+
+Então Caetano você vai ver que vai ter exatamente o mesmo a mesma situação sem ter que usar o caso Beatles.
+
+Agora tá fácil porquê.
+
+Porque eu já tenho elementos com os textos agrupados o que eu posso fazer agora com tais elementos e
+
+gerar por exemplo um novo objeto a partir do Mac.
+
+Então acho que eu já tenho o MAC aqui no Haiti.
+
+Então eu vou fazer.
+
+Eu vou receber usar raiz de Mac então que são as palavras agrupadas.
+
+Basta colocar aqui palavras só palavras mesmo.
+
+Bom enxergar as palavras juntas agrupadas aqui basicamente que eu vou querer gerar retorno vai ser um
+
+objeto eu vou colocar entre parênteses o objeto e eu vou colocar aqui o atributo vai ser um elemento
+
+conforme a gente fez no outro exemplo e eu vou por exemplo pegar aqui qualquer elemento já que aqui
+
+são todas as palavras são iguais eu posso pagar aqui palavras índice zero e a quantidade que eu posso
+
+pagar a partir de palavras voltou a falhar o tamanho e outras palavras.
+
+Essas palavras aqui são cada um desses a revisão por exemplo que eu recebi essa quantidade de elementos
+
+com a palavra como bichona.
+
+Acho que assim que se pronuncia já a palavra de Diogo eu recebi um outro rejeitam eu vou chegar exatamente
+
+esse R aqui vai ser essas palavras e aqui eu peguei o primeiro elemento já que todos são iguais pra
+
+pegar a palavra e jogar nesse objeto e a quantidade basicamente apagar quantos elementos tem dentro
+
+de si Harry estão salvando aqui.
+
+Agora a gente vai ter as palavras agrupados ou quase 400 vezes foi dito a palavra ou antes para falar
+
+de 135 gays etc e agora pode chamar aqui Tio Rei pra ele converter isso pra lá Rei e no final eu posso
+
+que já foi importado foi faltando só uma vírgula aqui e no final eu posso fazer a liberação de novos
+
+anulou deixe então que o resultado ao 2 mil 4 6 tem uma palavra aí dados e tal.
+
+Então é isso pessoal fizemos aqui agora uma segunda alternativa né.
+
+Usando alguns operadores do próprio X10 pra gente com mais alguns coisa usamos aqui o Google Bay que
+
+agrupou pela palavra e ele gerou vários extreme de dados cada um desses observou gols nesse time de
+
+dados com um grupo de palavras específicos a gente colocou aqui no Pay PI pra pegar esse time de dados
+
+e transformá la Rei.
+
+E tal fone que recebeu as palavras pegar as palavras né.
+
+Com esses arrepios agrupados chegamos aqui o primeiro elemento já que todos são iguais e alguns desses
+
+vai ter apenas uma única palavra.
+
+Então tem que realmente pagar o primeiro e aqui com a quantidade e com o tamanho do ai a gente conseguiu
+
+saber quantas e quantas vezes aquela palavra foi dita dentro do seriado inteiro convertem mas finalmente
+
+esses objetos pra Rei e no final fizemos.
+
+A nossa ordenação legal então com isso finalizamos o nosso capítulo de migração do nosso projétil pra
+
+de.
+
+A gente conseguiu também colocar a incorporar alguns outros operadores e também aquela estratégia que
+
+a gente tinha feito anteriormente e definiu uma função que facilita a criação dos nossos nossos operadores.
+
+No caso o operador explicou que foi a grande parte do nosso exercício.
+
+Esses operadores que a gente construiu aqui no meio digital deu pra ver muita coisa legal do lanche
+
+Pieces para que você esteja gostando do curso e até aproximá lo.

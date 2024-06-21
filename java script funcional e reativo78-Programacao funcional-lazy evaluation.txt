@@ -1,0 +1,167 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Lazy Evaluation
+
+Agora que a gente viu o carro e já sabe o que significa essa técnica a gente já tinha usado no passado
+
+já tínhamos aplicado ela no nosso projeto tinha o nosso primeiro projeto.
+
+Se a gente olhar lá no meio desse ponto de táxi você vai ver vários exemplos né que é um exemplo que
+
+a gente usou certa essa caixa do carro e também do conceito de avaliação tardia que eu quero comentar
+
+com você nessa aula.
+
+Aqui também a gente usou sempre está chamando a função passando parte dos parâmetros.
+
+O retorno dessa função é exatamente a função que recebeu a Rui o que é um valor textual dependendo da
+
+situação que usamos aqui também.
+
+O que é bastante interessante e torna o nosso código mais flexível.
+
+Na aula passada a gente falou sobre o carro e agora eu quero falar sobre o Luis Evaluation então vou
+
+criar aqui um arquivo chamado LUIZINHO IGUAL ponto que é assim e nós vamos criar criar aqui uma função
+
+que eu chamo aqui e que seria apressado.
+
+Então eu vou passar aqui um baluarte e um valor bem para essa função e dentro dela eu vou calcular aqui
+
+ao criar um constante chamado valor que vai ser MEF ponto Power vou pagar aqui o valor de Ah e vou levar
+
+A3 e calcular o valor.
+
+E finalmente vou retornar o valor calculado mais o valor de B legal.
+
+Vou executar esse código aqui embaixo e o console é outro logo aí e vou passar o valor por exemplo de
+
+3 e o valor Sany vou passar três depois de 200 e finalmente três de R$ 300.
+
+Fazer esse código vou ter 127 227 327.
+
+Até aqui tudo bem vamos apimentar aqui um pouco o nosso exemplo certo simulando um determinado processamento
+
+um processamento processamento mais pesado.
+
+Nesse ponto do código pra fazer isso eu vou criar aqui uma constante chamada aqui Fininho recebe ordem
+
+de ponto alto e eu vou somar aqui por exemplo mais dois segundos e meio dois mil e quinhentos milissegundos.
+
+A data atual.
+
+Vou colocar aqui eu eu por exemplo um desconto nao enquanto desconto nao for menor do que o fim.
+
+Eu quero que ele fique parado acertando pra só então com terminais de processamento pesado e que ele
+
+vai chegar nessa parte final.
+
+Então aqui já vou trabalhar com tempo vou chamar aqui um console.
+
+Ponto.
+
+Tai Chi vou colocar esse que vai ser o primeiro processamento e eu quero finalizar o trabalho aqui embaixo
+
+e então chamar o pai.
+
+Legal então nesse caso como vai ser nosso processamento.
+
+Ele tá vai mostrar 127 e depois de dois segundos e meio 227 segundos e meio 327.
+
+No final o tempo de processamento foi 7 segundos e meio mais ou menos tá bom criar esse mesmo método
+
+aqui.
+
+Só que com a versão Luizinho então o duplicar ele que vou criar a versão Laser então essa seria uma
+
+das motivações pelo qual você eventualmente gostaria de criar um método dessa forma.
+
+Então vou passar apenas um parâmetro e aqui eu vou retornar uma função ou retornar e veja tornar aqui
+
+o valor ou retornar uma função
+
+que vai receber o valor de B e aqui dentro não vou retornar agora sim isso porque ao retornar ao processamento
+
+a função continua exatamente a mesma coisa fazer o mesmo processamento pesado calculando aqui um determinado
+
+valor e no final ela vai retornar.
+
+Essa parte aqui é que a gente poderia chamar agora a função Lenzi é ter digamos assim um certo proveito
+
+tirar proveito do fato é que a gente tem agora uma função que usa Caroline ou seja você consegue passar
+
+parcialmente os parâmetros e não todos de uma vez que a gente pode fazer eu vou chamar aqui de Gleisi
+
+nesse caso eu vou substituir esse trecho aqui.
+
+Por isso certo ou seja eu vou chamar de forma parcial primeiro ou passar um valor depois outro já que
+
+ele vai retornar uma função se fazendo dessa forma não vai ter nenhum ganho vai ser exatamente o mesmo
+
+valor aproximado ele 7 e meio segundo então você 7 27 27 e vai colocar 127 227 e finalmente 327 mostrando
+
+o resultado do processamento foi um pouco mais rápido mas vai variar de acordo com cada execução mas
+
+o fato é que eu consigo pagar por exemplo o mês e 3.
+
+Aqui é constante.
+
+Eu vou chamar aqui de Luis 3 recebe esse valor e agora eu vou substituir isso por esses três aqui algo
+
+de tal forma que essa primeira parte do processamento eu fiz apenas uma vez e esse valor foi calculado
+
+e vai ser armazenado exatamente porque uma função é uma embora essa função leis e três aqui seja exatamente
+
+essa função que foi retornada como essa função foi definida dentro dessa outra função.
+
+Ela conhece o contexto léxico que a gente acabou de ver na aula de ecologia então ela sabe que existe
+
+um valor para balizar exatamente esse valor que foi definido no contexto no qual a função foi criada
+
+num contexto na outra escola que o contexto é fora da função e aí chamando uma única vez a gente vai
+
+ter acesso o valor.
+
+Vocês vão perceber que o processamento por conta dessa flexibilização será mais apoio a gente vai conseguir
+
+ter uma facilidade e rapidez maior no processamento exatamente por conta que a gente tem uma função
+
+que usa e a gente consegue ter o Luis Evaluation.
+
+Nesse caso demorou dois segundos e meio exatamente o tempo de resposta e ele conseguiu calcular que
+
+o resto praticamente em exatamente por conta que a gente conseguiu fazer essa separação.
+
+Aqui poderia ser um dos exemplos das motivações pelos quais vocês podem querer usar o câmbio para fazer
+
+avaliação tardia.
+
+Neri só realmente para acessar a parte final como realmente fornece a quando você tem um processamento
+
+antes que é mais pesado certo ou você é mentalmente para até quebrar mais funções.
+
+Mas aqui mostrando que existe essa possibilidade como a gente fez e no outro caso aqui ou no nosso exemplo
+
+real nós tínhamos uma função que tinha apenas uma única responsabilidade que era remover elementos que
+
+inclui um determinado trecho e ainda assim a gente conseguiu dividir isso em duas soluções para que
+
+a gente pudesse ter uma maior flexibilidade que no caso para a gente passar um parte dos parâmetros
+
+e passar a função que essa agarrei como parâmetro para a função da In.
+
+A gente usou aqui uma outra motivação exatamente você ter esse conceito da avaliação tardia certa você
+
+consegue processar apenas uma única vez e realizar vários exemplos tal que está mostrando pra você um
+
+pouco do paralelo entre um código e ganha um código que já executa de cara é um código que seria lei
+
+ou seja essa parte final que só vai ser executada quando realmente chegar todos os dados necessários
+
+para o processamento.
+
+Então é isso espero ter ficado claro também mais esse conceito da programação funcional e até aproximá
+
+la.

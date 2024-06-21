@@ -1,0 +1,125 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Ler Arquivo
+
+Só continuar aqui o nosso processo por enquanto a gente ainda tem um processo síncrono e acredito que
+
+vou manter se até o final.
+
+Você consegue colocar aqui um consórcio Log File para colocar o comércio nem mais baixo para o fim para
+
+a gente saber que ele só vai executar esse console logo com o fim da Nokia.
+
+Ele só vai colocar o console e ponto final exatamente depois que ele ler todos os arquivos.
+
+Ou seja nós temos aí o processo sincronizar com o cassino.
+
+O próximo passo vai ser ler os arquivos.
+
+Nós vamos entrar aqui já que para operadores 6 vão entrar em função tem um método de arquivo que é mais
+
+aqui no começo pronto no caso enchiam ou lê arquivos no plural que eu não vou ter ele por enquanto.
+
+E nós vamos ler o arquivo no singular que vai receber um caminho.
+
+Nesse caso a gente pode implementar mais ou menos como nesse aqui ou então vou implementar.
+
+A gente tem que a implementação padrão.
+
+Eu vou receber o caminho que é o caminho de cada vez.
+
+Basicamente eu vou chamar o wi fi pagando o conteúdo trazer isso para cá a gente vai ler o conteúdo
+
+e no final vou chamá lo subscrever um ponto que chegue logo na sequência ou chamar que o subscreve ponto
+
+cliques e feito isso tudo isso aqui eu vou envolver dentro de um ticket.
+
+Pra ter certeza que isso aconteceu algum erro eu vou modificar.
+
+Vai ser muito duro.
+
+Aqui eu vou chamá los os quais ponto.
+
+Terra Então nesse caso depois que ele terminou de ler o arquivo geral completo se ele caiu aqui eu subisse
+
+claro.
+
+Ponto.
+
+O que eu posso quebrar aqui outra linha pra ficar mais fácil.
+
+H tão só formatado tudo ok.
+
+Lê arquivo lá no outro arquivo.
+
+A gente vai não mais lê arquivos todos de uma vez mas eu ouvi um arquivo.
+
+Eles poderia ler tudo de uma vez.
+
+Poderia poderia por exemplo gerar aqui lendo diretórios na rede com todos os arquivos.
+
+Também poderia ir mais longe era na extremidade.
+
+Então lê arquivo desse caso aqui eu vou chamar essa função passando o caminho exatamente aquele que
+
+eu estou recebendo aqui.
+
+Logo na sequência eles estão um passo aqui a referência da função.
+
+Ele vai chamar ela passa Mocambinho e vai ter como resposta o outro operador.
+
+A partir da resposta da função aqui ok eu vou testando deixou me aos.
+
+Li arquivos esnobe de.
+
+Beleza tá dando problema porque eu escolhi essa função que ele está exportando aqui.
+
+Então salvou novamente acertamos pra gente ver se ele vai ler os arquivos não leu sobre escravos na
+
+hora que julga o que está acontecendo.
+
+Olhando aqui dentro dele arquivos fui procurar aqui arquivos prontos foi que eu fiz esse código aqui.
+
+Tão bom assim excluo isso aqui porque sei que geram um alemão que não lê arquivo.
+
+O seu caminho.
+
+Eu estou lendo esse caminho.
+
+Na verdade eu não vou passar o caminho.
+
+Na verdade o caminho vai ser passado aqui.
+
+Então eu vou precisar chamar a atenção para daí ele criar aqui o operador.
+
+Isso vai dar certo.
+
+Então eu vou chamar aqui a função e ele vai retornar a partir daí chamar lhe uma função.
+
+O operador da mesma forma como eu uso os operadores no X Jazz por exemplo usa o operador First vou chamar
+
+ele assim aqui também vai ser a mesma estratégia.
+
+Vou chamar a função.
+
+Ele vai tornar o operador executado mais uma vez.
+
+Nesse caso gente conseguiu ler os arquivos ele vai ler todos os arquivos colocar um lado ou outro bem
+
+grande aqui e aqui no final a gente tem a última agenda do último arquivo.
+
+Muito legal agora a gente tem daqui pra frente.
+
+Vai ser uma historinha de arquivo com o teu arquivo.
+
+Depois vai chegar um momento que a gente precisar juntar tudo isso numa coisa só pra no final calcular
+
+tudo dá pra juntar por enquanto eu vou trabalhar separado gerando esses dados depois a gente junta tudo
+
+e coloca uma única estrutura.
+
+Fizemos mais um passo aqui que foi ler o arquivo acho que o próximo a gente consegue juntar mais um
+
+dentro do vídeo saltam para o Genoa e até lá.

@@ -1,0 +1,117 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Subscription Resposta
+
+Então pessoal esse desafio é bem simples.
+
+Basicamente a gente vai usar um cara chamado o time.
+
+Então eu vou criar aqui um constante o operador chamar o time vai chamar QUE O e X.
+
+Assim posso com a resposta chamar o otário eu vou receber o observou ou então que que o operador de
+
+criação faz sempre retorna.
+
+Observe o gol eu vou passar aqui o tempo de espera de 13 segundos e a partir daí vou passar o período
+
+que ele vai ficar executando o que pode ser do tipo isqueiro ou mesmo número.
+
+Como a gente já viu aqui eu vou passar 500 e 500 milissegundos de tal forma que no momento que eu chamar
+
+observando pontos sobre os quais ele vai começar a gerar esses valores e aqui eu vou colocar uma função
+
+que vai receber esse número.
+
+Eu vou colocar aqui um console em outro blog.
+
+A execução gerou o número e aí eu vou intercalar o bolo de novela para ter colocado ontem pela indústria
+
+que não bati troca aqui detidos aqui outra acolá.
+
+O UOL Não vai receber como resposta obviamente que a subscrição é a partir disso a gente pode depois
+
+de dez segundos chamar aquilo Certinho tá maus passando ou função.
+
+Depois de 10 segundos eu vou chamar subiu um ponto contou sobre quais DH anda obcecado em chamar pulsar.
+
+Posso fazer isso por exemplo pra subir dois.
+
+é aqui a mesma coisa agora vou colocar dois gerou um número qualquer e no final vou chamar aqui ao subir
+
+dois pontos sobre os quais sobre o comportamento que eu quero talvez estar esperando três segundos gerou
+
+o número 0 1 2 3 4 e tal depois de 10 segundos ele vai parar para o outro.
+
+Os dois morreram.
+
+Você vai ver que nesse caso acontece a mesma coisa que eu mostrei lá na diferença entre o que observou
+
+ele está gerando valores diferentes.
+
+Se eu atrasar esse início aqui por exemplo você vai ver que os valores gerados vão ser diferentes porque
+
+cada um tem seu próprio valor já que não observou ele é uma casta será apenas um valor para cada um
+
+dos interessados e vários interessados ele vai gerando vários valores.
+
+Legal.
+
+Não quero falar especificamente sobre essa questão da subscrevo.
+
+Você pode criar por exemplo uma subscrição puxando uma coisa que você pode fazer o seguinte que já vai
+
+funcionar você pode pegar um sobrescrito.
+
+Existe um método chamado adicioná e você pode adicionar uma segunda subscrição dentro de um ao outra.
+
+Ou seja você acaba tendo uma subscrição de tiro de outra.
+
+Nesse caso se você parar apenas uma delas vai parar todas todas as subscrições que estão aqui dentro
+
+estão executando.
+
+Eu vou colocar aqui passa um pouco menos de cinco segundos para ficar muito grande o teste do outro
+
+e vou colocar aqui cinco segundos estão acertando.
+
+Ele vai esperar três segundos vai começar a gerar os valores dois segundos depois vai parar.
+
+Ou seja para os dois.
+
+Se eu não tivesse colocado isso essa minha aqui e acertasse novamente você vai ver que um deles vai
+
+continuar gerando depois exatamente o quem não foi pararam.
+
+Então tá gerando um 2 agora só dois porque o primeiro foi parar e o segundo não então para aquela opção
+
+quando você adiciona o outro então fechada que você adiciona o subiam dois ou separa os dois não funciona.
+
+Outra coisa que você pode fazer é pegar aqui.
+
+Subscrevo.
+
+Você pode criar um sabe escolher não vou colocar aqui constante subir a série.
+
+Eu sou executivo você pode adicionar subi vai receber outro adicionar um assobio e você pode adicionar
+
+aqui ou subir dois.
+
+E nesse caso eu posso parar a parte de subir aquela subscrição.
+
+Geralt muito subiu aqui e mais beleza contudo subscrição.
+
+E aí eu queria que o sul e a parte dele eu posso chamá lo subscrito uma única isso.
+
+Caso você queira criar várias subscrições diferentes e centralizar isso num único ponto você consegue
+
+por exemplo parar tudo de uma única vez mostrando aqui onde estavam.
+
+Então já estará aos três segundos começa a gerar os valores.
+
+Depois de dois segundos ele para todos exatamente o que você adicionou subscrições de filhos dentro
+
+e o único que nunca uma única queixou.
+
+Então essa é mais uma possibilidade que você pode usar dentro desse.

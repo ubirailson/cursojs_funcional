@@ -1,0 +1,179 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Agrupando palavras
+
+Agora nós vamos aplicar o Windows.
+
+A gente pode fazer com que essa função seja passada pelo Windows fazendo ela recebeu acumulador e recebeu
+
+a mente como a gente pode fazer essa função receber o rei de palavras então palavras aqui já a função
+
+mais específica especificamente para agrupar os elementos.
+
+A gente poderia criar uma função que agrupa os elementos e conta ao mesmo tempo agrupar elementos e
+
+tratar isso de uma forma genérica.
+
+Pegamos Elementos coletando e colocando eles agrupados.
+
+Poderia também ser eventualmente uma função genérica.
+
+Caso você vá usar isso em outros locais na sua aplicação.
+
+Por enquanto eu vou tratar de uma forma mais específica.
+
+Então vou colocar aqui Warren Rei palavras que contam o Windows então aqui dentro.
+
+Eu vou passar uma função que recebe o acumulador que seria esse objeto que vai ter as palavras agrupadas
+
+e aqui eu voltei a palavra especificamente que eu percorri cada uma das palavras e no final vai tornar
+
+esse objeto.
+
+Inclusive eu vou passar aqui com um valor inicial um objeto vazio legal.
+
+Então o que é que eu vou fazer no primeiro caso ele vai passar o acumulador como se esse objeto vazio
+
+vai passar a palavra pra gente que a padronização eu vou por exemplo criar aqui.
+
+A variável p que vai receber a palavra eu vou pagar que a palavra ponto chula ou questionou o que é
+
+isso.
+
+A gente tem todas as palavras em letras minúsculas a gente não considerar com maiúsculas minúsculas
+
+sendo diferente.
+
+Então se o cara falou Now com em maiúsculo e Now com ele minúsculo é a mesma palavra pra gente fazer
+
+esse agrupamento sem considerar letras maiúsculas e minúsculas.
+
+Uma vez que eu peguei a palavra eu quero verificar se dentro do meu objeto acumulador que eu poderia
+
+chamar de objeto ou por exemplo agrupar agrupados em palavras agrupadas ou agrupamento certo nome que
+
+eu quiser colocar para chamar de agrupamento por exemplo certo seria no acumulado.
+
+Então dentro desse objeto que tem o meu agrupamento eu quero verificar se ele tem um atributo com a
+
+palavra p.
+
+Existem duas formas de você acessar um atributo de um objeto.
+
+Se eu mostrar que ao criar aqui Let produto recebe nome dois pontos caneta você coloca um produto impresso
+
+dois pontos dois ponto 35 h.
+
+Pronto.
+
+Tenho aqui o meu produto eu consigo acessar um produto com outro nome legal caneta como também consigo
+
+acessar produto entre colchetes.
+
+é aqui que eu coloco o valor textual do melhor atributo produto outro nome.
+
+Então se eu tenho uma variável por exemplo a AT&T.
+
+A AT&T recebe o valor o nome no nome.
+
+Se eu tentar acessar o produto ponto a TR ele não vai encontrar um elemento um atributo com esse nome
+
+porque ele espera que tenham um AT&T dentro do seu objeto original.
+
+Mas se você fizer um produto colchetes a AT&T R.
+
+Ou seja você está usando o valor do atributo que é nome.
+
+Exatamente porque eu coloquei nome e até aí você vai conseguir acessar o nome caneta.
+
+é exatamente isso que eu estou fazendo nesse código.
+
+Eu vou querer acessar a parte da palavra já com as letras minúsculas sabe se dentro de agrupamento eu
+
+tenho um atributo com esse nome aí se eu não tiver o fato o seguinte que é a primeira vez que eu vou
+
+usar um teste nele se tiver o atributo citado o que é que eu vou fazer eu vou pegar aqui e o agrupamento
+
+vai receber mais igual ao meu.
+
+Eu queria acrescentar mais uma a quantidade de vezes que a palavra foi usada exatamente com o que eu
+
+acabei de encontrar a palavra uma segunda vez.
+
+Caso contrário eu vou querer fazer o agrupamento B vai receber é a primeira vez que eu encontrei essa
+
+palavra aqui dentro desse Windows.
+
+No final eu vou retornar obviamente por agrupamento acredito que vai funcionar.
+
+Não testei discorde mas vamos testar aqui ou eu vou passar.
+
+Na verdade vou receber uma rede de palavras.
+
+Então posso passar isso aqui ao agrupar palavras diretamente pra cá meu bem já que nesse momento eu
+
+estou trabalhando e uma observação aqui durante esse fluxo em alguns momentos eu trabalhei com a REI
+
+e outros.
+
+Trabalhei com um texto tão importante que você sabe que a resposta de uma solução vai entrar na outra
+
+função com esse valor.
+
+Estou esperando receber uma rede nessa função espero que a resposta da versão anterior me retorne à
+
+raiz.
+
+Nesse caso aqui retornarão a Rei filtro Ei Rei mas continuo com Rei continuo com Harry agora com o conteúdo
+
+dos arquivos Jeremias Trim mesclando todos os elementos separei de novo essa string gerando mais um
+
+rei filtrar os elementos.
+
+Depois me exclui tudo e o grande texto é geral e o outro a Rede Novo separando por palavra limpa e as
+
+palavras vazias continuo com a Rei e agora vou passar essas palavras pra cá pra se agruparam estão agora
+
+o resultado vai ser bem diferente.
+
+Sem palavras a gente vai receber aqui ou lado um dois três.
+
+Ele colocou como se fosse valores numéricos né.
+
+Quem realmente deve ter esses números aqui dentro das palavras.
+
+Aquilo começou com o local em meio a baldes de ópio foi usado 28 vezes 666 2s com bichona e comissário
+
+as 37 vezes o tal então já está funcionando de forma interessante.
+
+O que eu quero agora fazer OP Essas palavras que por algum motivo ou ainda sobraram algumas.
+
+Alguns números eu posso também removeu elementos se for um número legal eu posso aqui depois que eu
+
+me envolvi.
+
+Se for Brasil como tem ainda número depois que eu tirei tudo né.
+
+Eu posso executar mais uma vez ou pra tirar os números.
+
+Mas quando a gente já não vai tem números que números acrescenta muito em termos de palavras novos né.
+
+Legal que a gente pode fazer agora é fazer uma ordenação em cima do valor.
+
+Eu quero ordenar de tal forma que eu pegue a palavra mais dita para a palavra menos dita então já tá
+
+bem perto do resultado final a gente já tem um grande objeto com todas as palavras está faltando só
+
+a gente ordenar.
+
+Então pra gente ordenar atributos de um objeto não tem um metro que faça só uma nação de atributos de
+
+objeto o que a gente pode fazer é transformar isso em um rei.
+
+E a partir daí a gente faz em sorte em cima Rei eu vou fazer isso na próxima aula vai ser das últimas
+
+aulas nesse capítulo em relação a esse desafio a esse pequeno projétil então fico por aqui e até para
+
+os mal.

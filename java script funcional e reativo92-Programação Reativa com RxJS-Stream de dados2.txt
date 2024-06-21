@@ -1,0 +1,188 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Stream de Dados 2
+
+
+Agora nós vamos fazer um exemplo desse tipo de dado só que usando a lei pra isso só pra esse conceito
+
+ficar muito claro na cabeça de vocês que na hora que a gente for trabalhar com a gente já tá esse esse
+
+conceito já está bem claro.
+
+Então vou criar aqui no arquivo que eu vou chamar de destruir dados lá em Dois de assim e imaginar aqui
+
+a rede numeros numeros.
+
+Eu vou colocar 1 2 3 4 5 6 7 8 9 10 e eu vou criar aqui uma função no outro eu o chamei de gerar números
+
+eu vou chamar aqui tô pensando nomes almejado a gente já tá SN.
+
+Por exemplo fala que nomes que tem lá alguma coisa são homens mas que no caso que eu vou chamar de gerar
+
+elementos então eu recebo um rei e a ideia é que a partir disso eu vou gerar os elementos então posso
+
+criar aqui mais ou menos uma estratégia parecida por exemplo que a retornar ao objeto que vai ter um
+
+método iniciar nesse método eu passo uma função que é essa função vai empregar cada um dos elementos
+
+do Harry e vai devolvendo ele com o máximo de dados para ficar algo bem mais de um sítio ver realmente
+
+os dados sendo mandados.
+
+Eu vou colocar isso dentro de um 7 intervalo.
+
+Então faz o seguinte dentro de um sétimo intervalo eu inclusive saiba aqui no intervalo né.
+
+Olha aí eu li no site atual.
+
+Então vou chamar aqui a função essa função vai ser chamada sempre por exemplo de 10 segundos só para
+
+a gente ver o resultado e a ideia é pegando cada um dos elementos do Harry.
+
+Então posso criar aqui uma variável pra ir controlando o índice ou chamar aqui latim e assim recebe
+
+um valor zero.
+
+E aí sempre que ele entrar aqui no site integral eu vou chamar o rei.
+
+A partir determinado em si eu vou passar isso aqui para a função que você passará comparando chamar
+
+aqui função.
+
+Passado o índice rei obviamente se assim sim for maior ou igual ao tamanho do rei ou seja rei ponto
+
+leve seu estômago Rei significa que nesse caso eu tenho que parar o meu 7 intervalo.
+
+Então aqui eu poderia dar um clima igual limpado aqui no intervalo.
+
+E caso contrário não seja maior ele vai lá e chama isso.
+
+Então no momento que você tiver o índice mais alto que eu tomando a Rei ele vai para a execução.
+
+O laço fo não existe exatamente por conta que quem vai estar fazendo esse lobby é o site ideal.
+
+E aqui depois que eu leio que eu posso pagar o índice e acrescentar ele vai fazer isso vou chamar aqui
+
+e eventualmente a gente pode retornar um objeto que vai ter um método barato que parar antes de ele
+
+ler todos os alimentos.
+
+Aí eu vou por exemplo pegar aqui é a mesma coisa o clima igual e vou limpar a execução desse intervalo
+
+que foi criado aqui.
+
+Tá tudo certo o chamado Rei aí sim vamos ver se vai dar certo agora que vou gerar aqui um temporizador
+
+temporizador recebe gerar elementos e eu vou passar para lá esses números aqui para baixo.
+
+Pronto vou passar aqui os números com parâmetro e vou ter aqui um temporizador um ponto inicial eu vou
+
+querer por exemplo passar aqui vou receber o número o padrão o parâmetro melhor dizendo.
+
+Então coloca naquela consola e conta logo aí eu voltei mas volto Paula 2 elevado um número que foi passado
+
+na então 2 ala armador 1 2 4 vai dar 4.
+
+Agora a 3 vai dá 8 16 32 64 128 15 12 1024.
+
+E alguma coisa aqui então executada aqui o corte para a gente ver o resultado você vai ver 1 2 4 8 16
+
+32 64 128 56 512 e 1024 executou 1 2 3 4 5 6 7 8 9 10 vezes exatamente os 10 elementos 1 2 3 4 5 6 7
+
+8 9 10 legal.
+
+Então a gente pode também nesse caso uma vez que eu tenho aqui a execução eu posso colocar aqui quem
+
+te chama lá não acha JS subir.
+
+Certo Não posso crer que um sobrescrito puxando que exatamente uma execução.
+
+Nesse caso o que eu chamei aqui a dizer que nesse caso a gente bota os nomes.
+
+Outro exemplo que eu posso eventualmente chamar um site maltês nesse site está em Malta.
+
+Vou passar em função de que essa função será chamada depois de quatro segundos que eu vou chamar execução.
+
+Ponto para ele está gerando um estranho baseado na quantidade de elementos aqui do Harry.
+
+Ou seja sonoramente os fixos.
+
+Não é por exemplo simplesmente acrescentando ou seja um outro tipo de destino aqui baseado nisso aí
+
+se passa a Bíblia Harry uma lista de objetos.
+
+Ele vai devolver o lixo de objetos a passar um lixo Industries ele vai ver o lixo destruindo postes
+
+demonstram aqui depois de quatro semanas eu consigo parar também a execução desse time de dados executando
+
+mais ordens limpando que o código 4 limpa mais do que devia.
+
+4 8 depois de tempo ele parou.
+
+Só não acho que a última vez que a execução do nosso código estava lá já era 2 4 8 e depois ele foi
+
+lá e cancelou a execução pouco depois chamei para ser chamado de novo aqui ao gerar elementos já posso
+
+me chamar aqui uma única vez ao chamar Mentos.
+
+Eu já posso chamar o iniciar e vou passar aqui uma função que vai simplesmente colocar no console outro
+
+blog.
+
+Nesse caso em vez de passá os números.
+
+Eu vou passar aqui três nomes.
+
+Ana Bia e Carlos Karam executaram 2 Ana 4 Mia 8 Carlos Medeiros.
+
+O outro foi cancelado também legal então na verdade aqui não tem a ver com o nome não estava com os
+
+alarmes transformou Rui em Extreme de Nasa passando depois o outro pois o outro essa a idéia é você
+
+ter o charme de dados.
+
+Na verdade esse time de dados poderia ser um rei completo se tivesse por exemplo aqui dentro outro Rei
+
+eu poderia por exemplo passar aqui todo mundo rei vigor ter um segundo rei com mais outros dados por
+
+exemplo sei lá Danielle Corona e Júlia voce tem um outro rei com numeros por exemplo 1 2 3 4 e 5.
+
+Nesse caso cada elemento desse aqui vai ser passado para a frente com isto é como um dado inteiro e
+
+também Ana Bia e Carlos Daniel Bruno em julho depois número 1 2 3 4 5 ou seja esses valores podem ser
+
+respondidos de objetos.
+
+O fato é que eu transformei em Rei e passei esses elementos com uma sequência de dados.
+
+Se eu tirar o site intervalo eu teria que ter um laço forte para ele mandar todos os dados de uma vez
+
+só.
+
+Mas a ideia é basicamente só ter essa ideia de você ter o dado e você tem o 6 filme de dados que são
+
+dados que vão estar sempre chegando.
+
+E uma coisa é você ter o dado em si.
+
+Por exemplo no caso de uma prova que é passado uma única vez você passo dado resolve aquele dado e o
+
+design é chamado o que você pode fazer e só com isso é chamado mar vários metros da praia processa esses
+
+dados.
+
+Outra coisa você tem um enxame de dados que são dados que vão estar sempre chegando a partir do método
+
+por exemplo o método que não é uma arte moderna no caso do STJ esse vai começar bem na próxima aula
+
+e antes de a gente ir para a próxima aula vai sobrar super rábula para a gente instalar a dependência
+
+da JS em nenhum momento a gente usou nada externo agora a gente vai criar o nosso backup de ponto deixou
+
+até o de escritor do nosso projeto e a gente vai instalar essa dependência e logo na sequência ele vai
+
+voltar pro Capi Fla x JS fazer um terceiro exemplo disto.
+
+Então fique por aqui na próxima aulas vamos instalar o X JS e até lá.

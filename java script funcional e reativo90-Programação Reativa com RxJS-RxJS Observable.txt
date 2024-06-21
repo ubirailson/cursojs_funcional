@@ -1,0 +1,216 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - RxJS Observable
+
+
+Só agora nós vamos entrar na parte da programação reativa a gente já viu padrão observa.
+
+Nas aulas anteriores agora a gente vai entrar no ar x JS mais especificamente eu tenho aqui dois slides
+
+rapidamente pra mostrar pra vocês Supersimples que é falando sobre um pouquinho sobre programação reativa
+
+e onde os pilares aquilo afirmou que a gente JS que é o cara que vai implementar o padrão observa exatamente
+
+o cara chamado OBS Só roubou tem algumas coisas super interessantes dentro achei JS principalmente relacionados
+
+a esse caixa do patrão observe que como também relacionado aos operadores que estão disponíveis isto
+
+é uma série de operadores que são funções que vão te ajudar a transformar os dados que vão te ajudar
+
+a trabalhar com esse conjunto de dados eu vou falar um pouquinho do conceito e vai ver isso na praxe
+
+logo na sequência mas nós temos hoje vamos usar o eixo JS nós vamos instalar ele baixando a penicilina
+
+onde é usar ele.
+
+Aqui eu coloquei um poste no próprio oficial usando o sistema de módulos Black script.
+
+Mas eu vou usar o sistema de módulos do novo.
+
+Já quem está fazendo os testes no novo edital é o framework Active X que é o que ele chama de arte JS
+
+JS tem implementação pra várias linguagens diferentes não apenas para JavaScript.
+
+Que você pode usar esse mesmo ideia esses mesmos conceitos e outras linguagens e eu sou do Java sou
+
+do Swift então você vai conseguir usar isso em outras linguagens se você entrar lá no site do Active
+
+X que eu também vou mostrar para vocês um pouco da documentação para que vocês possam entender como
+
+interpretar algumas coisas que estão lá.
+
+Lá você vai ter versões implementadas do FX para várias linguagens de Balzac o X DS que é expressivo
+
+para JavaScript.
+
+Dito isso agora vou querer ir rapidamente aos slides Supersimples para a gente entender o que é o conceito
+
+de opção robô.
+
+Logo na sequência a gente vai bem na prática na prática é que vocês vão realmente entender a ideia do
+
+absurdo já entenderam a questão do padrão onde e agora bem mais fácil né entendeu observou porque só
+
+tem algumas coisas a mais é que alguns atalhos a mais é fazer um pouquinho da trajetória inclusive do
+
+nosso curso.
+
+Começamos a trabalhar com o codex e nós implementamos o padrão observe a partir de Codex você passou
+
+a função como parâmetro para outra função e no momento em que o argumento acontece essa função é chamar
+
+de volta.
+
+Nós temos as codex e a parte delas gente consegue registrar uma função na função como parâmetro.
+
+Quando acontece alguma coisa como por exemplo o site está em mau.
+
+Ou seja quando um relógio vai ser totalmente você colocou em C.
+
+Ele vai lá e chama de volta.
+
+A função é um evento também não vendo que o tempo que você registrou terminou e aí ele disparou e chamou
+
+de volta a função legal.
+
+Qual o problema das coubesse.
+
+O maior problema das Roubaix é que você tem uma dificuldade de compor com Back chamada outra Colbert
+
+chamando a outra couber que a gente já viu isso anteriormente.
+
+Nós falamos sobre um tema super conhecido como Black o que você vai ganhando com o beque dentro e outra
+
+com o bad bank.
+
+E não é tão fácil você culpou encoberta e dá outro claro que você tem mecanismos pra você compor as
+
+funções de uma forma mais fácil certo mas quando você precisa passar uma função bem da outra não é tão
+
+simples.
+
+Isso foi resolvida a partir das promessas.
+
+A gente também já falou de promessas né.
+
+Falamos também do acinte ao Haiti que é outra forma diferente que você tem de consumir as promessas
+
+de uma forma mais síncrona.
+
+Mais Falando especificamente das provas.
+
+Qual a grande vantagem que as promessas trouxeram em relação aos combates é que você consegue trabalhar
+
+com a sincronismo é uma coisa complexo também tem tudo a ver como trabalhar de forma assíncrona não
+
+necessariamente você precisa ter um código assíncrona pra usar uma couber aqui mas via de regra esse
+
+evento acontece de forma assíncrona via de regra e um clique de um botão que o usuário Barak colocar
+
+na tela vai clicar determinado botão.
+
+Via de regra é quando você faz uma requisição Ajax e chega a resposta é essa a resposta é assíncrona.
+
+Então em muitos contextos você trabalha com o IBEX de forma assíncrona e cara aquele problema de que
+
+você não consegue ter uma composição muito legal exatamente porque você coloca um codec da outra.
+
+Prova esses também têm a visão de trabalhar de forma assíncrona não necessariamente vai ter o sincronismo
+
+da função.
+
+Você pode por exemplo executar a função automaticamente mal resolvida de forma síncrona mas é muito
+
+comum trabalhar para formar cinco ou não seja uma promessa algo que será resolvido ou cumprido no futuro.
+
+Qual o grande problema com a grande vantagem.
+
+Primeiro dá para um só ressaltando novamente a questão do que você consegue com muito fácil você retorna
+
+para homens e aí você chama o método Benn faz um processamento que retorna outra para homem se ele achar
+
+o metro que faz outro processamento.
+
+A resposta é.
+
+é passar para a outra função que é esporte.
+
+Nossa função é passar para a outra função.
+
+Você consegue criar uma série de processamento de uma forma bastante interessante ou seja compondo várias
+
+funções.
+
+A gente já usou isso anteriormente uma evolução para isso seriam os obscuros robôs.
+
+E quais são as diferenças.
+
+Quais são as vantagens dos observadores relacionados às promessas.
+
+Eu posso citar aqui três coisas e nós vamos ver com calma cada um dessas três coisas.
+
+Eu não espero que nesse momento você por exemplo entenda o que é um instruiu de dar o salto não é necessário
+
+nesse momento mais observa Bo.
+
+Ele é reutilizável ou seja quando você chama a função o jogo dá para homens morreu.
+
+Você resolve apenas uma única vez a promessa ele entrega o valor que você passou comparando resolve.
+
+Pronto que você pode fazer é chamar um outro deve chamar o outro bem e aí no final ele acaba terminando
+
+o código mais um caso ele observa.
+
+Você trabalha com vários dados trabalha com o conceito de estrume de dados o que é um filme de naves
+
+e uma sequência de dados.
+
+Se você por exemplo imaginar que está no de tênis aquelas máquinas que ficam jogando bolas cara saca
+
+o cara sacana devolve a bola de novo e joga aquilo ali é um estrume de bolas ou seja são bolas lançadas
+
+em sequência.
+
+Da mesma forma que o Observador trabalha com o conceito de extreme de dados ele vai gerar o número depois
+
+gera outro número depois gera outro numero ou geram a Rui mais ou outro rei mais outra.
+
+Poderia ser também um objeto passa um produto depois mais o outro produto.
+
+O terceiro quarto vai gerando certo os produtos até que 1 hora ele pode finalizar certo finalizar o
+
+processo de enviar os dados.
+
+é por conta que ele trabalha com o time de dados você consegue reutilizar o mesmo observou.
+
+Para mais de um dado no caso da promoção se você resolve apenas uma única vez e pronto.
+
+No caso da opção você consegue ter o uso e você também tem uma série de operadores operadores são funções
+
+que vão te ajudar a trabalhar com os dados.
+
+Então tem uma série de operadores extremamente interessantes.
+
+Se você entender ali o núcleo dos principais conceitos da JS o que vai ficar faltando pra você digamos
+
+assim estudar vai ser os operadores.
+
+Existem uma série de operadores cada um fazendo a responsabilidade.
+
+A vantagem é você entender esses operadores que você vai acabar usando o operador certo no momento certo.
+
+Mais eu diria que uma vez que você entende o núcleo do FX JS O que vai ficar faltando é exatamente entender
+
+todos os operadores que são vários e eles sem dúvida vão te ajudar bastante no dia a dia quando você
+
+estiver processando os dados então era isso que eu tinha para falar sobre essa parte inicial da gente.
+
+JS e especificamente dos observadores nós vamos ver na prática com vários exemplos bem simples para
+
+você entender o que é o conceito de extremos de dados e o porquê que eu digo que observou pode ser reutilizado
+
+e uma vez entendendo isso a gente vai ver uma série de operadores durante os nossos exercícios então
+
+fico por aqui e até aproximá la.

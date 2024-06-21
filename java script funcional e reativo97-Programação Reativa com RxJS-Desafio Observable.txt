@@ -1,0 +1,31 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Observable
+
+Só agora o nosso terceiro exercício que na verdade não é um exercício é um desafio mas vamos criar aqui
+
+mais um aqui chamado observa Bull na E3.
+
+Aqui ele tem três pontos.
+
+Assim vou copiar aqui o desafio aqui.
+
+O desafio será criar um monstro de números entre o valor mínimo e um valor máximo usando observou.
+
+Então você vai passar por exemplo vou colocar aqui já o resultado final da execução vai ser mais ou
+
+menos assim entre 4 e 10 ele vai gerar 4 5 6 7 8 9 10.
+
+Como chegar em 10 ele para acertar.
+
+Então não quero que você implemente os anéis observou Boulos.
+
+Esse cara aqui que vai gerar valores não é um filme de dados entre dois números usando observou o.
+
+Esse é o desafio.
+
+Espero que vocês tentem fazer como eu falei sempre em todos os desafios não tem problema não consegui.
+
+O mais importante é tentar então ficar aqui na próxima aula a resposta para vocês desse desafio.

@@ -1,0 +1,85 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Refatoração2
+
+Só vou fazer só mais uma fatoração.
+
+Acabei de gravar aula anterior e já vou gravar aí gravo a conclusão do capítulo mais tem como a gente
+
+fazer mais uma repactuação PRA TIRAR ESSA imputabilidade aqui tirar esse lixo de gente pode transformar
+
+isso em Windows 7 ou então fica aí se você quiser pausar o vídeo e tentar é simples transformar isso
+
+aqui pra Windows quer que a gente pode fazer.
+
+Na verdade eu estou fazendo MAP em cada um dos elementos amida e tirar todos os símbolos eu preciso
+
+percorrer cada um dos símbolos pra ir removendo ele das trilhas.
+
+Então a gente consegue fazer isso só a partir desse MP eu vou retornar em cima de símbolos ponto coloridos.
+
+Então todos vão receber que um determinado acumulador que é exatamente o texto sem o símbolo e vou receber
+
+aqui o símbolo em si já é um símbolo e o que eu vou passar aqui comparando aqui eu vou ter uma fonte
+
+qualquer fonte e o meu valor inicial PRA CA vai ser exatamente o elemento que representa o texto que
+
+eu vou passar oramento e esse elemento será passado como primeiramente no acumulado.
+
+Então basicamente quer que eu vou fazer isso aqui eu vou pegar o retornar ao acumulador que é o meu
+
+texto pegando no expediente no símbolo e fazendo um jovem ou seja tirando esse símbolo e passando esse
+
+resultado aqui para seu próximo acumulador que já é o mesmo texto sem o símbolo ele vai fazer.
+
+No final eu tiro esse fórum aqui e tiro aqui essa estabilidade ou seja não tenho mais o leste nenhuma
+
+variável e com isso reduz se eu consigo remover isso aqui tranquilamente.
+
+O resultado é exatamente o mesmo.
+
+Acredito que não vai quebrar nada.
+
+Sempre que você fizer alguma mudança interessante fazer o teste eu continuo tendo aqui os nossos códigos
+
+se você quiser testar sem ciclo o de ferro foram removidos aqui hoje pode excluir tudo isso e voltar
+
+a mostrar exatamente como era antes.
+
+Até o metro removeu símbolos não só limpa aqui mais uma vez ouviu símbolos antes dos símbolos eu só
+
+me importo mais uma vez executando com todos os símbolos e finalmente removendo símbolos.
+
+Você vai ver todos esses símbolos não saí da mesma forma só que agora sem forte e sem a questão da estabilidade
+
+ou seja deixamos nosso código ainda mais funcional.
+
+Vou comentar isso aqui.
+
+Agora a gente tem uma única habilidade que aqui eu até poderia tirar ela se eu quisesse certo aqui eu
+
+tenho os arquivos e aqui temos arquivos com o nome completo então aqui eu tenho apenas os arquivos aqui
+
+os arquivos completa Se eu quiser colocar aqui um console em arquivos e aqui console com chip que eu
+
+posso colocar arquivos completos se eu quiser fazer isso ou formatar aqui ela acabou ficando maior que
+
+o código.
+
+Eu posso até quebrar isso aqui um passivo e faltando um pouco mais fácil de ver e aqui vejo retornar
+
+aos arquivos e tornar os arquivos completos.
+
+Dessa forma não tenho nenhuma notabilidade em todo esse nosso exercício o que é bastante legal algo
+
+que está bem alinhado com a programação funcional neste caso aqui não tem tanto ganho assim a gente
+
+poderia alterar a variável local certo mas pra evitar qualquer tipo inimputabilidade tentar sejam João
+
+Máximo isso a gente pode colocar com um cheque também então se você procurar não vai encontrá la no
+
+canto nenhum certo e não vai encontrá la também no canto nem que é bastante legal.
+
+Então a última oração do nosso capítulo e até para os mal.

@@ -1,0 +1,118 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Remover Linhas com Números
+
+
+Agora nós vamos remover as linhas que têm aqueles intervalos.
+
+Existe uma questão que é o seguinte.
+
+Se a gente está aqui por exemplo eu fiz aquele algorítimo de eu achar pra vocês aqui dentro de funções
+
+tirar isso aqui.
+
+Nós criamos uma função chamada mover se apenas número um botão.
+
+Essa função aqui faz esse teste aqui.
+
+Vai receber um determinado elemento.
+
+Ele faz um trechinho e faz um paciente nele se for um lote chamamos ele sabe que essa expressão aqui
+
+vai dar Verdadeira significa que ele vai manter apenas os elementos que não são números mas existe um
+
+detalhe que é o seguinte.
+
+Quando você faz um paciente em cima por exemplo de um valor textual como jogar mostrei anteriormente
+
+a ABC o valor nós chamamos.
+
+Mas se você faz por exemplo o 13 ABC o resultado vai dar 13 se ele vai custará apenas a parte inicial
+
+como sendo um número.
+
+Então embora essas linhas aquilo que já mostra aqui hoje porque pra vocês verem nesse caso embora essas
+
+linhas aqui não sejam ali inteira como número mas como ela começa com o número ele vai considerar essa
+
+linha também com um valor numérico.
+
+Então basta eu ter apenas esse filtro que também poderia ser feito no projeto passado aqui mais uma
+
+melhoria que torna o orçamento um pouco mais rápido.
+
+A gente vai conseguir remover se for apenas numero e não preciso me preocupar em remover os elementos
+
+que contêm por exemplo essa sátira porque isso aqui também vai dar falso lá na expressão ele vai filtrar
+
+também.
+
+Isso aqui dá o sindicato que consegue filtrar além de números como consegue filtrar essa ideia do intervalo
+
+que gente vai aparecer.
+
+Então se a gente implementar apenas esse ano então vou duplicar isso aqui.
+
+Vou tirar daqui vou colocar mais em cima para então que eu vou subir mais ou menos algum dinheiro aquele
+
+que eu já mudei o que não modelo colocar pra baixo está pronto daqui pra cima tudo já foi alterado.
+
+Então nesse caso ao remover elementos apenas numero eu vou copiar esse trecho aqui vou jogar pra cá.
+
+Eu sei que eu vou receber somente um amigo então não preciso fazê la e tal.
+
+Nesse caso eu vou receber um determinado texto é lógico que eu fiz jogo aqui aproveitar hoje depois
+
+de a gente expor aqui embaixo.
+
+Acho que eu vou fazer.
+
+Vai ser pegar o texto antes de retornar fazer esse teste.
+
+Então eu tenho o valor textual que é exatamente essa análise que fiz ontem fez um passe.
+
+Se for um valor numérico ou seja se isso aqui for verdadeiro significa que ele vai chamar o subscritor
+
+passando o texto pra frente.
+
+Formata aqui tirar isso.
+
+Está tudo certo isso aqui vai acontecer você será baladeiro quando for o Norte Anabela então se for
+
+chamar eu quero que ele remova apenas os elementos que são apenas números.
+
+é exatamente isso que na obra.
+
+Eu quero que ele chama a NET e passo para frente.
+
+Eu não preciso chamar algum petista poderia mais ele baixa automaticamente o conteúdo não anterior como
+
+chamar com o trecho anterior.
+
+Ele completa esse aqui também é legal.
+
+Feito isso eu vou usar essa função não alteraram o nome dela essa função não vai receber nenhum parâmetro
+
+de entrada e chamar essa função aqui em cima que vai resolver dois processamentos e um só então remover
+
+ela mente se apenas número um pouco aqui uma vírgula para adiantar o próximo passo é acertada mas vamos
+
+ver que baixam.
+
+Já não temos os números para possibilitar aqui só pra ter certeza todos os números foram removidos e
+
+também os intervalos das páginas também foram removidos exatamente com o conteúdo assim.
+
+Este comportamento do paciente porque esse no começo do texto tiveram valores numéricos ele vai transformar
+
+esses valores numéricos.
+
+Então fizemos agora dois passos e um único vídeo já que tem esse comportamento do paciente.
+
+O próximo processamento que nós vamos fazer já fizemos esse aqui aumento se inclui um determinado trecho
+
+não precisou fizemos aqui a novela mente se apenas numero é o próximo passo vai ser remover os símbolos
+
+e até aproximá lo.

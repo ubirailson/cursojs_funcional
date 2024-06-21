@@ -1,0 +1,131 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Ler Diretório
+
+Nas mãos começa agora a maratona de migração do nosso primeiro projeto para um projeto que usa web X
+
+Jazz já se alonga e pra conseguir fazer isso de uma forma bem tranquila acredito que vai ser tranquilo
+
+mas vai ser muito legal ver a diferença das duas abordagens um compromisso da outra.
+
+OS X Jazz estão pra começar.
+
+Eu vou copiar a pasta do projeto não contra o ser contra o verbo alterar o nome para o projeto Vanderlan.
+
+Vanderlan X.
+
+E aqui dentro eu não vou precisar desse arquivo usando função composição que eu até criei depois.
+
+Eu vou precisar apenas do Index e do arquivo funções se abrindo aqui se a gente executar a obra está
+
+funcionando perfeitamente.
+
+Ou seja a partir de um código funcionando a melhor coisa que tem é a partir disso não se fazem as ações
+
+necessárias.
+
+Então eu vou comentar essa parte aqui do fluxo que inicialmente não vou precisar dela e nós vamos começar
+
+a partir do método que dá início ao fluxo.
+
+Se olhar aqui ao metro que dá início ao fluxo ao ler diretório é esse método vai criar para a gente
+
+observou.
+
+Ele vai funcionar como operador de criação e então para isso eu vou precisar fazer aqui exatamente.
+
+Converter esse método.
+
+Esse método de composição que a gente usa outro exercício não vou precisar.
+
+Eu acabei de escolher o arquivo que precisava dele.
+
+Aqui embaixo vou excluir do esporte.
+
+E nós vamos fazer essa primeira migração tem um slogan legal que não falei pra vocês anteriormente por
+
+esquecimento mesmo que eu uso muito no dia a dia que é esse Auto Esporte.
+
+Se eu vim aqui hoje é verde para se usar observa Bo.
+
+Automaticamente ele vai importar para a gente aqui observou bolso sem necessariamente precisar escrever
+
+tudo isso.
+
+Eu sei que tem muitos alunos com raiva de mim que eu deveria ter falado isso no começo do curso posso
+
+depois gravar uma dica sobre isso mas eu só lembrei agora então.
+
+Desculpa aí caso você esteja escrevendo desde o começo isso está um tempo legal né.
+
+O Auto Esporte pode te ajudar então agora acabei de trocar a prova por observou.
+
+Não vou mais receber os alvinegros de artigo a receber aqui no caso o subscritor sob as quais Ibra e
+
+eu vou trocar onde tem.
+
+Vou trocar por subscrever ponto que Macchi onde tenho o artigo vou chamar o escriba ponto.
+
+E logo depois do show vou chamar aqui eu subsequente ponto conflito legal aqui eu fiz o básico que é
+
+converter uma promessa pra onde só roubou mais aqui uma discussão que é o seguinte você quer a partir
+
+dessa função passar o próximo o próximo processamento.
+
+Larguei todos os caminhos ou seja o único objeto que é um amigo todos os caminhos juntos de uma vez
+
+só ou você quer passar cada arquivo de forma independente como estou indignados.
+
+Nesse caso eu vou querer passar o extremo de dados baseado em diretor que foi passada pra você ler por
+
+exemplo todos os arquivos de determinado caminho ou todos os arquivos de determinado diretório.
+
+Em vez de passá la com todos os dados de uma vez que foi como a gente usou na promessa até porque na
+
+promoção você só consegue resolvê lo uma única vez aqui eu vou querer passar um arquivo por vez e como
+
+Extreme de dados então basicamente que eu vou fazer o seguinte eu vou apagar essa constante que tem
+
+de arquivos vou substituir o MEP por um for it is e vou jogar o subscreve anexo pra dentro do meu Fórum
+
+e vou passar esse PF aqui ao jovem que é o trecho que junta o caminho e um novo caminho na pasta mais
+
+o arquivo pra dar o caminho completo e aqui dentro eu vou chamar isso de esclarecer ponto Mac ou seja
+
+vou chamar um táxi para cada arquivo encontrar dentro da pasta de tal forma que ele vai me dar um time
+
+de dados como resposta e depois que ele terminou aqui o fórum onde ele chama o cúmplice caso por algum
+
+motivo tem problema ele vai cair aqui dentro do meu subscrever.
+
+Ponto erro esse aqui é um processo síncrono.
+
+Eu estou lendo o arquivo de forma sincronizada se eu colocasse para a lei de forma assíncrona não seria
+
+5 muito mais nesse caso ele é um processo síncrono e nós vamos agora a partir desse método receber não
+
+mais uma promessa mais recebeu observa.
+
+Então pra gente está aqui eu vou chamar mesmo a mesma função aqui ponto.
+
+Lei diretório.
+
+Vou passar aqui o caminho e no final ou chamar o subscreve passando subscritor eu vou passar aqui por
+
+enquanto um console com o blog a forma mais simples a gente pode eventualmente melhora alguma coisa
+
+aqui também eu terminei com o console.
+
+O terror serve para a gente.
+
+Salvei aqui salvei a minha função vou executar o código e ele mostrou que todos os arquivos que foram
+
+obtidos a partir desse diretório é muito legal fizemos o nosso primeiro passo a migração completa desse
+
+nosso código.
+
+Observa Boulos.
+
+Continuamos na proximal.

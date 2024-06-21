@@ -1,0 +1,139 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Filtrando arquivos por Extensao
+
+Agora nós vamos criar a nossa primeira função que vai fazer o primeiro processamento em cima dos dados
+
+que por enquanto ela redistribui e essa distribuição.
+
+Caminhos para os arquivos que a gente vai ler logo na sequência.
+
+Uma coisa importante é que nesse caso eu não preciso me preocupar com o fato de ser um caminho para
+
+um arquivo.
+
+Não posso simplesmente tratar com uma histria em que a única coisa que eu quero é filtrar todos os caminhos
+
+que terminam com determinada extensão na ponta.
+
+Mas eu posso imaginar que são extremos e que pode terminar com determinado padrão ali no final.
+
+Então para isso vou criar uma função.
+
+Nós vamos criar funções com nomes bem descritivos mentalmente para aumentar um pouco os nomes de acordo
+
+com a necessidade mas a ideia é o seguinte para esse primeiro caso eu vou criar a função.
+
+O nome dela inicialmente vai ser elementos terminados com.
+
+E aqui eu vou passar o primeiro parâmetro vai ser o rei e o segundo parâmetro vai ser exatamente o padrão
+
+que eu vou usar para filtrar as estrias.
+
+Então eu quero que cada estilingue seja terminada com um determinado padrão que eu posso colocar aqui
+
+por exemplo.
+
+Terra minado com alguma coisa do tipo ou mesmo padrão.
+
+Então nesse caso o que que eu vou fazer eu vou retornar um outro rei.
+
+Certo Eu vou fazer um filtro em cima disso.
+
+Rei então vou usar a função de filtro que a gente viu no capital passaram então a Rei ponto Filter.
+
+Vou passar a função couber aqui que vai receber cada um dos elementos.
+
+é basicamente o que eu quero fazer o seguinte o elemento um ponto em antes o f tem um metro no JavaScript
+
+que é terminado com e eu vou passar aqui o padrão.
+
+Se ele for terminado como padrão que eu passei aqui no parâmetro significa que vai retornar verdadeiro
+
+e esse elemento fará parte do Harry que será retornado a partir dessa função.
+
+Caso ele não seja terminado com esse padrão que foi passado significa que o elemento será filtrado e
+
+ele será removido lá no final.
+
+E a gente vai ter menos elementos do que os elementos originais.
+
+Então eu vou retornar também essa função aqui ao declarar essa função dentro desse objeto.
+
+Note que aqui eu estou criando um objeto de forma literal.
+
+E aqui você quando você coloca por exemplo uma determinada função aqui é como se você estivesse colocando
+
+o sinal lê diretórios dois pontos leia o diretório.
+
+Aqui você pode colocar inclusive qualquer coisa um blá blá significa que ele vai criar um atributo chamado
+
+Blah Blah que vai apontar para essa função ler diretório.
+
+Nesse caso se ele falar no outro arquivo a gente já não vai ter o Lê diretora de exposição ao resetar
+
+você vai ver o que ele disse que não conhece se essa função lê diretório mas ele vai conhecer a função
+
+da Barra.
+
+Então por quê.
+
+Exatamente.
+
+Eu criei um objeto chave valor e agora quando eu fiz cortei aqui usando o modo de e esportes.
+
+Eu chamei o atributo de blá blá como você faz assim não simplesmente fazer essa forma como se você tivesse
+
+criado um atributo Lego giratório que aponta pra o LED diretório que é a função que foi declarada aqui
+
+em cima tá a mesma coisa fazer assim ou simplesmente eu colocar somente o nome da função.
+
+Então nesse caso agora eu tenho mais uma função chamado Elementos terminados com.
+
+Então aqui no índex eu posso criar o primeiro bem.
+
+Então eu posso colocar eu vou receber aqui.
+
+A rede de caminhos da então Coca-Cola arquivos e eu vou chamar a função elementos afim na verdade afinal
+
+outros elementos terminados com o passar os arquivos que vou passar a este ponto Sr.
+
+Tá então dessa forma a gente vai ter aqui no final somente os arquivos que tem ponto externo pra gente
+
+testar no primeiro caso eu vou colocar aqui ponto TXT só pra gente ver já que só são dois arquivos que
+
+termina o ponto TXT executando você vai ver que ele gerou um problema porque eu o chamei de blá blá
+
+e o nome da função voltou a ser lei diretora então eu só volto aqui lá no diretório para o outro.
+
+Vou levar novamente.
+
+E quando a gente tem que somente os dois arquivos que imitaram que não interessa nesse caso não são
+
+arquivos TXT e eu vou nesse caso colocar de novo o sr.
+
+Então todos os arquivos que não me interessam vão sair.
+
+Estão executando aqui.
+
+Ele vai mostrar ao Laginha e tal só os 18 arquivos que a gente vai processar.
+
+Ou seja o primeiro processamento foi feito.
+
+O próximo passo vai ser a gente transformar cada um desses caminhos no conteúdo do arquivo ou seja eu
+
+vou querer ler o conteúdo do arquivo a partir dos perfis e no final ele vai gerar um grande histórico
+
+de todos os conteúdos de todos os arquivos.
+
+Esse vai ser o.
+
+Passo a fazer isso na próxima.
+
+Quero transformar a rede de caminhos pra lá de conteúdos que tem em cada um dos arquivos.
+
+Beleza então esse é o próximo passo.
+
+Você quiser tê la como desafio tenta fazer na próxima aula a resposta.

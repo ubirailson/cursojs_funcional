@@ -1,0 +1,149 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto Remover Linhas com numeros
+
+Pessoal agora eu quero mostrar pra vocês a implementação desse nosso método aqui de remover esse foi
+
+apenas um valor numérico.
+
+Eu vou usar aqui uma oportunidade pra mostrar que uma lógica uma coisa meio estranho JavaScript.
+
+Eu quero apresentar para vocês.
+
+Até pra implementar a lógica relacionada a essa função aqui ao quando você coloca por exemplo o número
+
+dois.
+
+Ele é estritamente igual número dois.
+
+Obviamente esse é um estado verdadeiro.
+
+Isso vai servir para qualquer número.
+
+O número 13 é exatamente igual ao número 13 é verdade o número menos 0 ponto 0 2 3 isto é exatamente
+
+igual ao menos 0 8 0 1 2 3 0 6.
+
+Para qualquer número.
+
+Essa operação será verdadeira ou seja o número é exatamente igual ao número.
+
+Isso vai acontecer no momento que eu faço por exemplo Let a recebe o valor também não zero ponto zero
+
+alguma coisa qualquer.
+
+Pronto.
+
+Ah é exatamente igual a.
+
+Obviamente que é verdadeiro e vai servir para qualquer número.
+
+Se aqui não tem problema.
+
+Só que há um cenário estranho JavaScript que é o seguinte se eu fizer a receber o Note Ananda isso significa
+
+que se eu fizer a estritamente igual a O Estado vai dar falso porque eu note Annabel note Ananda ele
+
+estritamente Se eu comparar este também que nós chamamos esse resultado da falso porque aqui está falso
+
+em JavaScript.
+
+é uma definição da linguagem certo o note não é algo tão abstrato que você compara os dois vai dar é
+
+diferente e se você colocar um ah ele é estritamente diferente de um estado verdadeiro.
+
+Sim o note a Numbers sempre será o único e você não tem como comparar um norte com outro.
+
+Outra questão interessante é o seguinte coloca aqui Let C recebe o valor de passe em inglês e eu vou
+
+passar aqui alguma coisa pra ele como por exemplo valor 2 3 4.
+
+Qual o resultado disso é o valor C que vai 234.
+
+Só existem duas possibilidades com relação ao paciente ou o paciente retorna um valor numérico válido
+
+ou o paciente vai retornar ao lote ambas se eu fizer por exemplo vc recebe paciente e eu vou passar
+
+aqui o valor por exemplo a b c o resultado do valor C não já nada.
+
+Tá então eu consigo saber se o resultado do paciente for o Note Ananda eu consigo fazer essa lógica
+
+igual e diferente.
+
+Pra saber se foi realmente o valor numérico retornado ou se foi uma linha.
+
+Então nesse caso eu posso colocar aquele constante que não recebe para sí e sim mas na verdade eu tenho
+
+fazer um filtro então vou retornar a Rei ponto frio.
+
+Vou receber aqui o meu lamento então vou criar um meu corpo.
+
+Vou colocar aqui a constante em cima dela do ponto triplo só pra tirar os espaços brancos da estrela.
+
+Ele retorna apenas Astrid que realmente tem conteúdo e eu vou tentar fazer um paciente e senhor nessa
+
+histria gerando valor numérico legal.
+
+Eu preciso retornar Falso quando o valor for numérico eu preciso retornar verdadeiro quando for um valor
+
+diferente numérico ou seja quando for morte Anabela.
+
+Então aqui eu vou retornar não é estritamente diferente de número essa expressão aqui ela vai dar verdadeira
+
+quando o resultado de Norfolk Not a Number e essa expressão irá dar falsa pra qualquer outro número
+
+que eventualmente for obtida a partir do paciente.
+
+Como eu quero remover apenas os valores numéricos então isso aqui vai ser suficiente para a gente conseguir
+
+fazer essa implementação tem outras formas de implementar tem outras formas forma que você pode fazer
+
+o seguinte onde você pode verificar se o número for diferente de zero e o numero 1 vou divulgar a deixo
+
+você converter isso aqui para um valor verdadeiro porque qualquer número diferente de zero.
+
+Isso se aqui for verdadeiro significa a expressão inteira VERDADEIRA.
+
+Então nesse caso significa que eu tenho um valor numérico como eu quero escolher os valores numéricos
+
+eu posso por exemplo colocar isso aqui dentro de uma expressão e aí você pode negar que vai dar um resultado
+
+significa que você realmente não tem nenhum valor numérico porque nem a0 e nem é um valor que foi resolvido
+
+para a verdadeira falso.
+
+Então essa é uma forma que você tem pra fazer mais um ou outra que eu gostei exatamente foi estritamente
+
+diferente de a gente sabe que nesse caso o que é a única forma de dar verdadeira quando você tem um
+
+note Anamaco.
+
+Ou seja você não tem o valor numérico.
+
+Voltando aqui eu vou colocar aqui a nossa função é mover se apenas número e nós vamos usar aqui nosso
+
+criar mais um método.
+
+Bem vamos continuar com as linhas ainda executando define contou.
+
+Remover apenas o número 1 nesse caso depois desse processamento não é para a gente ter mais esse tipo
+
+de linha que ao 3 4 5 6.
+
+Então eu vou limpar aqui o resultado.
+
+Nós vamos executar mais uma vez e teremos o nosso processamento chegando bem mais próximo daquilo que
+
+a gente quer.
+
+Tá faltando a gente remover por exemplo o bairro está faltando a gente remover símbolos como por exemplo
+
+a exclamação o hífen a vírgula vai ser exatamente o nosso próximo passo eu vou querer remover todos
+
+os símbolos desnecessários o símbolo de aspas duplas que marca a gente vai fazer isso.
+
+Então a ideia é criar uma função que vai remover um conjunto de símbolos de dentro de todas as inscrições.
+
+Então esse é o próximo desafio e até lá.

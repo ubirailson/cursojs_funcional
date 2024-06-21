@@ -1,0 +1,439 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Promise
+
+Agora nós vamos falar sobre homens e eu quero também.
+
+Nessa hora eu vou explicar um pouquinho sobre aquela para homens e qual a motivação.
+
+Depois ainda fazemos comparações com colhemos somente baseado em couber aqui é um código baseado em
+
+homens pra você ver a diferença entre uma abordagem ou outra e as vantagens que a polícia acrescenta
+
+neutrais pelo fato de ela ter uma capacidade de compor melhor área chamada.
+
+Sentei e saneamento que vai ser causado por completo aqui.
+
+Se você não entendeu o que eu disse agora na frase não tem problema vai ver logo na sequência nas próximas
+
+aulas vou fazer essa comparação e vou explicar muito bem o que significa isso né culpou as chamadas
+
+né.
+
+Se você consegue compor melhor uma chamada atrás da outra fica muito mais fácil se chamar várias promessas
+
+várias para homens diferentes você chamar lhe não couber dentro da outra que não é muito fácil ou na
+
+verdade até pode ser fácil mas deixa o corpo mais mais ilegível e menos legível.
+
+Então vamos lá ela começa bem simples né vou criar aqui um arquivo chamado para até lá um ponto aqui
+
+é onde as motivações para homens a promessa é algo que você vai digamos assim resolver no futuro quando
+
+você criou a função você cria na verdade após criar a função ou criar uma variável na verdade você cria
+
+uma variável por exemplo a recebe na linha seguinte ou seja tem à disposição quem sobe o que logo o
+
+valor dessa variável.
+
+Você já tem a variável à sua disposição para ser consumida.
+
+Então você define a variável na linha na linha seguinte você tem a variável de tal forma que o resultado
+
+é quando você cria uma promessa então qualquer Kill let B recebe um anel para homens ou seja uma nova
+
+promessa você vai ter uma promessa de algo que vai ser executado no futuro.
+
+é algo que vai ser devolvido no futuro.
+
+Então a social promessa você vai ter um valor de alguma coisa seja um valor numérico seja um monstrinho
+
+que seja um valor verdadeiro falso seja a resposta de uma aquisição pode ser o conteúdo de um arquivo
+
+pode ser várias coisas uma promessa que vai te dar um dado no futuro.
+
+Então nesse caso para que a gente consiga gerar esse dado a gente precisa passar uma função como parâmetro
+
+para homens e se você olhar e colocar aqui ao console.
+
+Ponto o log off para homens se você olhar o resultado vai dar um fantoche é uma função e quando você
+
+cria deixa só comentar aqui para ele não ficar dando problema.
+
+A gente não completou a definição da promessa.
+
+Nesse caso homens ele não.
+
+E quando você cria uma nova prova se ele vai criar um objeto certo então ele vai ser um objeto no momento
+
+que eu realmente completar a criação da prova.
+
+Então lá ele recebe o Palmeiras e aqui eu vou precisar passar um função como parâmetro para essa promessa.
+
+é basicamente essa função e fazer o seguinte eu vou passar aqui uma função Foundation.
+
+Essa função vai receber como parâmetro uma função que vai c a função que eu vou chamar essa função quem
+
+não quiser cumprir a promessa.
+
+Então vou chamar aqui cumpri cumprir promessa.
+
+Isso aqui é uma função.
+
+E quando eu quiser cumprir a promessa eu vou chamar cumprir com promessa passando o valor de.
+
+Basicamente essa é a ideia.
+
+Você tem uma promessa você passa na função no Paraná dela tem outra função chamada cumprir promessa.
+
+E dentro dessa função você vai chamar cumprir promessa com um valor três.
+
+Então basicamente aqui o que eu tenho depois alcançou ali.
+
+Ponto.
+
+Logo eu tenho o valor p que é um objeto.
+
+Se eu fizer aqui um Type off ele vai dizer que é um objeto de eu colocar aqui um objeto.
+
+Até porque quando você tem uma função social usa a operadora ele vai criar um objeto eu vou falar um
+
+pouquinho mais sobre isso tem muito mais a ver um pouco aqui com orientação objeto tá mas eu vou comentar
+
+que eu acho que é um conhecimento interessante também relacionado à função beleza tenho aqui um objeto
+
+já que esse objeto é uma promessa eu não tenho.
+
+Por exemplo vale outra isso que é o valor que foi passado e o momento que eu cumpri a promessa devolvi
+
+o valor três já comprometido e houve alguma coisa.
+
+Como é que eu faço para acessar esse valor aqui que foi gerado pra você acessar.
+
+Você tem que chamar promessa para o mês e tem um metro chamado design e tem um metro que também vai
+
+receber uma função como parâmetro ou faça aqui ou.
+
+é o valor que é passado para essa função aqui o parâmetro vai ser exatamente o valor que foi cumprido
+
+que foi devolvido a partir do momento que você chamou cumprir a promessa ou já mudar pelos nomes oficiais.
+
+Então aqui dentro eu tenho exatamente o valor que foi passado na chamada dessa função e aqui no DEM.
+
+Ou seja passou a função como parâmetro quando esse valor for cumprido só no futuro é que essa função
+
+será chamada.
+
+Aqui ele também está usando o conceito de Couber que você passa a função comparando que essa função
+
+chamada no momento que a promessa foi cumprida.
+
+Então aqui eu vou chamar console Fotolog o 3 ou 3 o valor que eu recebi como parâmetro.
+
+Então nesse caso o empate é executar.
+
+Você vai ver que o resultado é exatamente o Estado.
+
+3 O estado máquina que eu coloquei de forma síncrona criei uma variável e depois usei a variável mais
+
+logo na sequência.
+
+Eu criei uma promessa e aí com a promessa criada que é um objeto a partir desse objeto eu tenho esse
+
+método e você passa a função como parâmetro para quando o dado for cumprido a promessa foi cumprida.
+
+Aí ele vai chamar essa função passando exatamente o valor que você passou aqui.
+
+E essa promessa ela pode passar apenas um único valor se você passar por exemplo uma ou três ou quatro
+
+e você tentar pagar aqui por exemplo o valor x esse valor X não será considerado na promessa.
+
+O que é uma promessa vai gerar apenas um único valor.
+
+Se eu me achar pra vocês aqui executando você vai perceber que por mais que eu tenha passado dois parâmetros
+
+aqui e na hora de cumprir a promessa como JavaScript ele tem uma flexibilidade nos parâmetros após passar
+
+quantos parâmetros eu queira mais afinal das contas o único parâmetro que será considerado o primeiro
+
+é o valor X aqui definido ele não vai custar.
+
+Então sempre é devolvido o valor leva e se eu quiser por exemplo pegar mais de um valor ou devolver
+
+por exemplo dois valores é um valor X e o valor ideal não tem problema você pode criar aqui um objeto
+
+na hora de cumprir a promessa e você passa que eu x 3.
+
+E só vale 4.
+
+Nesse caso o valor agora que foi gerado a partir do Metro cumprir promessa que já o da pornografia real
+
+esse valor será gerado agora como um objeto então tem 1 x 3 e 4 se eu quiser pagar só um dos dois eu
+
+coloco o ponto X.
+
+E aí eu vou pagar apenas R$ 3 isso coxinha.
+
+No outro caso que agora tem mais valores que foram gerados e pode gerar um objeto você pode gerar por
+
+exemplo uma lista por exemplo dia Carlos Daniel.
+
+Então você pode gerar uma lista de valores.
+
+Nesse caso eu vou receber aqui com mais forte dentro do meu bem.
+
+Exatamente esse valor que foi chamado na hora de cumprir a promessa.
+
+Então para que os dados executaram você vai bem.
+
+Nós temos como resposta a rede de dados ou seja você pode receber aquilo que você queira não tem necessariamente
+
+nenhum problema.
+
+Outra questão a que eu vou fazer o seguinte.
+
+Eu vou tirar o Fantin que.
+
+Usar aqui uma fonte Gal posso tirar um par de chaves e posso simplesmente chamar aqui ou na única linha
+
+um console o outro logo falou.
+
+Posso inclusive tirar aqui os parentes e tirar o valor completamente esgotado.
+
+Você vai ver que o resultado é exatamente o mesmo.
+
+Uma das vantagens de você ter um compromisso é o fato de que você consegue chamar o dano.
+
+Uma vez você consegue chamar o dano uma segunda vez para fazer um segundo processamento você consegue
+
+chamar a terceira vez a quarta vez que você consegue ir compondo várias funções chamadas de funções
+
+um atrás da outra e executando uma depois da outra.
+
+Como é que funciona isso.
+
+Vamos supor que eu recebi aqui a rede elementos então na primeira vez ele vai mostrar o console logo
+
+imprimiu aí sem nenhum outro dano extra aqui o resultado é exatamente como a gente já viu anteriormente.
+
+Legal nesse caso a gente pode em vez de chamar simplesmente o console Fotolog eu posso pegar por exemplo
+
+o primeiro elemento do Rei.
+
+Ou seja o valor de índice zero significa que na próxima chamada ao bem o valor que eu vou receber aqui
+
+vai ser exatamente o primeiro elemento que você passa aqui console ponto org.
+
+E COLOCAR O valor você vai ver que na primeira vez chegou inteiro como peguei apenas o primeiro elemento
+
+na próxima chamada por esse valor passou a ser o resultado do primeiro na primeira chamada.
+
+Então se a gente acertar agora em vez de ter todos os elementos da Rei a gente vai ter apenas.
+
+Se a gente pode fazer o seguinte eu posso até chamar aqui tratei primeiro.
+
+Posso imprimir aqui.
+
+O primeiro mudou nada e só mudou o nome da variável legal que eu posso fazer agora eu posso devolver
+
+do primeiro apenas a primeira letra.
+
+Então neste caso vou pagar apenas a primeira letra do primeiro elemento na Rei e no próximo bem eu tenho
+
+aqui a letra.
+
+Não posso colocar aqui console ou blog letra.
+
+Se eu executar novamente você vai ver que o resultado vai ser apenas a letra.
+
+E aí eu posso por exemplo retornar a letra chamado método Ju Keys o quero pagar a letra minúscula e
+
+transformar a letra maiúscula pra minúscula.
+
+Ou seja na outra chamada do DN eu botei a letra minúscula.
+
+O resultado é que ao console.
+
+Ponto.
+
+Logo passando a letra minúscula traz mais uma vez a gente vai ter o resultado.
+
+Agora com a letra minúscula nota que o resultado é de um metro e passado outro próximo o metro deve
+
+estar desse ou ultrapassado o próximo quer passar o próximo e você consegue criando uma sequência de
+
+operações baseados em funções e essas funções você pode armazená las por exemplo e criar uma função
+
+em separado aqui ao por exemplo alcançando primeiro.
+
+Lamento lamento que a função nessa função é exatamente receber um determinado rei também recebeu Rei
+
+e vai simplesmente devolver o Harry e na primeira lamenta.
+
+Então você pode passar essa função para a qual diretamente a função sem se preocupar em criar uma função
+
+anônima aqui dentro você criou uma função que quer lá fazer o resultado.
+
+Essa promessa não foi lá Rei Peca o primeiro elemento.
+
+Agora você tem outra função aqui que você espera receber um estilingue.
+
+Você chegou aqui a primeira letra que vai receber uma estrita implementação exatamente igual à do Harry
+
+né.
+
+Então retornar aqui colocado para ficar um pouco mais claro.
+
+Você tem que Astrid você vai pegar a primeira letra A que você pode passar aqui pra cá.
+
+Em vez de definir uma função aqui dentro você passa a primeira letra.
+
+Agora converta para a letra minúscula então você pode criar uma função.
+
+Vou colocar aqui uma função que pode ser inclusive o funk também letra minúscula.
+
+Recebi isso aqui.
+
+Você pode passar isso aqui pra cá.
+
+E finalmente você quer imprimir no console.
+
+E olha que uma coisa interessante como você está recebendo um parâmetro nessa função e você está chamando
+
+uma função logo e passando um parâmetro para ela.
+
+Eu poderia simplesmente aqui em vez de fazer isso aqui eu posso simplesmente passar como referência.
+
+A própria função console fotolog.
+
+Posso fazer isso.
+
+Ele vai fazer o quê.
+
+Ele vai imprimir no console exatamente aquilo que ele recebeu como parâmetro.
+
+Até porque ele deve sempre recebe apenas um único parâmetro como a gente viu anteriormente.
+
+Então o que nós temos aqui chamei primeiramente peguei a primeira letra transformei para a letra minúscula
+
+e joguei no console Fotolog executando.
+
+Você tem várias chamadas né.
+
+No final das contas você vai compor várias funções e no final do se vai ter o resultado.
+
+Então muito mais se estratégica você consegue a partir de uma promessa é uma promessa ela quer colocar
+
+para que mais Camacho 7 colocar as funções antes e vou colocar a promessa aqui inclusive se você quiser
+
+você pode tirar aqui a letra P já colocar o game diretamente aqui já que ela não é coisa do tipo já
+
+tem uma promessa logo na sequência você chama vários metros que mais é que os resultados dessa promessa
+
+que vai gerar o novo boom que vai chamar um novo milênio você pode fazer quantas vezes você quiser definir
+
+todo um fluxo de operação com várias pequenas transformações para aí mexer no dos dados.
+
+Isso é uma das vantagens que você tem com relação com o aqui porque quando você passa uma Colbert se
+
+você precisar de outra couber você precisa colocar a mão couber dentro de outra couber que dê outra
+
+couber aqui e vai ficando um pouco mais complicado de se entender.
+
+Vou mostrar isso na próxima aula.
+
+O exemplo colocou coubesse pra você vê um pouco de como vai ficar com o biquíni da outra e eu vou mostrar
+
+esse mesmo exemplo usando Suzanna promessa.
+
+Uma questão importante é o seguinte Esse é um assunto né.
+
+Quando você começa a passar uma função para a outra função que retorna uma função porque no caso a gente
+
+passou a função como parâmetro para a promessa que era sério cumprir promessa que é uma função e eu
+
+passo uma função podendo.
+
+Tudo isso é um pouco enrolado principalmente para quem está começando mas se você for exercitando se
+
+você for fazer nos desafios com certeza vai ficando mais fácil com o passar do tempo e às vezes você
+
+tem um capítulo.
+
+Ah entendi.
+
+Mais ainda ficou um pouco confuso algumas coisas.
+
+Assisti novamente o capítulo né você passar uma segunda vez pelas aulas com certeza vai te dar uma visão
+
+mais interessante sobre aquele que você pode fazer com essa possibilidade de passar a função como parâmetro
+
+ou retornar à função a partir de outra função já que você viu alguns exemplos mais avançados até o final
+
+do capítulo se você voltar e começar bem os exercícios mais básicos novamente você vai conseguir ter
+
+uma facilidade muito maior pra entender.
+
+E uma segunda chance que tem para assimilar todo o conteúdo acho que é muito interessante subir aguardo
+
+principalmente para quem está começando nessa parte de programação funcional legal.
+
+Aqui a gente pode só pra finalizar o nome certo dessa função aqui algo que eu chamei de cumprir promessa.
+
+Novamente chamado essa função de resolver resolve ou resolvê la você tem uma promessa e você quer resolver
+
+aquela promessa você quer cumprir a promessa.
+
+é usado essa nomenclatura de o resto acho que não tem nada muito fixo aqui eu poderia transformar todas
+
+essas funções para funcionar são funções muito pequenas onde tão constante em Primeira Leitura vou colocar
+
+aqui e a gente vai chamar aqui no final não preciso do britânico então colocando aqui é a mesma coisa
+
+só que definiu que o primeiro elemento do primeiro elemento possa apagar isso aqui já é tirar os parentes
+
+aqui nesse caso até poderia fazer o seguinte primeiro elemento é uma função mais genérica poderia ser
+
+alguma coisa do tipo Rei ou distribuir ou apagar aquilo a Registry e pegar o primeiro elemento.
+
+E poderia aplicar isso aqui duas vezes.
+
+Só que no primeiro caso como ela vai pegar a primeira daí.
+
+No segundo caso o monstrinho ele vai pegar o primeiro elemento da Extreme só pra gente testar B.
+
+Está tudo funcionando no Olimpo aqui executado.
+
+O resultado é exatamente o mesmo não há minúsculo programa que um console Fotolog poderia fazer dessa
+
+forma como também na oficina do outro jeito que é usando o bem pegando o valor e bacana que.
+
+Fotolog vale quando você tem uma chamada 10 você vai passar a função quer apagar apenas um determinado
+
+parâmetro e passar para a própria função.
+
+Você pode simplesmente carregar isso aqui e substituí la referência na função se passa a própria função
+
+como referência.
+
+E aí lá dentro quando ele for chamar sua função ele vai passar automaticamente o valor como parâmetro
+
+para o console legal.
+
+Então era isso que eu tinha para falar nesse exercício.
+
+No próximo exercício vamos comparar um pouco com a abordagem usando qual Back é uma abordagem usando
+
+para isso.
+
+Com o passar do tempo como passar os exercícios com certeza esse conceito vai ficando mais claro.
+
+Um dos conceitos importantes que a gente viu aqui é você chama o dele depois do outro tá.
+
+é uma das questões muito importantes relacionadas a problemas tem a ver com a sincronismo você trabalhar
+
+com comportamentos e funções assíncrona.
+
+Vou mostrar um exemplo disso para aproximá lo comparando com o Beck com provas.

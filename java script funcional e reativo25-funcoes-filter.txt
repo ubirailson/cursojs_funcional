@@ -1,0 +1,27 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Filter
+
+Basicamente o que vai ser feito é o seguinte você vai ter uma função aqui.
+
+Enfim essa é e vai retornar o valor booleano ao lobo.
+
+Se ele retornar verdadeiro se retornar significa que o alimento fará parte do ar resultante.
+
+Se essa função retornar né pode retornar Verdadeiro Se ela retornar Falso significa que o alimento não
+
+fará parte do Harry resultante.
+
+Então diferente do Mac você tem uma rede de exposições e vai gerar sempre sempre a rede de exposições.
+
+No caso do Filter você pode gerar uma.
+
+Você tem um Harry de seis posições como é o caso do exemplo você pode gerar uma rede sem exclusões.
+
+Você pode gerar um em cinco posições pode gerar quatro posições três do azul ou mesmo Harry vazio.
+
+De acordo com o tipo de função que será aplicado para cada elemento para dizer se o resultado vai ser
+
+verdadeiro ou falso.

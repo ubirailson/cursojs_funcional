@@ -1,0 +1,84 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Migrando Projeto para RxJS - Remover Linhas vazias
+
+
+Agora nós vamos começar a filtrar as linhas.
+
+O primeiro filtro vai ser remover os elementos vazios.
+
+Então para isso fechar para regenerar funções do outro projeto.
+
+Vamos remover os elementos de Brasil.
+
+Aquilo não era um lugar aqui procurar ou aplicar essa função ou criar aqui copiar.
+
+Na verdade nosso país acabou reiterou.
+
+E vou trazer isso aqui pra cá.
+
+Na verdade a gente não vai ter um rede a gente vai ter o texto mesmo.
+
+é uma coisa legal.
+
+O fato de que com a gente é independente de você ter um Harry ou independente você tem um valor textual
+
+como a gente consegue transformar tudo como estrume de dados observa Bo consegue gerar vários dados
+
+a gente pode tratar as coisas de uma forma mais uniforme e vejo me preocupar há séculos lidando com
+
+a Rui Eu estou lidando com um valor por exemplo textual.
+
+Nesse caso independente de você ter um rei ou um valor textual você pode criar um mesmo operador porque
+
+você consegue transformar um Harry nos time de dados o que é muito legal.
+
+Então não precisa de propaganda e ficar tratando vários cenários já que eu posso.
+
+Na grande maioria do tempo lidar com essas extremidades.
+
+Então para onde queria que eu sou escravo nesse caso eu não vou passar nenhum parâmetro porque eu já
+
+sei qual o critério né se tiver vazio.
+
+E nesse caso basicamente eu volta a estar aqui.
+
+Isso aqui é tornar verdadeiro.
+
+Ou seja se o texto não alinhamento o texto.
+
+Ponto 3 texto ponto tri verdadeiro significa que eu vou chamar Connection.
+
+Caso contrário não vou fazer absolutamente nada porque que homem morrer de cirrose Eu não mudei o nome
+
+da função.
+
+Vou excluir essa função.
+
+Acho que agora eu consigo adicionar mais um passo aqui ou então defini outro.
+
+Remover ela me desse vazio tão apertado.
+
+Vaza só para a gente mas também antes aqui.
+
+Resultado com unhas vazias e tal e vou comentar essa linha.
+
+Vou limpar aqui.
+
+Vai ver que não tem mais as linhas vazias.
+
+Isso na próxima aula nós iremos fazer aqui.
+
+Vamos fazer o que está aqui embaixo que é o que eu já fiz.
+
+Vou apagando aqui já fiz arquivos.
+
+Mas claro que uso eu pulei.
+
+Vou aqui separar arquivos.
+
+Já fiz em que o Brasil já fiz.
+
+O próximo vai ser remover elementos se inclinam um determinado trecho.

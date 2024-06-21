@@ -1,0 +1,49 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Desafio Operadores 2
+
+Vou lançar mais um desafio pra vocês eu vou estruturar o nosso código pra que fique pronto pra que você
+
+possa implementar o desafio então ele vai criar aqui o outro arquivo que eu vou chamar de operadores
+
+operadores.
+
+André mais cinco pontos assim e nós vamos aqui.
+
+Eu vou criar trazer aqui o OFF e vou também pegar aqui observou.
+
+E agora nós vamos fazer o seguinte vou colocar aqui algo off e vou passar alguns elementos por exemplo.
+
+Ana Silva sempre usou seu sobrenome né.
+
+Coloquei a Maria Silva e finalmente coloquei o Pedro Rocha.
+
+Aqui vou colocar um substrato um só ali outro blog e vou chamar aqui um pai e um operador que eu vou
+
+chamar de Thammy Mabel.
+
+Com ele passa aqui o argumento chamado Silva então a ideia é você criar aqui uma função função chamado
+
+terminado.
+
+Quem vai receber aqui a parte final do texto.
+
+Ou posso colocar aqui um texto final ou passo final você coloca a parte final e você vai criar aqui
+
+implementá la.
+
+Esse aparato legal para que isso funcione.
+
+Então a ideia é que esse aparador vai filtrar todos os elementos que terminam com Silva.
+
+Então no final que vai chegar aqui no discurso e Ana Silva e a Maria Silva.
+
+Já o Pedro Rocha não chegará aqui no final exatamente o no seu operador nessa etapa boa então você vai
+
+filtrar todos os textos que terminam com determinado texto certo que tem uma parte final que no texto
+
+está na próxima aula.
+
+A resposta para isso aparador é a tal.

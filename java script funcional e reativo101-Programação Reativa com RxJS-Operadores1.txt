@@ -1,0 +1,238 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Operadores1
+
+Agora nós vamos começar a usar os operadores é que vai se aumentar bastante a capacidade que a gente
+
+vai ter de processar os dados até mesmo o que tem uma quantidade muito grande de operadores a gente
+
+vai conhecer esses operadores na prática não todos eles mais Já conheci muitos operadores interessantes.
+
+Então eu vou só salvar aqui aqui.
+
+Faxina que alguns dados em alguns arquivos que estão abertos ou fechar alguns pastas.
+
+Vamos criar um novo arquivo que eu vou chamar de comece errado janela operadores até maio outro dia
+
+assim e eu vou pegar aquele comentário que eu fiz aqui.
+
+Meu planejamento que é exatamente a gente Balzac que os dois tipos de operadores operadores de criação
+
+e os operadores que são encabeçava isso.
+
+E quem chama de pai pela bola ao aproveitar essa idade de pai bom pai é o cano.
+
+Você tem o cano porque você coloca água destilada e você tem um filtro que vai tirar o resíduo mais
+
+grosso.
+
+Você depois tem um outro filtro que vai tirar a sujeira mais fina.
+
+Depois você tem o outro filtro que vai adicionar sais minerais e no final você tem água tratada do outro
+
+lado.
+
+Então a ideia é como se esse cano fosse seus dados.
+
+Tá passando lá um estrume de dados e você vai ter esses operadores que vão transformar nos dados até
+
+no final você ter todos os dados transformados então chama achar pra vocês que eu vou trazer não importar
+
+aqui um operador de criação que dentro de si s esse operador vai ser o operador off que ele vai gerar
+
+a partir de um conjunto de parâmetros.
+
+Ele vai gerar esses dados.
+
+E aqui você não vai ter todos os operadores diretamente do encaixe.
+
+Por exemplo se a tentar importar que o Leste não tem isso vai tentar importá lo não tem mais o leste
+
+não como é que eu vou conseguir pagar os outros operadores.
+
+Você paga o sinal constante aqui no leste.
+
+Vou chamar aqui o Equador x de barra.
+
+Outros leitores já teve inclusive completa aqui.
+
+Então aqui no off nós temos um operador de criação que vai colocar aqui só pra já comentar a palavra
+
+criação.
+
+E aqui eu tenho um dos operadores que chama de papel Bo ocorridos há calculo que é o operador léxica.
+
+Ele faz exatamente isso ele pega o último e a gente faz a documentação não sei se eu fechei na não fechei.
+
+Se eu entrar aqui e operadores procurar aqui o leste entra nele.
+
+Se você olhar o diagrama.
+
+Então basicamente você recebeu um dois três elementos.
+
+Ele não vai passar nenhum para a frente e quando você finalizar que essa linha que representa observou
+
+finalizei chamei o Complete.
+
+Ele vai pegar o último elemento que foi gerado a partir dessa sequência e vai passar para frente.
+
+Então você vai ter exatamente ele já passou o último elemento já finalizado 19 esse que é o último cara
+
+que eu vou mandar já passa para o próximo operador e a idade em cadeia há vários operadores exatamente
+
+isso aqui é que a gente vai fazer mostra aqui um exemplo com um operador mentalmente que pode até colocar
+
+no segundo.
+
+Então eu vou começar ou seja vou criar um observador a partir do meu operador de criação está então
+
+faz o seguinte eu posso passar aqui por exemplo 2
+
+graus e sei lá fim então.
+
+Então com isso eu peguei todos esses valores aqui a partir deles ele vai gerar um time de dados.
+
+Você temos time de dados com dados homogêneos né é só produtos só clientes só texto né só mas eventualmente
+
+você pode gerar quantos dados você queira né não tem necessariamente que ser de um determinado tipo.
+
+E aqui no final eu vou chamar o subscreve eu posso se quiser armazenar isso dentro de uma variável chamado
+
+BS de observador.
+
+E aqui eu posso chamar observa um ponto a subscrever.
+
+Mas eu não vou fazer senão vou colocar como se fosse uma coisa só off e aqui eu vou colocar subscrito.
+
+Vou passar aqui uma função que vai receber após passar uma função inclusive assim se encerra não vou
+
+receber um determinado valor.
+
+No final chamar um console contou logo o valor gerado foi.
+
+E aqui posso estar ao lado desse valor.
+
+Nesse caso ele vai gerar valor valor 2 Ana falso útil.
+
+Ou seja se todos esses valores serão gerados o valor gerado foi 1 2 falso e o último legal.
+
+Como é que agora posso usar esse operador que esse.
+
+Certo ele pode ser usado a partir do método do pai já que ele é um pai bom ou perfeito ou não é um operador
+
+que pode ser encadeada.
+
+Você vai usar um metro pai para chamar de seu operador nesse caso se não fizer absolutamente nada e
+
+simplesmente deixar o pai dessa forma e executar você vai ver que continua ainda gerando os mesmos dados
+
+da mesma forma que executou anteriormente.
+
+Ele vai executar essa vez mais aqui dentro eu posso por exemplo chamar o operador leste então vou colocar
+
+aqui leste chamar William como função e no final ele vai fazer o processamento exatamente da forma como
+
+foi dito lá no diagrama ele você vai passar vários dados e o único que vai chegar aqui no final exatamente
+
+o último andar executado.
+
+Agora nós temos apenas um único dado gerado se você quiser por exemplo pegar o primeiro vai ter um operador
+
+que foi exatamente isso que é o Forest to take Forest.
+
+E se eu quiser substituir o leste pelo ele vai pagar apenas o primeiro pagamento.
+
+Então o primeiro valor gerado foi o que anteriormente tinha sido o último ataque para o leste e vou
+
+tirar aqui no Forest.
+
+Eu posso colocar por exemplo outro operador Map que vai fazer exatamente o Marco vai mapear o valor
+
+e eu vou pagar por exemplo aqui chamado map.
+
+Ao receber um determinado valor eu vou pagar apenas o primeiro a primeira letra desse valor que vai
+
+ser só a letra.
+
+Nesse caso eu peguei o escaneamento e aqui fiz o mapeamento desse último elemento pegar apenas a primeira
+
+letra dele então você vai ver que o resultado foi exatamente o.
+
+Uma questão interessante com relação até diminui um pouco aqui o resultado é uma questão interessante
+
+é que você pode chamar dessa forma o PayPal e passar a função depois para passar a função como você
+
+também pode por exemplo fazer dessa forma.
+
+Então posso tirar um Mac aqui e passar depois do outro.
+
+Então digo que é talvez a forma mais comum de ser chamado se chama o PayPal e passou o escaneamento
+
+ou transforme dessa forma e no final retorne aqui.
+
+Então você pode também por exemplo chamar de novo segundo MAP.
+
+Agora eu quero que você pegue por exemplo gera um texto a letra encontrada foi e aí eu vou colocar aqui
+
+o valor de V.
+
+Ou então poderia ser letra alguma coisa que eu não vou simplesmente jogar o valor no consola só pra
+
+não ficar muito triste no final então executado.
+
+Eu chamei o leste.
+
+Depois chamei um metro para pegar a letra e depois chamei um outro para transformar a letra em uma frase
+
+que a letra encontrada foi a letra legal então.
+
+Dessa forma a gente consegue receber o extremo de dados ali.
+
+Se fosse aqui por exemplo a parte de um rei eu poderia usar o som e substituir isso aqui por favor.
+
+Só que em vez de passar dessa forma passaria isso dentro de um Harry.
+
+Então o que eu passei.
+
+Aí o resultado vai ser exatamente o mesmo que encontrar foi o que no caso do Foo você pode passar um
+
+parâmetro como 100 no Barreiro vai fazer os mesmos processamentos e no final ele Argolo percebe que
+
+nesse caso apesar de ele tratar internamente uma forma diferente e com múltiplos valores você tem uma
+
+semelhança muito grande com a questão de você trabalhar com o método passar a função pois um deles só
+
+que nesse caso chama a função PayPal é o resultado de passar aquele valor para o outro da mesma forma
+
+só que aqui são múltiplos dado.
+
+Se eu tirar isso aqui o resultado que a gente vai ter.
+
+Se eu tirar aquilo leste e alguns não vai dar certo exatamente o que eu estava baixando.
+
+Então se eu executar você bebeu em alguns.
+
+A letra foi a de Faria define a letra foi o que eu transformasse aqui para a áustria por exemplo.
+
+Seria uma possibilidade mais legal.
+
+O objetivo foi cumprido.
+
+Quero falar do PayPal e mostrar para vocês dois tipos de operadores na prática o operador de criação
+
+que é um operador que gera o time de dados que o Observador gera nesse time de dados e depois você tem
+
+os operadores que vão transformar esses dados.
+
+E no final você tem como subscrever a resposta e o resultado que você vai receber aqui é exatamente
+
+em função do valor de entrada mais todas as transformações que foram feitas a partir dos operadores
+
+intermediários já que são os operadores em cada chave que são os pay per ou bonitas.
+
+Acredito que seja isso para esse primeiro exemplo mas não se fala mais em redes de operadores nas próximas
+
+anos.
+

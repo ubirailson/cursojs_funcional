@@ -1,0 +1,260 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Stream de Dados 1
+
+
+Só agora nós vamos começar a trabalhar com o FX JS.
+
+Para isso vamos criar nova pasta que eu vou chamar aqui antes de nós vamos nesse primeiro exercício
+
+falar sobre o conceito de estranho ou seja uma sequência de dados e entender que esse conceito de eixo
+
+esteja muito claro para todo mundo e para isso nós vamos criar um exemplo que não tem nada a ver com
+
+JS JavaScript puro pra simular um pouco do que seria esse conceito de estranho.
+
+Então eu vou criar aqui o nome do arquivo que coloquei foi isto lá Vanderlan dados um ponto de táxi
+
+e logo na sequência ele vai fazer o outro exemplo mostrei time me dados dois.
+
+Aí sim eu vou usar o FX JS por enquanto nenhum X aparece instalado eu tenho mas não lá.
+
+Eu criei aqui uma função que eu chamei de gerar números e essa função ela pode ser inicialmente muito
+
+simples por exemplo eu tenho aqui um 7 intervalo.
+
+Vou passar aqui uma função qualquer para o site intervalo de função.
+
+Vou colocar aqui um intervalo de dois em dois segundos.
+
+Eu coloquei.
+
+E o segundo coloca aqui o segundo e aqui eu vou colocá lo no console logo gerando um valor qualquer.
+
+Inclusive eu posso até colocar aqui.
+
+Portanto não não é uma variável delete número começa zero.
+
+E aqui eu vou chamar mais mais então nesse caso eu vou chamar aqui o gerar números e ele vai ficar gerando
+
+o segundo o novo número então já que aqui é bem um extreme de dados né.
+
+Porque eu estou simplesmente jogando no console ele tem um acesso ao dado incida ou simplesmente coloca
+
+no console.
+
+Não vai ser essa fonte que eu vou fazer mas de certa forma que a ideia essa ideia do time de dados e
+
+estou sempre gerando o novo número passando isso para a frente.
+
+Isso aqui é a primeira versão.
+
+Por enquanto eu vou dar aqui um contra o outro pra parar execução.
+
+Ele acertou aqui 22 vezes e nós vamos agora por exemplo passar uma função como parâmetro pra cá e eu
+
+vou chamar essa função aqui dentro.
+
+Passado o número que foi gerado em vez de chamar o console logo log vou passar uma função.
+
+Agora quando eu gerar o número eu vou passar aqui por exemplo função que recebi.
+
+Colocar aqui no meu número aqui dentro eu faço o que eu quiser posso pegar aqui um console logo e pegar
+
+o número multiplicado por dois.
+
+Só que aqui é número preparando se para esse meu número aqui e nesse caso aqui é como fazer o gato registrar
+
+de novo pra receber o time de dados.
+
+E sempre que um dado for gerado ele vai chamar essa função que eu posso ter um parâmetro e aqui eu vou
+
+colocar aqui o valor de a equipe fazer por exemplo mais 100.
+
+Então esse aqui eu vou explicar o número 2 aqui eu vou pagar mais 100 se eu só colocar aqui.
+
+Se fosse um textuais então vou colocar isso aqui para seu número 2 a 2 vai mostrá la multiplique mais
+
+somado com 100 e esse outro aqui que eu vou chamar de racista ele tenho dois pontos lá.
+
+O valor de número e ficado por 2 lugar agora tem um extra de dados não seja eu passei aqui uma função
+
+e sempre que um novo dado a gerada essa função chamada eu consigo fazer algum tipo de processamento
+
+executando o que a gente vai melhorando pra colocar isso na forma mais robusta.
+
+2 4 103 104 10 12 e 14.
+
+Certo sempre pegando o número multiplicado por dois e vai chegar uma hora em que provavelmente você
+
+aqui vai passar desse sim exatamente porque vai se multiplicar na bola por dois.
+
+Legal beleza posso parar isso aqui.
+
+Agora a gente está recebendo esses dados a partir da conexão paraque o controle de m aqui depois de
+
+26 segundos.
+
+Vou continuar evoluindo esse código para fazer o seguinte em vez de simplesmente jogar aqui dentro eu
+
+vou retornar um objeto a pior parte do meu gerador de número.
+
+Vou colocar aqui dentro desse objeto a função chamada inicial e essa função inicial vai receber o meu.
+
+A minha função então não vou mais passar aqui porque é como chamar gerar números vai gerar um objeto
+
+negro esse objeto vai ter a função inicial.
+
+Eu vou pegar isso aqui e jogar aqui pra dentro da função inicial de tal forma que eu vou fazer o seguinte
+
+ou quando eu gerar um número.
+
+Eu vou receber aqui porque eu vou chamar de tempo e temporizador ou tempo e eu vou chamar tem um ponto
+
+de iniciar e agora sim eu vou passar minha função número a mesma coisa que no segundo eu vou colocar
+
+aqui que seriam dois.
+
+Vou tirar essa função daqui e vou chamar tem CPI tem dois e vou chamar aqui dois ponto inicial.
+
+E vou passar a minha função é beque ou seja quando eu chamar o gerar números ele vai me devolver um
+
+objeto.
+
+Ou seja estou retornando o objeto e esse objeto vai ter essa função inicial.
+
+Essa função que vai ter um temporizador que vai iniciar de tempos em tempos eu até poderia passar aqui
+
+além de passar a função passar o tempo.
+
+Então posso posso passar aqui uma função e passar o intervalo.
+
+Então nesse caso possa assumir que o intervalo por padrão seria mil.
+
+Não sou obrigado a passar no intervalo.
+
+Eu assumi muita água ali embaixo e agora posso por exemplo na hora de iniciar passar aqui.
+
+Nesse caso próximo de um segundo e nesse caso de baixo ele vai ser de dois em dois segundos.
+
+Então executando aqui onde você vai ver que o nosso time de dados está mais interessante agora está
+
+gerando duas vezes e uma vez dois ele vai acabar chegando mais cedo né ultrapassando.
+
+Depois de algum tempo não vou esperar ultrapassar não mobilização contra o Walt M para a execução aqui
+
+em 14 segundos agora nós temos uma outra versão do nosso gerador de dados.
+
+A gente pode criar mais um detalhe ou seja essa função em si ah eu posso retornar.
+
+Por exemplo outro objeto que pode ajudar o usuário a parar essa execução.
+
+Ele só vai iniciar a execução exatamente quando essa função inicial for chamar que ela foi chamada.
+
+Eu vou criar o site interno algo que vai ficar chamando a função sempre gerando um novo número.
+
+Então nada mais natural do que a resposta dessa função iniciá la e tornar um objeto que dentro consiga
+
+por exemplo chamar uma função para a já que eu chamei a função inicial aqui em cima e vai tornar o objeto
+
+que vai chamar função para eu posso salvar esse intervalo aqui constante.
+
+Por exemplo vou colocar aqui
+
+igual ou simplesmente integral.
+
+Recebo aqui ele e tem uma função chamada que é o clima no intervalo e aí eu passo o valor do trabalho
+
+que eu quero que ele pare de executar.
+
+Em outras palavras aqui agora eu vou receber como resposta da função inicial um objeto é esse objeto
+
+tem a função parar e eu consigo chamar como eu quiser.
+
+Então só mostra norte central ou seja nós temos aqui o temporizador que foi gerado e a resposta do Iniciar
+
+vai mandar aqui um conceito como se fosse a minha inscrição sim a minha execução de aqui dias e depois
+
+a gente pode dar alguns nomes mais oficiais lá do Echo JS O que significa que agora eu tenho a minha
+
+execução.
+
+Eu tenho como controlar agora a execução por exemplo chamada Metro Pará.
+
+Então vamos supor vou colocar aqui em execução e vou colocar aqui outra constante chamada execução 2
+
+quer o temporizador 2 e aqui no final eu vou colocar aqui o 7 Tai Malt pra ele chamar um função depois
+
+de 10 segundos ou seja depois de 10 segundos eu vou querer que ele chame o execução.
+
+Ponto para a que ele vai parar o temporizador de execução 2 ponto para então nesse caso vou acertar
+
+novamente.
+
+Vou só aumentar aqui pra ele gera os números não.
+
+6 8 120 10 12.
+
+3 Depois de 10 segundos ele foi lá e parou as duas execuções.
+
+Então nesse caso agora a gente já tem um tempo o Estoril de dados é bem mais interessante.
+
+Primeiro que a gente consegue criar o time de dados segundo o que a gente consegue iniciar quantas vezes
+
+a gente quiser.
+
+Então a partir de um mesmo temporizador posso ter execução.
+
+Como posso ter a execução.
+
+1.2.
+
+Então vou colocar aqui um ponto aqui é um ponto 2.
+
+Posso inclusive colocar um ponto 2 pra ser mais rápido do que a um ponto.
+
+E aqui eu tenho duas opções de execução 11.
+
+O ponto é um ponto 2 e que eu posso parar em um ponto e parar a um ponto 2 só depois vou colocar um
+
+ponto 2 pra parar por exemplo 12 segundos.
+
+E aí eu vou parar aqui.
+
+Esse aparato legal testado somente aqui para a gente tem um pouco mais de visão e executando um controle.
+
+E agora ele vai ter um ponto 2 a ponto 2 né.
+
+Ele vai executar parte de um temporizador que eu criei eu posso chamar e iniciar quantas vezes eu quiser
+
+continuar executando aqui e no final das contas ou depois de 12 segundos ele já tinha parado os outros
+
+param aqui onde ele colocou um ponto 2 finalizando até que ele também finalizou esse ponto a execução
+
+1 ponto 2 no aparato legal.
+
+Então o pessoal não acha que isso é um time de nada ou seja algo que vai gerar um conjunto de dados
+
+entregando uma função por exemplo.
+
+Como é que a gente pode criar esse olhar a partir das tais como é que a gente poderia criar um extreme
+
+de dados baseado em um eu passo por exemplo para a função e eu devolvo isso como sendo um time de dados
+
+gerando todos os alarmes.
+
+é fácil fazer isso não vou deixar para fazer isso na próxima ao que você quiser assumir isso como um
+
+desafio legal ou seja a ideia é transformar uma rede de elementos e você gerar um extremo que vai passar
+
+cada um elemento português para a função.
+
+Ou seja como se fosse uma sequência de dados que é exatamente o conceito de distribui tenta fazer isso
+
+com um desafio na proximal onde faz a versão 2 na extremidade 2.
+
+Para fazer esse desafio Rei e depois a gente faz o dados 3 para falar de X JS Então fique por aqui até
+
+aproximá lo da resposta desse desafio e até lá.

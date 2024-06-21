@@ -1,0 +1,48 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Introducao
+
+
+Seja muito bem vindo a mais um capítulo do nosso curso nesse capital mas vamos abordar programação reativa
+
+com X JS.
+
+Um dos padrões de projetos que a base da programação reativa na verdade o padrão de projeto que é a
+
+base da programação reativa é o padrão observem que era a minha opinião um dos padrões mais importantes
+
+que você precisa conhecer o padrão observa.
+
+Por isso o início do capítulo mesmo antes de falar qualquer coisa relacionada ao eixo x JS Mas vamos
+
+entender como funciona o padrão observem a programação reativa e tinha uma relação muito próxima da
+
+programação funcional.
+
+Até porque a gente vai usar muitas técnicas a programação funcional dentro também de códigos éticos
+
+a gente vai precisar de funções.
+
+O princípio por trás do padrão observa exatamente em JavaScript se você passa a função como parâmetro
+
+para outra função.
+
+Então é algo extremamente relacionado a tudo relacionado ao guarda chuva maior que a programação funcional
+
+e agora vai ver um pouco da programação reativa usando JS entendendo o padrão inicialmente observa e
+
+depois entender os observadores que faz parte do framework e que é extremamente poderoso trabalha com
+
+conceitos que a gente vai aprofundar nesse capítulo não conseguir extreme de dados é uma sequência de
+
+dados e vários operadores que vão transformar esses dados sempre usando princípios funcionais sem você
+
+mexer num dado original imutabilidade composição de funções tudo aquilo que a gente já aprendeu e que
+
+vai continuar aplicando durante o curso.
+
+Então seja bem vindo a mais um capítulo agora vamos falar de programação reativa com X JS e até aproximá
+
+lo.

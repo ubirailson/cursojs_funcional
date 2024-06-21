@@ -1,0 +1,215 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Operadores2
+
+Nós vamos agora implementar o nosso segundo exercício de operadores.
+
+Então para isso eu vou criar um novo arquivo.
+
+Vou chamar de operadores 2 e eu vou começar bem simples depois a gente vai evoluindo até a gente conseguir.
+
+Nesse exemplo a gente vai.
+
+Nosso objetivo é consultar a API do que tinha lobby para obter por exemplo todos os repositórios da
+
+caldeira lá.
+
+Então pra isso eu vou fazer um aqui só Ajax usando a JS Mas antes eu quero falar de um operador que
+
+é com cachecol explicar um pouquinho dele que a gente vai usar aí no nosso exemplo vou fazer pra isso
+
+um exemplo mais simples ao criar uma constante usando aqui um intervalo a parte Arquivo X JS e eu vou
+
+colocar aqui no segundo.
+
+Vou chamar aqui o método só escravo e passar um console.
+
+Ponto legal vou criar aqui um PayPal por enquanto é que a gente sabe que ele vai gerar o valor 0 1 e
+
+a sequência eu vou parar aqui a execução onde eu vou duplicar aqui.
+
+Colocar para a gente pegar um dos operadores e vou fazer aqui o operador.
+
+Mas na verdade eu quero simplesmente pra ignorar aqui esse parâmetro.
+
+Eu quero que ele gere a Rui por exemplo um dois três.
+
+Nesse caso ele não vai gerar os elementos da Receita passar para a frente mas vai gerar o bairro inteiro.
+
+Ele não vai gerar por exemplo quando você usa o front.
+
+Então pega aqui por exemplo.
+
+E vou comentar isso aqui.
+
+Eu disse a partir de um certo e passa aqui 2/3 o que você vai receber no final das contas era o valor
+
+2/3 aqui usando.
+
+Nesse caso vou tirar o e vou descontar o Laerte.
+
+O que você vai receber no final aqui.
+
+Exatamente um completo.
+
+Ele não vai quebrar uma rainha elementos ele vai simplesmente passar a ir para a frente de segundo se
+
+você quiser eventualmente eu vou parar aqui execução.
+
+Se você quiser fazer o quê.
+
+No momento que você recebê la Rei você mande os elementos.
+
+Rei eu vou usar isso na solução de obter os apostadores lá do bicho.
+
+Terá um aparato legal que você pode usar um cachecol.
+
+Existem outras possibilidades de fazer isso mas com cachecol que vai por exemplo nesse caso o que vai
+
+apagar os elementos de Harry e vai passar para frente cada elemento com um esforço no estilo de dados.
+
+Assim como foram faz nem mais ou menos na mesma lógica então acertando aqui ele vai passar para a frente
+
+os dados e não especificamente o Harry completa.
+
+O objetivo desse aparador aqui é de transformar a área observou se a força que observa usar para enrolar
+
+para falar.
+
+Mas de qualquer forma quando você tem um observa o bolso que gera outros observa Business que tem como
+
+conteúdo outros observa Augusto.
+
+Chamado de opção robôs e a partir do com cachola você consegue fazer como se fosse eu o flat.
+
+Nela você consegue por exemplo ter uma rede Rei você dá um flat em você geram a Rui tanto consegue transformar
+
+esses observou que tem outros observou Boss em um flash.
+
+Observo que em outras palavras observe o gosto que tem dado dentro e você também consegue nesse caso
+
+resolver isso você não quer passar por exemplo mas quer passar assim cada elemento do Harry você consegue
+
+fazer isso usando o cachecol legal.
+
+Eu vou aqui em vez de usar o intervalo eu vou usar o Ajax então pra isso eu vou colocar em TI JS Barra
+
+Ajax e vou importar e aqui vou substituir o Ajax vou passar um objeto que primeiro eu vou passar o RL
+
+e depois vai precisar resolver um probleminha que vai ser gerado eu vou comentar isso que eu vou apagar
+
+isso porque eu terei aqui o que foi gerado a partir da minha requisição.
+
+Vou fazer a requisição para HTTPS da da Barra API ponto by ponto com barra e users Barra.
+
+Vou usar aqui com cursos de Barra do IPL que são repositórios da Cloud da pessoa que é o caminho a gente
+
+obter todos os repositórios em cima dele que a gente vai trabalhar nesse exercício aqui.
+
+Do jeito que tá aqui ele vai gerar um problema.
+
+Ele não vai conseguir fazer requisição porque no caso do novo dirá ele está dizendo que não é suportado
+
+não tem cores dentro desse Brasil como se ele quisesse fazer uma requisição dentro do prazo para a gente.
+
+Isso pode vir aqui no terminal e instalar colocar em perigo e XML HTTP e Flash.
+
+Nós temos um pacote lá no Brasil nós temos o XML HTTP ricochete que é a origem dessa técnica de fazer
+
+requisições Ajax então as bibliotecas acabam criando apenas em cima desse cara para fazer as aquisições
+
+está a mesma coisa aqui ou está lá ele.
+
+Nós vamos usar esse AJAX para que ele possa usar essa dependência.
+
+Então vou copiar aqui.
+
+Vou fazer um corte dele então o já está lá o valor em cima de XML HTTP creche.
+
+Aqui eu vou conseguir orientá la XML HTTP quais Chico então pra cá eu vou precisar passar algum colheitas
+
+x h o XML HTTP com esta sigla ou criar uma função ou simplesmente daqui mil.
+
+Terra XML HTTP Kouachi pra que ele faça a requisição de forma correta agora.
+
+Nesse caso o canal está aqui por console Pacquiao.
+
+Resultado será que ele vai conseguir fazer a requisição lá no guichê.
+
+E a gente vai conseguir por exemplo ter acesso aos nossos repositórios jogo ele lo aqui para apagar
+
+as informações.
+
+Nesse caso eu tenho aqui o X HR dentro da resposta e dentro do X HR.
+
+Eu tenho o que eles chamam aqui de taxi resposta é cretina.
+
+Então basicamente é como fazer já que eu não quero receber esse texto aqui no final então vou usar um
+
+pai para fazer as transformações então vou colocar um Mac que eu recebi a resposta a partir da resposta
+
+eu vou querer pagar apenas o x H.
+
+Então vou colocar aqui x HR.
+
+Rei como é que fica se funciona até esse ponto não acertado ele trouxe o X HR e tem mais informação
+
+que nós temos o texto da resposta que na verdade eram os repositórios.
+
+Então se eu colocar aqui ou estragar outros Contact salvando aqui ele também vai continuar me dando
+
+esse tri todos os repositórios acolheu Adira repositório nome e o nome do repositório algo lá onde e
+
+tal.
+
+E aí vai descendo até outros apóstolos aqui e ali no mesmo amor por onde tal deve ter o segundo mais
+
+pra baixo aqui começou outro campo minado blá blá blá.
+
+Então eu vou querer transformar isso aqui.
+
+Sou muito parcial e vou passar isso pra frente agora vai ficar bem diferente do Estado que ele vai ter
+
+um objeto baseado na resposta que eu recebi.
+
+Então tá aqui alguns repositórios com suas informações.
+
+Vou agora para o próximo passo e vejo que tem uma Rei eu quero que ele passe pra frente agora cada um
+
+dos opositores.
+
+Então posso chamar aquilo com cachecol seja ele vai transformar isso Rei logo depois na sequência ele
+
+vai passar para a frente agora cada um dos elementos né composto de elementos de alimentos sobre descobrir
+
+que ficou exposta executando aqui.
+
+Agora não tenho mais Rei não temos os objetos em cima dos objetos eu posso por exemplo pegar o fogo
+
+que são repositórios então aqui eu posso chamar novamente só para amarrar aqui chamar novamente o MAP
+
+recebeu um repositório e vou fazer
+
+outro filme
+
+e com isso eu consigo saber quais são os repositórios que a gente tem disponível lá o perfil da coluna
+
+lá de Campo Minado como bodes curso Chat Chat bote da arte ok tá legal.
+
+Então nós temos aqui um repositório onde você pode eventualmente fazer qualquer coisa que você queira
+
+isso ou pegar outras informações só para baixar pra vocês um pouco mais de outros operadores como AutoCAD
+
+Marchena que um outro operador que também é muito conhecido aqui é o Ajax na aquisição e a partir dele
+
+você vê que a resposta pode fazer uma série de processamentos até que no final você tem exatamente o
+
+dado que você quer e pode fazer qualquer coisa com ele salvar um arquivo e tal.
+
+Então mais um exemplo que a gente viu aqui os operadores do anti JS.
+
+Vamos continuar a aproximá lo.
+
+Tem muita coisa legal para a gente falar ainda e até lá.

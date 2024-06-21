@@ -1,0 +1,167 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Funcional Composicao de funcoes 3
+
+Só agora no nosso exemplo de composição.
+
+2 Embora seja lá 3 Composição agora nós vamos fazer o segundo arquivo aqui.
+
+Vou aproveitar esse nome composição ou criar um novo arquivo chamado composição 2.
+
+Outro dia assim vou copiar o exercício anterior.
+
+Vamos fazer aqui algumas adaptações para que essa função de composição também suporte para homens mostrar
+
+pra vocês aqui um exemplo.
+
+Quando você cria uma nova promessa Se você vai passar aqui por exemplo uma função por enquanto eu vou
+
+passar a função sem parâmetro.
+
+Só pra não gerar nenhum problema na criação se eu não passar a função como parâmetro aqui ele vai dar
+
+um erro na hora de criar pronomes.
+
+Mas se eu passar aqui uma função mesmo que seja uma função vazia assim Fantin ele vai funcionar perfeitamente.
+
+E eu vou fazer o seguinte vou criar aqui uma constante.
+
+Por exemplo bater palmas vou criar aqui ou ali no mês passando uma função qualquer que por enquanto
+
+não me interessa o conteúdo dela.
+
+Faltou criar palmas e o que eu quero agora é identificar de uma forma digamos assim uma forma certeira.
+
+Quando eu tenho compromisso ou não.
+
+No caso por exemplo do Rei você tem rei Ponto Rei.
+
+Se você passar aqui Rei o resultado vai dar verdadeiro falso.
+
+Se você tem qualquer objeto como é o caso da promoção vou pagar aqui.
+
+Nós temos o ok.
+
+Só achei no caso de Brown se eu colocar o pay off.
+
+Ele vai dizer que é um objetivo.
+
+E nesse caso não me interessa muito porque não tem como saber se esse objetivo é ou não Thrones.
+
+Uma fala que você tem para detectar se uma coisa é uma promocional é o seguinte ou se você colocar um
+
+ponto soft e passar por exemplo o valor 2 e você verificar e fizeram a atribuição.
+
+Há uma comparação estrita em relação ao 2.
+
+Se essa expressão da falsa significa que você não tem compromisso naquilo que você passou aqui pelo
+
+êxodo transitando o resultado é falso.
+
+Exatamente porque 2 não matamos 2 a 2 é um valor numérico se eu fizer essa mesma expressão passando
+
+aqui o valor de B que é 1 talvez eu comparar isso com B.
+
+Esse resultado será verdadeiro exatamente porque T é uma promessa e para colocar essa lógica dentro
+
+de composição é exatamente isso que eu vou usar para ter certeza que eu estou lidando com homens ou
+
+não.
+
+Então nesse caso eu fazer o seguinte trecho na verdade essa função que eu estou passando para Windows
+
+eu tenho que marcar ela como assíncrona.
+
+Até porque se eu receber uma promessa eu quero esperar para ser resolvida pra só então eu chamar a função.
+
+Então eu vou ter uma função assíncrona legal.
+
+Então aqui dentro que é como fazer.
+
+Se o valor acumulado que foi retornado pela função anterior Fonteles significa que eu tenho que esperar
+
+essa decisão ou vida pra só então passar o acumulado para a função para processar o próximo passo.
+
+Então basicamente eu vou fazer o seguinte eu sei mas pontuou o saldo acumulado foi exatamente igual
+
+ao acumulado.
+
+Isso significa que nesse caso eu tenho uma fraude sei que é uma comparação um tanto quanto estranha
+
+mas essa é a forma que a gente tem pra ter certeza que se trata de uma promessa que poderia estar por
+
+exemplo dentro de seis acumuladores tem uma função bem se tiver então da jaula a esperança de que para
+
+um mês mais essa for a mais interessante a gente verificar caso ele entre aqui significa que o C é um
+
+trauma estão tem que aplicar aquilo ali pra ele esperar essa província ser resolvida e qual foi resolvida
+
+o valor dessa promessa será passado para a função caso contrario caso você tenha recebido no acumulado
+
+algo que não seja uma promessa você simplesmente vai retornar.
+
+Enfim chamando o acumulado então dessa forma agora a gente consegue a partir de composição passar também
+
+funções que são tão omissas pra gente que já está aqui vão achar pra vocês o tornar lento eu vou colocar
+
+a b de compromisso então eu vou retornar aqui ao último mês que vai receber a função resolve apenas
+
+tirar aqueles parênteses aqui dentro eu vou chamar aqui um 7 malt e vou chamar a função.
+
+Tem uma função legal e olfato própria que eu vou colocar que ele vai chamar depois de três segundos
+
+e finalmente eu vou chamar aqui eu estou passando o texto que foi recebido e ponto explica juntando
+
+então neste caso ele vai retornar a promessa que só será feita no futuro.
+
+No caso aqui três segundos depois.
+
+Então nesse caso nós temos aqui uma composição que na verdade retorna a essa função.
+
+Isso tudo só será executado de forma leis e realmente eu passar os dados.
+
+Então agora eu não vou mais conseguir simplesmente pegar o Estado que eu vou pagar lá estar dessa forma
+
+não é exagerado já que eu tenho aqui uma função assíncrona.
+
+No final da execução o que eu terei é uma promessa com essa função e assim com qualquer retorno dela
+
+vai ser uma promessa talvez aqui no caso o acesso só vai entrar nesse caso que era realmente o valor
+
+que foi passado externamente nos outros casos ele vai acabar entrando aqui.
+
+Exatamente porque sempre que você retorna ao fuçar síncrona você vai ter um troço então aqui embaixo
+
+eu vou chamar exagerado para que eu vou chamar aumento do débito e no final vou mandar que o console
+
+voltou logo apenas a referência do console logo é a mesma coisa que é um pouco exagerado.
+
+Eu vou aqui um método bem baixo.
+
+Passa também o console por tirar esses dois aqui e vou colocar o Obina aqui basta.
+
+Pronto então vou chamar aqui em caso as duas executando.
+
+Cuidado com o buraco já foi exibido e eu para ele só exibiu no final.
+
+Porquê.
+
+No caso do torneio além de executar depois de dois segundos você que já conseguiu operar bem mais rápido
+
+do que isso exagerado aqui mas funcionou corretamente mesmo compromisso a gente fez com que a nossa
+
+função composição suportasse valores normais como também promessas o que faz com que a gente eventualmente
+
+consiga substituir a execução do nosso nosso primeiro projeto onde tem aqui ideias a gente pode por
+
+exemplo colocar a função composição pra fazer o processamento de todos essas chamadas aqui porque agora
+
+a nossa função também comporta a Questão de Palmas Lagarto e só então fizemos aqui mais uma evolução
+
+na nossa composição 2 mostrou de cara essa segunda chamada exatamente porque não tinha nenhum tipo de
+
+Deley para só depois de 2 segundos.
+
+Muito legal mais uma evolução que no nosso capítulo é até aproximá la.

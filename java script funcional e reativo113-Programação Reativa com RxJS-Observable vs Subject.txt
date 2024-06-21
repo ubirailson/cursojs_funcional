@@ -1,0 +1,345 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Programação Reativa com RxJS - Observable vs Subject
+
+Início do capítulo nós estudamos o padrão observe e lá no padrão observe a gente viu o conceito de subject
+
+que é exatamente no caso da história que a gente falou e o porteiro que aqui é capaz de detectar o evento
+
+no momento que o porteiro detecta vento e tendo interessados naquele evento ele vai notificar todos
+
+os interessados mandando lá uma mensagem dizendo que o evento aconteceu e tal gente fez isso tanto na
+
+prática como a gente mostrou aquela história do aniversário surpresa.
+
+Ou seja o subject é o cara que consegue detectar os eventos e dentro da JS a gente também tem um cara
+
+chamado subject.
+
+Nesse caso ele é um tipo especial de opção e nós vamos ver na prática como funciona.
+
+Sabe a diferença entre ele observou.
+
+Daí a gente na documentação e vê a diferença lá na parte conceitual onde vai primeiro fazer o exercício
+
+fazer um experimento depois marchar pra vocês lá.
+
+Tá na questão Se você pegar o padrão observe e aplicar ele dentro do eixo x de S.
+
+Você vai ver que o observou que é o cara que se registra por exemplo quando você cria um operador qualquer.
+
+Você acaba criando um observa bom e esse observou vão gerar os dados e você se registra observou.
+
+Ou seja como observa Bob Fosse gente fosse o cara que você se registra é o cara que vai notificar os
+
+eventos mas a verdade o próprio observa Bo ele gera os eventos não necessariamente acontece algo externo
+
+mas ele pode gerar os eventos seja escutando de uma ou outra fonte por exemplo.
+
+Por exemplo aconteceu o evento do clique do mouse e você tem um observa bobo que vai encapsular esse
+
+hábito no click quando o Brasil detectar que aconteceu um clique do mouse dentro do observou.
+
+Você pega aquele clique aqui vendo isso para todo workflow fazer algo puxe da informação que foi gerada.
+
+Então observa Bo.
+
+é como se ele fosse o subject e os interessados exatamente as funções que você passou subscreve.
+
+E antes de chegar nessas funções nenhum dado realmente ele passe por todo o Workflow pipeline de execução
+
+abaixo daquelas soluções que você coloca no painel.
+
+Então são gente também funciona como o cara que vai detectar o evento que vai gerar esses dados.
+
+Só que no caso da.
+
+Essa gente sabe que o bloco observa Bo pode gerar esses eventos de acordo com algum tipo de temporizador
+
+ou alguma coisa do tipo diferente do porteiro que não era ele que gerava o evento que ele escutava e
+
+vendo o que estava acontecendo.
+
+A partir daí notificado.
+
+Isso não quer dizer que observou o BO pode também monitorar um ambiente externo seja a resposta de uma
+
+requisição para daí ele gerar os dados para a gente.
+
+Então vamos lá pra gente fazer o exemplo e mostrar um pouco da diferença entre o subject eu observo
+
+que na verdade são um tipo especial de observo.
+
+Vou voltar aqui pra tela eu vou criar um arquivo dentro de um X assim que o chamado subject subject
+
+ponto de S.
+
+E nós vamos começar com o observe o bom exemplo que a gente já tá mais acostumado observar o robô e
+
+eu vou tentar colocar os dois códigos o mais próximo possível pra ficar fácil de comparar as diferenças.
+
+Então cheguei a s e vou criar aqui uma função que eu vou criar com uma fonte de chamada Guedes.
+
+E aqui dentro eu vou retornar.
+
+Eu observo que poderia usar o colete também né.
+
+Vou chamar colocar aqui parando suas corridas e aqui dentro nós vamos fazer o seguinte pra ficar bem
+
+parecido.
+
+Os dois casos eu vou chamar aqui.
+
+O site está em malt.
+
+Vou passar uma função e depois de dois segundos ou de um segundo eu vou chamar aqui ou subscrever.
+
+Para contornar Coxim vou gerar um valor aleatório pois já gerar aqui primeiro um valor inteiro.
+
+Depois a gente vai evoluir para um valor aleatório pronto.
+
+Com isso eu tenho aqui o meu observar será gerada a partir desse método.
+
+Observe ou melhor dizendo que aqui obedece recebe o resultado da chamada da função.
+
+Vou chamar aqui obedece contudo subscrito e repassam um console fotolog.
+
+E vou duplicar essa chamada aqui na linha 12 pra eu registrar o segundo console com logo usei o hotel
+
+dois interessados e recebi os valores gerados a partir desse observou legal.
+
+E quando isso você vai ver o resultado vai ser depois de um segundo ele mostrou na tela.
+
+A pergunta é será que esse valor ele foi gerado apenas uma única vez e foi passado exatamente o mesmo
+
+valor ou.
+
+Console pouco logo ou será que ele gerou duas vezes chamou duas vezes essa função aqui subscrita e ele
+
+gerou.
+
+Depois gerou um novo diferente embora o valor seja o valor do tipo number que é o tipo primitivo da
+
+linguagem.
+
+Mas se você tiver gerado por exemplo o valor aleatório isso seria valores diferentes e pode importar.
+
+De acordo com a estratégia que você queira então nesse caso eu vou colocar aqui outra ali gerar um valor
+
+do tipo mas ponto.
+
+Então o que a gente vai saber se eles tinham apenas uma única vez.
+
+Se tiver os dois valores iguais significa que ele chamou apenas uma única vez.
+
+Se tiver os valores que farei isso quer dizer que ele chamou mais uma vez essa função então executando
+
+aqui.
+
+Você vai ver que ele baixará um valor diferente.
+
+Por quê.
+
+Porque ele chamou duas vezes esse código.
+
+Então aqui eu posso inclusive colocar um console aí algum outro log que aqui foi o primeiro exercício
+
+que foi um observem que não toca na consola Fotolog quando novamente você vai ver o que ele chamou uma
+
+vez observa gerou um alô chamou uma segunda vez e gerou um outro valor legal vou pagar essa mesma desse
+
+mesmo código é Guajará um equivalente usado subject tem algumas diferenças em relação a como a gente
+
+usa um sabe uma marcha pra vocês eu vou retornar aqui um bad subject.
+
+Então vou instancia aqui mil objetos.
+
+Eu preciso importá e a partir dai Ichi JS você tem aqui um só objetivo legal tal instância e ele não
+
+vou passar essa função pra cá.
+
+Na verdade eu vou tirar esse site tá em mãos pra fora e aqui eu não vou passar absolutamente nada na
+
+criação do Subject ele vai ser criado dessa forma e eu vou na verdade ao retornar aqui embaixo e antes
+
+eu vou salvar o seu objetivo é uma constante constante sob a série e os objetos vão retornar ele aqui
+
+embaixo e em vez de chamar Partido subscrever ponto Macchi é que eu posso inclusive chamar também o
+
+conflito para dizer que o boi terá a execução gerar só um valor aqui e eu vou substitui onde tem isso.
+
+Nos dois casos vou chamar simplesmente subi que é o meu sobe então em vez de passar um função como é
+
+no caso observou boa que passou a função e dentro dela acabou chamar o Net como lixo e aqui eu instancia
+
+o samba logo quando eu quiser eu chamo para gerar os dados não bate na net.
+
+Até tem um avental cúmplice.
+
+Então muda um pouquinho a lógica de como você usa que interage.
+
+Eu vou chamar essa função alguém sabe gente pra cá e vou trocar aqui.
+
+Se soubesse colocar sob água então peguei aqui o meu jet e fiz aqui embaixo duas vezes um subsequente
+
+para a gente ver agora se ele baixará um valor diferente ou vai gerar um valor único e vou mudar aqui
+
+pra seu 2 e aqui na verdade eu tenho sabonete e no primeiro exemplo eu tenho ok.
+
+Se observou como exatamente então executando aqui eu posso até limpar para a gente ver que estavam de
+
+novo um carro executado depois de um segundo.
+
+Ele chamou o Observador duas vezes chamou aqui gerou 37 alguma coisa depois era tortura de alguma coisa.
+
+Já no caso do Subject ele gerou apenas uma única vez e passou o mesmo dado para vários interessados
+
+nesse caso é como se fosse um motoqueiro chinês.
+
+Estou pago pega no mesmo dado e passa nesse mesmo dado para todos os interessados que é mais ou menos
+
+como acontece lá no padrão observa.
+
+Ou seja eles geram o mesmo dado e esse mesmo hábito é passado pra todo mundo ele faz música cinema comunicação
+
+para múltiplos elementos e no caso de observa Bo ele já trabalha de forma única.
+
+Ou seja ele vai gerar um valor e passa para o cara que subscreveu não é o cara que chamou o ponto subscrito.
+
+Pegue esse valor e passe somente para ele chama a função novamente e pega esse outro valor gerado e
+
+passa para aqui subscrever.
+
+Se tiverem 10 funções que chamar o subscritor ele vai chamar 10 vezes a função vai gerar 10 valores
+
+diferentes potencialmente diferentes pode ser o mesmo valor que vai passar individualmente o valor gerado
+
+para cada um que subscrever.
+
+Diferente do Subject que gera um único valor e passa esse mesmo valor pra todo mundo saca então tem
+
+essa diferença a gente olhar aqui na documentação se você entra aqui tem seu jeito você vai ver exatamente
+
+isso o que é um sargento.
+
+Ele é um tipo especial de observou que permite o que ele chama de multicast Germany observou ou seja
+
+observadores observadores exatamente quem chama o subscrito.
+
+Aqui eu chamei apenas o sócio cultural você poderia fazer aquilo que você quisesse multiplicar por 2
+
+ou 3 passar para uma função colocar no banco de dados salvar no arquivo da simulação um console o Fotolog.
+
+Mas basicamente você passar o mesmo valor ou passar por múltiplos interessados no caso aqui ao Monte
+
+Castelo mini observou.
+
+Enquanto observa bom padrão um plano observou Bo.
+
+Ele é o único.
+
+Ou seja para cada um que subscreveu vai receber o seu própria execução independente do próprio valor
+
+independente.
+
+Basicamente essa é a diferença entre o subjetivo e o observa.
+
+Você tem que ver dentro do padrão onde segue até colocar aqui em tela cheia para vocês me verem porque
+
+essa é a mensagem importante lá atrás quando o cara criou os padrões de projetos que foi o Christopher
+
+Alexandre que não era o cara da informática era um arquiteto começou a perceber padrões de arquitetura
+
+a essa coluna aqui fica muito bonito.
+
+Conhecem essa parte superior usa nessa parte superior arquitetura grega fica muito legal com esse tipo
+
+de padrão estilo de arte esse tipo de coisa e tal e ele começou a catalogar esses padrões e criou o
+
+livro chamado A Pátria Language ou a linguagem dos padrões é uma das coisas que ele falou.
+
+Christopher é o seguinte sempre que você extrai um padrão você extrai um padrão que algo recorrente.
+
+é algo que acontece muito frequentemente no mundo você percebe ali um padrão e a partir dali você cataloga
+
+um problema que vai ser resolvido a partir desse padrão.
+
+Foi exatamente o que foi feito lá atrás da Gangue dos Quatro quando foi criado aquele livro clássico
+
+de padrões que foram catalogados 23 padrões e esses padrões visam resolver determinados problemas e
+
+a partir de um determinado problema foi criado um padrão que ajuda a resolver esse problema.
+
+A partir daí é muito importante você perceber que o próprio Christopher Aleksander que é o arquiteto
+
+lá que criou os padrões diz o o padrão ele visa resolver um problema muito recorrente.
+
+Você cria lá uma solução para um determinado problema mas sempre que você aplica essa solução pra um
+
+determinado problema você sempre vai aplicar de uma forma ligeiramente diferente.
+
+Mesmo que eu pego por exemplo o padrão observe e aplique ele é 300 vezes então a minha aplicação existe
+
+uma boa chance de que na maioria das vezes amplamente é ligeiramente diferente com algumas adaptações
+
+para resolver um problema específico.
+
+Não é simplesmente pegar aquele padrão e saia aplicando como se fosse algo extremamente estático na
+
+verdade um padrão que é a solução para um problema recorrente.
+
+Ele acaba sendo aplicado em formas diferentes de acordo com a situação que é o caso aqui do Observador
+
+que é o caso do lanche.
+
+Ele implementa o padrão observe só que de uma forma diferente ou seja ele aplica outros conceitos também
+
+relacionados ao padrão.
+
+Por trás tem um padrão recebe observou Bo.
+
+Você consegue se registrar nele assim como saber que você consegue registrar.
+
+Padrão lá não observa ou vocês no mesmo evento.
+
+Manda ele de forma que mude quem estiver com ele está chamando aqui o mesmo é bem passado para todos
+
+os interessados já não observar no play observou ou melhor dizendo né não.
+
+Observo mais no Observador que é o que a gente causa na noite de S.
+
+Como você usa por padrão ele vai gerar esse valor individualmente para cada interessado ou seja até
+
+algumas adaptações na forma como foi implementado o padrão recebe.
+
+Então Dito isso pra vocês.
+
+Vocês percebem que o observou ele é o cara que me registro o observe e quem está interessado aqui quem
+
+chamou a função e é uma função que chamo a função subsecretária.
+
+Esse é um interessado em ser notificado quando acontecer a geração de algum dado um hábito acontecer
+
+e no caso do samba dentro do antigo DS que é o cara que vai se assemelhar ainda mais consome gente do
+
+padrão observo exatamente o que ele vai gerar um golo uma vez e vai mandar isso para todos os interessados
+
+seja o mesmo árbitro para todos os interessados.
+
+Exatamente o que acontece na implementação padrão do observem.
+
+Beleza.
+
+Dito isso eu quero que fique muito claro pra vocês que o observa bobo como se fosse o samba também do
+
+padrão observem é o cara que vai receber os registros de quem está interessado e o cara que também vai
+
+gerar os valores mas como você sempre implementa o padrão de uma forma diferente.
+
+Que não é diferente no caso da Egídio é assim que o padrão observo foi implementado de uma forma todo
+
+especial com várias outras questões envolvidas como essa PAI Plano de execução e muitas coisas legais
+
+que fazem com que X DS seja bastante poderoso.

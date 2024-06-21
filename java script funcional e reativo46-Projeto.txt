@@ -1,0 +1,45 @@
+------------------------------------------------------------
+JAVASCRIPT FUNCIONAL E REATIVO - PENSE COMO UM DEV JS
+------------------------------------------------------------
+
+Projeto 01
+
+Seja muito bem vindo a mais um capítulo do nosso curso de JavaScript funcional e nesse capítulo nós
+
+vamos fazer o nosso primeiro projeto.
+
+é um projeto relativamente simples mas vocês vão perceber que a gente vai conseguir pegar aquilo que
+
+a gente viu do ponto de vista de exercícios no cap do passado e agora aplicar num cenário bem mais realista.
+
+Vai ser um algoritmo muito legal que a gente vai fazer na próxima aula vou detalhar um pouco mais ele
+
+pode servir também como desafio.
+
+Eu acho uma coisa legal à parte não há muito o que mostrar pra você o que é que eu quero como resposta
+
+você pode tentar parar fazer um exercício de como você faria que tipo de funções você criaria.
+
+Como você vai organizar o seu código pra conseguir seu objetivo.
+
+Certo A gente vai aplicar muito o conceito de prova que a gente vê no capítulo passado.
+
+Agora a gente vai aplicar num cenário mais realista.
+
+Vire de fato algum processamento bem mais legal e eu te desafio na próxima aula uma vez que você conheça
+
+aquilo que a gente vai desenvolver nesse primeiro projeto pra você parar e tentar esboçar alguma coisa
+
+ou mesmo tentar implementar até o final.
+
+E o que é que gerem de resultado para depois você comparar com a minha implementação não necessariamente
+
+você precisa implementar tudo mas de qualquer forma você rabiscar entender mais ou menos como você organizaria
+
+a solução.
+
+é algo extremamente válido e interessante.
+
+Então fico por aqui na próxima aula vou mostrar pra você.
+
+A ideia desse primeiro projeto é estar lá.
